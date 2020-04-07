@@ -1,0 +1,8 @@
+footer {
+  border-top: 3px solid;
+  padding-top: 3rem;
+}
+
+footer a {
+  color: var(--color-squid-ink);
+}

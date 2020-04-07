@@ -1,0 +1,31 @@
+#glyphs {
+  margin: 1.5rem 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  background: var(--color-seal);
+  padding: 0;
+  font-size: 20px;
+  margin-right: -1px;
+  padding-bottom: 1px;
+}
+
+.glyph {
+  background: var(--color-beluga);
+  margin: 1px 0 0 1px;
+  width: calc(2em - 1px);
+  height: 2em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1000px) {
+  #glyphs:after {
+    content: "";
+    background: var(--color-beluga);
+    margin: 1px 1px 0 1px;
+    flex: 1;
+  }
+}

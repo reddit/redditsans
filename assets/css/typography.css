@@ -1,0 +1,93 @@
+/* Weight */
+.fw100 {
+  font-weight: 100;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
+.fw300 {
+  font-weight: 300;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.fw800 {
+  font-weight: 800;
+}
+
+/* Color */
+.txt-muted {
+  color: var(--color-narwhal);
+}
+
+.txt-hl {
+  color: var(--color-orangered);
+}
+
+/* Transform */
+.txt-tu {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.txt-break {
+  word-break: break-all;
+  white-space: normal;
+}
+
+.txt-spaced {
+  letter-spacing: 0.3em;
+}
+
+.txt-pre {
+  white-space: pre;
+}
+
+/* Size */
+.fs10 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.fs8 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.fs6 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media (min-width: 1000px) {
+  .fs10 {
+    font-size: 80px;
+    line-height: 1.2;
+  }
+
+  .fs8 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  .fs6 {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,186 @@
+@import "css/variables.css";
+@import "css/header.css";
+@import "css/typography.css";
+@import "css/samples.css";
+@import "css/glyphs.css";
+@import "css/background-switch.css";
+@import "css/type-tester.css";
+@import "css/footer.css";
+
+html, body {
+  scroll-behavior: smooth;
+  scroll-padding: 2.25rem 0;
+}
+
+body {
+  font-family: var(--font-family), sans-serif;
+  padding: 2rem 1rem;
+  line-height: 1.5;
+}
+
+body, nav {
+  max-width: 960px;
+  margin: auto;
+}
+
+body, input, textarea {
+  color: var(--color-orca);
+}
+
+samp, input, textarea, pre, code {
+  font: inherit;
+}
+
+textarea,
+[contenteditable],
+samp input {
+  outline: none;
+}
+
+h1, h2, h3, ul, p {
+  margin: 0;
+}
+
+samp + h3,
+p + h3,
+p + p {
+  margin-top: 1.5em;
+}
+
+h2 {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0;
+  margin-bottom: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+article {
+  position: relative;
+  padding: 1px 0;
+}
+
+article:before {
+  content: "";
+  position: absolute;
+  border-top: 3px solid;
+  left: 0;
+  right: 0;
+}
+
+section {
+  margin: 3rem 0;
+  position: relative;
+}
+
+section + section {
+  border-top: 1px solid var(--color-seal);
+  padding-top: 3rem;
+}
+
+
+[contenteditable],
+textarea {
+  padding: 0.3rem 0.6rem;
+  margin: -0.3rem -0.6rem;
+  border-radius: 2px;
+}
+
+[contenteditable]:hover,
+[contenteditable]:focus,
+textarea:hover,
+textarea:focus {
+  box-shadow: 0 0 0 3px var(--color-dolphin);
+}
+
+.featureset {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.featureset .feat {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0 0;
+  min-width: 100%;
+}
+
+.featureset .feat + .feat {
+  margin-top: 0.25rem;
+  padding-top: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.featureset .feat + .feat:before {
+  content: "↓";
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1rem;
+  width: 1rem;
+  text-align: center;
+  color: var(--color-orangered);
+}
+
+.alignment {
+  position: relative;
+}
+
+.alignment:before {
+  content: "\EA00\EA00\EA00\EA00\EA00\EA00\EA00\EA00";
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0.4;
+  font-family: var(--font-family);
+  color: var(--color-orangered);
+}
+
+.alignment small {
+  display: block;
+  font-size: 0.8rem;
+  font-family: var(--font-family)
+}
+
+.langlist {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem -0.5rem;
+  font-size: 0.8em;
+}
+
+.langlist li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+@media (min-width: 1000px) {
+  .featureset .feat {
+    min-width: 10rem;
+  }
+
+  .featureset .feat + .feat {
+    margin: 0 0 1.5rem 1rem;
+    padding: 0 0 0 2rem;
+  }
+
+  .featureset .feat + .feat:before {
+    content: "→";
+    position: absolute;
+    top: 50%;
+    margin: -0.75rem 0 0;
+    left: 0;
+    width: 1rem;
+  }
+
+  .col-3 {
+    columns: 3;
+    column-gap: 1.4em;
+  }
+}

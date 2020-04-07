@@ -1,0 +1,128 @@
+#content-tester input[type="range"] {
+  flex: auto;
+  width: 4rem;
+  border-radius: 1.5px;
+  background: currentColor;
+  height: 3px;
+  margin: 0.8rem 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#content-tester input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 0;
+  background-color: currentColor;
+  transition: all 200ms;
+  transform: scale(0.8);
+}
+
+#content-tester input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 0;
+  background-color: currentColor;
+  transition: all 200ms;
+  transform: scale(0.8);
+}
+
+#content-tester input[type="range"]:focus,
+#content-tester input[type="range"]:hover {
+  outline: none;
+  color: var(--color-orangered);
+}
+
+#content-tester input[type="range"]:focus::-webkit-slider-thumb,
+#content-tester input[type="range"]:hover::-webkit-slider-thumb {
+  box-shadow: 0 0 0 8px rgba(255, 160, 60, 0.2);
+}
+
+#testsettings {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 1.5rem;
+  padding: 1rem 1.2rem;
+  background: var(--color-dugong);
+  border-radius: 3px;
+}
+
+#testsettings label {
+  margin-right: 1.5rem;
+}
+
+#testsettings > label {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: stretch;
+  width: 11.5rem;
+}
+
+#testsettings strong {
+  display: block;
+  font-weight: 400;
+  white-space: nowrap;
+  margin-right: 1rem;
+  flex: 0 0 0%;
+}
+
+#ffsetings {
+  margin-top: 0.5rem;
+  margin-right: -1.5rem;
+}
+
+#ffsetings label {
+  font-weight: 600;
+  font-size: 14px;
+  float: left;
+  vertical-align: middle;
+  line-height: 2.3rem;
+  cursor: pointer;
+  width: 5rem;
+}
+
+#ffsetings input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid currentColor;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  z-index: 2;
+  margin: -0.2rem 0.3rem 0 0;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: all 200ms;
+  transform: scale(0.8);
+}
+
+#ffsetings input:checked {
+  background: currentColor;
+}
+
+#content-tester input[type="range"]:hover::-webkit-slider-thumb,,
+#content-tester input[type="range"]:hover::-moz-range-thumb,
+#ffsetings label:hover input {
+  transform: scale(1);
+}
+
+#testcriteria {
+  width: 100%;
+  margin-top: 0.8rem;
+  font-size: 0.8em;
+}
+
+#content-tester textarea {
+  width: 100%;
+  resize: vertical;
+  border: none;
+  margin-top: 1rem;
+}

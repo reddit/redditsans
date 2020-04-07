@@ -10,8 +10,8 @@ var weights = {
   "300": "Light",
   "400": "Regular",
   "500": "Medium",
-  "600": "SemiBold",
-  "700": "Bold"
+  "600": "Bold",
+  "700": "ExtraBold"
 }
 
 function onChange (e) {

@@ -1,11 +1,11 @@
-@import "css/variables.css";
-@import "css/header.css";
-@import "css/typography.css";
-@import "css/samples.css";
-@import "css/glyphs.css";
-@import "css/background-switch.css";
-@import "css/type-tester.css";
-@import "css/footer.css";
+@import "./css/variables.css";
+@import "./css/header.css";
+@import "./css/typography.css";
+@import "./css/samples.css";
+@import "./css/glyphs.css";
+@import "./css/background-switch.css";
+@import "./css/type-tester.css";
+@import "./css/footer.css";
 
 html, body {
   scroll-behavior: smooth;

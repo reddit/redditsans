@@ -24,16 +24,18 @@ function onChange (e) {
     "'" + el.value + "' " + (el.checked ? 1 : 0)
   ).join(",")
 
+  lh = Math.round(lh * fs);
+
   elTA.style.fontWeight = fw;
   elTA.style.fontSize = fs + "px";
-  elTA.style.lineHeight = lh;
+  elTA.style.lineHeight = lh + "px";
   elTA.style.letterSpacing = ls + "em";
   elTA.style.fontFeatureSettings = ff;
 
   elTC.innerHTML = [
     weights[fw],
     fs,
-    "/ " + (Math.round((lh * fs) * 10) / 10) + "px",
+    "/ " + lh + "px",
     ls == 0 ? "" : (ls >= 0 ? "+" : "") + ls * 1000
   ].join(" ")
 }

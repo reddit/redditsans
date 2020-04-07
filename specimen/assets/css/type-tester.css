@@ -91,6 +91,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  color: inherit;
   border: 2px solid currentColor;
   width: 1.25rem;
   height: 1.25rem;
@@ -102,6 +103,11 @@
   vertical-align: middle;
   transition: all 200ms;
   transform: scale(0.8);
+}
+
+#ffsetings label:hover,
+#ffsetings label:focus-within {
+  color: var(--color-orangered);
 }
 
 #ffsetings input:checked {

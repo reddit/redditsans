@@ -7,13 +7,17 @@
 @import "./css/type-tester.css";
 @import "./css/footer.css";
 
+::selection {
+  background: var(--color-dolphin);
+}
+
 html, body {
   scroll-behavior: smooth;
   scroll-padding: 2.25rem 0;
 }
 
 body {
-  font-family: var(--font-family), sans-serif;
+  font-family: var(--font-family), var(--font-system);
   padding: 2rem 1rem;
   line-height: 1.5;
 }
@@ -27,7 +31,7 @@ body, input, textarea {
   color: var(--color-orca);
 }
 
-samp, input, textarea, pre, code {
+samp, input, textarea, pre, code, button {
   font: inherit;
 }
 
@@ -47,7 +51,7 @@ p + p {
   margin-top: 1.5em;
 }
 
-h2 {
+h2, button {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -151,13 +155,15 @@ textarea:focus {
 .langlist {
   list-style: none;
   padding: 0;
-  margin: 1.5rem -0.5rem;
+  margin: 1.5rem -0.33rem;
   font-size: 0.8em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .langlist li {
-  display: inline-block;
-  margin: 0 0.5rem;
+  margin: 0 0.33rem;
 }
 
 @media (min-width: 1000px) {

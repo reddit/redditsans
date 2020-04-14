@@ -75,6 +75,98 @@
   line-height: 1.5;
 }
 
+/* Feature Settings */
+
+.ff-normal {
+  font-feature-settings: normal;
+}
+
+.ff-ss01 {
+  font-feature-settings: 'ss01'
+}
+
+.ff-ss02 {
+  font-feature-settings: 'ss02'
+}
+
+.ff-ss03 {
+  font-feature-settings: 'ss03'
+}
+
+.ff-ss04 {
+  font-feature-settings: 'ss04'
+}
+
+.ff-ss05 {
+  font-feature-settings: 'ss05'
+}
+
+.ff-ss06 {
+  font-feature-settings: 'ss06'
+}
+
+.ff-ss07 {
+  font-feature-settings: 'ss07'
+}
+
+.ff-ss08 {
+  font-feature-settings: 'ss08'
+}
+
+.ff-ss09 {
+  font-feature-settings: 'ss09'
+}
+
+.ff-ss10 {
+  font-feature-settings: 'ss10'
+}
+
+.ff-zero {
+  font-feature-settings: 'zero';
+  font-variant-numeric: slashed-zero;
+}
+
+.ff-case {
+  font-feature-settings: 'case'
+}
+
+.ff-dlig {
+  font-feature-settings: 'dlig'
+}
+
+.ff-subs {
+  font-feature-settings: 'subs'
+}
+
+.ff-sups {
+  font-feature-settings: 'sups'
+}
+
+.ff-numr {
+  font-feature-settings: 'numr'
+}
+
+.ff-dnom {
+  font-feature-settings: 'dnom'
+}
+
+.ff-frac {
+  font-feature-settings: 'frac'
+}
+
+.ff-ordn {
+  font-feature-settings: 'ordn'
+}
+
+.ff-tnum {
+  font-feature-settings: 'tnum'
+}
+
+.ff-onum {
+  font-feature-settings: 'onum'
+}
+
+
 @media (min-width: 1000px) {
   .fs10 {
     font-size: 80px;

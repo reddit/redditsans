@@ -7,6 +7,7 @@ var glyphs = [
 {name: "Abrevegrave", code: "1EB0"},
 {name: "Abrevehookabove", code: "1EB2"},
 {name: "Abrevetilde", code: "1EB4"},
+{name: "Acaron", code: "01CD"},
 {name: "Acircumflex", code: "00C2"},
 {name: "Acircumflexacute", code: "1EA4"},
 {name: "Acircumflexdotbelow", code: "1EAC"},
@@ -15,6 +16,7 @@ var glyphs = [
 {name: "Acircumflextilde", code: "1EAA"},
 {name: "Adblgrave", code: "0200"},
 {name: "Adieresis", code: "00C4"},
+{name: "Adotaccent", code: "0226"},
 {name: "Adotbelow", code: "1EA0"},
 {name: "Agrave", code: "00C0"},
 {name: "Ahookabove", code: "1EA2"},
@@ -255,6 +257,7 @@ var glyphs = [
 {name: "abrevegrave", code: "1EB1"},
 {name: "abrevehookabove", code: "1EB3"},
 {name: "abrevetilde", code: "1EB5"},
+{name: "acaron", code: "01CE"},
 {name: "acircumflex", code: "00E2"},
 {name: "acircumflexacute", code: "1EA5"},
 {name: "acircumflexdotbelow", code: "1EAD"},
@@ -263,6 +266,7 @@ var glyphs = [
 {name: "acircumflextilde", code: "1EAB"},
 {name: "adblgrave", code: "0201"},
 {name: "adieresis", code: "00E4"},
+{name: "adotaccent", code: "0227"},
 {name: "adotbelow", code: "1EA1"},
 {name: "agrave", code: "00E0"},
 {name: "ahookabove", code: "1EA3"},
@@ -702,6 +706,7 @@ var glyphs = [
 {name: "bracketleft.case", code: "- # bracketleft.case"},
 {name: "bracketright.case", code: "- # bracketright.case"},
 {name: "hyphen", code: "002D"},
+{name: "nonbreakinghyphen", code: "2011"},
 {name: "softhyphen", code: "00AD"},
 {name: "endash", code: "2013"},
 {name: "emdash", code: "2014"},
@@ -777,6 +782,7 @@ var glyphs = [
 {name: "approxequal", code: "2248"},
 {name: "asciitilde", code: "007E"},
 {name: "logicalnot", code: "00AC"},
+{name: "logicalnotReversed", code: "2310"},
 {name: "asciicircum", code: "005E"},
 {name: "emptyset", code: "2205"},
 {name: "infinity", code: "221E"},
@@ -902,7 +908,9 @@ var glyphs = [
 var codes = glyphs.filter((e) => e.code[0] !== "-")
 
 document.querySelector("#glyphs").innerHTML = codes.map(({name, code}) =>
-  "<li title='" + name + "' data-code='" + code + "' class='glyph'>&#x" + code + ";</li>"
+  "<li title='" + name + " (U+" + code + ")' data-code='" + code + "' class='glyph'>" +
+  (name.match(/comb$/) ? "◌" : "") +
+  "&#x" + code + ";</li>"
 ).join("")
 
 document.querySelector("#glyphs-total").innerHTML = glyphs.length

@@ -121,6 +121,14 @@
   font-feature-settings: 'ss10'
 }
 
+.ff-ss11 {
+  font-feature-settings: 'ss11'
+}
+
+.ff-ss12 {
+  font-feature-settings: 'ss12'
+}
+
 .ff-zero {
   font-feature-settings: 'zero';
   font-variant-numeric: slashed-zero;

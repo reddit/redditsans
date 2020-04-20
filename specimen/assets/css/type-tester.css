@@ -147,18 +147,30 @@
   position: relative;
 }
 
-#testareawrapper:before {
+#testareawrapper:before,
+#testareawrapper:after {
   content: "";
   position: absolute;
-  border: 0.4rem solid transparent;
-  border-right-color: var(--color-dolphin);
-  border-bottom-color: var(--color-dolphin);
-  bottom: 2px;
-  right: 2px;
+  width: 12px;
+  height: 12px;
   z-index: 10;
   pointer-events: none;
-  border-radius: 2px 4px 2px 4px;
-  box-shadow: 0 0 0 2px white;
+}
+
+#testareawrapper:before {
+  background: var(--color-beluga);
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+}
+
+#testareawrapper:after {
+  bottom: 2px;
+  right: 2px;
+  background: var(--color-dolphin);
+  -webkit-mask: var(--mask-round-triangle);
+  -moz-mask: var(--mask-round-triangle);
+  mask: var(--mask-round-triangle);
 }
 
 .testoption {

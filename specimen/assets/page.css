@@ -191,6 +191,6 @@ textarea:focus {
 
   .col-3 {
     columns: 3;
-    column-gap: 1.4em;
+    column-gap: 1.7em;
   }
 }

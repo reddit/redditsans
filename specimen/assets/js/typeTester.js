@@ -39,6 +39,8 @@ var options = {
   },
   text: {
     ss02: 1,
+    ss06: 1,
+    ss11: 1,
     fs: 16
   },
   grotesque: {

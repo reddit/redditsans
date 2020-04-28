@@ -1,29 +1,125 @@
 @font-face {
   font-family: "unnamedsans";
-  src: url("/assets/fonts/v0-003/UnnamedSans-Light.woff2") format("woff2");
+  src: url("./fonts/v0-004/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "unnamedsans";
-  src: url("/assets/fonts/v0-003/UnnamedSans-Regular.woff2") format("woff2");
+  src: url("./fonts/v0-004/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "unnamedsans";
-  src: url("/assets/fonts/v0-003/UnnamedSans-Medium.woff2") format("woff2");
+  src: url("./fonts/v0-004/UnnamedSans-Medium.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "unnamedsans";
-  src: url("/assets/fonts/v0-003/UnnamedSans-SemiBold.woff2") format("woff2");
+  src: url("./fonts/v0-004/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "unnamedsans";
-  src: url("/assets/fonts/v0-003/UnnamedSans-Bold.woff2") format("woff2");
+  src: url("./fonts/v0-004/UnnamedSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "v3";
+  src: url("./fonts/v0-003/UnnamedSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "v3";
+  src: url("./fonts/v0-003/UnnamedSans-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "v3";
+  src: url("./fonts/v0-003/UnnamedSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "v3";
+  src: url("./fonts/v0-003/UnnamedSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "v3";
+  src: url("./fonts/v0-003/UnnamedSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "v3";
+  src: url("./fonts/v0-003/UnnamedSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "v2";
+  src: url("./fonts/v0-002/UnnamedSans-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "v2";
+  src: url("./fonts/v0-002/UnnamedSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "v2";
+  src: url("./fonts/v0-002/UnnamedSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "v2";
+  src: url("./fonts/v0-002/UnnamedSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "v2";
+  src: url("./fonts/v0-002/UnnamedSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "v1";
+  src: url("./fonts/v0-001/UnnamedSans-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "v1";
+  src: url("./fonts/v0-001/UnnamedSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "v1";
+  src: url("./fonts/v0-001/UnnamedSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "v1";
+  src: url("./fonts/v0-002/UnnamedSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "v1";
+  src: url("./fonts/v0-002/UnnamedSans-Bold.woff2") format("woff2");
   font-weight: 700;
 }

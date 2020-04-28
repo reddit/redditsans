@@ -14,6 +14,7 @@
 html, body {
   scroll-behavior: smooth;
   scroll-padding: 2.25rem 0;
+  font-size: 16px;
 }
 
 body {
@@ -51,7 +52,7 @@ p + p {
   margin-top: 1.5em;
 }
 
-h2, button {
+h2, button, select {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;

@@ -3,8 +3,9 @@ var elFW = document.getElementById("input-weight"),
     elLH = document.getElementById("input-lead"),
     elLS = document.getElementById("input-track"),
     elTA = document.getElementById("testarea"),
-    elTC = document.getElementById("testcriteria");
-    elFF = document.querySelectorAll("[name='ff-setting']")
+    elTC = document.getElementById("testcriteria"),
+    elFF = document.querySelectorAll("[name='ff-setting']"),
+    elVs = document.getElementById("input-version");
 
 var weights = {
   "300": "Light",
@@ -29,24 +30,19 @@ var base = {
 }
 
 var options = {
-  reset: {},
-  r675: {
-    ss10: 1,
-    dlig: 1,
-    content: "r/subreddit\n23/01/1988\nhttps://www.s-ings.com/",
+  reset: {
+    content: "Just walk past him. Act normal, don't make him suspect it was you that levitated his receipt. In fact, he might just blow it off since I returned it to him.",
     fs: 32,
-    fw: 600
+    ss02: 1,
+    ss11: 1
   },
   text: {
     ss02: 1,
-    ss06: 1,
     ss11: 1,
     fs: 16
   },
   grotesque: {
-    ss01: 1,
-    ss08: 1,
-    ss09: 1
+    ss01: 1
   },
   kaomoji: {
     content: [
@@ -95,6 +91,7 @@ function onInput (e) {
   elTA.style.fontSize = fs + "px";
   elTA.style.lineHeight = lh + "px";
   elTA.style.letterSpacing = ls + "em";
+  elTA.style.fontFamily = elVs.value;
 
   document.body.style.fontFeatureSettings = ff;
 

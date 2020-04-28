@@ -1,0 +1,8 @@
+[[headers]]
+  # Allow CORS on fonts for emails, etc.
+  for = "/assets/fonts.css"
+    [headers.values]
+    Access-Control-Allow-Origin = "https://www.reddit.com/"
+  for = "/assets/fonts/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "https://www.reddit.com/"

@@ -6,4 +6,4 @@
 [[headers]]
   for = "/assets/fonts/*"
   [headers.values]
-    Access-Control-Allow-Origin = "https://www.reddit.com/"
+    Access-Control-Allow-Origin = "*"

@@ -30,12 +30,7 @@ var base = {
 }
 
 var options = {
-  reset: {
-    content: "Just walk past him. Act normal, don't make him suspect it was you that levitated his receipt. In fact, he might just blow it off since I returned it to him.",
-    fs: 32,
-    ss02: 1,
-    ss11: 1
-  },
+  reset: {},
   text: {
     ss02: 1,
     ss11: 1,

@@ -1,8 +1,10 @@
 function preventHashChange (e) {
-  e.preventDefault();
-  document.querySelector(e.target.hash).scrollIntoView({
-    behavior: "smooth"
-  })
+  if (e.target.hash) {
+    e.preventDefault();
+    document.querySelector(e.target.hash).scrollIntoView({
+      behavior: "smooth"
+    })
+  }
 }
 
 Array

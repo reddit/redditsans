@@ -63,4 +63,25 @@ nav a:hover {
 
 nav code {
   margin-left: 1rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0 0.4em;
+  }
+
+  nav a,
+  nav code {
+    padding: 1.25em 0.8em;
+    display: inline-block;
+  }
+
+  body:before {
+    height: 4em;
+  }
+
+  body:after {
+    top: 4em;
+  }
 }

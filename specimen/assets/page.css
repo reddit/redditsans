@@ -28,8 +28,17 @@ body, nav {
   margin: auto;
 }
 
-body, input, textarea {
+body, input, textarea, a {
   color: var(--color-orca);
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-orangered);
 }
 
 samp, input, textarea, pre, code, button {
@@ -48,7 +57,8 @@ h1, h2, h3, ul, p {
 
 samp + h3,
 p + h3,
-p + p {
+p + p,
+.well + p {
   margin-top: 1.5em;
 }
 
@@ -105,6 +115,26 @@ textarea {
 textarea:hover,
 textarea:focus {
   box-shadow: 0 0 0 3px var(--color-dolphin);
+}
+
+pre {
+  white-space: normal;
+  background: var(--color-dugong);
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+pre code {
+  white-space: pre-wrap;
+}
+
+p code {
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
+p, pre {
+  max-width: 45em;
 }
 
 .featureset {
@@ -192,6 +222,43 @@ textarea:focus {
 
   .col-3 {
     columns: 3;
-    column-gap: 1.7em;
+    column-gap: 2.1em;
   }
+}
+
+.pr {
+  float: right;
+  max-width: 180px;
+  padding: 0.2em;
+  margin-left: 2em;
+}
+
+.btn {
+  color: var(--color-beluga);
+  background: var(--color-orca);
+  display: inline-block;
+  text-decoration: none;
+  font-family: inherit;
+  border-radius: 3px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem 0;
+  transition: background 300ms;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--color-beluga);
+  background: var(--color-orangered);
+}
+
+.well {
+  background: var(--color-dugong);
+  padding: 2em;
+}
+
+.well .btn {
+  float: left;
+  margin-right: 2em;
 }

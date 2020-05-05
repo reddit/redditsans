@@ -7,6 +7,10 @@
 @import "./css/type-tester.css";
 @import "./css/footer.css";
 
+.version:before {
+  content: "v0.005 Rev2020-5-5";
+}
+
 ::selection {
   background: var(--color-dolphin);
 }

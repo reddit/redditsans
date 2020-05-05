@@ -116098,8 +116098,8 @@ instanceInterpolations = {
 "2D8F7115-C311-411E-929D-56333CF7FFB2" = 0.57143;
 "AB099EFE-E788-4EFC-8633-CF147CB782A6" = 0.42857;
 };
-name = Medium;
-weightClass = Medium;
+name = SemiBold;
+weightClass = SemiBold;
 },
 {
 customParameters = (
@@ -116117,8 +116117,8 @@ instanceInterpolations = {
 "2D8F7115-C311-411E-929D-56333CF7FFB2" = 0.71429;
 "AB099EFE-E788-4EFC-8633-CF147CB782A6" = 0.28571;
 };
-name = SemiBold;
-weightClass = SemiBold;
+name = Bold;
+weightClass = Bold;
 },
 {
 customParameters = (
@@ -116137,8 +116137,8 @@ instanceInterpolations = {
 "AB099EFE-E788-4EFC-8633-CF147CB782A6" = 0.14286;
 };
 isBold = 1;
-name = Bold;
-weightClass = Bold;
+name = ExtraBold;
+weightClass = ExtraBold;
 },
 {
 exports = 0;

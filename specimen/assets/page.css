@@ -8,7 +8,7 @@
 @import "./css/footer.css";
 
 .version:before {
-  content: "v0.007 Rev2020-5-15";
+  content: "v0.008 Rev2020-5-18";
 }
 
 ::selection {
@@ -226,7 +226,7 @@ p, pre {
 
   .col-3 {
     columns: 3;
-    column-gap: 1.5em;
+    column-gap: 1.6em;
   }
 }
 

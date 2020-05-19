@@ -8,7 +8,7 @@
 @import "./css/footer.css";
 
 .version:before {
-  content: "v0.008 Rev2020-5-18";
+  content: "v0.009 Rev2020-5-19";
 }
 
 ::selection {
@@ -228,6 +228,18 @@ p, pre {
     columns: 3;
     column-gap: 1.6em;
   }
+
+  .row {
+    margin: 0 -1em;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .col-2 {
+    width: 50%;
+    padding: 0 1em 1em;
+    box-sizing: border-box;
+  }
 }
 
 .pr {
@@ -266,3 +278,4 @@ p, pre {
   float: left;
   margin-right: 2em;
 }
+

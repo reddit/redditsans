@@ -1,31 +1,32 @@
 #glyphs {
   margin: 1.5rem 0;
   list-style: none;
-  display: flex;
-  flex-flow: row wrap;
   text-align: center;
   background: var(--color-seal);
-  padding: 0;
+  padding: 1px 1px 0 0;
   font-size: 20px;
   margin-right: -1px;
-  padding-bottom: 1px;
 }
 
 .glyph {
   background: var(--color-beluga);
-  margin: 1px 0 0 1px;
-  width: calc(2em - 1px);
   height: 2em;
+  width: calc(4.16667% - 1px);
+  margin: 0 0 1px 1px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;
 }
 
-@media (min-width: 1000px) {
-  #glyphs:after {
-    content: "";
-    background: var(--color-beluga);
-    margin: 1px 1px 0 1px;
-    flex: 1;
+@media (max-width: 1000px) {
+  .glyph {
+    width: calc(6.25% - 1px);
+  }
+}
+
+@media (max-width: 400px) {
+  .glyph {
+    width: calc(8.333% - 1px);
   }
 }

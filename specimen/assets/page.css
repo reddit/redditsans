@@ -79,8 +79,8 @@ h3 {
   font-size: 1em;
 }
 
-h1, h3, strong, b {
-  font-weight: 600;
+h1, h2, h3, h4, strong, b {
+  font-weight: 700;
 }
 
 article {
@@ -256,7 +256,7 @@ p, pre {
   text-decoration: none;
   font-family: inherit;
   border-radius: 3px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5;
   padding: 0.6rem 1.2rem;
   margin: 0.5rem 0;

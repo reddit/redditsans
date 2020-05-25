@@ -7,18 +7,18 @@ var elFW = document.getElementById("input-weight"),
     elFF = document.querySelectorAll("[name='ff-setting']"),
     elVs = document.getElementById("input-version");
 
-var weights = {
-  "300": "Light",
-  "400": "Regular",
-  "500": "Medium",
-  "600": "Bold",
-  "700": "ExtraBold"
-}
+var weights = [
+  { weight: "300", name: "Light" },
+  { weight: "400", name: "Regular" },
+  { weight: "500", name: "SemiBold" },
+  { weight: "700", name: "Bold" },
+  { weight: "800", name: "ExtraBold "}
+]
 
 var base = {
   kern: 1,
   liga: 1,
-  fw: 400,
+  fw: 1,
   fs: 21,
   lh: 1.5,
   ls: 0,
@@ -82,7 +82,7 @@ function onInput (e) {
 
   lh = Math.round(lh * fs);
 
-  elTA.style.fontWeight = fw;
+  elTA.style.fontWeight = weights[fw].weight;
   elTA.style.fontSize = fs + "px";
   elTA.style.lineHeight = lh + "px";
   elTA.style.letterSpacing = ls + "em";
@@ -91,7 +91,7 @@ function onInput (e) {
   document.body.style.fontFeatureSettings = ff;
 
   elTC.innerHTML = [
-    weights[fw],
+    weights[fw].name,
     fs,
     "/ " + lh + "px",
     ls == 0 ? "" : (ls >= 0 ? "+" : "") + ls * 1000

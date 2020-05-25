@@ -1,275 +1,305 @@
 @font-face {
   font-family: "unnamedsans";
+  src: url("./fonts/v0-010/UnnamedSans-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-010/UnnamedSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-010/UnnamedSans-SemiBold.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-010/UnnamedSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-010/UnnamedSans-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "v0-009";
   src: url("./fonts/v0-009/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "unnamedsans";
+  font-family: "v0-009";
   src: url("./fonts/v0-009/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "unnamedsans";
+  font-family: "v0-009";
   src: url("./fonts/v0-009/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "unnamedsans";
+  font-family: "v0-009";
   src: url("./fonts/v0-009/UnnamedSans-Bold.woff2") format("woff2");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "unnamedsans";
-  src: url("./fonts/v0-009/UnnamedSans-ExtraBold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v8";
+  font-family: "v0-009";
+  src: url("./fonts/v0-009/UnnamedSans-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "v0-008";
   src: url("./fonts/v0-008/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "v8";
+  font-family: "v0-008";
   src: url("./fonts/v0-008/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "v8";
+  font-family: "v0-008";
   src: url("./fonts/v0-008/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "v8";
+  font-family: "v0-008";
   src: url("./fonts/v0-008/UnnamedSans-Bold.woff2") format("woff2");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "v8";
-  src: url("./fonts/v0-008/UnnamedSans-ExtraBold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v7";
+  font-family: "v0-008";
+  src: url("./fonts/v0-008/UnnamedSans-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "v0-007";
   src: url("./fonts/v0-007/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "v7";
+  font-family: "v0-007";
   src: url("./fonts/v0-007/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "v7";
+  font-family: "v0-007";
   src: url("./fonts/v0-007/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "v7";
+  font-family: "v0-007";
   src: url("./fonts/v0-007/UnnamedSans-Bold.woff2") format("woff2");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "v7";
-  src: url("./fonts/v0-007/UnnamedSans-ExtraBold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v6";
+  font-family: "v0-007";
+  src: url("./fonts/v0-007/UnnamedSans-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "v0-006";
   src: url("./fonts/v0-006/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "v6";
+  font-family: "v0-006";
   src: url("./fonts/v0-006/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "v6";
+  font-family: "v0-006";
   src: url("./fonts/v0-006/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "v6";
+  font-family: "v0-006";
   src: url("./fonts/v0-006/UnnamedSans-Bold.woff2") format("woff2");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "v6";
-  src: url("./fonts/v0-006/UnnamedSans-ExtraBold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v5";
+  font-family: "v0-006";
+  src: url("./fonts/v0-006/UnnamedSans-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "v0-005";
   src: url("./fonts/v0-005/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "v5";
+  font-family: "v0-005";
   src: url("./fonts/v0-005/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "v5";
+  font-family: "v0-005";
   src: url("./fonts/v0-005/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "v5";
+  font-family: "v0-005";
   src: url("./fonts/v0-005/UnnamedSans-Bold.woff2") format("woff2");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "v5";
-  src: url("./fonts/v0-005/UnnamedSans-ExtraBold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v4";
+  font-family: "v0-005";
+  src: url("./fonts/v0-005/UnnamedSans-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "v0-004";
   src: url("./fonts/v0-004/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "v4";
+  font-family: "v0-004";
   src: url("./fonts/v0-004/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "v4";
+  font-family: "v0-004";
   src: url("./fonts/v0-004/UnnamedSans-Medium.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "v4";
+  font-family: "v0-004";
   src: url("./fonts/v0-004/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "v4";
+  font-family: "v0-004";
   src: url("./fonts/v0-004/UnnamedSans-Bold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v3";
+  font-family: "v0-003";
   src: url("./fonts/v0-003/UnnamedSans-Bold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v3";
+  font-family: "v0-003";
   src: url("./fonts/v0-003/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "v3";
+  font-family: "v0-003";
   src: url("./fonts/v0-003/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "v3";
+  font-family: "v0-003";
   src: url("./fonts/v0-003/UnnamedSans-Medium.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "v3";
+  font-family: "v0-003";
   src: url("./fonts/v0-003/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "v3";
+  font-family: "v0-003";
   src: url("./fonts/v0-003/UnnamedSans-Bold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v2";
+  font-family: "v0-002";
   src: url("./fonts/v0-002/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "v2";
+  font-family: "v0-002";
   src: url("./fonts/v0-002/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "v2";
+  font-family: "v0-002";
   src: url("./fonts/v0-002/UnnamedSans-Medium.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "v2";
+  font-family: "v0-002";
   src: url("./fonts/v0-002/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "v2";
+  font-family: "v0-002";
   src: url("./fonts/v0-002/UnnamedSans-Bold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "v1";
+  font-family: "v0-001";
   src: url("./fonts/v0-001/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "v1";
+  font-family: "v0-001";
   src: url("./fonts/v0-001/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "v1";
+  font-family: "v0-001";
   src: url("./fonts/v0-001/UnnamedSans-Medium.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "v1";
+  font-family: "v0-001";
   src: url("./fonts/v0-002/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "v1";
+  font-family: "v0-001";
   src: url("./fonts/v0-002/UnnamedSans-Bold.woff2") format("woff2");
   font-weight: 700;
 }

@@ -77,6 +77,10 @@
 
 /* Feature Settings */
 
+.ff-none {
+  font-feature-settings: 'calt' 0, 'liga' 0;
+}
+
 .ff-normal {
   font-feature-settings: normal;
 }

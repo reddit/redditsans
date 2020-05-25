@@ -8,7 +8,7 @@
 @import "./css/footer.css";
 
 .version:before {
-  content: "v0.009 Rev2020-5-19";
+  content: "v0.010 Rev2020-5-25";
 }
 
 ::selection {

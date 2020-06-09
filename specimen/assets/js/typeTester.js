@@ -2,6 +2,7 @@ var elFW = document.getElementById("input-weight"),
     elFS = document.getElementById("input-size"),
     elLH = document.getElementById("input-lead"),
     elLS = document.getElementById("input-track"),
+    elIt = document.getElementById("input-italic"),
     elTA = document.getElementById("testarea"),
     elTC = document.getElementById("testcriteria"),
     elFF = document.querySelectorAll("[name='ff-setting']"),
@@ -87,11 +88,13 @@ function onInput (e) {
   elTA.style.lineHeight = lh + "px";
   elTA.style.letterSpacing = ls + "em";
   elTA.style.fontFamily = elVs.value;
+  elTA.style.fontStyle = elIt.checked ? "italic" : "normal"
 
   document.body.style.fontFeatureSettings = ff;
 
   elTC.innerHTML = [
     weights[fw].name,
+    elIt.checked ? "Italic" : "",
     fs,
     "/ " + lh + "px",
     ls == 0 ? "" : (ls >= 0 ? "+" : "") + ls * 1000

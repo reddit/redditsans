@@ -40,21 +40,21 @@
       <input type="radio" name="bg-switch-0" value="squid-ink">
       <input type="radio" name="bg-switch-0" value="orangered">
       <div class="bg-switch">
-      <samp class="fw300" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      "><input required title="Click to edit this text" /></samp>
-      <samp class="fw400" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      "><input required title="Click to edit this text" /></samp>
-      <samp class="fw500" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      "><input required title="Click to edit this text" /></samp>
-      <samp class="fw700" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      "><input required title="Click to edit this text" /></samp>
-      <samp class="fw800" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      "><input required title="Click to edit this text" /></samp>
+      <samp class="fw300" data-sample-text="ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+        <input required title="Click to edit this text" />
+      </samp>
+      <samp class="fw400" data-sample-text="ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+        <input required title="Click to edit this text" />
+      </samp>
+      <samp class="fw500" data-sample-text="ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+        <input required title="Click to edit this text" />
+      </samp>
+      <samp class="fw700" data-sample-text="ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+        <input required title="Click to edit this text" />
+      </samp>
+      <samp class="fw800" data-sample-text="ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+        <input required title="Click to edit this text" />
+      </samp>
       </div>
     </section>
 
@@ -65,21 +65,16 @@
       <input type="radio" name="bg-switch-1" value="orangered">
 
       <div class="bg-switch">
-      <samp class="fw300" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-      "><input required title="Click to edit this text" /></samp>
-      <samp class="fw400" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-      "><input required title="Click to edit this text" /></samp>
-      <samp class="fw500" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-      "><input required title="Click to edit this text" /></samp>
-      <samp class="fw700" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-      "><input required title="Click to edit this text" /></samp>
-      <samp class="fw800" data-sample-text="
-      ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-      "><input required title="Click to edit this text" /></samp>
+      <samp class="fw300" data-sample-text="300 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw300 txt-italic" data-sample-text="300 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw400" data-sample-text="400 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw400 txt-italic" data-sample-text="400 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw500" data-sample-text="500 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw500 txt-italic" data-sample-text="500 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw700" data-sample-text="700 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw700 txt-italic" data-sample-text="700 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw800" data-sample-text="800 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
+      <samp class="fw800 txt-italic" data-sample-text="800 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"><input required title="Click to edit this text" /></samp>
       </div>
     </section>
 
@@ -409,6 +404,12 @@
           <input id="input-track" type="range" min="-0.1" max="0.1" step="0.005">
         </label>
 
+        <label style="width: auto">
+          <strong>Italic
+          <input type="checkbox" id="input-italic" name="italic" />
+          </strong>
+        </label>
+
         <span id="ffsetings">
           <strong>Features</strong>
           <label title="Stylistic Set 1">
@@ -568,7 +569,9 @@
           <label for="input-version">Version</label>
           <span class="select-wrap">
             <select id="input-version" value="">
-              <option value="">v0.009</option>
+              <option value="">v0.011</option>
+              <option value="v0-010">v0.010</option>
+              <option value="v0-009">v0.009</option>
               <option value="v0-008">v0.008</option>
               <option value="v0-007">v0.007</option>
               <option value="v0-006">v0.006</option>

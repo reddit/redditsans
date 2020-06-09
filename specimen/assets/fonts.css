@@ -1,29 +1,94 @@
 @font-face {
   font-family: "unnamedsans";
-  src: url("./fonts/v0-010/UnnamedSans-Light.woff2") format("woff2");
+  src: url("./fonts/v0-011/UnnamedSans-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "unnamedsans";
-  src: url("./fonts/v0-010/UnnamedSans-Regular.woff2") format("woff2");
+  src: url("./fonts/v0-011/UnnamedSans-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "unnamedsans";
-  src: url("./fonts/v0-010/UnnamedSans-SemiBold.woff2") format("woff2");
+  src: url("./fonts/v0-011/UnnamedSans-SemiBold.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "unnamedsans";
-  src: url("./fonts/v0-010/UnnamedSans-Bold.woff2") format("woff2");
+  src: url("./fonts/v0-011/UnnamedSans-Bold.woff2") format("woff2");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "unnamedsans";
+  src: url("./fonts/v0-011/UnnamedSans-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-011/UnnamedSans-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-011/UnnamedSans-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-011/UnnamedSans-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-011/UnnamedSans-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "unnamedsans";
+  src: url("./fonts/v0-011/UnnamedSans-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "v0-010";
+  src: url("./fonts/v0-010/UnnamedSans-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "v0-010";
+  src: url("./fonts/v0-010/UnnamedSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "v0-010";
+  src: url("./fonts/v0-010/UnnamedSans-SemiBold.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "v0-010";
+  src: url("./fonts/v0-010/UnnamedSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "v0-010";
   src: url("./fonts/v0-010/UnnamedSans-ExtraBold.woff2") format("woff2");
   font-weight: 800;
 }

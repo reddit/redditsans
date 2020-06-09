@@ -28,7 +28,7 @@ body {
 }
 
 body, nav {
-  max-width: 960px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -106,6 +106,29 @@ section + section {
   padding-top: 3rem;
 }
 
+button, select, input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: inherit;
+  border: 2px solid currentColor;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  z-index: 2;
+  outline: none;
+  vertical-align: middle;
+  transition: all 200ms;
+  transform: scale(0.8);
+}
+
+input[type="checkbox"]:checked {
+  background: currentColor;
+}
 
 [contenteditable],
 textarea {
@@ -183,6 +206,8 @@ p, pre {
   opacity: 0.4;
   font-family: var(--font-family);
   color: var(--color-orangered);
+  pointer-events: none;
+  user-select: none;
 }
 
 .alignment small {
@@ -226,7 +251,7 @@ p, pre {
 
   .col-3 {
     columns: 3;
-    column-gap: 1.8em;
+    column-gap: 3em;
   }
 
   .row {

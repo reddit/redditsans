@@ -61,7 +61,8 @@
   margin-bottom: 0.5rem;
   display: flex;
   align-items: stretch;
-  width: 12rem;
+  width: 10.5rem;
+  cursor: pointer;
 }
 
 #testsettings strong {
@@ -84,7 +85,7 @@
   vertical-align: middle;
   line-height: 2.3rem;
   cursor: pointer;
-  width: 5rem;
+  width: 6rem;
 }
 
 #ffsetings label samp {
@@ -97,21 +98,7 @@
 }
 
 #ffsetings input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  color: inherit;
-  border: 2px solid currentColor;
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 50%;
-  z-index: 2;
   margin: -0.2rem 0.3rem 0 0;
-  outline: none;
-  cursor: pointer;
-  vertical-align: middle;
-  transition: all 200ms;
-  transform: scale(0.8);
 }
 
 #ffsetings label:hover,
@@ -119,12 +106,14 @@
   color: var(--color-orangered);
 }
 
-#ffsetings input:checked {
-  background: currentColor;
+#content-tester input[type="range"]:hover::-webkit-slider-thumb {
+  transform: scale(1);
 }
 
-#content-tester input[type="range"]:hover::-webkit-slider-thumb,,
-#content-tester input[type="range"]:hover::-moz-range-thumb,
+#content-tester input[type="range"]:hover::-moz-range-thumb {
+  transform: scale(1);
+}
+
 #ffsetings label:hover input {
   transform: scale(1);
 }
@@ -189,6 +178,15 @@
   margin: 0.5rem 0;
 }
 
+#input-version:hover,
+#input-version:focus,
+.testoption:hover,
+.testoption:focus {
+  background-color: var(--color-squid-ink);
+  border-color: var(--color-squid-ink);
+  color: var(--color-beluga);
+}
+
 .testoption {
   float: left;
 }
@@ -215,6 +213,13 @@
   word-break: break-all;
   line-height: 1;
   pointer-events: none;
+  color: inherit;
+  transform: scaleX(1.1);
+}
+
+.select-wrap:hover:after,
+.select-wrap:focus-within:after {
+  color: var(--color-beluga);
 }
 
 #input-version {
@@ -222,6 +227,7 @@
   margin-right: 0;
   width: 5.8em;
 }
+
 @-moz-document url-prefix() {
   #input-version {
     text-indent: -2px;

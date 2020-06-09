@@ -9,14 +9,14 @@
 @media (min-width: 1000px) {
   .bg-switch {
     width: 100vw;
-    padding: 3rem 0;
+    padding: 3.5rem 0 3rem;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
   }
 }
 
 .bg-switch samp {
-  max-width: 960px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }

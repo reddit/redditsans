@@ -11,7 +11,7 @@ var elFW = document.getElementById("input-weight"),
 var weights = [
   { weight: "300", name: "Light" },
   { weight: "400", name: "Regular" },
-  { weight: "500", name: "SemiBold" },
+  { weight: "600", name: "SemiBold" },
   { weight: "700", name: "Bold" },
   { weight: "800", name: "ExtraBold "}
 ]

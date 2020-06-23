@@ -13,7 +13,7 @@
 @font-face {
   font-family: "unnamedsans";
   src: url("./fonts/v0-012/UnnamedSans-SemiBold.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -45,7 +45,7 @@
 @font-face {
   font-family: "unnamedsans";
   src: url("./fonts/v0-012/UnnamedSans-SemiBoldItalic.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
 }
 
@@ -78,7 +78,7 @@
 @font-face {
   font-family: "v0-011";
   src: url("./fonts/v0-011/UnnamedSans-SemiBold.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -110,7 +110,7 @@
 @font-face {
   font-family: "v0-011";
   src: url("./fonts/v0-011/UnnamedSans-SemiBoldItalic.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
 }
 
@@ -143,7 +143,7 @@
 @font-face {
   font-family: "v0-010";
   src: url("./fonts/v0-010/UnnamedSans-SemiBold.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -173,7 +173,7 @@
 @font-face {
   font-family: "v0-009";
   src: url("./fonts/v0-009/UnnamedSans-SemiBold.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -203,7 +203,7 @@
 @font-face {
   font-family: "v0-008";
   src: url("./fonts/v0-008/UnnamedSans-SemiBold.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -233,7 +233,7 @@
 @font-face {
   font-family: "v0-007";
   src: url("./fonts/v0-007/UnnamedSans-SemiBold.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -263,7 +263,7 @@
 @font-face {
   font-family: "v0-006";
   src: url("./fonts/v0-006/UnnamedSans-SemiBold.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -293,7 +293,7 @@
 @font-face {
   font-family: "v0-005";
   src: url("./fonts/v0-005/UnnamedSans-SemiBold.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -323,7 +323,7 @@
 @font-face {
   font-family: "v0-004";
   src: url("./fonts/v0-004/UnnamedSans-Medium.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -359,7 +359,7 @@
 @font-face {
   font-family: "v0-003";
   src: url("./fonts/v0-003/UnnamedSans-Medium.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -389,7 +389,7 @@
 @font-face {
   font-family: "v0-002";
   src: url("./fonts/v0-002/UnnamedSans-Medium.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {
@@ -419,7 +419,7 @@
 @font-face {
   font-family: "v0-001";
   src: url("./fonts/v0-001/UnnamedSans-Medium.woff2") format("woff2");
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @font-face {

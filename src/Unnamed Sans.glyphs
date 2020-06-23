@@ -224,7 +224,7 @@ alignmentZones = (
 "{-206, -8}",
 "{-248, -8}"
 );
-ascender = 1000;
+ascender = 1080;
 capHeight = 720;
 customParameters = (
 {
@@ -236,7 +236,7 @@ name = underlinePosition;
 value = -160;
 }
 );
-descender = -248;
+descender = -360;
 guideLines = (
 {
 position = "{0, 820}";
@@ -296,7 +296,7 @@ alignmentZones = (
 "{-206, -8}",
 "{-248, -8}"
 );
-ascender = 1000;
+ascender = 1080;
 capHeight = 720;
 customParameters = (
 {
@@ -308,7 +308,7 @@ name = underlinePosition;
 value = -180;
 }
 );
-descender = -248;
+descender = -360;
 guideLines = (
 {
 locked = 1;

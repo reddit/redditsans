@@ -4,7 +4,7 @@
     Access-Control-Allow-Origin = "https://www.reddit.com/"
 
 [[headers]]
-  for = "/fonts/web/*"
+  for = "/fonts/web/full/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
 

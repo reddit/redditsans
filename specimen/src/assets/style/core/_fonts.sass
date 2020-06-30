@@ -23,8 +23,11 @@ $version: 13
         $font-name: "0.0#{$font-version}"
         $font-path: "/fonts/archive/v0-0#{$font-version}/UnnamedSans-"
 
+      $file: "#{$font-path}#{$weight}#{$style}"
+
       @font-face
         font-family: "#{$font-name}"
-        src: url("#{$font-path}#{$weight}#{$style}.woff2") format("woff2")
+        src: url("#{$file}.eot")
+        src: url("#{$file}.eot#?iefix") format("embedded-opentype"), url("#{$file}.woff2") format("woff2"), url("#{$file}.woff") format("woff")
         font-weight: $fw
         font-style: $fs

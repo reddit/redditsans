@@ -83,13 +83,19 @@ module.exports = {
     new ZipPlugin({
       filename: `Reddit Sans ${font.version}.zip`,
       include: [/\.(txt|pdf|css|woff2|ttf)/],
-      exclude: ["fonts/archive/", "css/main.css"],
+      exclude: ["fonts/archive/", /css\/main.*\.css/],
       pathPrefix: `Reddit Sans ${font.version}`,
 
       pathMapper: function(assetPath) {
         if (assetPath.startsWith('assets/')) {
-          return path.join('fonts', path.basename(assetPath))
+          assetPath = path.join('fonts', path.basename(assetPath))
         }
+
+        if (assetPath.match(/\.css$/)) {
+          assetPath = path.join("css", path.basename(assetPath))
+        }
+
+        assetPath = assetPath.replace(/[a-f0-9]+\.css/, "css")
 
         return assetPath
       },

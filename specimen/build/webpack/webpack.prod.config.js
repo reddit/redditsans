@@ -38,7 +38,7 @@ module.exports = merge(webpackBaseConfig, {
             options: {
               ident: "postcss",
               parser: "postcss-scss",
-              plugins: () => [autoprefixer, purgecss],
+              plugins: () => [autoprefixer],
             },
           },
           {

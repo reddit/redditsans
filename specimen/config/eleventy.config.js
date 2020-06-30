@@ -21,6 +21,8 @@ module.exports = function (eleventyConfig) {
     "src/assets/images": "/assets/images"
   })
 
+  eleventyConfig.setQuietMode(true)
+
   return {
     dir: {
       input: "src/11ty/pages",

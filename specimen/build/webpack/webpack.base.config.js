@@ -4,6 +4,7 @@ const ImageminWebpackPlugin = require("imagemin-webpack-plugin").default
 const ImageminWebP = require("imagemin-webp")
 const CopyWebpackPlugin = require("copy-webpack-plugin")
 const ZipPlugin = require('zip-webpack-plugin')
+const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries")
 
 const font = require("../../src/11ty/_data/font")
 
@@ -34,6 +35,7 @@ module.exports = {
     ],
   },
   plugins: [
+    new FixStyleOnlyEntriesPlugin(),
     new CopyWebpackPlugin({
       patterns: [
         // {

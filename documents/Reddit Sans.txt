@@ -12,7 +12,14 @@ Web fonts
 Web fonts are available in two varieties, full and subset.
 The full webfonts contain all features and are found in "fonts/web/full".
 
-The subset webfonts are split into six unicode ranges to provide the smallest footprint. Most English-language users are covered by the basic glyphs in the ASCII range, and will only need the first set. Extended Latin and other miscellaneous characters are provided in the supplementary fonts. Not each range covers the same number of code points, and not every code point has a corresponding glyph. Future versions of the fonts may contain more glyphs, but are unlikely to require changes the unicode range listed below. These fonts are found in "fonts/web/subset" and are grouped by folder.
+The subset webfonts are split into six unicode ranges to provide the smallest
+footprint. Most English-language users are covered by the basic glyphs in the
+ASCII range, and will only need the first set (A). Extended Latin and other
+miscellaneous characters are provided in the supplementary fonts. Not each
+range covers the same number of code points, and not every code point has a
+corresponding glyph. Future versions of the fonts may contain more glyphs, but
+are unlikely to require changes to the unicode range listed below. These fonts
+are found in "fonts/web/subset" and are grouped by folder.
 
 A: U+0020-00BF
 B: U+00C0-00FF

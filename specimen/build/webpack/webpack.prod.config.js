@@ -28,8 +28,12 @@ module.exports = merge(webpackBaseConfig, {
   module: {
     rules: [
       {
-        test: [/.css$|.sass$/],
-        exclude: /(node_modules)/,
+        test: [
+          /\.(css|sass)$/
+        ],
+        exclude: [
+          /(node_modules)/
+        ],
         use: [
           MiniCssExtractPlugin.loader,
           { loader: "css-loader", options: { importLoaders: 1 } },
@@ -43,6 +47,12 @@ module.exports = merge(webpackBaseConfig, {
           },
           {
             loader: "sass-loader",
+            options: {
+              sassOptions: {
+                minimize: false,
+                outputStyle: 'expanded'
+              }
+            }
           },
         ],
       },
@@ -50,7 +60,10 @@ module.exports = merge(webpackBaseConfig, {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "assets/css/[name].[chunkhash].css",
+      moduleFilename: ({ name }) =>
+        name.match("main") ?
+          "assets/css/[name].[chunkhash].css" :
+          "assets/css/[name].css"
     }),
     new WebpackAssetsManifest({
       output: path.resolve(paths.src, "11ty/_data/assets.json"),
@@ -62,10 +75,12 @@ module.exports = merge(webpackBaseConfig, {
     }),
   ],
   optimization: {
+
     minimize: true,
     minimizer: [
       new TerserPlugin(),
       new OptimizeCSSAssetsPlugin({
+        assetNameRegExp: /main.*\.css$/,
         cssProcessor: cssnano,
       }),
     ],

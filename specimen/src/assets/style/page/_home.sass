@@ -1,0 +1,93 @@
+.page-home
+  #wrapper:before
+    content: none !important
+
+  @media (min-height: 720px)
+    scroll-snap-type: y
+
+  #main > section
+    min-height: 100vh
+    position: relative
+    scroll-snap-align: center
+    transition: color 250ms, background-color 250ms
+
+    @for $i from 1 through 10
+      &:nth-child(#{$i})
+        z-index: 10 - $i
+
+    &:first-child:before
+      margin: 0
+
+    &:before
+      content: ""
+      position: sticky
+      top: -2px
+      width: 100%
+      height: $header-height
+      margin: -$header-height 0 0
+      background: inherit
+      padding-bottom: 1px
+      z-index: 1
+      transform: translate3d(0, 1px, 0)
+
+    &:not(:last-child):after
+      content: ""
+      position: absolute
+      left: 50%
+      bottom: -1px
+      border-bottom: 1px solid
+      width: 6em
+      margin-left: -3em
+      z-index: -1
+
+    &[style*="background: var(--color-orca)"]
+      &:before
+        background: var(--color-beluga)
+
+    &[style*="background: var(--color-orca)"],
+    &[style*="background: var(--color-orangered)"]
+      input::placeholder
+        color: var(--color-beluga)
+
+      input:focus::placeholder
+        color: var(--color-seal)
+
+  #waterfall
+    .btn-bare
+      border-bottom: 1px solid transparent
+      transition: border-bottom-color 250ms
+
+      &:hover,
+      &:focus
+        outline: none
+        border-bottom-color: var(--color-beluga)
+
+    li.active .btn-bare
+      border-bottom-color: var(--color-orangered)
+
+  .btn-color
+    width: 20px
+    height: 20px
+    border-radius: 10px
+    transition: all 200ms
+    transform: scale(0.8)
+    border: 2px solid transparent
+
+  li.active .btn-color,
+  .btn-color:hover,
+  .btn-color:focus
+    outline: none
+    transform: scale(1)
+
+  li.active .btn-color,
+  .btn-color:focus
+    border-color: var(--color-orca)
+
+  li.active .btn-color.btn-color-invert,
+  .btn-color.btn-color-invert:focus
+    border-color: var(--color-beluga)
+
+  &[style*="background: var(--color-orangered)"]
+    li.active .btn-bare,
+    .btn-color.btn-bare:focus
+      border-color: var(--color-orca)

@@ -1,0 +1,123 @@
+section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
+  .container.pt5
+    .row.flx.flx-row.flx-col-sm
+      .col-lg-3.col-md-4.flx.flx-col.pv2
+        #test-settings
+          label.p2.bg-urchin.clr-beluga.mb1
+            span.fs1.ttu Weight
+            input(
+              id="input-weight"
+              type="range"
+              min="0"
+              max="4"
+              value="1"
+            )
+
+          label.p2.bg-urchin.clr-beluga.mb1
+            span.fs1.ttu Size
+            input(
+              id="input-size"
+              type="range"
+              min="4"
+              max="72"
+              value="21"
+            )
+
+          .flx.flx-row.pb1.brb.hidden-xs.hidden-sm
+            label.flx-grow.pv2
+              span.fs1.ttu Leading
+              input(
+                id="input-lead"
+                type="range"
+                min="0.8"
+                max="2"
+                step="0.01111"
+                value="1.5238095238"
+              )
+
+            label.flx-grow.pv2.ml1
+              span.fs1.ttu Tracking
+              input(
+                id="input-track"
+                type="range"
+                min="-0.05"
+                max="0.05"
+                step="0.002"
+              )
+
+          .pv3.flx.flx-row.flx-ac.fs1.ttu.brb
+            span.mra Style
+            span
+              input#input-roman.input-hidden(
+                type="radio"
+                name="input-style"
+                value=""
+                checked
+              )
+              label.m0(for="input-roman") Roman
+            span &ensp;/&ensp;
+            span
+              input#input-italic.input-hidden(
+                type="radio"
+                name="input-style"
+                value="italic"
+              )
+
+              label.m0.fs-italic(for="input-italic") Italic
+
+          #test-features.brb
+            .dd
+              input#dd-feat.input-hidden(type="checkbox")
+              label.dd-button.pv3.ph0.fs1.ttu(for="dd-feat") Features
+              ul.dd-list.p0.list-bare.bg-beluga.brt.brb
+                each feature in font.features
+                  li
+                    label.pv2.flx.flx-ac.fs1.ttu
+                      input.m0(
+                        type="checkbox"
+                        name="ff-setting"
+                        value=feature.code
+                        checked=feature.active
+                      )
+                      span.mra.pl2.lh120
+                        = feature.title
+                        br
+                        code.txt-muted.tt0= feature.code
+                      samp.tt0.fs2.ta-c
+                        span.ff-normal.txt-muted= feature.sample
+                        span.txt-muted!= " &rarr; "
+                        span(class=`ff-${feature.code}`)= feature.sample
+
+          //- #test-presets.brb.hidden-xs.hidden-sm
+            .dd
+              input#dd-presets.input-hidden(type="checkbox")
+              label.dd-button.pv3.ph0.fs1.ttu(for="dd-presets") Presets
+              ul.dd-list.p0.list-bare.bg-beluga.brt.brb
+                li
+                  button.pv3.ph0.ff-normal(data-option="reset") Vanilla
+                li
+                  button.pv3.ph0.ff-ss01(data-option="grotesque") Chocolate
+                li
+                  button.pv3.ph0(data-option="kaomoji") kaomoji
+
+          #test-version.hidden-xs.hidden-sm
+            .dd
+              input#dd-version.input-hidden(type="checkbox")
+              label.dd-button.pv3.ph0.fs1.ttu(for="dd-version") Version
+              ul.dd-list.p0.list-bare.bg-beluga.brt.brb
+                each v, i in [font.version, ...font.archive]
+                  li
+                    label.pv2.flx.flx-ac.fs1.ttu
+                      input.m0(
+                        type="radio"
+                        name="input-version"
+                        value=(i > 0 ? v : "")
+                        checked=(i === 0)
+                      )
+                      span.pl2.lh120 v#{v}
+
+        p#test-criteria.txt-muted.mta.pt2
+
+      .col-lg-9.col-md-8.pv2
+        #test-wrapper
+          textarea#test-area(spellcheck="false")

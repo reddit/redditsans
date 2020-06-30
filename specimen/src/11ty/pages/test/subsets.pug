@@ -1,0 +1,25 @@
+extends /layouts/default
+
+block append head
+  link(rel="stylesheet" href=assets["subsets.css"])
+
+block content
+  .container.pv5(
+    style=""
+  )
+    p Only set A should load in the network tab.
+    .flx.flx-row
+      each weight in [300, 400, 600, 700, 800]
+        .fs5.p2.ma(class=`fw${weight}`)
+          p.txt-spaced.ta-j
+            = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            = "abcdefghijklmnopqrstuvwxyz"
+            = "0123456789"
+            = "!¡?¿#%&@()[]{}|¦/\\ ^<=>­±*+-~¬· _.,:;\"'«»"
+            = "$¢£¤¥©®°µ¶§¹²³ºª¼½¾¯¨`´¸"
+
+  style
+    | html { font-family: "Reddit Sans Subset"; }
+    | p { word-break: break-all; }
+
+

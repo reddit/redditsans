@@ -1,0 +1,63 @@
+extends /layouts/default
+
+mixin pattern(pattern, str, glue)
+  - str = str ||"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+  p!= str.split("").map(e => pattern.replace(/\$1/g, e)).join(glue||"&ensp;")
+
+block content
+  .container
+    .row.pv5
+      each weight in [300, 500, 700]
+        .col-sm-4(class=`fw${weight}`)
+          +pattern("r/$1mhom")
+
+          +pattern("HOH$1/$1HOH")
+          +pattern("HOH$1\\$1HOH")
+          +pattern("*$1*$1*")
+          +pattern("H&amp;H H&amp;$1 $1&amp;H O&amp;O", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+          +pattern("HO_H$1_$1H_OH", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+          +pattern("ho_h$1_$1h_oh", "abcdefghijklmnopqrstuvwxyz")
+          +pattern("$80 $8$1 $$18 $08", "0123456789")
+          +pattern("80_8$1_$18_08", "0123456789")
+          +pattern("80&lt;8$1&lt;$18&lt;08", "0123456789")
+          +pattern("80&gt;8$1&gt;$18&gt;08", "0123456789")
+          +pattern("HO-H$1-$1H-OH", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+          +pattern("ho-h$1-$1h-oh", "abcdefghijklmnopqrstuvwxyz")
+          +pattern("ho:h$1:$1h:oh", "abcdefghijklmnopqrstuvwxyz")
+          +pattern("ho;h$1;$1h;oh", "abcdefghijklmnopqrstuvwxyz")
+          +pattern("80-8$1-$18-08", "0123456789")
+          +pattern("H.O.H.$1.$1.H.O.H", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+          +pattern("8.0.8.$1.$1.8.0.8", "0123456789")
+          +pattern("88$1% 11$1%", "0123456789")
+
+          +pattern("[$1HOUSE$1] {$1HOUSE$1} ($1HOUSE$1)","ABCDEFGHIJKLMNOPQRSTUVWXYZ", "<br>")
+          +pattern("[$1869$1] {$1869$1} ($1869$1)&emsp;§$1$1&emsp;$$1$1","0123456789", "<br>")
+          +pattern("[$1mom$1] {$1mom$1} ($1mom$1)","abcdefghijklmnopqrstuvwxyz", "<br>")
+          +pattern("“$1mom$1” '$1mom$1' ‹$1mom$1›","abcdefghijklmnopqrstuvwxyz", "<br>")
+          +pattern("“$1HOM$1” '$1HOM$1' ‹$1HOM$1›","ABCDEFGHIJKLMNOPQRSTUVWXYZ", "<br>")
+
+          p
+            | »sie«. »das«, »an«; »ich«:
+            | «sie». «das», «an»; «ich»:
+            | »sie.« »das,« »an!« »ich?«
+            | «sie.» «das,» «an!» «ich?»
+            | ›sie‹. ›da‹, ›an‹; ›ich‹:
+            | ‹sie›. ‹das›, ‹an›; ‹ich›:
+            | ›sie.‹ ›das,‹ ›an!‹ ›ich?‹
+            | ‹sie.› ‹das,› ‹an!› ‹ich?›
+
+          p
+            | 00102030405060708090<br>
+            | 10112131415161718191<br>
+            | 20212232425262728292<br>
+            | 30313233435363738393<br>
+            | 40414243445464748494<br>
+            | 50515253545565758595<br>
+            | 60616263646566768696<br>
+            | 70717273747576778797<br>
+            | 80818283848586878898<br>
+            | 90919293949596979899<br>
+            | .0.0.1.1.2.2.3.3.4.4.5.5.6.6.7.7.8.8.9.9.<br>
+            | ,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,<br>
+            | :0:0:1:1:2:2:3:3:4:4:5:5:6:6:7:7:8:8:9:9:<br>
+            | ;0;0;1;1;2;2;3;3;4;4;5;5;6;6;7;7;8;8;9;9;<br>

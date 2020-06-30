@@ -1,0 +1,36 @@
+=make-block($size, $margin, $media: false)
+  .ml#{$size}
+    margin-left: $margin
+
+  .mr#{$size}
+    margin-right: $margin
+
+  .mt#{$size}
+    margin-top: $margin
+
+  .mb#{$size}
+    margin-bottom: $margin
+
+  .mv#{$size}
+    margin-top: $margin
+    margin-bottom: $margin
+
+  .mh#{$size}
+    margin-left: $margin
+    margin-right: $margin
+
+  .mv#{$size}
+    margin-top: $margin
+    margin-bottom: $margin
+
+  .m#{$size}
+    margin: $margin
+
++make-block(a,  auto)
++make-block(3, 1.5em)
++make-block(2, 1.0em)
++make-block(1, 0.5em)
++make-block(0, 0)
+
+@media (max-width: $screen-sm-max)
+  +make-block(a-sm, auto)

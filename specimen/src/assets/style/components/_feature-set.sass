@@ -1,0 +1,95 @@
+.featureset
+  width: 100%
+  transition: opacity 250ms
+
+  &.active
+    display: flex
+    opacity: 1
+    pointer-events: all
+    transition-delay: 100ms
+
+  .feat
+    display: block
+    position: relative
+    padding: 0
+    margin: 1em 0 0
+    width: 100%
+
+  .feat + .feat
+    margin-top: 0.25rem
+    padding-top: 1.25rem
+
+  .feat + .feat:before
+    content: "↓"
+    position: absolute
+    top: 0
+    left: 50%
+    margin-left: -0.5em
+    line-height: 1rem
+    width: 1rem
+    line-height: 1
+    text-align: center
+    color: var(--color-orangered)
+
+  @media (max-width: $screen-sm-max)
+    .feature
+      background: var(--color-dugong)
+      padding-bottom: 1em
+      margin: 1em 0
+      border-radius: 3px
+
+  @media (min-width: $screen-sm-min)
+    position: absolute
+    opacity: 0
+    pointer-events: none
+    height: 100%
+    padding: 0
+    border-top: 0
+
+    .feat
+      width: auto
+      margin-top: 0
+
+    .feat + .feat
+      margin: 0 0 1.5rem 1rem
+      padding: 0 0 0 2rem
+
+    .feat + .feat:before
+      content: "→"
+      position: absolute
+      top: 50%
+      margin: -0.75rem 0 0
+      left: 0
+      width: 1rem
+
+.feat-list
+  a
+    display: block
+    text-decoration: none
+    transition: all 250ms
+
+    &:focus
+      outline: none
+      color: inherit
+
+    &:hover
+      color: var(--color-orangered)
+
+  li
+    position: relative
+
+    &:before
+      content: "→"
+      position: absolute
+      right: 100%
+      margin-right: 0.5em
+      font-feature-settings: "case"
+      opacity: 0
+      transform: translate3d(-1em, 0, 0)
+      transition: all 250ms
+      color: var(--color-orangered)
+
+    &.active:before,
+    &:focus-within:before
+      opacity: 1
+      transform: translate3d(0, 0, 0)

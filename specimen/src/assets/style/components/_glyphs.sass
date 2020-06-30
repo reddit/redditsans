@@ -1,0 +1,31 @@
+#glyphs
+  margin: 1.5rem 0
+  list-style: none
+  text-align: center
+  background: var(--color-dugong)
+  padding: 1px 1px 0 0
+  font-size: 20px
+  margin-right: -1px
+
+.glyph
+  background: var(--color-beluga)
+  height: 2.4em
+  width: calc(5% - 1px)
+  margin: 0 0 1px 1px
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  vertical-align: middle
+
+  &.glyph-otf
+    background-color: var(--color-dugong)
+
+@media (max-width: 1000px)
+  .glyph
+    width: calc(6.25% - 1px)
+
+
+@media (max-width: 400px)
+  .glyph
+    width: calc(8.333% - 1px)
+

@@ -1,0 +1,30 @@
+$font-weights: ( 300: "Light", 400: "Regular", 600: "SemiBold", 700: "Bold", 800: "ExtraBold" )
+$font-styles: ( normal: "", italic: "Italic" )
+
+$version: 13
+
+@for $i from $version through 1
+  @each $fw, $weight in $font-weights
+    @each $fs, $style in $font-styles
+      @if $weight == "Regular" and $style == "Italic"
+        $weight: ""
+
+      $font-name: "redditsans"
+      $font-version: $i
+      $font-path: "/fonts/web/full/RedditSans-"
+
+      @if ($i / 1) < $version
+        @if str-length("" + $i) < 2
+          $font-version: "0#{$i}"
+
+        @if str-length("" + $i) < 2
+          $font-version: "0#{$i}"
+
+        $font-name: "0.0#{$font-version}"
+        $font-path: "/fonts/archive/v0-0#{$font-version}/UnnamedSans-"
+
+      @font-face
+        font-family: "#{$font-name}"
+        src: url("#{$font-path}#{$weight}#{$style}.woff2") format("woff2")
+        font-weight: $fw
+        font-style: $fs

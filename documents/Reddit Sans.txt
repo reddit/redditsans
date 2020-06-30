@@ -1,0 +1,34 @@
+Reddit Sans
+v1.000
+
+*** Please note the italics are not yet ready for production. ***
+
+Desktop fonts
+-------------
+Desktop fonts can be found in "fonts/desktop".
+
+Web fonts
+-------------
+Web fonts are available in two varieties, full and subset.
+The full webfonts contain all features and are found in "fonts/web/full".
+
+The subset webfonts are split into six unicode ranges to provide the smallest footprint. Most English-language users are covered by the basic glyphs in the ASCII range, and will only need the first set. Extended Latin and other miscellaneous characters are provided in the supplementary fonts. Not each range covers the same number of code points, and not every code point has a corresponding glyph. Future versions of the fonts may contain more glyphs, but are unlikely to require changes the unicode range listed below. These fonts are found in "fonts/web/subset" and are grouped by folder.
+
+A: U+0020-00BF
+B: U+00C0-00FF
+C: U+0100-01FF
+D: U+0200-0FFF
+E: U+1000-1FFF
+F: U+2000-FFFF
+
+CSS files are provided for both full and subset fonts.
+
+-------------
+
+Copyright © 2020 
+
+-------------
+
+Produced for Reddit by Stephen Hutchings
+https://www.s-ings.com/
+mailto: stephen@s-ings.com

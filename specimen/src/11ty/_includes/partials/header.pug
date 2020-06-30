@@ -1,0 +1,15 @@
+header#header.ttu.fs2.flx(data-component="header")
+  .container.mb0
+    #header-content.brb.flx.flx-row.pv2
+      a#header-title.mra.txt-bare(
+        href="/"
+        data-id=page.id
+      )
+        span.fw700 ■■■■ Sans
+        |  Font Specimen
+
+      nav.ta-r
+        span#header-version v#{font.version}
+        br
+        ul#header-nav.flx.flx-row.list-bare.p0.m0
+          +navItems

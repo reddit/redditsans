@@ -1,0 +1,16 @@
+@charset "UTF-8"
+
+$font-weights: ( 300: "Light", 400: "Regular", 600: "SemiBold", 700: "Bold", 800: "ExtraBold" )
+$code-ranges:  ( A: "U+0020-00BF", B: "U+00C0-00FF", C: "U+0100-01FF", D: "U+0200-0FFF", E: "U+1000-1FFF", F: "U+2000-FFFF")
+
+@each $set, $range in $code-ranges
+  /* #{$set} – #{$range} */
+  @each $fw, $weight in $font-weights
+    $file: "/fonts/web/subset/#{$set}/RedditSans-#{$set}#{$weight}"
+
+    @font-face
+      font-family: "redditsans-subset"
+      src: url("#{$file}.eot")
+      src: url("#{$file}.eot#?iefix") format("embedded-opentype"), url("#{$file}.woff2") format("woff2"), url("#{$file}.woff") format("woff")
+      font-weight: $fw
+      unicode-range: unquote($range)

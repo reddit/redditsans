@@ -1,7 +1,7 @@
 module.exports = {
-	author: "Reddit",
+	author: "■■■■",
 	url: "https://unnamed-sans.netlify.app/",
-	metaTitle: "Reddit Sans Font Specimen",
+	metaTitle: "■■■■ Sans Font Specimen",
 	metaDescription:
-		"Reddit Sans - A new typeface designed for the front page of the internet",
+		"■■■■ Sans - A new typeface designed for the front page of the internet",
 };

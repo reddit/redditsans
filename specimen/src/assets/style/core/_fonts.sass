@@ -13,6 +13,9 @@ $font-versions: ( "1.001", "1.000", "0.012", "0.011", "0.010", "0.009", "0.008",
 
       @if index($font-versions, $font-version) > 1
         $font-name: $font-version
+        $font-path: "/fonts/archive/v#{$font-version}/RedditSans-"
+
+      @if str-slice($font-version, 0, 1) != "1"
         $font-path: "/fonts/archive/v#{$font-version}/UnnamedSans-"
 
       $file: "#{$font-path}#{$weight}#{$style}"

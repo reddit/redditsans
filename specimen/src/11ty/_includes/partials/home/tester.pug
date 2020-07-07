@@ -67,7 +67,7 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
 
           #test-features.brb
             .dd
-              input#dd-feat.input-hidden(type="checkbox")
+              input#dd-feat.input-hidden(type="checkbox" data-component="dropdown")
               label.dd-button.pv3.ph0.fs1.ttu(for="dd-feat") Features
               ul.dd-list.p0.list-bare.bg-beluga.brt.brb
                 each feature in font.features
@@ -90,7 +90,7 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
 
           //- #test-presets.brb.hidden-xs.hidden-sm
             .dd
-              input#dd-presets.input-hidden(type="checkbox")
+              input#dd-presets.input-hidden(type="checkbox" data-component="dropdown")
               label.dd-button.pv3.ph0.fs1.ttu(for="dd-presets") Presets
               ul.dd-list.p0.list-bare.bg-beluga.brt.brb
                 li
@@ -102,7 +102,7 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
 
           #test-version.hidden-xs.hidden-sm
             .dd
-              input#dd-version.input-hidden(type="checkbox")
+              input#dd-version.input-hidden(type="checkbox" data-component="dropdown")
               label.dd-button.pv3.ph0.fs1.ttu(for="dd-version") Version
               ul.dd-list.p0.list-bare.bg-beluga.brt.brb
                 each v, i in [font.version, ...font.archive]

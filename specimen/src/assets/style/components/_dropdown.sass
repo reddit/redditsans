@@ -13,11 +13,6 @@
       transform: scaleY(0.8)
       transition: all 250ms
 
-  &:focus-within,
-  &:active
-    .dd-button
-      font-weight: 600
-
   .dd-list
     display: none
     position: absolute
@@ -28,9 +23,6 @@
     max-height: 200px
     overflow: auto
 
-    &:hover
-      display: block
-
     > li:nth-child(n + 2)
       border-top: 1px solid var(--color-seal)
 
@@ -40,8 +32,7 @@
       &:before
         transform: scaleY(0.8) rotate(60deg) translateY(2px)
 
-    .dd-list
-      display: block
-
-    > button
-      pointer-events: none
+  input:checked ~ .dd-list,
+  .dd-list:hover,
+  .dd-list:focus-within
+    display: block

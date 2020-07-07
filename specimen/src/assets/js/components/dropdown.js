@@ -7,23 +7,27 @@ const focus = (el) => {
   el.focus()
 }
 
+const blur = (el) => {
+  if (!el.parentNode.matches(":focus-within")) {
+    el.checked = false
+  }
+}
+
 module.exports = {
   initialize: (el) => {
-    let timer
+    el.addEventListener("input", () => { focus(el) })
+    el.addEventListener("focus", () => { focus(el) })
 
-    el.addEventListener("input", () => { clearTimeout(timer); focus(el) })
-    el.addEventListener("focus", () => { clearTimeout(timer); focus(el) })
+    window.addEventListener("click", (e) => {
+      if (!el.parentNode.contains(e.target)) blur(el)
+    })
 
-    el.parentNode.addEventListener("focusout",  (e) => {
-      if (!e.currentTarget.matches(":focus-within")) {
-        timer = setTimeout( () => { el.checked = false }, 100)
-      }
-    }, false)
-
-    el.parentNode.addEventListener("keydown", (e) => {
+    window.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && el.checked) {
         el.checked = false
         el.focus()
+      } else {
+        window.setTimeout(() => blur(el), 0)
       }
     })
   }

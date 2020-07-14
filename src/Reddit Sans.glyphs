@@ -40884,7 +40884,7 @@ unicode = 0036;
 },
 {
 glyphname = six.osf;
-lastChange = "2020-06-30 11:31:47 +0000";
+lastChange = "2020-07-14 11:56:32 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -40909,7 +40909,7 @@ nodes = (
 "56 252 OFFCURVE",
 "56 196 CURVE SMOOTH",
 "56 92 OFFCURVE",
-"140 -8 OFFCURVE",
+"130 -8 OFFCURVE",
 "254 -8 CURVE SMOOTH"
 );
 },
@@ -41004,7 +41004,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"384 -8 OFFCURVE",
+"382 -8 OFFCURVE",
 "476 78 OFFCURVE",
 "476 202 CURVE SMOOTH",
 "476 322 OFFCURVE",
@@ -41021,8 +41021,8 @@ nodes = (
 "46 276 OFFCURVE",
 "46 206 CURVE SMOOTH",
 "46 90 OFFCURVE",
-"144 -8 OFFCURVE",
-"268 -8 CURVE SMOOTH"
+"142 -8 OFFCURVE",
+"266 -8 CURVE SMOOTH"
 );
 },
 {
@@ -41064,7 +41064,7 @@ source = six;
 },
 {
 glyphname = six.tf;
-lastChange = "2020-06-28 13:04:01 +0000";
+lastChange = "2020-07-14 10:57:55 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -41072,11 +41072,11 @@ paths = (
 {
 closed = 1;
 nodes = (
-"438 -8 OFFCURVE",
-"544 88 OFFCURVE",
+"444 -8 OFFCURVE",
+"542 96 OFFCURVE",
 "542 222 CURVE SMOOTH",
-"544 352 OFFCURVE",
-"440 448 OFFCURVE",
+"542 350 OFFCURVE",
+"438 448 OFFCURVE",
 "312 448 CURVE SMOOTH",
 "272 448 OFFCURVE",
 "214 438 OFFCURVE",
@@ -41088,26 +41088,26 @@ nodes = (
 "100 348 OFFCURVE",
 "70 284 OFFCURVE",
 "70 220 CURVE SMOOTH",
-"70 106 OFFCURVE",
-"174 -8 OFFCURVE",
-"310 -8 CURVE SMOOTH"
+"70 102 OFFCURVE",
+"168 -8 OFFCURVE",
+"308 -8 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"192 22 OFFCURVE",
-"102 110 OFFCURVE",
-"100 222 CURVE SMOOTH",
-"102 336 OFFCURVE",
-"192 420 OFFCURVE",
+"192 20 OFFCURVE",
+"100 114 OFFCURVE",
+"100 218 CURVE SMOOTH",
+"100 336 OFFCURVE",
+"198 420 OFFCURVE",
 "308 420 CURVE SMOOTH",
 "424 420 OFFCURVE",
-"512 336 OFFCURVE",
-"512 222 CURVE SMOOTH",
+"512 330 OFFCURVE",
+"512 220 CURVE SMOOTH",
 "512 110 OFFCURVE",
-"424 22 OFFCURVE",
-"308 20 CURVE SMOOTH"
+"424 20 OFFCURVE",
+"310 20 CURVE SMOOTH"
 );
 }
 );
@@ -42402,14 +42402,14 @@ rightKerningGroup = NUM_NINE_OSF;
 },
 {
 glyphname = nine.tf;
-lastChange = "2020-06-21 07:42:29 +0000";
+lastChange = "2020-07-14 10:56:51 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
-name = nine;
-transform = "{1, 0, 0, 1, 16, 0}";
+alignment = 1;
+name = six.tf;
+transform = "{-1, 0, 0, -1, 616, 720}";
 }
 );
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -42423,9 +42423,9 @@ width = 616;
 {
 components = (
 {
-alignment = -1;
-name = nine;
-transform = "{1, 0, 0, 1, 16, 0}";
+alignment = 1;
+name = six.tf;
+transform = "{-1, 0, 0, -1, 616, 720}";
 }
 );
 layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
@@ -42440,14 +42440,14 @@ source = nine;
 },
 {
 glyphname = nine.tosf;
-lastChange = "2020-06-21 07:42:29 +0000";
+lastChange = "2020-07-14 11:56:06 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
-name = nine.osf;
-transform = "{1, 0, 0, 1, 4, 0}";
+alignment = 1;
+name = six.tosf;
+transform = "{-1, 0, 0, -1, 534, 512}";
 }
 );
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -42461,9 +42461,9 @@ width = 534;
 {
 components = (
 {
-alignment = -1;
-name = nine.osf;
-transform = "{1, 0, 0, 1, -6, 0}";
+alignment = 1;
+name = six.tosf;
+transform = "{-1, 0, 0, -1, 534, 528}";
 }
 );
 layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";

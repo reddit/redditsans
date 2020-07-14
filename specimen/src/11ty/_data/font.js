@@ -99,6 +99,7 @@ const features = [
 
 const archive =
 [
+  "1.001",
   "1.000",
   "0.012",
   "0.011",

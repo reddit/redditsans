@@ -54,7 +54,8 @@ Object.keys(options).forEach((o) =>
 function onClick (e, elements) {
   var option = e ? options[e.target.dataset.option] : options.reset
 
-  Array.from(elements.FF).forEach((e) => e.checked = !!option[e.value])
+  elements.FF.forEach(e => e.checked = !!option[e.value])
+  elements.ST.forEach(e => e.checked = option.style === e.value)
 
   elements.TA.value = option.content;
   elements.FW.value = option.fw;
@@ -69,11 +70,16 @@ function onInput (e, elements) {
   var weight        = elements.FW.value,
       size          = elements.FS.value,
       lineHeight    = elements.LH.value,
-      letterSpacing = elements.LS.value;
+      letterSpacing = elements.LS.value,
+      flavor = elements.FV.find(e => e.checked).value;
 
-  var features = elements.FF.map((e) =>
+  var features = elements.FF.filter(e => !e.dataset.flavor).map((e) =>
     "'" + e.value + "' " + (e.checked ? 1 : 0)
-  ).join(",")
+  )
+
+  if (flavor) {
+    features = features.concat(flavor.split(", ").map(e => "'" + e + "' "))
+  }
 
   var version = elements.VS.find(e => e.checked).value
   var style   = elements.ST.find(e => e.checked).value
@@ -87,7 +93,7 @@ function onInput (e, elements) {
   elements.TA.style.fontFamily = version ? "\"" + version + "\"" : ""
   elements.TA.style.fontStyle = style
 
-  document.body.style.fontFeatureSettings = features
+  document.body.style.fontFeatureSettings = features.join(",")
 
   elements.TC.innerHTML = [
     weights[weight].name,
@@ -108,7 +114,8 @@ const getElements = () => ({
   TC: document.getElementById("test-criteria"),
   VS: Array.from(document.querySelectorAll("[name='input-version']")),
   ST: Array.from(document.querySelectorAll("[name='input-style']")),
-  FF: Array.from(document.querySelectorAll("[name='ff-setting']"))
+  FF: Array.from(document.querySelectorAll("[name='ff-setting']")),
+  FV: Array.from(document.querySelectorAll("[name='ff-flavor']"))
 })
 
 module.exports = {

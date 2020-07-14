@@ -74,19 +74,21 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
                   li
                     label.pv2.flx.flx-ac.fs1.ttu
                       input.m0(
-                        type="checkbox"
-                        name="ff-setting"
+                        type=feature.flavor ? "radio" : "checkbox"
+                        name=feature.flavor ? "ff-flavor" : "ff-setting"
                         value=feature.code
                         checked=feature.active
                       )
                       span.mra.pl2.lh120
                         = feature.title
-                        br
-                        code.txt-muted.tt0= feature.code
+                        if !feature.flavor
+                          br
+                          code.txt-muted.tt0= feature.code
                       samp.tt0.fs2.ta-c
                         span.ff-normal.txt-muted= feature.sample
                         span.txt-muted!= " &rarr; "
-                        span(class=`ff-${feature.code}`)= feature.sample
+                        span(class=`ff-${feature.flavor || feature.code}`)
+                          = feature.sample
 
           //- #test-presets.brb.hidden-xs.hidden-sm
             .dd

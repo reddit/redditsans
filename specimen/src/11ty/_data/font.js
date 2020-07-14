@@ -17,46 +17,43 @@ const getType = (str) => {
 }
 
 const features = [
-  { code: "ss01",
-    title: "Stylistic Set 1",
-    sample: "a"
+  { flavor: "vanilla",
+    code: "",
+    title: "Vanilla",
+    sample: "a",
+    active: true
   },
-  { code: "ss02",
-    title: "Stylistic Set 2",
-    sample: "a"
+  { flavor: "chocolate",
+    code: "ss01",
+    title: "Chocolate",
+    sample: "l"
   },
-  { code: "ss03",
-    title: "Stylistic Set 3",
-    sample: "g"
-  },
-  { code: "ss04",
-    title: "Stylistic Set 4",
-    sample: "I"
-  },
-  { code: "ss05",
-    title: "Stylistic Set 5",
+  { flavor: "strawberry",
+    code: "ss02, ss05",
+    title: "Strawberry",
     sample: "i"
   },
-  { code: "ss06",
-    title: "Stylistic Set 6",
-    sample: "Ww"
-  },
-  { code: "ss07",
-    title: "Stylistic Set 7",
-    sample: "0"
+  { flavor: "fudge",
+    code: "ss03, ss04, ss06",
+    title: "Fudge",
+    sample: "g"
   },
   { code: "kern",
     title: "Kerning",
     sample: "LT",
-    active: 1
+    active: true
   },
   { code: "liga",
     title: "Default Ligatures",
     sample: "fl",
-    active: 1
+    active: true
   },
   { code: "zero",
     title: "Slashed zero",
+    sample: "0"
+  },
+  { code: "ss07",
+    title: "Circular Zero",
     sample: "0"
   },
   { code: "case",

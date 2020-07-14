@@ -20,23 +20,17 @@ section#features.flx.flx-col.flx-jc.bg-beluga(data-component="features")
           li
             a(href="#feat-zero") Slashed zero
           li
+            a(href="#feat-ss07") Circular zero
+          li
             a(href="#feat-liga") Ligatures
           li
             a(href="#feat-cpsp") Capital spacing
           li
             a(href="#feat-ss01") Stylistic set 1 – Chocolate
           li
-            a(href="#feat-ss02") Stylistic set 2 – Alternate a
+            a(href="#feat-ss02") Stylistic set 2 – Strawberry
           li
-            a(href="#feat-ss03") Stylistic set 3 – Alternate g
-          li
-            a(href="#feat-ss04") Stylistic set 4 – Alternate I
-          li
-            a(href="#feat-ss05") Stylistic set 5 – Alternate i
-          li
-            a(href="#feat-ss06") Stylistic set 6 – Alternate Ww
-          li
-            a(href="#feat-ss07") Stylistic set 7 – Alternate zero
+            a(href="#feat-ss03") Stylistic set 3 – Fudge
 
       .col-lg-6.col-lg-o1.col-md-8.flx: .flx-grow.posr
         #feat-case.featureset.flx.flx-col.active
@@ -183,6 +177,23 @@ section#features.flx.flx-col.flx-jc.bg-beluga(data-component="features")
             br
             | font-variant: slashed-zero;
 
+        #feat-ss07.featureset.flx.flx-col
+          h3.ttu.fs2 Alternate zero
+          p.mb0
+            | Circular zero.
+          .feature.flx.flx-wrap.fs4.ma.ta-c
+            samp.feat.ff-normal
+              | 0
+              br
+              span.txt-muted 2020
+            samp.feat.ff-ss07
+              | 0
+              br
+              span.txt-muted 2020
+
+          code.txt-muted.pt3.brt.hidden-xs.hidden-sm
+            | font-feature-settings: "ss07";
+
         #feat-liga.featureset.flx.flx-col
           h3.ttu.fs2 Ligatures
           p.mb0
@@ -231,7 +242,7 @@ section#features.flx.flx-col.flx-jc.bg-beluga(data-component="features")
             | font-feature-settings: "cpsp";
 
         #feat-ss01.featureset.flx.flx-col
-          h3.ttu.fs2 Stylistic Set 1 – Chocolate
+          h3.ttu.fs2 Flavor 1 – Chocolate
           p.mb0
             | Alternate lower case glyphs with straight legs and circular bowls.
             | These are available as a cohesive set, but can also be activated
@@ -274,9 +285,10 @@ section#features.flx.flx-col.flx-jc.bg-beluga(data-component="features")
             | font-feature-settings: "cv01", "cv02" ...
 
         #feat-ss02.featureset.flx.flx-col
-          h3.ttu.fs2 Stylistic Set 2 – Alternate a
+          h3.ttu.fs2 Flavor 2 – Strawberry
           p.mb0
-            | Single-storey a with cursive terminal matching u and d.
+            | Cursive lower case i and single-storey a
+            | to match u and d leg terminals.
 
           .feature.flx.flx-wrap.fs4.ma.ta-c
             samp.feat.ff-normal
@@ -286,41 +298,65 @@ section#features.flx.flx-col.flx-jc.bg-beluga(data-component="features")
                 | âấậầẩẫȁäȧ
                 br
                 | ạàảȃāąåǻã
+                br
+                | iíĭǐîȉïịìỉȋīįĩ
               br
-              span.txt-muted strawberry
-            samp.feat.ff-ss02
+              span.txt-muted audacious
+            samp.feat.ff-strawberry
               span.txt-spaced
                 | aáăắặằẳẵǎ
                 br
                 | âấậầẩẫȁäȧ
                 br
                 | ạàảȃāąåǻã
+                br
+                | iíĭǐîȉïịìỉȋīįĩ
               br
-              span.txt-muted strawberry
+              span.txt-muted audacious
 
           code.txt-muted.pt3.brt.hidden-xs.hidden-sm
-            | font-feature-settings: "ss02";
+            | font-feature-settings: "ss02", "ss05";
+          small.txt-muted
+            | A future version will merge these into one style and offer
+            | character variants to individually enable a or i.
 
         #feat-ss03.featureset.flx.flx-col
-          h3.ttu.fs2 Stylistic Set 3 – Alternate g
+          h3.ttu.fs2 Flavor 3 – Fudge
           p.mb0
-            | Double-storey g.
+            | Two-storey g, capital I with barred serifs and raised central
+            | apex on upper and lower case W to meet caps- and x-height.
           .feature.flx.flx-wrap.fs4.ma.ta-c
             samp.feat.ff-normal
               span.txt-spaced
                 | gğǧĝģġḡ
+                br
+                | IÍĬǏÎȈÏİỊÌỈȊĪĮĨ
+                br
+                | WẂŴẄẀ
+                br
+                | wẃŵẅẁ
               br
               span.txt-muted giggling
-            samp.feat.ff-ss03
+            samp.feat.ff-fudge
               span.txt-spaced
                 | gğǧĝģġḡ
+                br
+                | IÍĬǏÎȈÏİỊÌỈȊĪĮĨ
+                br
+                | WẂŴẄẀ
+                br
+                | wẃŵẅẁ
+
               br
               span.txt-muted giggling
 
           code.txt-muted.pt3.brt.hidden-xs.hidden-sm
-            | font-feature-settings: "ss03";
+            | font-feature-settings: "ss03", "ss04", "ss06";
+          small.txt-muted
+            | A future version will merge these into one style and offer
+            | character variants to individually enable W, w, i or g.
 
-        #feat-ss04.featureset.flx.flx-col
+        //- #feat-ss04.featureset.flx.flx-col
           h3.ttu.fs2 Stylistic Set 4 – Alternate I
           p.mb0
             | Capital I with barred serifs.
@@ -345,7 +381,7 @@ section#features.flx.flx-col.flx-jc.bg-beluga(data-component="features")
           code.txt-muted.pt3.brt.hidden-xs.hidden-sm
             | font-feature-settings: "ss04";
 
-        #feat-ss05.featureset.flx.flx-col
+        //- #feat-ss05.featureset.flx.flx-col
           h3.ttu.fs2 Stylistic Set 5 – Alternate i
           p.mb0
             | Cursive terminal on lower case i.
@@ -364,7 +400,7 @@ section#features.flx.flx-col.flx-jc.bg-beluga(data-component="features")
           code.txt-muted.pt3.brt.hidden-xs.hidden-sm
             | font-feature-settings: "ss05";
 
-        #feat-ss06.featureset.flx.flx-col
+        //- #feat-ss06.featureset.flx.flx-col
           h3.ttu.fs2 Stylistic Set 6 – Alternate W
             span.ttl w
           p.mb0
@@ -388,20 +424,3 @@ section#features.flx.flx-col.flx-jc.bg-beluga(data-component="features")
 
           code.txt-muted.pt3.brt.hidden-xs.hidden-sm
             | font-feature-settings: "ss06";
-
-        #feat-ss07.featureset.flx.flx-col
-          h3.ttu.fs2 Stylistic Set 7 – Alternate zero
-          p.mb0
-            | Circular zero.
-          .feature.flx.flx-wrap.fs4.ma.ta-c
-            samp.feat.ff-normal
-              | 0
-              br
-              span.txt-muted 2020
-            samp.feat.ff-ss07
-              | 0
-              br
-              span.txt-muted 2020
-
-          code.txt-muted.pt3.brt.hidden-xs.hidden-sm
-            | font-feature-settings: "ss07";

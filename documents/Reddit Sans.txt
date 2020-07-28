@@ -1,7 +1,5 @@
 Reddit Sans
-v1.000
-
-*** Please note the italics are not yet ready for production. ***
+v1.004
 
 Desktop fonts
 -------------

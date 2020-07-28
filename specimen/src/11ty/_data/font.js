@@ -29,19 +29,14 @@ const features = [
     sample: "gal"
   },
   { flavor: "strawberry",
-    code: "ss02, ss05",
+    code: "ss02",
     title: "Strawberry",
     sample: "ai"
   },
   { flavor: "fudge",
-    code: "ss03, ss04, ss06",
+    code: "ss03",
     title: "Fudge",
     sample: "IgWw"
-  },
-  { code: "kern",
-    title: "Kerning",
-    sample: "LT",
-    active: true
   },
   { code: "liga",
     title: "Default Ligatures",
@@ -52,7 +47,7 @@ const features = [
     title: "Slashed zero",
     sample: "0"
   },
-  { code: "ss07",
+  { code: "ss04",
     title: "Circular Zero",
     sample: "0"
   },
@@ -91,6 +86,11 @@ const features = [
   { code: "onum",
     title: "Old-style Figures",
     sample: "1984"
+  },
+  { code: "kern",
+    title: "Kerning",
+    sample: "LT",
+    active: true
   },
 ]
 

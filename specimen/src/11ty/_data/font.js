@@ -38,11 +38,6 @@ const features = [
     title: "Fudge",
     sample: "IgWw"
   },
-  { code: "liga",
-    title: "Default Ligatures",
-    sample: "fl",
-    active: true
-  },
   { code: "zero",
     title: "Slashed zero",
     sample: "0"
@@ -86,6 +81,11 @@ const features = [
   { code: "onum",
     title: "Old-style Figures",
     sample: "1984"
+  },
+  { code: "liga",
+    title: "Default Ligatures",
+    sample: "r/",
+    active: true
   },
   { code: "kern",
     title: "Kerning",

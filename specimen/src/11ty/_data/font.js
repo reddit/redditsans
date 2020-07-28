@@ -20,23 +20,23 @@ const features = [
   { flavor: "vanilla",
     code: "",
     title: "Vanilla",
-    sample: "a",
+    sample: "",
     active: true
   },
   { flavor: "chocolate",
     code: "ss01",
     title: "Chocolate",
-    sample: "l"
+    sample: "gal"
   },
   { flavor: "strawberry",
     code: "ss02, ss05",
     title: "Strawberry",
-    sample: "i"
+    sample: "ai"
   },
   { flavor: "fudge",
     code: "ss03, ss04, ss06",
     title: "Fudge",
-    sample: "g"
+    sample: "IgWw"
   },
   { code: "kern",
     title: "Kerning",

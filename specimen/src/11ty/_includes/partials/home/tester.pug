@@ -85,10 +85,17 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
                           br
                           code.txt-muted.tt0= feature.code
                       samp.tt0.fs2.ta-c
-                        span.ff-normal.txt-muted= feature.sample
-                        span.txt-muted!= " &rarr; "
-                        span(class=`ff-${feature.flavor || feature.code}`)
-                          = feature.sample
+                        if feature.flavor
+                          span(class=`ff-${feature.flavor}`)
+                            for c in "I’ll jigsaw".split("")
+                              span(
+                                class=feature.sample.indexOf(c) >= 0 ? "" : "txt-muted")
+                                = c
+                        else
+                          span.ff-normal.txt-muted= feature.sample
+                          span.txt-muted!= " &rarr; "
+                          span(class=`ff-${feature.code}`)
+                            = feature.sample
 
           //- #test-presets.brb.hidden-xs.hidden-sm
             .dd

@@ -17,85 +17,27 @@ const getType = (str) => {
 }
 
 const features = [
-  { flavor: "vanilla",
-    code: "",
-    title: "Vanilla",
-    sample: "",
-    active: true
-  },
-  { flavor: "chocolate",
-    code: "ss01",
-    title: "Chocolate",
-    sample: "gal"
-  },
-  { flavor: "strawberry",
-    code: "ss02",
-    title: "Strawberry",
-    sample: "ai"
-  },
-  { flavor: "fudge",
-    code: "ss03",
-    title: "Fudge",
-    sample: "IgWw"
-  },
-  { code: "zero",
-    title: "Slashed zero",
-    sample: "0"
-  },
-  { code: "ss04",
-    title: "Circular Zero",
-    sample: "0"
-  },
-  { code: "case",
-    title: "Case Alternates",
-    sample: "[H]"
-  },
-  { code: "subs",
-    title: "Subscript",
-    sample: "H2"
-  },
-  { code: "sups",
-    title: "Superscript",
-    sample: "H3"
-  },
-  { code: "numr",
-    title: "Numerators",
-    sample: "H4"
-  },
-  { code: "dnom",
-    title: "Denominators",
-    sample: "H5"
-  },
-  { code: "frac",
-    title: "Fractions",
-    sample: "1/2"
-  },
-  { code: "ordn",
-    title: "Ordinals",
-    sample: "8a"
-  },
-  { code: "tnum",
-    title: "Tabular Numbers",
-    sample: "911"
-  },
-  { code: "onum",
-    title: "Old-style Figures",
-    sample: "1984"
-  },
-  { code: "liga",
-    title: "Default Ligatures",
-    sample: "r/",
-    active: true
-  },
-  { code: "kern",
-    title: "Kerning",
-    sample: "LT",
-    active: true
-  },
+  { flavor: "vanilla", code: "", title: "Vanilla", sample: "", active: true },
+  { flavor: "chocolate", code: "ss01", title: "Chocolate", sample: "gal" },
+  { flavor: "strawberry", code: "ss02", title: "Strawberry", sample: "ai" },
+  { flavor: "fudge", code: "ss03", title: "Fudge", sample: "IgWw" },
+  { code: "zero", title: "Slashed zero", sample: "0" },
+  { code: "ss04", title: "Circular Zero", sample: "0" },
+  { code: "case", title: "Case Alternates", sample: "[H]" },
+  { code: "subs", title: "Subscript", sample: "H2" },
+  { code: "sups", title: "Superscript", sample: "H3" },
+  { code: "numr", title: "Numerators", sample: "H4" },
+  { code: "dnom", title: "Denominators", sample: "H5" },
+  { code: "frac", title: "Fractions", sample: "1/2" },
+  { code: "ordn", title: "Ordinals", sample: "8a" },
+  { code: "tnum", title: "Tabular Numbers", sample: "911" },
+  { code: "onum", title: "Old-style Figures", sample: "1984" },
+  { code: "liga", title: "Default Ligatures", sample: "r/", active: true },
+  { code: "kern", title: "Kerning", sample: "LT", active: true },
 ]
 
-const archive =
-[
+const archive = [
+  "1.004",
   "1.003",
   "1.002",
   "1.001",
@@ -123,50 +65,47 @@ function getData() {
   const version = [
     versionMajor,
     ".",
-    ...Array.from({length: 3 - versionMinor.length}, () => 0),
-    versionMinor
+    ...Array.from({ length: 3 - versionMinor.length }, () => 0),
+    versionMinor,
   ].join("")
 
   const glyphs = content
     .match(/glyphs = [\s\S]*(?=gridLength)/)[0]
     .split(/,(?=\n{[^{]+?glyphname = )/)
-    .filter(e => !e.match(/export = 0/))
+    .filter((e) => !e.match(/export = 0/))
     .map((e, i, a) => ({
       name: getName(e),
       code: getCode(e),
-      type: getType(e)
+      type: getType(e),
     }))
     .map((glyph, i, arr) => {
       if (!glyph.code && glyph.type) {
-        const base = arr.find(e =>
-          e.name === glyph.name.split(".")[0]
-        )
+        const base = arr.find((e) => e.name === glyph.name.split(".")[0])
         glyph.code = base ? base.code : null
       }
 
       if (!glyph.type) delete glyph.type
 
       if (glyph.name.match("_")) {
-        glyph.codes = glyph.name.split("_").map(e =>
-          arr.find(g => g.name === e.split(".")[0]) || {}
-        )
+        glyph.codes = glyph.name
+          .split("_")
+          .map((e) => arr.find((g) => g.name === e.split(".")[0]) || {})
       }
 
       return glyph
     })
-    .filter(e => e.code || e.codes)
+    .filter((e) => e.code || e.codes)
 
-  return ({
+  return {
     version,
     glyphs,
     features,
     archive,
     count: {
-      codes: glyphs.filter(e => e.codes).length,
-      total: glyphs.length
-    }
-  })
+      codes: glyphs.filter((e) => e.codes).length,
+      total: glyphs.length,
+    },
+  }
 }
 
 module.exports = getData()
-

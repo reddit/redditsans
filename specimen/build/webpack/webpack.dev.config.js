@@ -28,7 +28,7 @@ module.exports = merge(webpackBaseConfig, {
             loader: "postcss-loader",
             options: {
               ident: "postcss",
-              parser: "postcss-scss"
+              parser: "postcss-scss",
             },
           },
           {

@@ -6,7 +6,7 @@ const projectVars = require("../src/11ty/_data/project")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setPugOptions({
-    filters: { marked }
+    filters: { marked },
   })
 
   if (projectVars.production) {
@@ -18,7 +18,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
     "src/static/": "/",
-    "src/assets/images": "/assets/images"
+    "src/assets/images": "/assets/images",
   })
 
   eleventyConfig.setQuietMode(true)

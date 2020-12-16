@@ -9,7 +9,7 @@ max_line_length = 80
 
 [*]
 
-indent_style = tab
+indent_style = space
 tab_width = 2
 
 # we recommend you to keep these unchanged

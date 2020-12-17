@@ -1,5 +1,5 @@
 {
-.appVersion = "1330";
+.appVersion = "1349";
 classes = (
 {
 automatic = 1;
@@ -243,7 +243,7 @@ alignmentZones = (
 "{-206, -8}",
 "{-248, -8}"
 );
-ascender = 1080;
+ascender = 960;
 capHeight = 720;
 customParameters = (
 {
@@ -259,7 +259,7 @@ name = "Master Icon Glyph Name";
 value = i;
 }
 );
-descender = -360;
+descender = -240;
 guideLines = (
 {
 position = "{0, 820}";
@@ -312,7 +312,7 @@ alignmentZones = (
 "{-206, -8}",
 "{-248, -8}"
 );
-ascender = 1080;
+ascender = 960;
 capHeight = 720;
 customParameters = (
 {
@@ -328,7 +328,7 @@ name = "Master Icon Glyph Name";
 value = i;
 }
 );
-descender = -360;
+descender = -240;
 guideLines = (
 {
 position = "{224, 932}";
@@ -34152,7 +34152,7 @@ width = 806;
 },
 {
 glyphname = x;
-lastChange = "2020-07-28 04:51:27 +0000";
+lastChange = "2020-12-16 11:25:17 +0000";
 layers = (
 {
 anchors = (
@@ -80291,7 +80291,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 64;
@@ -80320,7 +80320,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 88;
@@ -80347,7 +80347,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 120;
@@ -80376,7 +80376,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 140;
@@ -80405,7 +80405,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 160;

@@ -1,5 +1,5 @@
 {
-.appVersion = "1330";
+.appVersion = "1349";
 classes = (
 {
 automatic = 1;
@@ -235,7 +235,7 @@ alignmentZones = (
 "{-206, -8}",
 "{-248, -8}"
 );
-ascender = 1080;
+ascender = 960;
 capHeight = 720;
 customParameters = (
 {
@@ -247,7 +247,7 @@ name = underlinePosition;
 value = -160;
 }
 );
-descender = -360;
+descender = -240;
 guideLines = (
 {
 position = "{0, 820}";
@@ -307,7 +307,7 @@ alignmentZones = (
 "{-206, -8}",
 "{-248, -8}"
 );
-ascender = 1080;
+ascender = 960;
 capHeight = 720;
 customParameters = (
 {
@@ -319,7 +319,7 @@ name = underlinePosition;
 value = -180;
 }
 );
-descender = -360;
+descender = -240;
 guideLines = (
 {
 locked = 1;
@@ -364,7 +364,7 @@ xHeight = 528;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2020-06-29 12:01:23 +0000";
+lastChange = "2020-12-16 10:20:06 +0000";
 layers = (
 {
 anchors = (
@@ -35822,7 +35822,7 @@ width = 840;
 },
 {
 glyphname = x;
-lastChange = "2020-06-30 04:09:29 +0000";
+lastChange = "2020-12-16 11:26:30 +0000";
 layers = (
 {
 anchors = (
@@ -78478,7 +78478,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 64;
@@ -78505,7 +78505,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 88;
@@ -78531,7 +78531,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 120;
@@ -78558,7 +78558,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 140;
@@ -78585,7 +78585,7 @@ value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-he
 },
 {
 name = "Scale to UPM";
-value = "2048";
+value = 2048;
 }
 );
 interpolationWeight = 160;

@@ -30,15 +30,15 @@
       z-index: 1
       transform: translate3d(0, 1px, 0)
 
-    &:not(:last-child):after
+    &.bg-beluga + .bg-beluga:after
       content: ""
       position: absolute
       left: 50%
-      bottom: -1px
+      top: 0
       border-bottom: 1px solid
       width: 6em
       margin-left: -3em
-      z-index: -1
+      z-index: 1
 
     &[style*="background: var(--color-orca)"]
       &:before

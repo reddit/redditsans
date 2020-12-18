@@ -1,10 +1,9 @@
-
 const weights = [
   { weight: "300", name: "Light" },
   { weight: "400", name: "Regular" },
   { weight: "600", name: "SemiBold" },
   { weight: "700", name: "Bold" },
-  { weight: "800", name: "ExtraBold "}
+  { weight: "800", name: "ExtraBold" },
 ]
 
 const base = {
@@ -22,7 +21,7 @@ const base = {
     // "Type anything you want here!",
     // "What zen joy delivering boxes of equipment each week! We expect better julienned zest from high‑quality knives. Kid frequently craves jumbo pizza when texting. My quick raw vegan fix? Hot adzuki beans and jalapeño! Bouncy squad eking prize with influx of divine jumps. Whizzing black taxi drives off quickly up major road. We mix just over a dozen inky black helpings of squid.",
     // "0123456789 email@address.com ¯\\_(ツ)_/¯"
-  ].join("\n\n")
+  ].join("\n\n"),
 }
 
 const options = {
@@ -30,10 +29,10 @@ const options = {
   text: {
     ss02: 1,
     ss11: 1,
-    fs: 16
+    fs: 16,
   },
   grotesque: {
-    ss01: 1
+    ss01: 1,
   },
   kaomoji: {
     content: [
@@ -43,47 +42,47 @@ const options = {
       "( •_•)>⌐■-■",
       "(⌐■_■)",
       "",
-      "(  ͡° ͜ʖ ͡° )"
-    ].join("\n")
-  }
+      "(  ͡° ͜ʖ ͡° )",
+    ].join("\n"),
+  },
 }
 
-Object.keys(options).forEach((o) =>
-  options[o] = Object.assign({}, base, options[o])
- )
+Object.keys(options).forEach(
+  (o) => (options[o] = Object.assign({}, base, options[o]))
+)
 
-function onClick (e, elements) {
+function onClick(e, elements) {
   var option = e ? options[e.target.dataset.option] : options.reset
 
-  elements.FF.forEach(e => e.checked = !!option[e.value])
-  elements.ST.forEach(e => e.checked = option.style === e.value)
+  elements.FF.forEach((e) => (e.checked = !!option[e.value]))
+  elements.ST.forEach((e) => (e.checked = option.style === e.value))
 
-  elements.TA.value = option.content;
-  elements.FW.value = option.fw;
-  elements.FS.value = option.fs;
-  elements.LH.value = option.lh;
-  elements.LS.value = option.ls;
+  elements.TA.value = option.content
+  elements.FW.value = option.fw
+  elements.FS.value = option.fs
+  elements.LH.value = option.lh
+  elements.LS.value = option.ls
 
   onInput(e, elements)
 }
 
-function onInput (e, elements) {
-  var weight        = elements.FW.value,
-      size          = elements.FS.value,
-      lineHeight    = elements.LH.value,
-      letterSpacing = elements.LS.value,
-      flavor = elements.FV.find(e => e.checked).value;
+function onInput(e, elements) {
+  var weight = elements.FW.value,
+    size = elements.FS.value,
+    lineHeight = elements.LH.value,
+    letterSpacing = elements.LS.value,
+    flavor = elements.FV.find((e) => e.checked).value
 
-  var features = elements.FF.filter(e => !e.dataset.flavor).map((e) =>
-    "'" + e.value + "' " + (e.checked ? 1 : 0)
+  var features = elements.FF.filter((e) => !e.dataset.flavor).map(
+    (e) => "'" + e.value + "' " + (e.checked ? 1 : 0)
   )
 
   if (flavor) {
-    features = features.concat(flavor.split(", ").map(e => "'" + e + "' "))
+    features = features.concat(flavor.split(", ").map((e) => "'" + e + "' "))
   }
 
-  var version = elements.VS.find(e => e.checked).value
-  var style   = elements.ST.find(e => e.checked).value
+  var version = elements.VS.find((e) => e.checked).value
+  var style = elements.ST.find((e) => e.checked).value
 
   lineHeight = Math.round(lineHeight * size)
 
@@ -91,7 +90,7 @@ function onInput (e, elements) {
   elements.TA.style.fontSize = size + "px"
   elements.TA.style.lineHeight = lineHeight + "px"
   elements.TA.style.letterSpacing = letterSpacing + "em"
-  elements.TA.style.fontFamily = version ? "\"" + version + "\"" : ""
+  elements.TA.style.fontFamily = version ? '"' + version + '"' : ""
   elements.TA.style.fontStyle = style
 
   document.body.style.fontFeatureSettings = features.join(",")
@@ -101,7 +100,9 @@ function onInput (e, elements) {
     style.slice(0, 1).toUpperCase() + style.slice(1),
     size,
     "/ " + lineHeight + "px",
-    letterSpacing == 0 ? "" : (letterSpacing >= 0 ? "+" : "") + letterSpacing * 1000
+    letterSpacing == 0
+      ? ""
+      : (letterSpacing >= 0 ? "+" : "") + letterSpacing * 1000,
   ].join(" ")
 }
 
@@ -116,7 +117,7 @@ const getElements = () => ({
   VS: Array.from(document.querySelectorAll("[name='input-version']")),
   ST: Array.from(document.querySelectorAll("[name='input-style']")),
   FF: Array.from(document.querySelectorAll("[name='ff-setting']")),
-  FV: Array.from(document.querySelectorAll("[name='ff-flavor']"))
+  FV: Array.from(document.querySelectorAll("[name='ff-flavor']")),
 })
 
 module.exports = {
@@ -130,5 +131,5 @@ module.exports = {
     )
 
     onClick(null, elements)
-  }
+  },
 }

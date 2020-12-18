@@ -1,9 +1,7 @@
-const all = Array.from(
-  document.querySelectorAll("[data-component='dropdown']")
-)
+const all = Array.from(document.querySelectorAll("[data-component='dropdown']"))
 
 const focus = (el) => {
-  all.filter(e => e !== el).forEach(e => e.checked = false )
+  all.filter((e) => e !== el).forEach((e) => (e.checked = false))
   el.focus()
 }
 
@@ -15,8 +13,12 @@ const blur = (el) => {
 
 module.exports = {
   initialize: (el) => {
-    el.addEventListener("input", () => { focus(el) })
-    el.addEventListener("focus", () => { focus(el) })
+    el.addEventListener("input", () => {
+      focus(el)
+    })
+    el.addEventListener("focus", () => {
+      focus(el)
+    })
 
     window.addEventListener("click", (e) => {
       if (!el.parentNode.contains(e.target)) blur(el)
@@ -30,5 +32,5 @@ module.exports = {
         window.setTimeout(() => blur(el), 0)
       }
     })
-  }
+  },
 }

@@ -227,6 +227,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -455,6 +461,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -687,6 +699,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -915,6 +933,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1153,6 +1177,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -1320,6 +1350,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1493,6 +1529,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -1658,6 +1700,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1828,6 +1876,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2002,6 +2056,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2264,6 +2324,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -2523,6 +2589,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -2777,6 +2849,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3039,6 +3117,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -3049,7 +3133,7 @@
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
-			<string>Pro Regular</string>
+			<string>C Regular</string>
 			<key>name</key>
 			<string>C Bold</string>
 			<key>weightClass</key>
@@ -3302,6 +3386,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -3491,6 +3581,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3686,6 +3782,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -3873,6 +3975,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4068,6 +4176,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -4078,7 +4192,7 @@
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
-			<string>Pro Regular</string>
+			<string>D Regular</string>
 			<key>name</key>
 			<string>D Bold</string>
 			<key>weightClass</key>
@@ -4261,6 +4375,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4534,6 +4654,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -4801,6 +4927,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5072,6 +5204,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -5339,6 +5477,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5616,6 +5760,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -5844,6 +5994,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6078,6 +6234,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -6304,6 +6466,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6538,6 +6706,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -6548,7 +6722,7 @@
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
-			<string>Pro Regular</string>
+			<string>F Regular</string>
 			<key>name</key>
 			<string>F Bold</string>
 			<key>weightClass</key>
@@ -6773,6 +6947,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -6816,6 +6996,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6865,6 +7051,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
 					<string>2048</string>
@@ -6906,6 +7098,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6952,6 +7150,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -7002,6 +7206,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
 				</dict>
 				<dict>
 					<key>name</key>

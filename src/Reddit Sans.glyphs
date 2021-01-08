@@ -24960,7 +24960,7 @@ unicode = 0137;
 },
 {
 glyphname = kgreenlandic;
-lastChange = "2020-06-28 12:51:36 +0000";
+lastChange = "2021-01-08 00:17:34 +0000";
 layers = (
 {
 anchors = (
@@ -25073,7 +25073,7 @@ nodes = (
 );
 }
 );
-width = 538;
+width = 534;
 }
 );
 leftMetricsKey = n;

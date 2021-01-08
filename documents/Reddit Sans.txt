@@ -1,5 +1,5 @@
 Reddit Sans
-v1.005
+v1.006
 
 Desktop fonts
 -------------
@@ -30,7 +30,7 @@ CSS files are provided for both full and subset fonts.
 
 -------------
 
-Copyright © 2020 
+Copyright © 2020-21
 
 -------------
 

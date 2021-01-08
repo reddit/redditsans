@@ -37,6 +37,7 @@ const features = [
 ]
 
 const archive = [
+  "1.005",
   "1.004",
   "1.003",
   "1.002",

@@ -227,9 +227,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -460,9 +466,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -691,9 +703,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -924,9 +942,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1161,9 +1185,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1333,9 +1363,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1505,9 +1541,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1675,9 +1717,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1847,9 +1895,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2023,9 +2077,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2284,9 +2344,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2545,9 +2611,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2804,9 +2876,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3065,9 +3143,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3330,9 +3414,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3524,9 +3614,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3718,9 +3814,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3910,9 +4012,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4104,9 +4212,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4302,9 +4416,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4574,9 +4694,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4846,9 +4972,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -5116,9 +5248,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -5388,9 +5526,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -5664,9 +5808,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -5897,9 +6047,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6130,9 +6286,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6361,9 +6523,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6594,9 +6762,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6831,9 +7005,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6879,9 +7059,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6927,9 +7113,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6973,9 +7165,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -7021,9 +7219,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -7073,9 +7277,15 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Scale to UPM</string>
 					<key>value</key>
-					<string>2048</string>
+					<integer>2048</integer>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>

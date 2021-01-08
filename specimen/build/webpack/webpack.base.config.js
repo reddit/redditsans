@@ -38,10 +38,6 @@ module.exports = {
     new FixStyleOnlyEntriesPlugin(),
     new CopyWebpackPlugin({
       patterns: [
-        // {
-        //   from: "./src/assets/images/**/*.{png,jpg,jpeg}",
-        //   to: "./assets/images/[name].webp",
-        // },
         {
           from: "../documents/",
           to: "./",

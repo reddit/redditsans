@@ -14,8 +14,6 @@ module.exports = {
       path.resolve(paths.srcAssets, "js/main.js"),
       path.resolve(paths.srcAssets, "style/main.sass"),
     ],
-    fonts: path.resolve(paths.srcAssets, "style/fonts.sass"),
-    subsets: path.resolve(paths.srcAssets, "style/subsets.sass"),
   },
   output: {
     path: path.resolve(paths.dist),

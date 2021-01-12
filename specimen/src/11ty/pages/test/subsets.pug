@@ -7,10 +7,12 @@ block content
   .container.pv5(
     style=""
   )
-    p Only set A should load in the network tab.
-    .flx.flx-row
-      each weight in [300, 400, 600, 700, 800]
-        .fs5.p2.ma(class=`fw${weight}`)
+    p 
+      | Only set A should load in the network tab.
+
+    .row
+      each weight in font.weights
+        .col-sm-6.col-md-4.fs5.ma(class=`fw${weight.value}`)
           p.txt-spaced.ta-j
             = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
             = "abcdefghijklmnopqrstuvwxyz"
@@ -18,8 +20,10 @@ block content
             = "!¡?¿#%&@()[]{}|¦/\\ ^<=>­±*+-~¬· _.,:;\"'«»"
             = "$¢£¤¥©®°µ¶§¹²³ºª¼½¾¯¨`´¸"
 
+    p.mt4 * Set F loads if square glyphs are used to obfuscate the title.
+
   style
-    | html { font-family: "Reddit Sans Subset"; }
+    | html { font-family: "redditsans-subset"; }
     | p { word-break: break-all; }
 
 

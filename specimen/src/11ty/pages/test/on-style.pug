@@ -1,0 +1,8 @@
+extends /layouts/default
+
+block content
+  .container.fs-italic
+    .row.pv5
+      each weight in [400, 700]
+        .col-sm-8.fs3(class=`fw${weight}`)
+          include:marked /partials/susan-sontag-on-style.md

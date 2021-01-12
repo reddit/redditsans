@@ -16,6 +16,9 @@ for version in font.archive
       - var name = version[0] === 0 ? "UnnamedSans" : "RedditSans";
       - var file = `${path}/${name}-${weight.label}${style.label}`;
 
+      if weight.value === 400 && style.value === "italic"
+        - var file = `${path}/${name}-${style.label}`;
+
       = "\n\n"
 
       | @font-face {

@@ -12,7 +12,7 @@ for version in font.archive
 
   for style in font.styles
     for weight in font.weights
-      - var path = `/fonts/archive/${version}`;
+      - var path = `/fonts/archive/v${version}`;
       - var name = version[0] === 0 ? "UnnamedSans" : "RedditSans";
       - var file = `${path}/${name}-${weight.label}${style.label}`;
 

@@ -9,8 +9,8 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
               id="input-weight"
               type="range"
               min="0"
-              max="4"
-              value="1"
+              max=(font.weights.length - 1)
+              value=font.weights.findIndex((w) => w.value === 400)
             )
 
           label.p2.bg-urchin.clr-beluga.mb1

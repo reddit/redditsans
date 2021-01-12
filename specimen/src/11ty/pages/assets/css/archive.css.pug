@@ -1,0 +1,29 @@
+---
+permalink: assets/css/archive.css
+dynamicPermalink: false
+---
+
+| @charset "UTF-8";
+
+for version in font.archive
+  = "\n\n"
+
+  | /* Version #{version} */
+
+  for style in font.styles
+    for weight in font.weights
+      - var path = `/fonts/archive/${version}`;
+      - var name = version[0] === 0 ? "UnnamedSans" : "RedditSans";
+      - var file = `${path}/${name}-${weight.label}${style.label}`;
+
+      = "\n\n"
+
+      | @font-face {
+      |   font-family: "#{version}";
+      |   font-style: #{style.value};
+      |   font-weight: #{weight.value};
+      |   src: url("#{file}.eot");
+      |   src: url("#{file}.eot#?iefix") format("embedded-opentype"),
+      |        url("#{file}.woff2") format("woff2"),
+      |        url("#{file}.woff") format("woff");
+      | }

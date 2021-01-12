@@ -3,23 +3,15 @@ section#intro.flx.flx-col.bg-beluga(
 )
   .container.pt5.pb4.ta-c
     .fs10.lh120.pb4
-      samp.dib.fw300(data-width="ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-        input(placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZ" title="Edit me!")
-      samp.dib.fw400(data-width="ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-        input(placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZ" title="Edit me!")
-      samp.dib.fw600(data-width="ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-        input(placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZ" title="Edit me!")
-      samp.dib.fw700(data-width="ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-        input(placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZ" title="Edit me!")
-      samp.dib.fw800(data-width="ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-        input(placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZ" title="Edit me!")
+      for weight in font.weights
+        samp.dib(class=`fw${weight.value}` data-width="ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+          input(placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZ" title="Edit me!")
 
     a.bg-orangered.clr-beluga.pv2.ph3.mt3.mla.mra.txt-bare.ttu.fw600.fs2.dib(
       download
       href=encodeURI(`/Reddit Sans ${font.version}.zip`)
     )
       | Download v#{font.version}
-
 
 //- section#intro.flx.flx-col.flx-jc.bg-beluga
   .container.flx.flx-col.flx-grow.pt5.pb4

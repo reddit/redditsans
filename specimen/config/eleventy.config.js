@@ -21,6 +21,8 @@ module.exports = function (eleventyConfig) {
     "src/assets/images": "/assets/images",
   })
 
+  eleventyConfig.addWatchTarget("../fonts/")
+
   eleventyConfig.setQuietMode(true)
 
   return {

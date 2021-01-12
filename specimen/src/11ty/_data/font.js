@@ -1,5 +1,11 @@
 const fs = require("fs")
 
+const weights = require("../../assets/js/data/weights")
+const styles = require("../../assets/js/data/styles")
+const ranges = require("../../assets/js/data/ranges")
+
+const cssName = "redditsans"
+
 const getName = (str) => {
   let name = str.match(/glyphname = ([^;]+);/)[1]
   return name.replace(/"/g, "")
@@ -14,6 +20,23 @@ const getType = (str) => {
   let type = str.match(/glyphname = ([^;]+);/)[1]
   type = type.match(/\w+\.(.*)/)
   return type ? type[1] : null
+}
+
+const samples = {
+  upper: [
+    "HYPERREACTOR",
+    "ALPHABETIZERS",
+    "QUINTUPLICATE",
+    "METAGALAXIES",
+    "KALEIDOSCOPE",
+  ],
+  lower: [
+    "reconceptualized",
+    "counterclockwise",
+    "turbogeneration",
+    "eclaircissements",
+    "sculpturesquely",
+  ],
 }
 
 const features = [
@@ -102,6 +125,11 @@ function getData() {
     glyphs,
     features,
     archive,
+    samples,
+    weights,
+    styles,
+    ranges,
+    cssName,
     count: {
       codes: glyphs.filter((e) => e.codes).length,
       total: glyphs.length,

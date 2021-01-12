@@ -3,54 +3,47 @@ section#waterfall.flx.flx-col.flx-jc.bg-beluga(
 )
   .container.pt5.pb4
     .flx.flx-row.flx-col-sm
-      ul.list-bare.ma-sm.pl0.pb2.flx.flx-row.mra.fw400
+      ul.list-bare.ma-sm.pl0.pb4.flx.flx-row.mra.fw400
         li.fs-roman.active
           button.btn-bare.p0(data-font-style="normal") Roman
         li.fs-italic.pl2
           button.btn-bare.p0(data-font-style="italic") Italic
 
-      ul.list-bare.ma-sm.pl0.pb2.flx.flx-row.flx-wrap.flx-jc.mla.fs-roman
-        li.fw300.pl2
-          button.btn-bare.p0(data-font-weight="300") Light
-        li.fw400.pl2.active
-          button.btn-bare.p0(data-font-weight="400") Regular
-        li.fw600.pl2
-          button.btn-bare.p0(data-font-weight="600") SemiBold
-        li.fw700.pl2
-          button.btn-bare.p0(data-font-weight="700") Bold
-        li.fw800.pl2
-          button.btn-bare.p0(data-font-weight="800") ExtraBold
+      ul.list-bare.ma-sm.pl0.pb4.flx.flx-row.flx-wrap.flx-jc.mla.fs-roman
+        for weight in font.weights
+          li.pl2(class=`fw${weight.value}`)
+            button.btn-bare.p0(data-font-weight=weight.value)= weight.label
 
     .ofh
       for e, i in [48, 32, 24, 21, 18, 16, 15, 14, 13, 12, 11, 10]
         .pv1.lh-120.flx.flx-row.flx-ac
-          span.fs2.pr2.ff-tnum.fw400 #{e}px
+          span.fs1.pr3.ff-tnum.fw400 #{e}&thinsp;px
           samp.db.txt-nowrap.flx-grow(
             style=`font-size: ${e}px`
           )
             input(
               title="Click to edit this text"
               spellcheck="false"
-              placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+              placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
             )
 
-      ul.list-bare.p0.flx.flx-row.mt3.fw400
+      ul.list-bare.flx.flx-row.pt5.pl0.fw400
         li.active.mla-sm
           button.btn-color.p0.bg-beluga(
             data-color="var(--color-orca)"
             data-background="var(--color-beluga)"
           )
-        li.pl1
+        li.pl2
           button.btn-color.p0.bg-hedgehog(
             data-color="var(--color-orca)"
             data-background="var(--color-hedgehog)"
           )
-        li.pl1
+        li.pl2
           button.btn-color.p0.bg-orangered.btn-color-invert(
             data-color="var(--color-beluga)"
             data-background="var(--color-orangered)"
           )
-        li.pl1.mra-sm
+        li.pl2.mra-sm
           button.btn-color.p0.bg-orca.btn-color-invert(
             data-color="var(--color-beluga)"
             data-background="var(--color-orca)"

@@ -225,18 +225,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>64</real>
@@ -462,18 +450,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>88</real>
@@ -696,18 +672,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -933,18 +897,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1175,18 +1127,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>160</real>
@@ -1350,18 +1290,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1527,18 +1455,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>88</real>
@@ -1700,18 +1616,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1876,18 +1780,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2056,18 +1948,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2322,18 +2202,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>64</real>
@@ -2587,18 +2455,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>88</real>
@@ -2849,18 +2705,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3114,18 +2958,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3384,18 +3216,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>160</real>
@@ -3581,18 +3401,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3780,18 +3588,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>88</real>
@@ -3975,18 +3771,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4173,18 +3957,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4375,18 +4147,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4652,18 +4412,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>64</real>
@@ -4928,18 +4676,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>88</real>
@@ -5201,18 +4937,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -5477,18 +5201,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -5758,18 +5470,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>160</real>
@@ -5994,18 +5694,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6232,18 +5920,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>88</real>
@@ -6466,18 +6142,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6703,18 +6367,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -6945,18 +6597,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>160</real>
@@ -6996,18 +6636,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-4.0;RSB:-4.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -7049,18 +6677,6 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
-				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>88</real>
@@ -7098,18 +6714,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -7150,18 +6754,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-10.0;RSB:-10.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -7206,18 +6798,6 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>Transformations;LSB:-8.0;RSB:-8.0;</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Scale to UPM</string>
-					<key>value</key>
-					<string>2048</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>

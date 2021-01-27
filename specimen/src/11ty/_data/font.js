@@ -3,6 +3,7 @@ const fs = require("fs")
 const weights = require("../../assets/js/data/weights")
 const styles = require("../../assets/js/data/styles")
 const ranges = require("../../assets/js/data/ranges")
+const archive = require("../../assets/js/data/versions")
 
 const cssName = "redditsans"
 
@@ -59,27 +60,6 @@ const features = [
   { code: "kern", title: "Kerning", sample: "LT", active: true },
 ]
 
-const archive = [
-  "1.005",
-  "1.004",
-  "1.003",
-  "1.002",
-  "1.001",
-  "1.000",
-  "0.012",
-  "0.011",
-  "0.010",
-  "0.009",
-  "0.008",
-  "0.007",
-  "0.006",
-  "0.005",
-  "0.004",
-  "0.003",
-  "0.002",
-  "0.001",
-]
-
 function getData() {
   const content = fs.readFileSync("../src/Reddit Sans.glyphs").toString()
 
@@ -92,6 +72,8 @@ function getData() {
     ...Array.from({ length: 3 - versionMinor.length }, () => 0),
     versionMinor,
   ].join("")
+
+  const versions = [version, ...archive]
 
   const glyphs = content
     .match(/glyphs = [\s\S]*(?=gridLength)/)[0]
@@ -124,7 +106,7 @@ function getData() {
     version,
     glyphs,
     features,
-    archive,
+    versions,
     samples,
     weights,
     styles,

@@ -1,5 +1,5 @@
 Reddit Sans
-v1.006
+v1.007
 
 Desktop fonts
 -------------

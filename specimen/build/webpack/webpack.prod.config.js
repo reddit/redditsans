@@ -5,20 +5,8 @@ const webpackBaseConfig = require("./webpack.base.config.js")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const TerserPlugin = require("terser-webpack-plugin")
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin")
-const cssnano = require("cssnano")
+const cssnano = require("cssnano")()
 const WebpackAssetsManifest = require("webpack-assets-manifest")
-
-const autoprefixer = require("autoprefixer")
-
-const purgecss = require("@fullhuman/postcss-purgecss")({
-  content: [
-    path.resolve(paths.src, "**/*.pug"),
-    path.resolve(paths.src, "**/*.js"),
-    path.resolve(paths.src, "**/*.json"),
-    path.resolve(paths.src, "**/*.svg"),
-  ],
-  defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-})
 
 module.exports = merge(webpackBaseConfig, {
   mode: "production",
@@ -33,14 +21,6 @@ module.exports = merge(webpackBaseConfig, {
         use: [
           MiniCssExtractPlugin.loader,
           { loader: "css-loader", options: { importLoaders: 1 } },
-          {
-            loader: "postcss-loader",
-            options: {
-              ident: "postcss",
-              parser: "postcss-scss",
-              plugins: () => [autoprefixer],
-            },
-          },
           {
             loader: "sass-loader",
             options: {

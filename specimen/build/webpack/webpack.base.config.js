@@ -43,26 +43,42 @@ module.exports = {
         {
           from: "../fonts/",
           to: "./",
-          transformPath(targetPath, absPath) {
-            // Fonts to folders
-            if (targetPath.match(/\.(woff2|woff|eot)$/)) {
-              if (targetPath.match(/RedditSans-[A-F][A-Z]/)) {
-                const set = targetPath.match(/RedditSans-([A-F])[A-Z]/)[1]
-                return path.join("fonts", "web", "subset", set, targetPath)
+          transformPath(src) {
+            const varRX = /(Chocolate|Vanilla|Fudge|Strawberry)/
+            const setRX = /RedditSans-([A-F])[A-Z]/
+
+            let file = src.match(/[^\/]+$/)[0]
+            let variant = (src.match(varRX) || [])[1]
+            let subset = (src.match(setRX) || [])[1]
+
+            if (variant) variant = variant.toLowerCase()
+
+            // Move webfonts to appropriate "web" subdirectories
+            if (file.match(/\.(woff2|woff|eot)$/)) {
+              if (variant) {
+                return path.join("fonts", "web", "variants", variant, file)
+              } else if (subset) {
+                return path.join("fonts", "web", "subset", subset, src)
               } else {
-                return path.join("fonts", "web", "full", targetPath)
+                return path.join("fonts", "web", "full", src)
               }
             }
 
-            if (targetPath.match(/\.ttf$/)) {
-              return path.join("fonts", "desktop", targetPath)
+            // Move desktop fonts to "desktop" subdirectory
+            if (src.match(/\.ttf$/)) {
+              if (variant) {
+                return path.join("fonts", "desktop", "variants", variant, file)
+              } else {
+                return path.join("fonts", "desktop", src)
+              }
             }
 
-            if (targetPath.match(/\.pdf$/)) {
-              return path.join("fonts", "specimen", targetPath)
+            // Move PDF into "specimen" directory
+            if (src.match(/\.pdf$/)) {
+              return path.join("fonts", "specimen", src)
             }
 
-            return targetPath
+            return src
           },
         },
       ],

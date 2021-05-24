@@ -9,8 +9,8 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
               id="input-weight"
               type="range"
               min="0"
-              max="4"
-              value="1"
+              max=(font.weights.length - 1)
+              value=font.weights.findIndex((w) => w.value === 400)
             )
 
           label.p2.bg-urchin.clr-beluga.mb1
@@ -97,24 +97,12 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
                           span(class=`ff-${feature.code}`)
                             = feature.sample
 
-          //- #test-presets.brb.hidden-xs.hidden-sm
-            .dd
-              input#dd-presets.input-hidden(type="checkbox" data-component="dropdown")
-              label.dd-button.pv3.ph0.fs1.ttu(for="dd-presets") Presets
-              ul.dd-list.p0.list-bare.bg-beluga.brt.brb
-                li
-                  button.pv3.ph0.ff-normal(data-option="reset") Vanilla
-                li
-                  button.pv3.ph0.ff-ss01(data-option="grotesque") Chocolate
-                li
-                  button.pv3.ph0(data-option="kaomoji") kaomoji
-
           #test-version.hidden-xs.hidden-sm
             .dd
               input#dd-version.input-hidden(type="checkbox" data-component="dropdown")
               label.dd-button.pv3.ph0.fs1.ttu(for="dd-version") Version
               ul.dd-list.p0.list-bare.bg-beluga.brt.brb
-                each v, i in [font.version, ...font.archive]
+                each v, i in font.versions
                   li
                     label.pv2.flx.flx-ac.fs1.ttu
                       input.m0(

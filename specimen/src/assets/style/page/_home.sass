@@ -52,6 +52,14 @@
       input:focus::placeholder
         color: var(--color-seal)
 
+    &[style*="background: var(--color-orangered)"]
+      .btn-bare:hover,
+      li.active .btn-bare
+        border-bottom-color: var(--color-orca)
+
+      .btn-bare:focus
+        color: var(--color-orca)
+
     @media (max-width: $screen-sm-max)
       > .container
         padding-top: 4rem
@@ -62,10 +70,12 @@
       border-bottom: 1px solid transparent
       transition: border-bottom-color 250ms
 
-      &:hover,
+      &:hover
+        border-bottom-color: var(--color-beluga)
+
       &:focus
         outline: none
-        border-bottom-color: var(--color-beluga)
+        color: var(--color-orangered)
 
     li.active .btn-bare
       border-bottom-color: var(--color-orangered)

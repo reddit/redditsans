@@ -1,0 +1,30 @@
+---
+permalink: assets/css/variants.css
+dynamicPermalink: false
+---
+
+| @charset "UTF-8";
+
+for variant in font.variants
+  = "\n"
+
+  for style in font.styles
+    for weight in font.weights
+      - var path = `/fonts/web/variants/${variant.label.toLowerCase()}`;
+      - var name = variant.family;
+      - var file = `${path}/${variant.family}-${weight.label}${style.label}`;
+
+      if weight.value === 400 && style.value === "italic"
+        - var file = `${path}/${variant.family}-${style.label}`;
+
+      = "\n"
+      | @font-face {
+      |   font-family: "#{variant.family}";
+      |   font-style: #{style.value};
+      |   font-weight: #{weight.value};
+      |   src: url("#{file}.eot");
+      |   src: url("#{file}.eot#?iefix") format("embedded-opentype"),
+      |        url("#{file}.woff2") format("woff2"),
+      |        url("#{file}.woff") format("woff");
+      | }
+      = "\n"

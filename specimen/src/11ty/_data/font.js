@@ -3,6 +3,7 @@ const fs = require("fs")
 const weights = require("../../assets/js/data/weights")
 const styles = require("../../assets/js/data/styles")
 const ranges = require("../../assets/js/data/ranges")
+const variants = require("../../assets/js/data/variants")
 const archive = require("../../assets/js/data/versions")
 
 const cssName = "redditsans"
@@ -111,6 +112,7 @@ function getData() {
     weights,
     styles,
     ranges,
+    variants,
     cssName,
     count: {
       codes: glyphs.filter((e) => e.codes).length,

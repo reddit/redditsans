@@ -432,7 +432,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Chocolate</string>
+					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -868,7 +868,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Chocolate</string>
+					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1302,7 +1302,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Chocolate</string>
+					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -1738,7 +1738,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Chocolate</string>
+					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2178,7 +2178,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Chocolate</string>
+					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2450,7 +2450,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Vanilla</string>
+					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2722,7 +2722,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Vanilla</string>
+					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -2992,7 +2992,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Vanilla</string>
+					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3264,7 +3264,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Vanilla</string>
+					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3540,7 +3540,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Vanilla</string>
+					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -3862,7 +3862,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Fudge</string>
+					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4182,7 +4182,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Fudge</string>
+					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4500,7 +4500,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Fudge</string>
+					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -4820,7 +4820,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Fudge</string>
+					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
@@ -5144,7 +5144,7 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Fudge</string>
+					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>

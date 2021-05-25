@@ -11,15 +11,15 @@ for variant in font.variants
   for style in font.styles
     for weight in font.weights
       - var path = `/fonts/web/variants/${variant.label.toLowerCase()}`;
-      - var name = variant.value;
-      - var file = `${path}/${variant.value}-${weight.label}${style.label}`;
+      - var name = variant.family;
+      - var file = `${path}/${variant.family}-${weight.label}${style.label}`;
 
       if weight.value === 400 && style.value === "italic"
-        - var file = `${path}/${variant.value}-${style.label}`;
+        - var file = `${path}/${variant.family}-${style.label}`;
 
       = "\n"
       | @font-face {
-      |   font-family: "#{variant.value}";
+      |   font-family: "#{variant.family}";
       |   font-style: #{style.value};
       |   font-weight: #{weight.value};
       |   src: url("#{file}.eot");

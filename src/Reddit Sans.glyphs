@@ -28158,8 +28158,9 @@ rightMetricsKey = "=+66";
 unicode = 01D0;
 },
 {
+color = 8;
 glyphname = icaron.ss02;
-lastChange = "2021-01-26 11:46:15 +0000";
+lastChange = "2021-05-25 00:19:13 +0000";
 layers = (
 {
 components = (

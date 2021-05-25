@@ -79,6 +79,7 @@
 						<string>ddotbelow.ss01=ddotbelow</string>
 						<string>dlinebelow.ss01=dlinebelow</string>
 						<string>dzcaron.ss01=dzcaron</string>
+						<string>f.ss01=f</string>
 						<string>g.ss01=g</string>
 						<string>gacute.ss01=gacute</string>
 						<string>gbreve.ss01=gbreve</string>
@@ -87,6 +88,28 @@
 						<string>gcommaaccent.ss01=gcommaaccent</string>
 						<string>gdotaccent.ss01=gdotaccent</string>
 						<string>gmacron.ss01=gmacron</string>
+						<string>h.ss01=h</string>
+						<string>hbar.ss01=hbar</string>
+						<string>hbrevebelow.ss01=hbrevebelow</string>
+						<string>hcircumflex.ss01=hcircumflex</string>
+						<string>hdotbelow.ss01=hdotbelow</string>
+						<string>i.ss01=i</string>
+						<string>idotless.ss01=idotless</string>
+						<string>iacute.ss01=iacute</string>
+						<string>ibreve.ss01=ibreve</string>
+						<string>icaron.ss01=icaron</string>
+						<string>icircumflex.ss01=icircumflex</string>
+						<string>idblgrave.ss01=idblgrave</string>
+						<string>idieresis.ss01=idieresis</string>
+						<string>idieresisacute.ss01=idieresisacute</string>
+						<string>idotaccent.ss01=idotaccent</string>
+						<string>idotbelow.ss01=idotbelow</string>
+						<string>igrave.ss01=igrave</string>
+						<string>ihookabove.ss01=ihookabove</string>
+						<string>iinvertedbreve.ss01=iinvertedbreve</string>
+						<string>imacron.ss01=imacron</string>
+						<string>iogonek.ss01=iogonek</string>
+						<string>itilde.ss01=itilde</string>
 						<string>l.ss01=l</string>
 						<string>lacute.ss01=lacute</string>
 						<string>lcaron.ss01=lcaron</string>
@@ -97,6 +120,17 @@
 						<string>lj.ss01=lj</string>
 						<string>llinebelow.ss01=llinebelow</string>
 						<string>lslash.ss01=lslash</string>
+						<string>m.ss01=m</string>
+						<string>mdotbelow.ss01=mdotbelow</string>
+						<string>n.ss01=n</string>
+						<string>nacute.ss01=nacute</string>
+						<string>ncaron.ss01=ncaron</string>
+						<string>ncommaaccent.ss01=ncommaaccent</string>
+						<string>ndotaccent.ss01=ndotaccent</string>
+						<string>ndotbelow.ss01=ndotbelow</string>
+						<string>nj.ss01=nj</string>
+						<string>nlinebelow.ss01=nlinebelow</string>
+						<string>ntilde.ss01=ntilde</string>
 						<string>o.ss01=o</string>
 						<string>oacute.ss01=oacute</string>
 						<string>obreve.ss01=obreve</string>
@@ -131,6 +165,7 @@
 						<string>p.ss01=p</string>
 						<string>thorn.ss01=thorn</string>
 						<string>q.ss01=q</string>
+						<string>germandbls.ss01=germandbls</string>
 						<string>t.ss01=t</string>
 						<string>tbar.ss01=tbar</string>
 						<string>tcaron.ss01=tcaron</string>
@@ -162,6 +197,10 @@
 						<string>uring.ss01=uring</string>
 						<string>utilde.ss01=utilde</string>
 						<string>utildeacute.ss01=utildeacute</string>
+						<string>f_f.ss01=f_f</string>
+						<string>f_f_i.ss01=f_f_i</string>
+						<string>f_f_l.ss01=f_f_l</string>
+						<string>fi.ss01=fi</string>
 						<string>fl.ss01=fl</string>
 					</array>
 				</dict>
@@ -191,60 +230,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -252,39 +263,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -295,6 +304,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -329,6 +349,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -365,12 +386,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -494,6 +515,7 @@
 						<string>ddotbelow.ss01=ddotbelow</string>
 						<string>dlinebelow.ss01=dlinebelow</string>
 						<string>dzcaron.ss01=dzcaron</string>
+						<string>f.ss01=f</string>
 						<string>g.ss01=g</string>
 						<string>gacute.ss01=gacute</string>
 						<string>gbreve.ss01=gbreve</string>
@@ -502,6 +524,28 @@
 						<string>gcommaaccent.ss01=gcommaaccent</string>
 						<string>gdotaccent.ss01=gdotaccent</string>
 						<string>gmacron.ss01=gmacron</string>
+						<string>h.ss01=h</string>
+						<string>hbar.ss01=hbar</string>
+						<string>hbrevebelow.ss01=hbrevebelow</string>
+						<string>hcircumflex.ss01=hcircumflex</string>
+						<string>hdotbelow.ss01=hdotbelow</string>
+						<string>i.ss01=i</string>
+						<string>idotless.ss01=idotless</string>
+						<string>iacute.ss01=iacute</string>
+						<string>ibreve.ss01=ibreve</string>
+						<string>icaron.ss01=icaron</string>
+						<string>icircumflex.ss01=icircumflex</string>
+						<string>idblgrave.ss01=idblgrave</string>
+						<string>idieresis.ss01=idieresis</string>
+						<string>idieresisacute.ss01=idieresisacute</string>
+						<string>idotaccent.ss01=idotaccent</string>
+						<string>idotbelow.ss01=idotbelow</string>
+						<string>igrave.ss01=igrave</string>
+						<string>ihookabove.ss01=ihookabove</string>
+						<string>iinvertedbreve.ss01=iinvertedbreve</string>
+						<string>imacron.ss01=imacron</string>
+						<string>iogonek.ss01=iogonek</string>
+						<string>itilde.ss01=itilde</string>
 						<string>l.ss01=l</string>
 						<string>lacute.ss01=lacute</string>
 						<string>lcaron.ss01=lcaron</string>
@@ -512,6 +556,17 @@
 						<string>lj.ss01=lj</string>
 						<string>llinebelow.ss01=llinebelow</string>
 						<string>lslash.ss01=lslash</string>
+						<string>m.ss01=m</string>
+						<string>mdotbelow.ss01=mdotbelow</string>
+						<string>n.ss01=n</string>
+						<string>nacute.ss01=nacute</string>
+						<string>ncaron.ss01=ncaron</string>
+						<string>ncommaaccent.ss01=ncommaaccent</string>
+						<string>ndotaccent.ss01=ndotaccent</string>
+						<string>ndotbelow.ss01=ndotbelow</string>
+						<string>nj.ss01=nj</string>
+						<string>nlinebelow.ss01=nlinebelow</string>
+						<string>ntilde.ss01=ntilde</string>
 						<string>o.ss01=o</string>
 						<string>oacute.ss01=oacute</string>
 						<string>obreve.ss01=obreve</string>
@@ -546,6 +601,7 @@
 						<string>p.ss01=p</string>
 						<string>thorn.ss01=thorn</string>
 						<string>q.ss01=q</string>
+						<string>germandbls.ss01=germandbls</string>
 						<string>t.ss01=t</string>
 						<string>tbar.ss01=tbar</string>
 						<string>tcaron.ss01=tcaron</string>
@@ -577,6 +633,10 @@
 						<string>uring.ss01=uring</string>
 						<string>utilde.ss01=utilde</string>
 						<string>utildeacute.ss01=utildeacute</string>
+						<string>f_f.ss01=f_f</string>
+						<string>f_f_i.ss01=f_f_i</string>
+						<string>f_f_l.ss01=f_f_l</string>
+						<string>fi.ss01=fi</string>
 						<string>fl.ss01=fl</string>
 					</array>
 				</dict>
@@ -606,60 +666,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -667,39 +699,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -710,6 +740,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -744,6 +785,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -780,12 +822,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -834,7 +876,7 @@
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
-			<string>Regular Italic</string>
+			<string>Italic</string>
 		</dict>
 		<dict>
 			<key>customParameters</key>
@@ -907,6 +949,7 @@
 						<string>ddotbelow.ss01=ddotbelow</string>
 						<string>dlinebelow.ss01=dlinebelow</string>
 						<string>dzcaron.ss01=dzcaron</string>
+						<string>f.ss01=f</string>
 						<string>g.ss01=g</string>
 						<string>gacute.ss01=gacute</string>
 						<string>gbreve.ss01=gbreve</string>
@@ -915,6 +958,28 @@
 						<string>gcommaaccent.ss01=gcommaaccent</string>
 						<string>gdotaccent.ss01=gdotaccent</string>
 						<string>gmacron.ss01=gmacron</string>
+						<string>h.ss01=h</string>
+						<string>hbar.ss01=hbar</string>
+						<string>hbrevebelow.ss01=hbrevebelow</string>
+						<string>hcircumflex.ss01=hcircumflex</string>
+						<string>hdotbelow.ss01=hdotbelow</string>
+						<string>i.ss01=i</string>
+						<string>idotless.ss01=idotless</string>
+						<string>iacute.ss01=iacute</string>
+						<string>ibreve.ss01=ibreve</string>
+						<string>icaron.ss01=icaron</string>
+						<string>icircumflex.ss01=icircumflex</string>
+						<string>idblgrave.ss01=idblgrave</string>
+						<string>idieresis.ss01=idieresis</string>
+						<string>idieresisacute.ss01=idieresisacute</string>
+						<string>idotaccent.ss01=idotaccent</string>
+						<string>idotbelow.ss01=idotbelow</string>
+						<string>igrave.ss01=igrave</string>
+						<string>ihookabove.ss01=ihookabove</string>
+						<string>iinvertedbreve.ss01=iinvertedbreve</string>
+						<string>imacron.ss01=imacron</string>
+						<string>iogonek.ss01=iogonek</string>
+						<string>itilde.ss01=itilde</string>
 						<string>l.ss01=l</string>
 						<string>lacute.ss01=lacute</string>
 						<string>lcaron.ss01=lcaron</string>
@@ -925,6 +990,17 @@
 						<string>lj.ss01=lj</string>
 						<string>llinebelow.ss01=llinebelow</string>
 						<string>lslash.ss01=lslash</string>
+						<string>m.ss01=m</string>
+						<string>mdotbelow.ss01=mdotbelow</string>
+						<string>n.ss01=n</string>
+						<string>nacute.ss01=nacute</string>
+						<string>ncaron.ss01=ncaron</string>
+						<string>ncommaaccent.ss01=ncommaaccent</string>
+						<string>ndotaccent.ss01=ndotaccent</string>
+						<string>ndotbelow.ss01=ndotbelow</string>
+						<string>nj.ss01=nj</string>
+						<string>nlinebelow.ss01=nlinebelow</string>
+						<string>ntilde.ss01=ntilde</string>
 						<string>o.ss01=o</string>
 						<string>oacute.ss01=oacute</string>
 						<string>obreve.ss01=obreve</string>
@@ -959,6 +1035,7 @@
 						<string>p.ss01=p</string>
 						<string>thorn.ss01=thorn</string>
 						<string>q.ss01=q</string>
+						<string>germandbls.ss01=germandbls</string>
 						<string>t.ss01=t</string>
 						<string>tbar.ss01=tbar</string>
 						<string>tcaron.ss01=tcaron</string>
@@ -990,6 +1067,10 @@
 						<string>uring.ss01=uring</string>
 						<string>utilde.ss01=utilde</string>
 						<string>utildeacute.ss01=utildeacute</string>
+						<string>f_f.ss01=f_f</string>
+						<string>f_f_i.ss01=f_f_i</string>
+						<string>f_f_l.ss01=f_f_l</string>
+						<string>fi.ss01=fi</string>
 						<string>fl.ss01=fl</string>
 					</array>
 				</dict>
@@ -1019,60 +1100,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -1080,39 +1133,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -1123,6 +1174,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -1157,6 +1219,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -1193,12 +1256,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -1322,6 +1385,7 @@
 						<string>ddotbelow.ss01=ddotbelow</string>
 						<string>dlinebelow.ss01=dlinebelow</string>
 						<string>dzcaron.ss01=dzcaron</string>
+						<string>f.ss01=f</string>
 						<string>g.ss01=g</string>
 						<string>gacute.ss01=gacute</string>
 						<string>gbreve.ss01=gbreve</string>
@@ -1330,6 +1394,28 @@
 						<string>gcommaaccent.ss01=gcommaaccent</string>
 						<string>gdotaccent.ss01=gdotaccent</string>
 						<string>gmacron.ss01=gmacron</string>
+						<string>h.ss01=h</string>
+						<string>hbar.ss01=hbar</string>
+						<string>hbrevebelow.ss01=hbrevebelow</string>
+						<string>hcircumflex.ss01=hcircumflex</string>
+						<string>hdotbelow.ss01=hdotbelow</string>
+						<string>i.ss01=i</string>
+						<string>idotless.ss01=idotless</string>
+						<string>iacute.ss01=iacute</string>
+						<string>ibreve.ss01=ibreve</string>
+						<string>icaron.ss01=icaron</string>
+						<string>icircumflex.ss01=icircumflex</string>
+						<string>idblgrave.ss01=idblgrave</string>
+						<string>idieresis.ss01=idieresis</string>
+						<string>idieresisacute.ss01=idieresisacute</string>
+						<string>idotaccent.ss01=idotaccent</string>
+						<string>idotbelow.ss01=idotbelow</string>
+						<string>igrave.ss01=igrave</string>
+						<string>ihookabove.ss01=ihookabove</string>
+						<string>iinvertedbreve.ss01=iinvertedbreve</string>
+						<string>imacron.ss01=imacron</string>
+						<string>iogonek.ss01=iogonek</string>
+						<string>itilde.ss01=itilde</string>
 						<string>l.ss01=l</string>
 						<string>lacute.ss01=lacute</string>
 						<string>lcaron.ss01=lcaron</string>
@@ -1340,6 +1426,17 @@
 						<string>lj.ss01=lj</string>
 						<string>llinebelow.ss01=llinebelow</string>
 						<string>lslash.ss01=lslash</string>
+						<string>m.ss01=m</string>
+						<string>mdotbelow.ss01=mdotbelow</string>
+						<string>n.ss01=n</string>
+						<string>nacute.ss01=nacute</string>
+						<string>ncaron.ss01=ncaron</string>
+						<string>ncommaaccent.ss01=ncommaaccent</string>
+						<string>ndotaccent.ss01=ndotaccent</string>
+						<string>ndotbelow.ss01=ndotbelow</string>
+						<string>nj.ss01=nj</string>
+						<string>nlinebelow.ss01=nlinebelow</string>
+						<string>ntilde.ss01=ntilde</string>
 						<string>o.ss01=o</string>
 						<string>oacute.ss01=oacute</string>
 						<string>obreve.ss01=obreve</string>
@@ -1374,6 +1471,7 @@
 						<string>p.ss01=p</string>
 						<string>thorn.ss01=thorn</string>
 						<string>q.ss01=q</string>
+						<string>germandbls.ss01=germandbls</string>
 						<string>t.ss01=t</string>
 						<string>tbar.ss01=tbar</string>
 						<string>tcaron.ss01=tcaron</string>
@@ -1405,6 +1503,10 @@
 						<string>uring.ss01=uring</string>
 						<string>utilde.ss01=utilde</string>
 						<string>utildeacute.ss01=utildeacute</string>
+						<string>f_f.ss01=f_f</string>
+						<string>f_f_i.ss01=f_f_i</string>
+						<string>f_f_l.ss01=f_f_l</string>
+						<string>fi.ss01=fi</string>
 						<string>fl.ss01=fl</string>
 					</array>
 				</dict>
@@ -1434,60 +1536,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -1495,39 +1569,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -1538,6 +1610,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -1572,6 +1655,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -1608,12 +1692,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -1741,6 +1825,7 @@
 						<string>ddotbelow.ss01=ddotbelow</string>
 						<string>dlinebelow.ss01=dlinebelow</string>
 						<string>dzcaron.ss01=dzcaron</string>
+						<string>f.ss01=f</string>
 						<string>g.ss01=g</string>
 						<string>gacute.ss01=gacute</string>
 						<string>gbreve.ss01=gbreve</string>
@@ -1749,6 +1834,28 @@
 						<string>gcommaaccent.ss01=gcommaaccent</string>
 						<string>gdotaccent.ss01=gdotaccent</string>
 						<string>gmacron.ss01=gmacron</string>
+						<string>h.ss01=h</string>
+						<string>hbar.ss01=hbar</string>
+						<string>hbrevebelow.ss01=hbrevebelow</string>
+						<string>hcircumflex.ss01=hcircumflex</string>
+						<string>hdotbelow.ss01=hdotbelow</string>
+						<string>i.ss01=i</string>
+						<string>idotless.ss01=idotless</string>
+						<string>iacute.ss01=iacute</string>
+						<string>ibreve.ss01=ibreve</string>
+						<string>icaron.ss01=icaron</string>
+						<string>icircumflex.ss01=icircumflex</string>
+						<string>idblgrave.ss01=idblgrave</string>
+						<string>idieresis.ss01=idieresis</string>
+						<string>idieresisacute.ss01=idieresisacute</string>
+						<string>idotaccent.ss01=idotaccent</string>
+						<string>idotbelow.ss01=idotbelow</string>
+						<string>igrave.ss01=igrave</string>
+						<string>ihookabove.ss01=ihookabove</string>
+						<string>iinvertedbreve.ss01=iinvertedbreve</string>
+						<string>imacron.ss01=imacron</string>
+						<string>iogonek.ss01=iogonek</string>
+						<string>itilde.ss01=itilde</string>
 						<string>l.ss01=l</string>
 						<string>lacute.ss01=lacute</string>
 						<string>lcaron.ss01=lcaron</string>
@@ -1759,6 +1866,17 @@
 						<string>lj.ss01=lj</string>
 						<string>llinebelow.ss01=llinebelow</string>
 						<string>lslash.ss01=lslash</string>
+						<string>m.ss01=m</string>
+						<string>mdotbelow.ss01=mdotbelow</string>
+						<string>n.ss01=n</string>
+						<string>nacute.ss01=nacute</string>
+						<string>ncaron.ss01=ncaron</string>
+						<string>ncommaaccent.ss01=ncommaaccent</string>
+						<string>ndotaccent.ss01=ndotaccent</string>
+						<string>ndotbelow.ss01=ndotbelow</string>
+						<string>nj.ss01=nj</string>
+						<string>nlinebelow.ss01=nlinebelow</string>
+						<string>ntilde.ss01=ntilde</string>
 						<string>o.ss01=o</string>
 						<string>oacute.ss01=oacute</string>
 						<string>obreve.ss01=obreve</string>
@@ -1793,6 +1911,7 @@
 						<string>p.ss01=p</string>
 						<string>thorn.ss01=thorn</string>
 						<string>q.ss01=q</string>
+						<string>germandbls.ss01=germandbls</string>
 						<string>t.ss01=t</string>
 						<string>tbar.ss01=tbar</string>
 						<string>tcaron.ss01=tcaron</string>
@@ -1824,6 +1943,10 @@
 						<string>uring.ss01=uring</string>
 						<string>utilde.ss01=utilde</string>
 						<string>utildeacute.ss01=utildeacute</string>
+						<string>f_f.ss01=f_f</string>
+						<string>f_f_i.ss01=f_f_i</string>
+						<string>f_f_l.ss01=f_f_l</string>
+						<string>fi.ss01=fi</string>
 						<string>fl.ss01=fl</string>
 					</array>
 				</dict>
@@ -1853,60 +1976,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -1914,39 +2009,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -1957,6 +2050,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -1991,6 +2095,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -2027,12 +2132,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -2143,60 +2248,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -2204,39 +2281,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -2247,6 +2322,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -2281,6 +2367,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -2317,12 +2404,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -2433,60 +2520,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -2494,39 +2553,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -2537,6 +2594,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -2571,6 +2639,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -2607,12 +2676,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -2661,7 +2730,7 @@
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
-			<string>Regular Italic</string>
+			<string>Italic</string>
 		</dict>
 		<dict>
 			<key>customParameters</key>
@@ -2721,60 +2790,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -2782,39 +2823,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -2825,6 +2864,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -2859,6 +2909,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -2895,12 +2946,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -3011,60 +3062,32 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
-						<string>a.ss02</string>
 						<string>aacute.ss01</string>
-						<string>aacute.ss02</string>
 						<string>abreve.ss01</string>
-						<string>abreve.ss02</string>
 						<string>abreveacute.ss01</string>
-						<string>abreveacute.ss02</string>
 						<string>abrevedotbelow.ss01</string>
-						<string>abrevedotbelow.ss02</string>
 						<string>abrevegrave.ss01</string>
-						<string>abrevegrave.ss02</string>
 						<string>abrevehookabove.ss01</string>
-						<string>abrevehookabove.ss02</string>
 						<string>abrevetilde.ss01</string>
-						<string>abrevetilde.ss02</string>
 						<string>acaron.ss01</string>
-						<string>acaron.ss02</string>
 						<string>acircumflex.ss01</string>
-						<string>acircumflex.ss02</string>
 						<string>acircumflexacute.ss01</string>
-						<string>acircumflexacute.ss02</string>
 						<string>acircumflexdotbelow.ss01</string>
-						<string>acircumflexdotbelow.ss02</string>
 						<string>acircumflexgrave.ss01</string>
-						<string>acircumflexgrave.ss02</string>
 						<string>acircumflexhookabove.ss01</string>
-						<string>acircumflexhookabove.ss02</string>
 						<string>acircumflextilde.ss01</string>
-						<string>acircumflextilde.ss02</string>
 						<string>adblgrave.ss01</string>
-						<string>adblgrave.ss02</string>
 						<string>adieresis.ss01</string>
-						<string>adieresis.ss02</string>
 						<string>adotaccent.ss01</string>
-						<string>adotaccent.ss02</string>
 						<string>adotbelow.ss01</string>
-						<string>adotbelow.ss02</string>
 						<string>agrave.ss01</string>
-						<string>agrave.ss02</string>
 						<string>ahookabove.ss01</string>
-						<string>ahookabove.ss02</string>
 						<string>ainvertedbreve.ss01</string>
-						<string>ainvertedbreve.ss02</string>
 						<string>amacron.ss01</string>
-						<string>amacron.ss02</string>
 						<string>aogonek.ss01</string>
-						<string>aogonek.ss02</string>
 						<string>aring.ss01</string>
-						<string>aring.ss02</string>
 						<string>aringacute.ss01</string>
-						<string>aringacute.ss02</string>
 						<string>atilde.ss01</string>
-						<string>atilde.ss02</string>
-						<string>aturned.ss02</string>
 						<string>b.ss01</string>
 						<string>d.ss01</string>
 						<string>dcaron.ss01</string>
@@ -3072,39 +3095,37 @@
 						<string>ddotbelow.ss01</string>
 						<string>dlinebelow.ss01</string>
 						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
 						<string>g.ss01</string>
-						<string>g.ss03</string>
 						<string>gacute.ss01</string>
-						<string>gacute.ss03</string>
 						<string>gbreve.ss01</string>
-						<string>gbreve.ss03</string>
 						<string>gcaron.ss01</string>
-						<string>gcaron.ss03</string>
 						<string>gcircumflex.ss01</string>
-						<string>gcircumflex.ss03</string>
 						<string>gcommaaccent.ss01</string>
-						<string>gcommaaccent.ss03</string>
 						<string>gdotaccent.ss01</string>
-						<string>gdotaccent.ss03</string>
 						<string>gmacron.ss01</string>
-						<string>gmacron.ss03</string>
-						<string>i.ss02</string>
-						<string>idotless.ss02</string>
-						<string>iacute.ss02</string>
-						<string>ibreve.ss02</string>
-						<string>icaron.ss02</string>
-						<string>icircumflex.ss02</string>
-						<string>idblgrave.ss02</string>
-						<string>idieresis.ss02</string>
-						<string>idieresisacute.ss02</string>
-						<string>idotaccent.ss02</string>
-						<string>idotbelow.ss02</string>
-						<string>igrave.ss02</string>
-						<string>ihookabove.ss02</string>
-						<string>iinvertedbreve.ss02</string>
-						<string>imacron.ss02</string>
-						<string>iogonek.ss02</string>
-						<string>itilde.ss02</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
 						<string>l.ss01</string>
 						<string>lacute.ss01</string>
 						<string>lcaron.ss01</string>
@@ -3115,6 +3136,17 @@
 						<string>lj.ss01</string>
 						<string>llinebelow.ss01</string>
 						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
 						<string>o.ss01</string>
 						<string>oacute.ss01</string>
 						<string>obreve.ss01</string>
@@ -3149,6 +3181,7 @@
 						<string>p.ss01</string>
 						<string>thorn.ss01</string>
 						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
 						<string>t.ss01</string>
 						<string>tbar.ss01</string>
 						<string>tcaron.ss01</string>
@@ -3185,12 +3218,12 @@
 						<string>wcircumflex.ss03</string>
 						<string>wdieresis.ss03</string>
 						<string>wgrave.ss03</string>
-						<string>a.ss08</string>
-						<string>idotless.ss02.archive</string>
-						<string>fi.ss02</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
 						<string>fl.ss01</string>
 						<string>zero.ss04</string>
-						<string>interrobang.ss13</string>
 					</array>
 				</dict>
 				<dict>
@@ -3305,6 +3338,310 @@
 						<string>Wdieresis.ss03</string>
 						<string>Wgrave.ss03</string>
 						<string>a.ss01</string>
+						<string>aacute.ss01</string>
+						<string>abreve.ss01</string>
+						<string>abreveacute.ss01</string>
+						<string>abrevedotbelow.ss01</string>
+						<string>abrevegrave.ss01</string>
+						<string>abrevehookabove.ss01</string>
+						<string>abrevetilde.ss01</string>
+						<string>acaron.ss01</string>
+						<string>acircumflex.ss01</string>
+						<string>acircumflexacute.ss01</string>
+						<string>acircumflexdotbelow.ss01</string>
+						<string>acircumflexgrave.ss01</string>
+						<string>acircumflexhookabove.ss01</string>
+						<string>acircumflextilde.ss01</string>
+						<string>adblgrave.ss01</string>
+						<string>adieresis.ss01</string>
+						<string>adotaccent.ss01</string>
+						<string>adotbelow.ss01</string>
+						<string>agrave.ss01</string>
+						<string>ahookabove.ss01</string>
+						<string>ainvertedbreve.ss01</string>
+						<string>amacron.ss01</string>
+						<string>aogonek.ss01</string>
+						<string>aring.ss01</string>
+						<string>aringacute.ss01</string>
+						<string>atilde.ss01</string>
+						<string>b.ss01</string>
+						<string>d.ss01</string>
+						<string>dcaron.ss01</string>
+						<string>dcroat.ss01</string>
+						<string>ddotbelow.ss01</string>
+						<string>dlinebelow.ss01</string>
+						<string>dzcaron.ss01</string>
+						<string>f.ss01</string>
+						<string>g.ss01</string>
+						<string>gacute.ss01</string>
+						<string>gbreve.ss01</string>
+						<string>gcaron.ss01</string>
+						<string>gcircumflex.ss01</string>
+						<string>gcommaaccent.ss01</string>
+						<string>gdotaccent.ss01</string>
+						<string>gmacron.ss01</string>
+						<string>h.ss01</string>
+						<string>hbar.ss01</string>
+						<string>hbrevebelow.ss01</string>
+						<string>hcircumflex.ss01</string>
+						<string>hdotbelow.ss01</string>
+						<string>i.ss01</string>
+						<string>idotless.ss01</string>
+						<string>iacute.ss01</string>
+						<string>ibreve.ss01</string>
+						<string>icaron.ss01</string>
+						<string>icircumflex.ss01</string>
+						<string>idblgrave.ss01</string>
+						<string>idieresis.ss01</string>
+						<string>idieresisacute.ss01</string>
+						<string>idotaccent.ss01</string>
+						<string>idotbelow.ss01</string>
+						<string>igrave.ss01</string>
+						<string>ihookabove.ss01</string>
+						<string>iinvertedbreve.ss01</string>
+						<string>imacron.ss01</string>
+						<string>iogonek.ss01</string>
+						<string>itilde.ss01</string>
+						<string>l.ss01</string>
+						<string>lacute.ss01</string>
+						<string>lcaron.ss01</string>
+						<string>lcommaaccent.ss01</string>
+						<string>ldot.ss01</string>
+						<string>ldotbelow.ss01</string>
+						<string>ldotbelowmacron.ss01</string>
+						<string>lj.ss01</string>
+						<string>llinebelow.ss01</string>
+						<string>lslash.ss01</string>
+						<string>m.ss01</string>
+						<string>mdotbelow.ss01</string>
+						<string>n.ss01</string>
+						<string>nacute.ss01</string>
+						<string>ncaron.ss01</string>
+						<string>ncommaaccent.ss01</string>
+						<string>ndotaccent.ss01</string>
+						<string>ndotbelow.ss01</string>
+						<string>nj.ss01</string>
+						<string>nlinebelow.ss01</string>
+						<string>ntilde.ss01</string>
+						<string>o.ss01</string>
+						<string>oacute.ss01</string>
+						<string>obreve.ss01</string>
+						<string>ocircumflex.ss01</string>
+						<string>ocircumflexacute.ss01</string>
+						<string>ocircumflexdotbelow.ss01</string>
+						<string>ocircumflexgrave.ss01</string>
+						<string>ocircumflexhookabove.ss01</string>
+						<string>ocircumflextilde.ss01</string>
+						<string>odblgrave.ss01</string>
+						<string>odieresis.ss01</string>
+						<string>odieresismacron.ss01</string>
+						<string>odotaccentmacron.ss01</string>
+						<string>odotbelow.ss01</string>
+						<string>ograve.ss01</string>
+						<string>ohookabove.ss01</string>
+						<string>ohorn.ss01</string>
+						<string>ohornacute.ss01</string>
+						<string>ohorndotbelow.ss01</string>
+						<string>ohorngrave.ss01</string>
+						<string>ohornhookabove.ss01</string>
+						<string>ohorntilde.ss01</string>
+						<string>ohungarumlaut.ss01</string>
+						<string>oinvertedbreve.ss01</string>
+						<string>omacron.ss01</string>
+						<string>omacronacute.ss01</string>
+						<string>omacrongrave.ss01</string>
+						<string>oogonek.ss01</string>
+						<string>oslash.ss01</string>
+						<string>oslashacute.ss01</string>
+						<string>otilde.ss01</string>
+						<string>p.ss01</string>
+						<string>thorn.ss01</string>
+						<string>q.ss01</string>
+						<string>germandbls.ss01</string>
+						<string>t.ss01</string>
+						<string>tbar.ss01</string>
+						<string>tcaron.ss01</string>
+						<string>tcedilla.ss01</string>
+						<string>tcommaaccent.ss01</string>
+						<string>tdieresis.ss01</string>
+						<string>tdotbelow.ss01</string>
+						<string>tlinebelow.ss01</string>
+						<string>u.ss01</string>
+						<string>uacute.ss01</string>
+						<string>ubreve.ss01</string>
+						<string>ucircumflex.ss01</string>
+						<string>udblgrave.ss01</string>
+						<string>udieresis.ss01</string>
+						<string>udotbelow.ss01</string>
+						<string>ugrave.ss01</string>
+						<string>uhookabove.ss01</string>
+						<string>uhorn.ss01</string>
+						<string>uhornacute.ss01</string>
+						<string>uhorndotbelow.ss01</string>
+						<string>uhorngrave.ss01</string>
+						<string>uhornhookabove.ss01</string>
+						<string>uhorntilde.ss01</string>
+						<string>uhungarumlaut.ss01</string>
+						<string>uinvertedbreve.ss01</string>
+						<string>umacron.ss01</string>
+						<string>umacrondieresis.ss01</string>
+						<string>uogonek.ss01</string>
+						<string>uring.ss01</string>
+						<string>utilde.ss01</string>
+						<string>utildeacute.ss01</string>
+						<string>w.ss03</string>
+						<string>wacute.ss03</string>
+						<string>wcircumflex.ss03</string>
+						<string>wdieresis.ss03</string>
+						<string>wgrave.ss03</string>
+						<string>f_f.ss01</string>
+						<string>f_f_i.ss01</string>
+						<string>f_f_l.ss01</string>
+						<string>fi.ss01</string>
+						<string>fl.ss01</string>
+						<string>zero.ss04</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Features</string>
+					<key>value</key>
+					<array>
+						<string>ss01</string>
+						<string>ss02</string>
+						<string>ss03</string>
+						<string>ss04</string>
+						<string>cv01</string>
+						<string>cv02</string>
+						<string>cv03</string>
+						<string>cv04</string>
+						<string>cv05</string>
+						<string>cv06</string>
+						<string>cv07</string>
+						<string>cv08</string>
+						<string>cv09</string>
+						<string>cv10</string>
+						<string>cv11</string>
+						<string>cv12</string>
+						<string>cv13</string>
+						<string>cv14</string>
+						<string>cv15</string>
+						<string>cv16</string>
+						<string>cv17</string>
+						<string>cv18</string>
+						<string>cv19</string>
+						<string>cv20</string>
+						<string>cv21</string>
+						<string>cv22</string>
+						<string>cv23</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>familyName</string>
+					<key>value</key>
+					<string>Reddit Vanilla</string>
+				</dict>
+			</array>
+			<key>interpolationWeight</key>
+			<real>160</real>
+			<key>isItalic</key>
+			<true/>
+			<key>name</key>
+			<string>ExtraBold Italic</string>
+			<key>weightClass</key>
+			<string>ExtraBold</string>
+		</dict>
+		<dict>
+			<key>customParameters</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>RMXHarmonizer;supersmooth all</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Webfont Formats</string>
+					<key>value</key>
+					<array>
+						<string>plain</string>
+						<string>woff</string>
+						<string>woff2</string>
+						<string>eot</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Save as TrueType</string>
+					<key>value</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>TTFAutohint options</string>
+					<key>value</key>
+					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Rename Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03=I</string>
+						<string>Iacute.ss03=Iacute</string>
+						<string>Ibreve.ss03=Ibreve</string>
+						<string>Icaron.ss03=Icaron</string>
+						<string>Icircumflex.ss03=Icircumflex</string>
+						<string>Idblgrave.ss03=Idblgrave</string>
+						<string>Idieresis.ss03=Idieresis</string>
+						<string>Idotaccent.ss03=Idotaccent</string>
+						<string>Idotbelow.ss03=Idotbelow</string>
+						<string>Igrave.ss03=Igrave</string>
+						<string>Ihookabove.ss03=Ihookabove</string>
+						<string>Iinvertedbreve.ss03=Iinvertedbreve</string>
+						<string>Imacron.ss03=Imacron</string>
+						<string>Iogonek.ss03=Iogonek</string>
+						<string>Itilde.ss03=Itilde</string>
+						<string>W.ss03=W</string>
+						<string>Wacute.ss03=Wacute</string>
+						<string>Wcircumflex.ss03=Wcircumflex</string>
+						<string>Wdieresis.ss03=Wdieresis</string>
+						<string>Wgrave.ss03=Wgrave</string>
+						<string>w.ss03=w</string>
+						<string>wacute.ss03=wacute</string>
+						<string>wcircumflex.ss03=wcircumflex</string>
+						<string>wdieresis.ss03=wdieresis</string>
+						<string>wgrave.ss03=wgrave</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03</string>
+						<string>Iacute.ss03</string>
+						<string>Ibreve.ss03</string>
+						<string>Icaron.ss03</string>
+						<string>Icircumflex.ss03</string>
+						<string>Idblgrave.ss03</string>
+						<string>Idieresis.ss03</string>
+						<string>Idotaccent.ss03</string>
+						<string>Idotbelow.ss03</string>
+						<string>Igrave.ss03</string>
+						<string>Ihookabove.ss03</string>
+						<string>Iinvertedbreve.ss03</string>
+						<string>Imacron.ss03</string>
+						<string>Iogonek.ss03</string>
+						<string>Itilde.ss03</string>
+						<string>W.ss03</string>
+						<string>Wacute.ss03</string>
+						<string>Wcircumflex.ss03</string>
+						<string>Wdieresis.ss03</string>
+						<string>Wgrave.ss03</string>
+						<string>a.ss01</string>
 						<string>a.ss02</string>
 						<string>aacute.ss01</string>
 						<string>aacute.ss02</string>
@@ -3525,13 +3862,1293 @@
 					<key>name</key>
 					<string>familyName</string>
 					<key>value</key>
-					<string>Reddit Vanilla</string>
+					<string>Reddit Fudge</string>
+				</dict>
+			</array>
+			<key>interpolationWeight</key>
+			<real>64</real>
+			<key>name</key>
+			<string>Light Italic</string>
+			<key>weightClass</key>
+			<string>Light</string>
+		</dict>
+		<dict>
+			<key>customParameters</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>RMXHarmonizer;supersmooth all</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Webfont Formats</string>
+					<key>value</key>
+					<array>
+						<string>plain</string>
+						<string>woff</string>
+						<string>woff2</string>
+						<string>eot</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Save as TrueType</string>
+					<key>value</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>TTFAutohint options</string>
+					<key>value</key>
+					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Rename Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03=I</string>
+						<string>Iacute.ss03=Iacute</string>
+						<string>Ibreve.ss03=Ibreve</string>
+						<string>Icaron.ss03=Icaron</string>
+						<string>Icircumflex.ss03=Icircumflex</string>
+						<string>Idblgrave.ss03=Idblgrave</string>
+						<string>Idieresis.ss03=Idieresis</string>
+						<string>Idotaccent.ss03=Idotaccent</string>
+						<string>Idotbelow.ss03=Idotbelow</string>
+						<string>Igrave.ss03=Igrave</string>
+						<string>Ihookabove.ss03=Ihookabove</string>
+						<string>Iinvertedbreve.ss03=Iinvertedbreve</string>
+						<string>Imacron.ss03=Imacron</string>
+						<string>Iogonek.ss03=Iogonek</string>
+						<string>Itilde.ss03=Itilde</string>
+						<string>W.ss03=W</string>
+						<string>Wacute.ss03=Wacute</string>
+						<string>Wcircumflex.ss03=Wcircumflex</string>
+						<string>Wdieresis.ss03=Wdieresis</string>
+						<string>Wgrave.ss03=Wgrave</string>
+						<string>w.ss03=w</string>
+						<string>wacute.ss03=wacute</string>
+						<string>wcircumflex.ss03=wcircumflex</string>
+						<string>wdieresis.ss03=wdieresis</string>
+						<string>wgrave.ss03=wgrave</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03</string>
+						<string>Iacute.ss03</string>
+						<string>Ibreve.ss03</string>
+						<string>Icaron.ss03</string>
+						<string>Icircumflex.ss03</string>
+						<string>Idblgrave.ss03</string>
+						<string>Idieresis.ss03</string>
+						<string>Idotaccent.ss03</string>
+						<string>Idotbelow.ss03</string>
+						<string>Igrave.ss03</string>
+						<string>Ihookabove.ss03</string>
+						<string>Iinvertedbreve.ss03</string>
+						<string>Imacron.ss03</string>
+						<string>Iogonek.ss03</string>
+						<string>Itilde.ss03</string>
+						<string>W.ss03</string>
+						<string>Wacute.ss03</string>
+						<string>Wcircumflex.ss03</string>
+						<string>Wdieresis.ss03</string>
+						<string>Wgrave.ss03</string>
+						<string>a.ss01</string>
+						<string>a.ss02</string>
+						<string>aacute.ss01</string>
+						<string>aacute.ss02</string>
+						<string>abreve.ss01</string>
+						<string>abreve.ss02</string>
+						<string>abreveacute.ss01</string>
+						<string>abreveacute.ss02</string>
+						<string>abrevedotbelow.ss01</string>
+						<string>abrevedotbelow.ss02</string>
+						<string>abrevegrave.ss01</string>
+						<string>abrevegrave.ss02</string>
+						<string>abrevehookabove.ss01</string>
+						<string>abrevehookabove.ss02</string>
+						<string>abrevetilde.ss01</string>
+						<string>abrevetilde.ss02</string>
+						<string>acaron.ss01</string>
+						<string>acaron.ss02</string>
+						<string>acircumflex.ss01</string>
+						<string>acircumflex.ss02</string>
+						<string>acircumflexacute.ss01</string>
+						<string>acircumflexacute.ss02</string>
+						<string>acircumflexdotbelow.ss01</string>
+						<string>acircumflexdotbelow.ss02</string>
+						<string>acircumflexgrave.ss01</string>
+						<string>acircumflexgrave.ss02</string>
+						<string>acircumflexhookabove.ss01</string>
+						<string>acircumflexhookabove.ss02</string>
+						<string>acircumflextilde.ss01</string>
+						<string>acircumflextilde.ss02</string>
+						<string>adblgrave.ss01</string>
+						<string>adblgrave.ss02</string>
+						<string>adieresis.ss01</string>
+						<string>adieresis.ss02</string>
+						<string>adotaccent.ss01</string>
+						<string>adotaccent.ss02</string>
+						<string>adotbelow.ss01</string>
+						<string>adotbelow.ss02</string>
+						<string>agrave.ss01</string>
+						<string>agrave.ss02</string>
+						<string>ahookabove.ss01</string>
+						<string>ahookabove.ss02</string>
+						<string>ainvertedbreve.ss01</string>
+						<string>ainvertedbreve.ss02</string>
+						<string>amacron.ss01</string>
+						<string>amacron.ss02</string>
+						<string>aogonek.ss01</string>
+						<string>aogonek.ss02</string>
+						<string>aring.ss01</string>
+						<string>aring.ss02</string>
+						<string>aringacute.ss01</string>
+						<string>aringacute.ss02</string>
+						<string>atilde.ss01</string>
+						<string>atilde.ss02</string>
+						<string>aturned.ss02</string>
+						<string>b.ss01</string>
+						<string>d.ss01</string>
+						<string>dcaron.ss01</string>
+						<string>dcroat.ss01</string>
+						<string>ddotbelow.ss01</string>
+						<string>dlinebelow.ss01</string>
+						<string>dzcaron.ss01</string>
+						<string>g.ss01</string>
+						<string>g.ss03</string>
+						<string>gacute.ss01</string>
+						<string>gacute.ss03</string>
+						<string>gbreve.ss01</string>
+						<string>gbreve.ss03</string>
+						<string>gcaron.ss01</string>
+						<string>gcaron.ss03</string>
+						<string>gcircumflex.ss01</string>
+						<string>gcircumflex.ss03</string>
+						<string>gcommaaccent.ss01</string>
+						<string>gcommaaccent.ss03</string>
+						<string>gdotaccent.ss01</string>
+						<string>gdotaccent.ss03</string>
+						<string>gmacron.ss01</string>
+						<string>gmacron.ss03</string>
+						<string>i.ss02</string>
+						<string>idotless.ss02</string>
+						<string>iacute.ss02</string>
+						<string>ibreve.ss02</string>
+						<string>icaron.ss02</string>
+						<string>icircumflex.ss02</string>
+						<string>idblgrave.ss02</string>
+						<string>idieresis.ss02</string>
+						<string>idieresisacute.ss02</string>
+						<string>idotaccent.ss02</string>
+						<string>idotbelow.ss02</string>
+						<string>igrave.ss02</string>
+						<string>ihookabove.ss02</string>
+						<string>iinvertedbreve.ss02</string>
+						<string>imacron.ss02</string>
+						<string>iogonek.ss02</string>
+						<string>itilde.ss02</string>
+						<string>l.ss01</string>
+						<string>lacute.ss01</string>
+						<string>lcaron.ss01</string>
+						<string>lcommaaccent.ss01</string>
+						<string>ldot.ss01</string>
+						<string>ldotbelow.ss01</string>
+						<string>ldotbelowmacron.ss01</string>
+						<string>lj.ss01</string>
+						<string>llinebelow.ss01</string>
+						<string>lslash.ss01</string>
+						<string>o.ss01</string>
+						<string>oacute.ss01</string>
+						<string>obreve.ss01</string>
+						<string>ocircumflex.ss01</string>
+						<string>ocircumflexacute.ss01</string>
+						<string>ocircumflexdotbelow.ss01</string>
+						<string>ocircumflexgrave.ss01</string>
+						<string>ocircumflexhookabove.ss01</string>
+						<string>ocircumflextilde.ss01</string>
+						<string>odblgrave.ss01</string>
+						<string>odieresis.ss01</string>
+						<string>odieresismacron.ss01</string>
+						<string>odotaccentmacron.ss01</string>
+						<string>odotbelow.ss01</string>
+						<string>ograve.ss01</string>
+						<string>ohookabove.ss01</string>
+						<string>ohorn.ss01</string>
+						<string>ohornacute.ss01</string>
+						<string>ohorndotbelow.ss01</string>
+						<string>ohorngrave.ss01</string>
+						<string>ohornhookabove.ss01</string>
+						<string>ohorntilde.ss01</string>
+						<string>ohungarumlaut.ss01</string>
+						<string>oinvertedbreve.ss01</string>
+						<string>omacron.ss01</string>
+						<string>omacronacute.ss01</string>
+						<string>omacrongrave.ss01</string>
+						<string>oogonek.ss01</string>
+						<string>oslash.ss01</string>
+						<string>oslashacute.ss01</string>
+						<string>otilde.ss01</string>
+						<string>p.ss01</string>
+						<string>thorn.ss01</string>
+						<string>q.ss01</string>
+						<string>t.ss01</string>
+						<string>tbar.ss01</string>
+						<string>tcaron.ss01</string>
+						<string>tcedilla.ss01</string>
+						<string>tcommaaccent.ss01</string>
+						<string>tdieresis.ss01</string>
+						<string>tdotbelow.ss01</string>
+						<string>tlinebelow.ss01</string>
+						<string>u.ss01</string>
+						<string>uacute.ss01</string>
+						<string>ubreve.ss01</string>
+						<string>ucircumflex.ss01</string>
+						<string>udblgrave.ss01</string>
+						<string>udieresis.ss01</string>
+						<string>udotbelow.ss01</string>
+						<string>ugrave.ss01</string>
+						<string>uhookabove.ss01</string>
+						<string>uhorn.ss01</string>
+						<string>uhornacute.ss01</string>
+						<string>uhorndotbelow.ss01</string>
+						<string>uhorngrave.ss01</string>
+						<string>uhornhookabove.ss01</string>
+						<string>uhorntilde.ss01</string>
+						<string>uhungarumlaut.ss01</string>
+						<string>uinvertedbreve.ss01</string>
+						<string>umacron.ss01</string>
+						<string>umacrondieresis.ss01</string>
+						<string>uogonek.ss01</string>
+						<string>uring.ss01</string>
+						<string>utilde.ss01</string>
+						<string>utildeacute.ss01</string>
+						<string>w.ss03</string>
+						<string>wacute.ss03</string>
+						<string>wcircumflex.ss03</string>
+						<string>wdieresis.ss03</string>
+						<string>wgrave.ss03</string>
+						<string>a.ss08</string>
+						<string>idotless.ss02.archive</string>
+						<string>fi.ss02</string>
+						<string>fl.ss01</string>
+						<string>zero.ss04</string>
+						<string>interrobang.ss13</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Features</string>
+					<key>value</key>
+					<array>
+						<string>ss01</string>
+						<string>ss02</string>
+						<string>ss03</string>
+						<string>ss04</string>
+						<string>cv01</string>
+						<string>cv02</string>
+						<string>cv03</string>
+						<string>cv04</string>
+						<string>cv05</string>
+						<string>cv06</string>
+						<string>cv07</string>
+						<string>cv08</string>
+						<string>cv09</string>
+						<string>cv10</string>
+						<string>cv11</string>
+						<string>cv12</string>
+						<string>cv13</string>
+						<string>cv14</string>
+						<string>cv15</string>
+						<string>cv16</string>
+						<string>cv17</string>
+						<string>cv18</string>
+						<string>cv19</string>
+						<string>cv20</string>
+						<string>cv21</string>
+						<string>cv22</string>
+						<string>cv23</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>familyName</string>
+					<key>value</key>
+					<string>Reddit Fudge</string>
+				</dict>
+			</array>
+			<key>interpolationWeight</key>
+			<real>88</real>
+			<key>name</key>
+			<string>Italic</string>
+		</dict>
+		<dict>
+			<key>customParameters</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>RMXHarmonizer;supersmooth all</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Webfont Formats</string>
+					<key>value</key>
+					<array>
+						<string>plain</string>
+						<string>woff</string>
+						<string>woff2</string>
+						<string>eot</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Save as TrueType</string>
+					<key>value</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>TTFAutohint options</string>
+					<key>value</key>
+					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Rename Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03=I</string>
+						<string>Iacute.ss03=Iacute</string>
+						<string>Ibreve.ss03=Ibreve</string>
+						<string>Icaron.ss03=Icaron</string>
+						<string>Icircumflex.ss03=Icircumflex</string>
+						<string>Idblgrave.ss03=Idblgrave</string>
+						<string>Idieresis.ss03=Idieresis</string>
+						<string>Idotaccent.ss03=Idotaccent</string>
+						<string>Idotbelow.ss03=Idotbelow</string>
+						<string>Igrave.ss03=Igrave</string>
+						<string>Ihookabove.ss03=Ihookabove</string>
+						<string>Iinvertedbreve.ss03=Iinvertedbreve</string>
+						<string>Imacron.ss03=Imacron</string>
+						<string>Iogonek.ss03=Iogonek</string>
+						<string>Itilde.ss03=Itilde</string>
+						<string>W.ss03=W</string>
+						<string>Wacute.ss03=Wacute</string>
+						<string>Wcircumflex.ss03=Wcircumflex</string>
+						<string>Wdieresis.ss03=Wdieresis</string>
+						<string>Wgrave.ss03=Wgrave</string>
+						<string>w.ss03=w</string>
+						<string>wacute.ss03=wacute</string>
+						<string>wcircumflex.ss03=wcircumflex</string>
+						<string>wdieresis.ss03=wdieresis</string>
+						<string>wgrave.ss03=wgrave</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03</string>
+						<string>Iacute.ss03</string>
+						<string>Ibreve.ss03</string>
+						<string>Icaron.ss03</string>
+						<string>Icircumflex.ss03</string>
+						<string>Idblgrave.ss03</string>
+						<string>Idieresis.ss03</string>
+						<string>Idotaccent.ss03</string>
+						<string>Idotbelow.ss03</string>
+						<string>Igrave.ss03</string>
+						<string>Ihookabove.ss03</string>
+						<string>Iinvertedbreve.ss03</string>
+						<string>Imacron.ss03</string>
+						<string>Iogonek.ss03</string>
+						<string>Itilde.ss03</string>
+						<string>W.ss03</string>
+						<string>Wacute.ss03</string>
+						<string>Wcircumflex.ss03</string>
+						<string>Wdieresis.ss03</string>
+						<string>Wgrave.ss03</string>
+						<string>a.ss01</string>
+						<string>a.ss02</string>
+						<string>aacute.ss01</string>
+						<string>aacute.ss02</string>
+						<string>abreve.ss01</string>
+						<string>abreve.ss02</string>
+						<string>abreveacute.ss01</string>
+						<string>abreveacute.ss02</string>
+						<string>abrevedotbelow.ss01</string>
+						<string>abrevedotbelow.ss02</string>
+						<string>abrevegrave.ss01</string>
+						<string>abrevegrave.ss02</string>
+						<string>abrevehookabove.ss01</string>
+						<string>abrevehookabove.ss02</string>
+						<string>abrevetilde.ss01</string>
+						<string>abrevetilde.ss02</string>
+						<string>acaron.ss01</string>
+						<string>acaron.ss02</string>
+						<string>acircumflex.ss01</string>
+						<string>acircumflex.ss02</string>
+						<string>acircumflexacute.ss01</string>
+						<string>acircumflexacute.ss02</string>
+						<string>acircumflexdotbelow.ss01</string>
+						<string>acircumflexdotbelow.ss02</string>
+						<string>acircumflexgrave.ss01</string>
+						<string>acircumflexgrave.ss02</string>
+						<string>acircumflexhookabove.ss01</string>
+						<string>acircumflexhookabove.ss02</string>
+						<string>acircumflextilde.ss01</string>
+						<string>acircumflextilde.ss02</string>
+						<string>adblgrave.ss01</string>
+						<string>adblgrave.ss02</string>
+						<string>adieresis.ss01</string>
+						<string>adieresis.ss02</string>
+						<string>adotaccent.ss01</string>
+						<string>adotaccent.ss02</string>
+						<string>adotbelow.ss01</string>
+						<string>adotbelow.ss02</string>
+						<string>agrave.ss01</string>
+						<string>agrave.ss02</string>
+						<string>ahookabove.ss01</string>
+						<string>ahookabove.ss02</string>
+						<string>ainvertedbreve.ss01</string>
+						<string>ainvertedbreve.ss02</string>
+						<string>amacron.ss01</string>
+						<string>amacron.ss02</string>
+						<string>aogonek.ss01</string>
+						<string>aogonek.ss02</string>
+						<string>aring.ss01</string>
+						<string>aring.ss02</string>
+						<string>aringacute.ss01</string>
+						<string>aringacute.ss02</string>
+						<string>atilde.ss01</string>
+						<string>atilde.ss02</string>
+						<string>aturned.ss02</string>
+						<string>b.ss01</string>
+						<string>d.ss01</string>
+						<string>dcaron.ss01</string>
+						<string>dcroat.ss01</string>
+						<string>ddotbelow.ss01</string>
+						<string>dlinebelow.ss01</string>
+						<string>dzcaron.ss01</string>
+						<string>g.ss01</string>
+						<string>g.ss03</string>
+						<string>gacute.ss01</string>
+						<string>gacute.ss03</string>
+						<string>gbreve.ss01</string>
+						<string>gbreve.ss03</string>
+						<string>gcaron.ss01</string>
+						<string>gcaron.ss03</string>
+						<string>gcircumflex.ss01</string>
+						<string>gcircumflex.ss03</string>
+						<string>gcommaaccent.ss01</string>
+						<string>gcommaaccent.ss03</string>
+						<string>gdotaccent.ss01</string>
+						<string>gdotaccent.ss03</string>
+						<string>gmacron.ss01</string>
+						<string>gmacron.ss03</string>
+						<string>i.ss02</string>
+						<string>idotless.ss02</string>
+						<string>iacute.ss02</string>
+						<string>ibreve.ss02</string>
+						<string>icaron.ss02</string>
+						<string>icircumflex.ss02</string>
+						<string>idblgrave.ss02</string>
+						<string>idieresis.ss02</string>
+						<string>idieresisacute.ss02</string>
+						<string>idotaccent.ss02</string>
+						<string>idotbelow.ss02</string>
+						<string>igrave.ss02</string>
+						<string>ihookabove.ss02</string>
+						<string>iinvertedbreve.ss02</string>
+						<string>imacron.ss02</string>
+						<string>iogonek.ss02</string>
+						<string>itilde.ss02</string>
+						<string>l.ss01</string>
+						<string>lacute.ss01</string>
+						<string>lcaron.ss01</string>
+						<string>lcommaaccent.ss01</string>
+						<string>ldot.ss01</string>
+						<string>ldotbelow.ss01</string>
+						<string>ldotbelowmacron.ss01</string>
+						<string>lj.ss01</string>
+						<string>llinebelow.ss01</string>
+						<string>lslash.ss01</string>
+						<string>o.ss01</string>
+						<string>oacute.ss01</string>
+						<string>obreve.ss01</string>
+						<string>ocircumflex.ss01</string>
+						<string>ocircumflexacute.ss01</string>
+						<string>ocircumflexdotbelow.ss01</string>
+						<string>ocircumflexgrave.ss01</string>
+						<string>ocircumflexhookabove.ss01</string>
+						<string>ocircumflextilde.ss01</string>
+						<string>odblgrave.ss01</string>
+						<string>odieresis.ss01</string>
+						<string>odieresismacron.ss01</string>
+						<string>odotaccentmacron.ss01</string>
+						<string>odotbelow.ss01</string>
+						<string>ograve.ss01</string>
+						<string>ohookabove.ss01</string>
+						<string>ohorn.ss01</string>
+						<string>ohornacute.ss01</string>
+						<string>ohorndotbelow.ss01</string>
+						<string>ohorngrave.ss01</string>
+						<string>ohornhookabove.ss01</string>
+						<string>ohorntilde.ss01</string>
+						<string>ohungarumlaut.ss01</string>
+						<string>oinvertedbreve.ss01</string>
+						<string>omacron.ss01</string>
+						<string>omacronacute.ss01</string>
+						<string>omacrongrave.ss01</string>
+						<string>oogonek.ss01</string>
+						<string>oslash.ss01</string>
+						<string>oslashacute.ss01</string>
+						<string>otilde.ss01</string>
+						<string>p.ss01</string>
+						<string>thorn.ss01</string>
+						<string>q.ss01</string>
+						<string>t.ss01</string>
+						<string>tbar.ss01</string>
+						<string>tcaron.ss01</string>
+						<string>tcedilla.ss01</string>
+						<string>tcommaaccent.ss01</string>
+						<string>tdieresis.ss01</string>
+						<string>tdotbelow.ss01</string>
+						<string>tlinebelow.ss01</string>
+						<string>u.ss01</string>
+						<string>uacute.ss01</string>
+						<string>ubreve.ss01</string>
+						<string>ucircumflex.ss01</string>
+						<string>udblgrave.ss01</string>
+						<string>udieresis.ss01</string>
+						<string>udotbelow.ss01</string>
+						<string>ugrave.ss01</string>
+						<string>uhookabove.ss01</string>
+						<string>uhorn.ss01</string>
+						<string>uhornacute.ss01</string>
+						<string>uhorndotbelow.ss01</string>
+						<string>uhorngrave.ss01</string>
+						<string>uhornhookabove.ss01</string>
+						<string>uhorntilde.ss01</string>
+						<string>uhungarumlaut.ss01</string>
+						<string>uinvertedbreve.ss01</string>
+						<string>umacron.ss01</string>
+						<string>umacrondieresis.ss01</string>
+						<string>uogonek.ss01</string>
+						<string>uring.ss01</string>
+						<string>utilde.ss01</string>
+						<string>utildeacute.ss01</string>
+						<string>w.ss03</string>
+						<string>wacute.ss03</string>
+						<string>wcircumflex.ss03</string>
+						<string>wdieresis.ss03</string>
+						<string>wgrave.ss03</string>
+						<string>a.ss08</string>
+						<string>idotless.ss02.archive</string>
+						<string>fi.ss02</string>
+						<string>fl.ss01</string>
+						<string>zero.ss04</string>
+						<string>interrobang.ss13</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Features</string>
+					<key>value</key>
+					<array>
+						<string>ss01</string>
+						<string>ss02</string>
+						<string>ss03</string>
+						<string>ss04</string>
+						<string>cv01</string>
+						<string>cv02</string>
+						<string>cv03</string>
+						<string>cv04</string>
+						<string>cv05</string>
+						<string>cv06</string>
+						<string>cv07</string>
+						<string>cv08</string>
+						<string>cv09</string>
+						<string>cv10</string>
+						<string>cv11</string>
+						<string>cv12</string>
+						<string>cv13</string>
+						<string>cv14</string>
+						<string>cv15</string>
+						<string>cv16</string>
+						<string>cv17</string>
+						<string>cv18</string>
+						<string>cv19</string>
+						<string>cv20</string>
+						<string>cv21</string>
+						<string>cv22</string>
+						<string>cv23</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>familyName</string>
+					<key>value</key>
+					<string>Reddit Fudge</string>
+				</dict>
+			</array>
+			<key>interpolationWeight</key>
+			<real>120</real>
+			<key>name</key>
+			<string>SemiBold Italic</string>
+			<key>weightClass</key>
+			<string>SemiBold</string>
+		</dict>
+		<dict>
+			<key>customParameters</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>RMXHarmonizer;supersmooth all</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Webfont Formats</string>
+					<key>value</key>
+					<array>
+						<string>plain</string>
+						<string>woff</string>
+						<string>woff2</string>
+						<string>eot</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Save as TrueType</string>
+					<key>value</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>TTFAutohint options</string>
+					<key>value</key>
+					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Rename Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03=I</string>
+						<string>Iacute.ss03=Iacute</string>
+						<string>Ibreve.ss03=Ibreve</string>
+						<string>Icaron.ss03=Icaron</string>
+						<string>Icircumflex.ss03=Icircumflex</string>
+						<string>Idblgrave.ss03=Idblgrave</string>
+						<string>Idieresis.ss03=Idieresis</string>
+						<string>Idotaccent.ss03=Idotaccent</string>
+						<string>Idotbelow.ss03=Idotbelow</string>
+						<string>Igrave.ss03=Igrave</string>
+						<string>Ihookabove.ss03=Ihookabove</string>
+						<string>Iinvertedbreve.ss03=Iinvertedbreve</string>
+						<string>Imacron.ss03=Imacron</string>
+						<string>Iogonek.ss03=Iogonek</string>
+						<string>Itilde.ss03=Itilde</string>
+						<string>W.ss03=W</string>
+						<string>Wacute.ss03=Wacute</string>
+						<string>Wcircumflex.ss03=Wcircumflex</string>
+						<string>Wdieresis.ss03=Wdieresis</string>
+						<string>Wgrave.ss03=Wgrave</string>
+						<string>w.ss03=w</string>
+						<string>wacute.ss03=wacute</string>
+						<string>wcircumflex.ss03=wcircumflex</string>
+						<string>wdieresis.ss03=wdieresis</string>
+						<string>wgrave.ss03=wgrave</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03</string>
+						<string>Iacute.ss03</string>
+						<string>Ibreve.ss03</string>
+						<string>Icaron.ss03</string>
+						<string>Icircumflex.ss03</string>
+						<string>Idblgrave.ss03</string>
+						<string>Idieresis.ss03</string>
+						<string>Idotaccent.ss03</string>
+						<string>Idotbelow.ss03</string>
+						<string>Igrave.ss03</string>
+						<string>Ihookabove.ss03</string>
+						<string>Iinvertedbreve.ss03</string>
+						<string>Imacron.ss03</string>
+						<string>Iogonek.ss03</string>
+						<string>Itilde.ss03</string>
+						<string>W.ss03</string>
+						<string>Wacute.ss03</string>
+						<string>Wcircumflex.ss03</string>
+						<string>Wdieresis.ss03</string>
+						<string>Wgrave.ss03</string>
+						<string>a.ss01</string>
+						<string>a.ss02</string>
+						<string>aacute.ss01</string>
+						<string>aacute.ss02</string>
+						<string>abreve.ss01</string>
+						<string>abreve.ss02</string>
+						<string>abreveacute.ss01</string>
+						<string>abreveacute.ss02</string>
+						<string>abrevedotbelow.ss01</string>
+						<string>abrevedotbelow.ss02</string>
+						<string>abrevegrave.ss01</string>
+						<string>abrevegrave.ss02</string>
+						<string>abrevehookabove.ss01</string>
+						<string>abrevehookabove.ss02</string>
+						<string>abrevetilde.ss01</string>
+						<string>abrevetilde.ss02</string>
+						<string>acaron.ss01</string>
+						<string>acaron.ss02</string>
+						<string>acircumflex.ss01</string>
+						<string>acircumflex.ss02</string>
+						<string>acircumflexacute.ss01</string>
+						<string>acircumflexacute.ss02</string>
+						<string>acircumflexdotbelow.ss01</string>
+						<string>acircumflexdotbelow.ss02</string>
+						<string>acircumflexgrave.ss01</string>
+						<string>acircumflexgrave.ss02</string>
+						<string>acircumflexhookabove.ss01</string>
+						<string>acircumflexhookabove.ss02</string>
+						<string>acircumflextilde.ss01</string>
+						<string>acircumflextilde.ss02</string>
+						<string>adblgrave.ss01</string>
+						<string>adblgrave.ss02</string>
+						<string>adieresis.ss01</string>
+						<string>adieresis.ss02</string>
+						<string>adotaccent.ss01</string>
+						<string>adotaccent.ss02</string>
+						<string>adotbelow.ss01</string>
+						<string>adotbelow.ss02</string>
+						<string>agrave.ss01</string>
+						<string>agrave.ss02</string>
+						<string>ahookabove.ss01</string>
+						<string>ahookabove.ss02</string>
+						<string>ainvertedbreve.ss01</string>
+						<string>ainvertedbreve.ss02</string>
+						<string>amacron.ss01</string>
+						<string>amacron.ss02</string>
+						<string>aogonek.ss01</string>
+						<string>aogonek.ss02</string>
+						<string>aring.ss01</string>
+						<string>aring.ss02</string>
+						<string>aringacute.ss01</string>
+						<string>aringacute.ss02</string>
+						<string>atilde.ss01</string>
+						<string>atilde.ss02</string>
+						<string>aturned.ss02</string>
+						<string>b.ss01</string>
+						<string>d.ss01</string>
+						<string>dcaron.ss01</string>
+						<string>dcroat.ss01</string>
+						<string>ddotbelow.ss01</string>
+						<string>dlinebelow.ss01</string>
+						<string>dzcaron.ss01</string>
+						<string>g.ss01</string>
+						<string>g.ss03</string>
+						<string>gacute.ss01</string>
+						<string>gacute.ss03</string>
+						<string>gbreve.ss01</string>
+						<string>gbreve.ss03</string>
+						<string>gcaron.ss01</string>
+						<string>gcaron.ss03</string>
+						<string>gcircumflex.ss01</string>
+						<string>gcircumflex.ss03</string>
+						<string>gcommaaccent.ss01</string>
+						<string>gcommaaccent.ss03</string>
+						<string>gdotaccent.ss01</string>
+						<string>gdotaccent.ss03</string>
+						<string>gmacron.ss01</string>
+						<string>gmacron.ss03</string>
+						<string>i.ss02</string>
+						<string>idotless.ss02</string>
+						<string>iacute.ss02</string>
+						<string>ibreve.ss02</string>
+						<string>icaron.ss02</string>
+						<string>icircumflex.ss02</string>
+						<string>idblgrave.ss02</string>
+						<string>idieresis.ss02</string>
+						<string>idieresisacute.ss02</string>
+						<string>idotaccent.ss02</string>
+						<string>idotbelow.ss02</string>
+						<string>igrave.ss02</string>
+						<string>ihookabove.ss02</string>
+						<string>iinvertedbreve.ss02</string>
+						<string>imacron.ss02</string>
+						<string>iogonek.ss02</string>
+						<string>itilde.ss02</string>
+						<string>l.ss01</string>
+						<string>lacute.ss01</string>
+						<string>lcaron.ss01</string>
+						<string>lcommaaccent.ss01</string>
+						<string>ldot.ss01</string>
+						<string>ldotbelow.ss01</string>
+						<string>ldotbelowmacron.ss01</string>
+						<string>lj.ss01</string>
+						<string>llinebelow.ss01</string>
+						<string>lslash.ss01</string>
+						<string>o.ss01</string>
+						<string>oacute.ss01</string>
+						<string>obreve.ss01</string>
+						<string>ocircumflex.ss01</string>
+						<string>ocircumflexacute.ss01</string>
+						<string>ocircumflexdotbelow.ss01</string>
+						<string>ocircumflexgrave.ss01</string>
+						<string>ocircumflexhookabove.ss01</string>
+						<string>ocircumflextilde.ss01</string>
+						<string>odblgrave.ss01</string>
+						<string>odieresis.ss01</string>
+						<string>odieresismacron.ss01</string>
+						<string>odotaccentmacron.ss01</string>
+						<string>odotbelow.ss01</string>
+						<string>ograve.ss01</string>
+						<string>ohookabove.ss01</string>
+						<string>ohorn.ss01</string>
+						<string>ohornacute.ss01</string>
+						<string>ohorndotbelow.ss01</string>
+						<string>ohorngrave.ss01</string>
+						<string>ohornhookabove.ss01</string>
+						<string>ohorntilde.ss01</string>
+						<string>ohungarumlaut.ss01</string>
+						<string>oinvertedbreve.ss01</string>
+						<string>omacron.ss01</string>
+						<string>omacronacute.ss01</string>
+						<string>omacrongrave.ss01</string>
+						<string>oogonek.ss01</string>
+						<string>oslash.ss01</string>
+						<string>oslashacute.ss01</string>
+						<string>otilde.ss01</string>
+						<string>p.ss01</string>
+						<string>thorn.ss01</string>
+						<string>q.ss01</string>
+						<string>t.ss01</string>
+						<string>tbar.ss01</string>
+						<string>tcaron.ss01</string>
+						<string>tcedilla.ss01</string>
+						<string>tcommaaccent.ss01</string>
+						<string>tdieresis.ss01</string>
+						<string>tdotbelow.ss01</string>
+						<string>tlinebelow.ss01</string>
+						<string>u.ss01</string>
+						<string>uacute.ss01</string>
+						<string>ubreve.ss01</string>
+						<string>ucircumflex.ss01</string>
+						<string>udblgrave.ss01</string>
+						<string>udieresis.ss01</string>
+						<string>udotbelow.ss01</string>
+						<string>ugrave.ss01</string>
+						<string>uhookabove.ss01</string>
+						<string>uhorn.ss01</string>
+						<string>uhornacute.ss01</string>
+						<string>uhorndotbelow.ss01</string>
+						<string>uhorngrave.ss01</string>
+						<string>uhornhookabove.ss01</string>
+						<string>uhorntilde.ss01</string>
+						<string>uhungarumlaut.ss01</string>
+						<string>uinvertedbreve.ss01</string>
+						<string>umacron.ss01</string>
+						<string>umacrondieresis.ss01</string>
+						<string>uogonek.ss01</string>
+						<string>uring.ss01</string>
+						<string>utilde.ss01</string>
+						<string>utildeacute.ss01</string>
+						<string>w.ss03</string>
+						<string>wacute.ss03</string>
+						<string>wcircumflex.ss03</string>
+						<string>wdieresis.ss03</string>
+						<string>wgrave.ss03</string>
+						<string>a.ss08</string>
+						<string>idotless.ss02.archive</string>
+						<string>fi.ss02</string>
+						<string>fl.ss01</string>
+						<string>zero.ss04</string>
+						<string>interrobang.ss13</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Features</string>
+					<key>value</key>
+					<array>
+						<string>ss01</string>
+						<string>ss02</string>
+						<string>ss03</string>
+						<string>ss04</string>
+						<string>cv01</string>
+						<string>cv02</string>
+						<string>cv03</string>
+						<string>cv04</string>
+						<string>cv05</string>
+						<string>cv06</string>
+						<string>cv07</string>
+						<string>cv08</string>
+						<string>cv09</string>
+						<string>cv10</string>
+						<string>cv11</string>
+						<string>cv12</string>
+						<string>cv13</string>
+						<string>cv14</string>
+						<string>cv15</string>
+						<string>cv16</string>
+						<string>cv17</string>
+						<string>cv18</string>
+						<string>cv19</string>
+						<string>cv20</string>
+						<string>cv21</string>
+						<string>cv22</string>
+						<string>cv23</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>familyName</string>
+					<key>value</key>
+					<string>Reddit Fudge</string>
+				</dict>
+			</array>
+			<key>interpolationWeight</key>
+			<real>140</real>
+			<key>isBold</key>
+			<true/>
+			<key>linkStyle</key>
+			<string>Regular</string>
+			<key>name</key>
+			<string>Bold Italic</string>
+			<key>weightClass</key>
+			<string>Bold</string>
+		</dict>
+		<dict>
+			<key>customParameters</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>RMXHarmonizer;supersmooth all</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Webfont Formats</string>
+					<key>value</key>
+					<array>
+						<string>plain</string>
+						<string>woff</string>
+						<string>woff2</string>
+						<string>eot</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Save as TrueType</string>
+					<key>value</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>TTFAutohint options</string>
+					<key>value</key>
+					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Rename Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03=I</string>
+						<string>Iacute.ss03=Iacute</string>
+						<string>Ibreve.ss03=Ibreve</string>
+						<string>Icaron.ss03=Icaron</string>
+						<string>Icircumflex.ss03=Icircumflex</string>
+						<string>Idblgrave.ss03=Idblgrave</string>
+						<string>Idieresis.ss03=Idieresis</string>
+						<string>Idotaccent.ss03=Idotaccent</string>
+						<string>Idotbelow.ss03=Idotbelow</string>
+						<string>Igrave.ss03=Igrave</string>
+						<string>Ihookabove.ss03=Ihookabove</string>
+						<string>Iinvertedbreve.ss03=Iinvertedbreve</string>
+						<string>Imacron.ss03=Imacron</string>
+						<string>Iogonek.ss03=Iogonek</string>
+						<string>Itilde.ss03=Itilde</string>
+						<string>W.ss03=W</string>
+						<string>Wacute.ss03=Wacute</string>
+						<string>Wcircumflex.ss03=Wcircumflex</string>
+						<string>Wdieresis.ss03=Wdieresis</string>
+						<string>Wgrave.ss03=Wgrave</string>
+						<string>w.ss03=w</string>
+						<string>wacute.ss03=wacute</string>
+						<string>wcircumflex.ss03=wcircumflex</string>
+						<string>wdieresis.ss03=wdieresis</string>
+						<string>wgrave.ss03=wgrave</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Glyphs</string>
+					<key>value</key>
+					<array>
+						<string>I.ss03</string>
+						<string>Iacute.ss03</string>
+						<string>Ibreve.ss03</string>
+						<string>Icaron.ss03</string>
+						<string>Icircumflex.ss03</string>
+						<string>Idblgrave.ss03</string>
+						<string>Idieresis.ss03</string>
+						<string>Idotaccent.ss03</string>
+						<string>Idotbelow.ss03</string>
+						<string>Igrave.ss03</string>
+						<string>Ihookabove.ss03</string>
+						<string>Iinvertedbreve.ss03</string>
+						<string>Imacron.ss03</string>
+						<string>Iogonek.ss03</string>
+						<string>Itilde.ss03</string>
+						<string>W.ss03</string>
+						<string>Wacute.ss03</string>
+						<string>Wcircumflex.ss03</string>
+						<string>Wdieresis.ss03</string>
+						<string>Wgrave.ss03</string>
+						<string>a.ss01</string>
+						<string>a.ss02</string>
+						<string>aacute.ss01</string>
+						<string>aacute.ss02</string>
+						<string>abreve.ss01</string>
+						<string>abreve.ss02</string>
+						<string>abreveacute.ss01</string>
+						<string>abreveacute.ss02</string>
+						<string>abrevedotbelow.ss01</string>
+						<string>abrevedotbelow.ss02</string>
+						<string>abrevegrave.ss01</string>
+						<string>abrevegrave.ss02</string>
+						<string>abrevehookabove.ss01</string>
+						<string>abrevehookabove.ss02</string>
+						<string>abrevetilde.ss01</string>
+						<string>abrevetilde.ss02</string>
+						<string>acaron.ss01</string>
+						<string>acaron.ss02</string>
+						<string>acircumflex.ss01</string>
+						<string>acircumflex.ss02</string>
+						<string>acircumflexacute.ss01</string>
+						<string>acircumflexacute.ss02</string>
+						<string>acircumflexdotbelow.ss01</string>
+						<string>acircumflexdotbelow.ss02</string>
+						<string>acircumflexgrave.ss01</string>
+						<string>acircumflexgrave.ss02</string>
+						<string>acircumflexhookabove.ss01</string>
+						<string>acircumflexhookabove.ss02</string>
+						<string>acircumflextilde.ss01</string>
+						<string>acircumflextilde.ss02</string>
+						<string>adblgrave.ss01</string>
+						<string>adblgrave.ss02</string>
+						<string>adieresis.ss01</string>
+						<string>adieresis.ss02</string>
+						<string>adotaccent.ss01</string>
+						<string>adotaccent.ss02</string>
+						<string>adotbelow.ss01</string>
+						<string>adotbelow.ss02</string>
+						<string>agrave.ss01</string>
+						<string>agrave.ss02</string>
+						<string>ahookabove.ss01</string>
+						<string>ahookabove.ss02</string>
+						<string>ainvertedbreve.ss01</string>
+						<string>ainvertedbreve.ss02</string>
+						<string>amacron.ss01</string>
+						<string>amacron.ss02</string>
+						<string>aogonek.ss01</string>
+						<string>aogonek.ss02</string>
+						<string>aring.ss01</string>
+						<string>aring.ss02</string>
+						<string>aringacute.ss01</string>
+						<string>aringacute.ss02</string>
+						<string>atilde.ss01</string>
+						<string>atilde.ss02</string>
+						<string>aturned.ss02</string>
+						<string>b.ss01</string>
+						<string>d.ss01</string>
+						<string>dcaron.ss01</string>
+						<string>dcroat.ss01</string>
+						<string>ddotbelow.ss01</string>
+						<string>dlinebelow.ss01</string>
+						<string>dzcaron.ss01</string>
+						<string>g.ss01</string>
+						<string>g.ss03</string>
+						<string>gacute.ss01</string>
+						<string>gacute.ss03</string>
+						<string>gbreve.ss01</string>
+						<string>gbreve.ss03</string>
+						<string>gcaron.ss01</string>
+						<string>gcaron.ss03</string>
+						<string>gcircumflex.ss01</string>
+						<string>gcircumflex.ss03</string>
+						<string>gcommaaccent.ss01</string>
+						<string>gcommaaccent.ss03</string>
+						<string>gdotaccent.ss01</string>
+						<string>gdotaccent.ss03</string>
+						<string>gmacron.ss01</string>
+						<string>gmacron.ss03</string>
+						<string>i.ss02</string>
+						<string>idotless.ss02</string>
+						<string>iacute.ss02</string>
+						<string>ibreve.ss02</string>
+						<string>icaron.ss02</string>
+						<string>icircumflex.ss02</string>
+						<string>idblgrave.ss02</string>
+						<string>idieresis.ss02</string>
+						<string>idieresisacute.ss02</string>
+						<string>idotaccent.ss02</string>
+						<string>idotbelow.ss02</string>
+						<string>igrave.ss02</string>
+						<string>ihookabove.ss02</string>
+						<string>iinvertedbreve.ss02</string>
+						<string>imacron.ss02</string>
+						<string>iogonek.ss02</string>
+						<string>itilde.ss02</string>
+						<string>l.ss01</string>
+						<string>lacute.ss01</string>
+						<string>lcaron.ss01</string>
+						<string>lcommaaccent.ss01</string>
+						<string>ldot.ss01</string>
+						<string>ldotbelow.ss01</string>
+						<string>ldotbelowmacron.ss01</string>
+						<string>lj.ss01</string>
+						<string>llinebelow.ss01</string>
+						<string>lslash.ss01</string>
+						<string>o.ss01</string>
+						<string>oacute.ss01</string>
+						<string>obreve.ss01</string>
+						<string>ocircumflex.ss01</string>
+						<string>ocircumflexacute.ss01</string>
+						<string>ocircumflexdotbelow.ss01</string>
+						<string>ocircumflexgrave.ss01</string>
+						<string>ocircumflexhookabove.ss01</string>
+						<string>ocircumflextilde.ss01</string>
+						<string>odblgrave.ss01</string>
+						<string>odieresis.ss01</string>
+						<string>odieresismacron.ss01</string>
+						<string>odotaccentmacron.ss01</string>
+						<string>odotbelow.ss01</string>
+						<string>ograve.ss01</string>
+						<string>ohookabove.ss01</string>
+						<string>ohorn.ss01</string>
+						<string>ohornacute.ss01</string>
+						<string>ohorndotbelow.ss01</string>
+						<string>ohorngrave.ss01</string>
+						<string>ohornhookabove.ss01</string>
+						<string>ohorntilde.ss01</string>
+						<string>ohungarumlaut.ss01</string>
+						<string>oinvertedbreve.ss01</string>
+						<string>omacron.ss01</string>
+						<string>omacronacute.ss01</string>
+						<string>omacrongrave.ss01</string>
+						<string>oogonek.ss01</string>
+						<string>oslash.ss01</string>
+						<string>oslashacute.ss01</string>
+						<string>otilde.ss01</string>
+						<string>p.ss01</string>
+						<string>thorn.ss01</string>
+						<string>q.ss01</string>
+						<string>t.ss01</string>
+						<string>tbar.ss01</string>
+						<string>tcaron.ss01</string>
+						<string>tcedilla.ss01</string>
+						<string>tcommaaccent.ss01</string>
+						<string>tdieresis.ss01</string>
+						<string>tdotbelow.ss01</string>
+						<string>tlinebelow.ss01</string>
+						<string>u.ss01</string>
+						<string>uacute.ss01</string>
+						<string>ubreve.ss01</string>
+						<string>ucircumflex.ss01</string>
+						<string>udblgrave.ss01</string>
+						<string>udieresis.ss01</string>
+						<string>udotbelow.ss01</string>
+						<string>ugrave.ss01</string>
+						<string>uhookabove.ss01</string>
+						<string>uhorn.ss01</string>
+						<string>uhornacute.ss01</string>
+						<string>uhorndotbelow.ss01</string>
+						<string>uhorngrave.ss01</string>
+						<string>uhornhookabove.ss01</string>
+						<string>uhorntilde.ss01</string>
+						<string>uhungarumlaut.ss01</string>
+						<string>uinvertedbreve.ss01</string>
+						<string>umacron.ss01</string>
+						<string>umacrondieresis.ss01</string>
+						<string>uogonek.ss01</string>
+						<string>uring.ss01</string>
+						<string>utilde.ss01</string>
+						<string>utildeacute.ss01</string>
+						<string>w.ss03</string>
+						<string>wacute.ss03</string>
+						<string>wcircumflex.ss03</string>
+						<string>wdieresis.ss03</string>
+						<string>wgrave.ss03</string>
+						<string>a.ss08</string>
+						<string>idotless.ss02.archive</string>
+						<string>fi.ss02</string>
+						<string>fl.ss01</string>
+						<string>zero.ss04</string>
+						<string>interrobang.ss13</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Remove Features</string>
+					<key>value</key>
+					<array>
+						<string>ss01</string>
+						<string>ss02</string>
+						<string>ss03</string>
+						<string>ss04</string>
+						<string>cv01</string>
+						<string>cv02</string>
+						<string>cv03</string>
+						<string>cv04</string>
+						<string>cv05</string>
+						<string>cv06</string>
+						<string>cv07</string>
+						<string>cv08</string>
+						<string>cv09</string>
+						<string>cv10</string>
+						<string>cv11</string>
+						<string>cv12</string>
+						<string>cv13</string>
+						<string>cv14</string>
+						<string>cv15</string>
+						<string>cv16</string>
+						<string>cv17</string>
+						<string>cv18</string>
+						<string>cv19</string>
+						<string>cv20</string>
+						<string>cv21</string>
+						<string>cv22</string>
+						<string>cv23</string>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>familyName</string>
+					<key>value</key>
+					<string>Reddit Fudge</string>
 				</dict>
 			</array>
 			<key>interpolationWeight</key>
 			<real>160</real>
-			<key>isItalic</key>
-			<true/>
 			<key>name</key>
 			<string>ExtraBold Italic</string>
 			<key>weightClass</key>

@@ -1,4 +1,6 @@
 module.exports = [
-  { label: "Chocolate", value: "RedditChocolate" },
-  { label: "Vanilla", value: "RedditVanilla" },
+  { label: "Vanilla", value: "RedditVanilla", hasItalic: true },
+  { label: "Chocolate", value: "RedditChocolate", hasItalic: true },
+  { label: "Strawberry", value: "RedditStrawberry", hasItalic: false },
+  { label: "Fudge", value: "RedditFudge", hasItalic: true },
 ]

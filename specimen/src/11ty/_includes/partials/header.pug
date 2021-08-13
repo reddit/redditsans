@@ -12,4 +12,12 @@ header#header.ttu.fs2.flx(data-component="header")
         span#header-version v#{font.version}
         br
         ul#header-nav.flx.flx-row.flx-jb.list-bare.p0.m0
-          +navItems
+          each item, i in navigation
+            li(class=(i > 0 && "pl3"))
+              a.txt-bare(
+                href=item.url
+                class=(item.id === page.fileSlug && "active")
+                aria-current=(item.id === page.fileSlug ? "page" : null)
+                rel="prefetch"
+              ) #{item.title}
+

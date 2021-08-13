@@ -123,3 +123,17 @@ input.input-hidden
 @media (min-width: ($screen-md-max + 1px))
   .hidden-lg
     display: none !important
+
+.btn-bare
+  border-bottom: 1px solid transparent
+  transition: border-bottom-color 250ms
+
+  &:hover
+    border-bottom-color: var(--color-beluga)
+
+  &:focus
+    outline: none
+    color: var(--color-orangered)
+
+li.active .btn-bare
+  border-bottom-color: var(--color-orangered)

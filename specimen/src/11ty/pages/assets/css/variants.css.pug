@@ -22,9 +22,7 @@ for variant in font.variants
       |   font-family: "#{variant.family}";
       |   font-style: #{style.value};
       |   font-weight: #{weight.value};
-      |   src: url("#{file}.eot");
-      |   src: url("#{file}.eot#?iefix") format("embedded-opentype"),
-      |        url("#{file}.woff2") format("woff2"),
+      |   src: url("#{file}.woff2") format("woff2"),
       |        url("#{file}.woff") format("woff");
       | }
       = "\n"

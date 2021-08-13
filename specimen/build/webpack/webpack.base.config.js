@@ -54,8 +54,8 @@ module.exports = {
             if (variant) variant = variant.toLowerCase()
 
             // Move webfonts to appropriate "web" subdirectories
-            if (file.match(/\.(woff2|woff|eot)$/)) {
               if (variant) {
+            if (file.match(/\.(woff2|woff)$/)) {
                 return path.join("fonts", "web", "variants", variant, file)
               } else if (subset) {
                 return path.join("fonts", "web", "subset", subset, src)

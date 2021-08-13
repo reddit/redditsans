@@ -22,8 +22,6 @@ for style in font.styles
     |   font-family: "#{font.cssName}";
     |   font-style: #{style.value};
     |   font-weight: #{weight.value};
-    |   src: url("#{file}.eot#{query}");
-    |   src: url("#{file}.eot#?iefix#{query}") format("embedded-opentype"),
-    |        url("#{file}.woff2#{query}") format("woff2"),
+    |   src: url("#{file}.woff2#{query}") format("woff2"),
     |        url("#{file}.woff#{query}") format("woff");
     | }

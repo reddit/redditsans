@@ -106,13 +106,18 @@
 #test-area
   width: 100%
   height: 100%
-  resize: none
-  border: none
-  background-color: transparent
+  display: flex
   margin: -0.6em -0.3em
-  padding: 0.3em
-  border-radius: 4px
-  transition: box-shadow 250ms
+
+  textarea
+    flex-grow: 1
+    resize: none
+    border: none
+    background-color: transparent
+    padding: 0.3em
+    border-radius: 4px
+    transition: box-shadow 250ms
+    letter-spacing: inherit
 
   &:focus
     outline: none
@@ -187,5 +192,3 @@
 @-moz-document url-prefix()
   #input-version
     text-indent: -2px
-
-

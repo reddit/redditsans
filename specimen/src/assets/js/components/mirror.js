@@ -8,8 +8,10 @@ const mirror = (inputs) => (e) => {
 
 module.exports = {
   initialize: (node) => {
-    Array.from(node.querySelectorAll("input")).forEach((el, i, arr) => {
-      el.addEventListener("input", mirror(arr))
-    })
+    Array.from(node.querySelectorAll("input, textarea")).forEach(
+      (el, i, arr) => {
+        el.addEventListener("input", mirror(arr))
+      }
+    )
   },
 }

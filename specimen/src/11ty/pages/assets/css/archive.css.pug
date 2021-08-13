@@ -25,8 +25,6 @@ for version in font.versions.slice(1)
       |   font-family: "#{version}";
       |   font-style: #{style.value};
       |   font-weight: #{weight.value};
-      |   src: url("#{file}.eot");
-      |   src: url("#{file}.eot#?iefix") format("embedded-opentype"),
-      |        url("#{file}.woff2") format("woff2"),
+      |   src: url("#{file}.woff2") format("woff2"),
       |        url("#{file}.woff") format("woff");
       | }

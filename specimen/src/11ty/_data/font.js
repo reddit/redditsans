@@ -24,23 +24,6 @@ const getType = (str) => {
   return type ? type[1] : null
 }
 
-const samples = {
-  upper: [
-    "HYPERREACTOR",
-    "ALPHABETIZERS",
-    "QUINTUPLICATE",
-    "METAGALAXIES",
-    "KALEIDOSCOPE",
-  ],
-  lower: [
-    "reconceptualized",
-    "counterclockwise",
-    "turbogeneration",
-    "eclaircissements",
-    "sculpturesquely",
-  ],
-}
-
 const features = [
   { flavor: "vanilla", code: "", title: "Vanilla", sample: "", active: true },
   { flavor: "chocolate", code: "ss01", title: "Chocolate", sample: "gal" },
@@ -108,7 +91,6 @@ function getData() {
     glyphs,
     features,
     versions,
-    samples,
     weights,
     styles,
     ranges,

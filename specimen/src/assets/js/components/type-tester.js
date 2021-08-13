@@ -4,7 +4,7 @@ const base = {
   kern: 1,
   liga: 1,
   fw: weights.findIndex((w) => w.value === 400),
-  fs: 21,
+  // fs: 21,
   lh: 1.53,
   ls: 0,
   style: "",
@@ -45,12 +45,14 @@ Object.keys(options).forEach(
 function onClick(e, elements) {
   var option = e ? options[e.target.dataset.option] : options.reset
 
-  elements.FF.forEach((e) => (e.checked = !!option[e.value]))
+  elements.FE.forEach((e) => (e.checked = !!option[e.value]))
   elements.ST.forEach((e) => (e.checked = option.style === e.value))
 
-  elements.TA.value = option.content
+  Array.from(elements.TA.children).forEach((el) => (el.value = option.content))
+
   elements.FW.value = option.fw
   elements.FS.value = option.fs
+  elements.FF.value = option.ff
   elements.LH.value = option.lh
   elements.LS.value = option.ls
 
@@ -64,7 +66,7 @@ function onInput(e, elements) {
     letterSpacing = elements.LS.value,
     flavor = elements.FV.find((e) => e.checked).value
 
-  var features = elements.FF.filter((e) => !e.dataset.flavor).map(
+  var features = elements.FE.filter((e) => !e.dataset.flavor).map(
     (e) => "'" + e.value + "' " + (e.checked ? 1 : 0)
   )
 
@@ -72,8 +74,13 @@ function onInput(e, elements) {
     features = features.concat(flavor.split(", ").map((e) => "'" + e + "' "))
   }
 
-  var version = elements.VS.find((e) => e.checked).value
-  var style = elements.ST.find((e) => e.checked).value
+  var version = elements.VS.length
+    ? elements.VS.find((e) => e.checked).value
+    : ""
+  var style = elements.ST.length ? elements.ST.find((e) => e.checked).value : ""
+  var family = elements.FF.length
+    ? elements.FF.find((e) => e.checked).value
+    : ""
 
   lineHeight = Math.round(lineHeight * size)
 
@@ -81,8 +88,8 @@ function onInput(e, elements) {
   elements.TA.style.fontSize = size + "px"
   elements.TA.style.lineHeight = lineHeight + "px"
   elements.TA.style.letterSpacing = letterSpacing + "em"
-  elements.TA.style.fontFamily = version ? '"' + version + '"' : ""
   elements.TA.style.fontStyle = style
+  elements.TA.style.fontFamily = (version ? '"' + version + '"' : "") + family
 
   document.body.style.fontFeatureSettings = features.join(",")
 
@@ -98,7 +105,6 @@ function onInput(e, elements) {
 }
 
 const getElements = () => ({
-  settings: document.getElementById("test-settings"),
   FW: document.getElementById("input-weight"),
   FS: document.getElementById("input-size"),
   LH: document.getElementById("input-lead"),
@@ -107,7 +113,8 @@ const getElements = () => ({
   TC: document.getElementById("test-criteria"),
   VS: Array.from(document.querySelectorAll("[name='input-version']")),
   ST: Array.from(document.querySelectorAll("[name='input-style']")),
-  FF: Array.from(document.querySelectorAll("[name='ff-setting']")),
+  FF: Array.from(document.querySelectorAll("[name='input-family']")),
+  FE: Array.from(document.querySelectorAll("[name='ff-setting']")),
   FV: Array.from(document.querySelectorAll("[name='ff-flavor']")),
 })
 
@@ -115,11 +122,38 @@ module.exports = {
   initialize: (el) => {
     const elements = getElements()
 
+    options.reset.fs = +elements.FS.value
+    options.reset.lh = +elements.LH.value
+
     el.addEventListener("input", (e) => onInput(e, elements))
 
     Array.from(document.querySelectorAll("[data-option]")).forEach((el) =>
       el.addEventListener("click", (e) => onClick(e, elements))
     )
+
+    let timer
+
+    const scroll = (e) => {
+      if (e.target.__ignorescroll) return
+
+      const c = e.target
+      const t = c.scrollTop / (c.scrollHeight - c.offsetHeight)
+
+      if (elements.TA.children.length > 0) {
+        Array.from(elements.TA.children)
+          .filter((el) => el !== c)
+          .forEach((el) => {
+            el.__ignorescroll = true
+            el.scrollTop = t * (el.scrollHeight - el.offsetHeight)
+            window.clearTimeout(timer)
+            timer = window.setTimeout(() => (el.__ignorescroll = false), 300)
+          })
+      }
+    }
+
+    Array.from(elements.TA.children).forEach((el) => {
+      el.addEventListener("scroll", scroll, { passive: true })
+    })
 
     onClick(null, elements)
   },

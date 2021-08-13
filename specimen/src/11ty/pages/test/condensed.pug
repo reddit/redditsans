@@ -1,0 +1,161 @@
+---
+navigation: 
+  - id: "tester"
+    url: "#tester"
+    title: "Type tester"
+  - id: "side-by-side"
+    url: "#side-by-side"
+    title: "Side by side"
+  - id: "compare"
+    url: "#compare"
+    title: "Width comparison"
+---
+
+extends /layouts/default
+
+block append head
+  link(rel="stylesheet" href="/assets/css/condensed.css")
+  style.
+    @media (max-width: 600px) { main { margin-top: -4em } }
+    .col-sm-6 { width: 50%; box-sizing: border-box; float: left }
+
+block content
+  .container
+    section#tester.pt6.flx.flx-col.flx-jc.bg-beluga(data-component="type-tester")
+      .row.flx.flx-row.flx-col-sm
+        .col-lg-3.col-md-4.flx.flx-col.pv2
+          #test-settings
+            label.p2.bg-urchin.clr-beluga.mb1
+              span.fs1.ttu Weight
+              input(
+                id="input-weight"
+                type="range"
+                min="0"
+                max=(font.weights.length - 1)
+                value=font.weights.findIndex((w) => w.value === 400)
+              )
+
+            label.p2.bg-urchin.clr-beluga.mb1
+              span.fs1.ttu Size
+              input(
+                id="input-size"
+                type="range"
+                min="4"
+                max="72"
+                value="21"
+              )
+
+            .flx.flx-row.pb1.brb.hidden-xs.hidden-sm
+              label.flx-grow.pv2
+                span.fs1.ttu Leading
+                input(
+                  id="input-lead"
+                  type="range"
+                  min="0.8"
+                  max="2"
+                  step="0.01111"
+                  value="1.5238095238"
+                )
+
+              label.flx-grow.pv2.ml1
+                span.fs1.ttu Tracking
+                input(
+                  id="input-track"
+                  type="range"
+                  min="-0.05"
+                  max="0.05"
+                  step="0.002"
+                )
+
+            #test-features.brb
+              .dd
+                input#dd-feat.input-hidden(type="checkbox" data-component="dropdown")
+                label.dd-button.pv3.ph0.fs1.ttu(for="dd-feat") Features
+                ul.dd-list.p0.list-bare.bg-beluga.brt.brb
+                  each feature in font.features
+                    li
+                      label.pv2.flx.flx-ac.fs1.ttu
+                        input.m0(
+                          type=feature.flavor ? "radio" : "checkbox"
+                          name=feature.flavor ? "ff-flavor" : "ff-setting"
+                          value=feature.code
+                          checked=feature.active
+                        )
+                        span.mra.pl2.lh120
+                          = feature.title
+                          if !feature.flavor
+                            br
+                            code.txt-muted.tt0= feature.code
+                        samp.tt0.fs2.ta-c
+                          if feature.flavor
+                            span(class=`ff-${feature.flavor}`)
+                              for c in "I’ll jigsaw".split("")
+                                span(
+                                  class=feature.sample.indexOf(c) >= 0 ? "" : "txt-muted")
+                                  = c
+                          else
+                            span.ff-normal.txt-muted= feature.sample
+                            span.txt-muted!= " &rarr; "
+                            span(class=`ff-${feature.code}`)
+                              = feature.sample
+
+          p#test-criteria.txt-muted.mta.pt2
+
+        .col-lg-9.col-md-8.pv2
+          #test-wrapper(style="height: 312px")
+            #test-area(data-component="mirror")
+              textarea.ff-normal(spellcheck="false" style={ flex: "0 1 50%"})
+              textarea.ff-condensed(spellcheck="false" style={ flex: "0 1 50%"})
+
+    section#side-by-side.pt6(
+      data-component="style"
+    )
+      .pv3
+        .flx.flx-row.flx-col-sm
+          ul.list-bare.ma-sm.pl0.flx.flx-row.mra.fw400.mb0.pb2
+            li.active
+              button.btn-bare.p0(data-text-transform="none") Lowercase
+            li.pl2
+              button.btn-bare.p0.ttu(data-text-transform="uppercase") Uppercase
+
+          ul.list-bare.ma-sm.pl0.flx.flx-row.flx-wrap.flx-jc.mla.fs-roman.mb0.pb2
+            for weight in font.weights
+              li.pl2(class=[
+                `fw${weight.value}`,
+                weight.value === 400 ? "active" : ""
+              ])
+                button.btn-bare.p0(data-font-weight=weight.value)= weight.label
+
+        .pv2
+          each item in samples.kerning.lower
+            .row
+              each family in ["normal", "condensed"]
+                .col-sm-6.fs3.pv2(class=`ff-${family}`)
+                  p= item
+
+    #compare
+      .pv6
+        | Width Comparison at 48px
+        .pv3.brb.ofh(data-component="measure")
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-normal= samples.alpha
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-condensed= samples.alpha
+            span &nbsp;
+
+        .pv3.brb.ofh(data-component="measure")
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-normal= samples.alpha.toLowerCase()
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-condensed= samples.alpha.toLowerCase()
+            span &nbsp;
+
+        .pv3.ofh(data-component="measure")
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-normal 0123456789
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-condensed 0123456789
+            span &nbsp;

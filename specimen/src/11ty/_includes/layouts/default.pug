@@ -13,13 +13,13 @@ html(lang="en-us" class=`page-${page.fileSlug || "home"}`)
       meta(name="author" content=site.author)
       meta(name="theme-color" content="#317EFB")
       meta(name="font-version" content=font.version)
+      meta(name="format-detection" content="telephone=no")
 
-      link(rel="shortcut icon" href="/favicon.png")
+      link(rel="shortcut icon" href="/favicon.ico")
       link(rel="apple-touch-icon" href="/apple-touch-icon.png")
 
       link(rel="canonical" href=site.url + page.fileSlug)
       link(rel="manifest" href="/manifest.json")
-      link(rel="shortcut icon", href="/favicon.ico")
       link(rel="stylesheet" href=assets["main.css"])
 
       link(rel="stylesheet" href="/assets/css/fonts.css")

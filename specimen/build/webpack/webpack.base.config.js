@@ -46,16 +46,20 @@ module.exports = {
           transformPath(src) {
             const varRX = /(Chocolate|Vanilla|Fudge|Strawberry)/
             const setRX = /RedditSans-([A-F])[A-Z]/
+            const cndRX = /(Condensed)/
 
             let file = src.match(/[^\/]+$/)[0]
             let variant = (src.match(varRX) || [])[1]
             let subset = (src.match(setRX) || [])[1]
+            let condensed = (src.match(cndRX) || [])[1]
 
             if (variant) variant = variant.toLowerCase()
 
             // Move webfonts to appropriate "web" subdirectories
-            if (file.match(/\.(woff2|woff|eot)$/)) {
-              if (variant) {
+            if (file.match(/\.(woff2|woff)$/)) {
+              if (condensed) {
+                return path.join("fonts", "web", "condensed", file)
+              } else if (variant) {
                 return path.join("fonts", "web", "variants", variant, file)
               } else if (subset) {
                 return path.join("fonts", "web", "subset", subset, src)

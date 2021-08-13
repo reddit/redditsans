@@ -1,25 +1,26 @@
 ---
-permalink: assets/css/fonts.css
+permalink: assets/css/condensed.css
 dynamicPermalink: false
 ---
 
 | @charset "UTF-8";
 
-for style in font.styles
+- var query = "?v" + Math.random()
+
+for style in font.styles.slice(0, 1)
   for weight in font.weights
-    - var path = `/fonts/web/full`;
+    - var path = `/fonts/web/condensed`;
     - var name = "RedditSans";
-    - var file = `${path}/${name}-${weight.label}${style.label}`;
+    - var file = `${path}/${name}-${weight.label}${style.label}Condensed`;
 
     if weight.value === 400 && style.value === "italic"
       - var file = `${path}/${name}-${style.label}`;
 
-    - var query = "?v" + Math.random()
 
     = "\n\n"
 
     | @font-face {
-    |   font-family: "#{font.cssName}";
+    |   font-family: "#{font.cssName}Condensed";
     |   font-style: #{style.value};
     |   font-weight: #{weight.value};
     |   src: url("#{file}.woff2#{query}") format("woff2"),

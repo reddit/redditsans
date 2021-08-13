@@ -4,52 +4,11 @@ section#intro.flx.flx-col.bg-beluga(
   .container.pt5.pb4.ta-c
     .fs10.lh120.pb4
       for weight in font.weights
-        samp.dib(class=`fw${weight.value}` data-width="ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-          input(placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZ" title="Edit me!")
+        samp.dib(class=`fw${weight.value}` data-width=samples.alpha)
+          input(placeholder=samples.alpha title="Edit me!")
 
     a.bg-orangered.clr-beluga.pv2.ph3.mt3.mla.mra.txt-bare.ttu.fw600.fs2.dib(
       download
       href=encodeURI(`/Reddit Sans ${font.version}.zip`)
     )
       | Download v#{font.version}
-
-//- section#intro.flx.flx-col.flx-jc.bg-beluga
-  .container.flx.flx-col.flx-grow.pt5.pb4
-    h1.ttu.fs9.tt-uc.lh100.mta.pv4.fw600
-      span.clr-orangered ■■■■ Sans
-      | &nbsp;&thinsp;—&thinsp;&thinsp;&nbsp;a typeface designed for the
-      | front page of the internet
-
-    .pb4
-      button Download
-      button PDF Specimen
-
-    .pt5.brt.mba
-      .row
-        .col-lg-4.col-lg-o0.col-md-10.col-md-o1
-          p
-           | ♡♡♡♡ is a place where all sorts of people come together to explore, share and discuss pretty much everything with each other. So a typeface for Reddit couldn't just focus on how a brand communicates with its audience. We wanted to create something that would work first and foremost for Redditors, allowing them to speak in their own individual voices in a way that feels natural. For a community with such diverse interests, this is no mean feat. To capture the best of Reddit, we needed a typeface that shared the same qualities as the platform and the people – approachable, energetic, captivating and quirky.
-        .col-lg-4.col-lg-o0.col-md-10.col-md-o1
-          p
-           | We drew inspiration from timeless designs throughout the twentieth
-           | century, distilling them into something unique yet universal.
-           | There are specific nods to Futura, Neuzeit, Tempo and even the
-           | London Underground, but special touches set Reddit Sans apart.
-          p
-           | The design is based on a geometric structure that leans towards
-           | classical proportions. Minimal contrast between vertical and
-           | horizontal strokes gives the type a warm character. Loose, low
-           | tension curves mix a friendly charm with open apertures and
-           | occasional dashes of cursive flair.
-        .col-lg-4.col-lg-o0.col-md-10.col-md-o1
-          p
-           | The x-height is tall enough for comfortable reading at smaller
-           | text sizes, while making sure the letterforms don't compromise on
-           | graphic appeal when they are scaled up.
-          p
-           | The fonts include a wide range of glyphs covering extended Latin
-           | and offer support for a handful of OpenType features. Five weights
-           | are available, with matching italics and two distinct flavors.
-          p
-           | Best of all, ♡♡♡♡ Sans is generously licensed, so you're free to
-           | download and use the fonts however you like.

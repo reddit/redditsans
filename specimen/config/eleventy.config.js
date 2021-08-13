@@ -1,29 +1,23 @@
-const path = require("path")
-const paths = require("./paths")
-const pug = require("pug")
 const marked = require("marked")
 const projectVars = require("../src/11ty/_data/project")
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.setPugOptions({
+module.exports = function (config) {
+  config.setPugOptions({
     filters: { marked },
   })
 
   if (projectVars.production) {
-    eleventyConfig.addTransform(
-      "htmlmin",
-      require("../build/scripts/minify-html")
-    )
+    config.addTransform("htmlmin", require("../build/scripts/minify-html"))
   }
 
-  eleventyConfig.addPassthroughCopy({
+  config.addPassthroughCopy({
     "src/static/": "/",
     "src/assets/images": "/assets/images",
   })
 
-  eleventyConfig.addWatchTarget("../fonts/")
+  config.addWatchTarget("../fonts/")
 
-  eleventyConfig.setQuietMode(true)
+  config.setQuietMode(true)
 
   return {
     dir: {

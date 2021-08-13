@@ -63,6 +63,5 @@
     "update": "npx ncu -u; npm install",
     "update-check": "npx npm-check-updates",
     "serve": "npx live-server ./dist --port=8080 --host=localhost"
-  },
-  "dependencies": {}
+  }
 }

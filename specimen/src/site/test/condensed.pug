@@ -12,9 +12,11 @@ navigation:
     title: "Width comparison"
 ---
 
+
 extends /layouts/default
 
 block append head
+  - font.version += "-02"
   link(rel="stylesheet" href="/assets/css/condensed.css")
   style.
     @media (max-width: 600px) { main { margin-top: -4em } }
@@ -68,6 +70,26 @@ block content
                   step="0.002"
                 )
 
+            .pv3.flx.flx-row.flx-ac.fs1.ttu.brb
+              span.mra Width
+              span
+                input#input-normal.input-hidden(
+                  type="radio"
+                  name="input-family"
+                  value="RedditSans"
+                )
+                label.m0(for="input-normal") Normal
+              span &ensp;/&ensp;
+              span
+                input#input-condensed.input-hidden(
+                  type="radio"
+                  name="input-family"
+                  value="RedditSansCondensed"
+                  checked
+                )
+
+                label.m0.ff-condensed(for="input-condensed") Condensed
+
             #test-features.brb
               .dd
                 input#dd-feat.input-hidden(type="checkbox" data-component="dropdown")
@@ -103,17 +125,11 @@ block content
           p#test-criteria.txt-muted.mta.pt2
 
         .col-lg-9.col-md-8.pv2
-          #test-wrapper(style="height: 312px")
-            #test-area(data-component="mirror")
-              textarea.ff-normal(
+          #test-wrapper(style="height: 327px")
+            #test-area.ff-condensed(data-component="mirror")
+              textarea(
                 arial-label="Test area"
                 spellcheck="false"
-                style={ flex: "0 1 50%"}
-              )
-              textarea.ff-condensed(
-                arial-label="Test area"
-                spellcheck="false"
-                style={ flex: "0 1 50%"}
               )
 
     section#side-by-side.pt6(

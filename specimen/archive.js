@@ -16,6 +16,8 @@ require("./src/site/_data/font").then(({ version }) => {
   archive.directory("./dist/fonts/desktop", "fonts/desktop")
   archive.directory("./dist/fonts/web", "fonts/web")
   archive.directory("../documents", false)
+  archive.file("../LICENSE.md", false)
+  archive.file("../FONTLOG.txt", false)
 
   archive.finalize()
 })

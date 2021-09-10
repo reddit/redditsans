@@ -1,0 +1,50 @@
+FONTLOG for the Reddit Sans fonts
+
+This file provides detailed information on the Reddit Sans Font Software. This
+information should be distributed along with the Reddit Sans fonts and any
+derivative works.
+
+Basic Font Information
+
+Reddit Sans is a sans serif typeface family available in five weights with
+matching italics.
+
+The fonts include more than 1,000 glyphs. This character set includes support
+for the Google Fonts Latin Core, Latin Plus, Latin Pro and Latin Expert glyph
+sets, excluding the small capitals and discretionary ligatures from the Expert
+set. It also contains a small number of additional glyphs and stylistic sets.
+
+The range covers Western and Central European language, Vietnamese, currencies,
+alternate numerals, math symbols and units of measure, Latin general use
+extensions, superiors and inferiors, spacing modifiers, typographic spaces,
+additional punctuation (with case alternates), numerators and denominators,
+fractions, arrows and geometric shapes. It includes support for over 100
+languages.
+
+ChangeLog
+
+10 September 2021 (Stephen Hutchings) Reddit Sans 1.008
+
+- Updated copyright attribution
+
+June 2021 (Stephen Hutchings) Reddit Sans 1.007
+
+- Separate exports for Chocolate, Vanilla, Strawberry and Fudge
+
+March 2021 (Stephen Hutchings) Reddit Sans 1.005
+
+- Updated spacing
+
+July 2020 (Stephen Hutchings) Reddit Sans 1.000
+
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Stephen Hutchings
+E: stephen@s-ings.com
+W: http://www.s-ings.com
+D: Designer - original Roman glyphs

@@ -39,7 +39,7 @@ A CSS file is provided for web versions of variant fonts.
 
 -------------
 
-Copyright © 2020-21
+Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font Name "Reddit Sans". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
 -------------
 

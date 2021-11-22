@@ -5,6 +5,10 @@ dynamicPermalink: false
 
 | @charset "UTF-8";
 
+| .show-previous-version {
+|   --font-family: "#{font.versions[1]}";
+| }
+
 for version in font.versions.slice(1)
   = "\n\n"
 

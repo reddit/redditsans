@@ -5,7 +5,11 @@ dynamicPermalink: false
 
 | @charset "UTF-8";
 
-for version in font.condensedArchive
+| .show-previous-version {
+|   --font-family-condensed: "Condensed-#{font.condensedVersions[1]}";
+| }
+
+for version in font.condensedVersions.slice(1)
   = "\n\n"
 
   | /* Version #{version} */
@@ -13,10 +17,7 @@ for version in font.condensedArchive
   for weight in font.weights
     - var path = `/fonts/archive/condensed/${version}`;
     - var name = "RedditSans";
-    - var file = `${path}/${name}-${weight.label}`;
-
-    if weight.value === 400
-      - var file = `${path}/${name}`;
+    - var file = `${path}/${name}-${weight.label}Condensed`;
 
     = "\n\n"
 
@@ -24,6 +25,5 @@ for version in font.condensedArchive
     |   font-family: "Condensed-#{version}";
     |   font-style: normal;
     |   font-weight: #{weight.value};
-    |   src: url("#{file}.woff2") format("woff2"),
-    |        url("#{file}.woff") format("woff");
+    |   src: url("#{file}.woff2") format("woff2");
     | }

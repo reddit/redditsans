@@ -92,7 +92,7 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="tester")
                                 class=feature.sample.indexOf(c) >= 0 ? "" : "txt-muted")
                                 = c
                         else
-                          span.ff-normal.txt-muted= feature.sample
+                          span.ff-unset.txt-muted= feature.sample
                           span.txt-muted!= " &rarr; "
                           span(class=`ff-${feature.code}`)
                             = feature.sample

@@ -10,19 +10,14 @@ Array.from(document.querySelectorAll("[data-component]")).forEach((el) =>
   })
 )
 
-let state = true
+let showPreviousVersion = true
 
 const flip = () => {
-  if (state) {
-    document.documentElement.style = `
-  --font-family: "${versions[0]}";
-  --font-family-condensed: "Condensed-02"
-    `
-  } else {
-    document.documentElement.style = ""
-  }
-
-  state = !state
+  document.documentElement.classList.toggle(
+    "show-previous-version",
+    showPreviousVersion
+  )
+  showPreviousVersion = !showPreviousVersion
 }
 
 window.addEventListener("keydown", (e) => {

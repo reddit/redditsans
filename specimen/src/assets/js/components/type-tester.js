@@ -83,7 +83,6 @@ function onInput(e, elements) {
     : ""
 
   lineHeight = Math.round(lineHeight * size)
-  console.log(family, version)
 
   elements.TA.style.fontWeight = weights[weight].value
   elements.TA.style.fontSize = size + "px"
@@ -96,6 +95,7 @@ function onInput(e, elements) {
 
   elements.TC.innerHTML = [
     weights[weight].label,
+    elements.FF.find((e) => e.checked)?.dataset.label || "",
     style.slice(0, 1).toUpperCase() + style.slice(1),
     size,
     "/ " + lineHeight + "px",

@@ -4,13 +4,16 @@ title: "Punctuation"
 
 extends /layouts/default
 
+block append head
+  link(rel="stylesheet" href="/assets/css/condensed.css")
+
 mixin pattern(pattern, str, glue)
   - str = str ||"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
   p!= str.split("").map(e => pattern.replace(/\$1/g, e)).join(glue||"&ensp;")
 
 block content
   for style in ["roman", "italic"]
-    .container
+    .container.ff-condensed
       .row.pv5(class=`fs-${style}`)
         each weight in [300, 500, 700]
           .col-sm-4(class=`fw${weight}`)

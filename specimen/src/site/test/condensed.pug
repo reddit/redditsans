@@ -18,6 +18,8 @@ extends /layouts/default
 block append head
   - font.version += "-02"
   link(rel="stylesheet" href="/assets/css/condensed.css")
+  link(rel="stylesheet" href="/assets/css/archive-condensed.css")
+
   style.
     @media (max-width: 600px) { main { margin-top: -4em } }
     .col-sm-6 { width: 50%; box-sizing: border-box; float: left }
@@ -89,6 +91,22 @@ block content
                 )
 
                 label.m0.ff-condensed(for="input-condensed") Condensed
+
+            #test-version.hidden-xs.hidden-sm
+              .dd
+                input#dd-version.input-hidden(type="checkbox" data-component="dropdown")
+                label.dd-button.pv3.ph0.fs1.ttu(for="dd-version") Version
+                ul.dd-list.p0.list-bare.bg-beluga.brt.brb
+                  each v, i in ["03", ...font.condensedArchive]
+                    li
+                      label.pv2.flx.flx-ac.fs1.ttu
+                        input.m0(
+                          type="radio"
+                          name="input-version"
+                          value=(i > 0 ? "Condensed-" +v : "")
+                          checked=(i === 0)
+                        )
+                        span.pl2.lh120 v#{v}
 
             #test-features.brb
               .dd

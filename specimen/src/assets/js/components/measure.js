@@ -1,6 +1,6 @@
 const measure = (children, widths, count) => {
   if (widths[1] !== children[1].offsetWidth) {
-    widths = children.map((child) => child.offsetWidth)
+    widths = children.map((child) => child.getBoundingClientRect().width)
   }
 
   if (count < 20) {
@@ -8,10 +8,9 @@ const measure = (children, widths, count) => {
   }
 
   children.forEach((child, i) => {
-    child.nextElementSibling.innerHTML = `${widths[i]}px / ${(
-      (widths[i] / widths[0]) *
-      100
-    ).toFixed(1)}%`
+    const width = widths[i].toFixed(0)
+    const ratio = (widths[i] / widths[0]) * 100
+    child.nextElementSibling.innerHTML = `${width}px / ${ratio.toFixed(1)}%`
   })
 }
 

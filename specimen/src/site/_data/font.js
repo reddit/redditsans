@@ -77,6 +77,7 @@ async function getData() {
       codes: glyphs.filter((e) => e.codes).length,
       total: glyphs.length,
     },
+    condensedArchive: ["02", "01"],
   }
 }
 

@@ -83,13 +83,14 @@ function onInput(e, elements) {
     : ""
 
   lineHeight = Math.round(lineHeight * size)
+  console.log(family, version)
 
   elements.TA.style.fontWeight = weights[weight].value
   elements.TA.style.fontSize = size + "px"
   elements.TA.style.lineHeight = lineHeight + "px"
   elements.TA.style.letterSpacing = letterSpacing + "em"
   elements.TA.style.fontStyle = style
-  elements.TA.style.fontFamily = (version ? '"' + version + '"' : "") + family
+  elements.TA.style.fontFamily = version ? '"' + version + '"' : family
 
   document.body.style.fontFeatureSettings = features.join(",")
 

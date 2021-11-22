@@ -4,9 +4,12 @@ title: "Kerning"
 
 extends /layouts/default
 
+block append head
+  link(rel="stylesheet" href="/assets/css/condensed.css")
+
 block content
   each style in ["roman", "italic"]
-    .container(class=`fs-${style}`)
+    .container.ff-condensed(class=`fs-${style}`)
       .row.pv5
         each weight in [300, 400, 600, 700]
           .col-sm-6.fs3(class=`fw${weight}`)

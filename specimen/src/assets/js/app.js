@@ -13,7 +13,15 @@ Array.from(document.querySelectorAll("[data-component]")).forEach((el) =>
 let state = true
 
 const flip = () => {
-  document.body.style.fontFamily = state ? `"${versions[0]}"` : ""
+  if (state) {
+    document.documentElement.style = `
+  --font-family: "${versions[0]}";
+  --font-family-condensed: "Condensed-02"
+    `
+  } else {
+    document.documentElement.style = ""
+  }
+
   state = !state
 }
 

@@ -1,0 +1,28 @@
+---
+permalink: assets/css/mono.css
+dynamicPermalink: false
+---
+
+| @charset "UTF-8";
+
+- var query = "?v" + Math.random()
+
+for w in ["", "1140"]
+  for style in font.styles.slice(0, 1)
+    for weight in font.weights
+      - var path = `/fonts/web/condensed`;
+      - var name = "RedditSansMono" + w;
+      - var file = `${path}/${name}-${weight.label}${style.label}`;
+
+      if weight.value === 400 && style.value === "italic"
+        - var file = `${path}/${name}-${style.label}`;
+
+      = "\n\n"
+
+      | @font-face {
+      |   font-family: "#{font.cssName}Mono#{w}";
+      |   font-style: #{style.value};
+      |   font-weight: #{weight.value};
+      |   src: url("#{file}.woff2#{query}") format("woff2"),
+      |        url("#{file}.woff#{query}") format("woff");
+      | }

@@ -146,8 +146,11 @@ module.exports = {
           .forEach((el) => {
             el.__ignorescroll = true
             el.scrollTop = t * (el.scrollHeight - el.offsetHeight)
-            window.clearTimeout(timer)
-            timer = window.setTimeout(() => (el.__ignorescroll = false), 300)
+            window.clearTimeout(el.__timer)
+            el.__timer = window.setTimeout(
+              () => (el.__ignorescroll = false),
+              300
+            )
           })
       }
     }

@@ -1,0 +1,244 @@
+---
+title: "Mono"
+navigation: 
+  - id: "tester"
+    url: "#tester"
+    title: "Type tester"
+  - id: "side-by-side"
+    url: "#side-by-side"
+    title: "Side by side"
+  - id: "compare"
+    url: "#compare"
+    title: "Width comparison"
+---
+
+
+extends /layouts/default
+
+block append head
+  - font.version += "-" + font.monospacedVersions[0]
+  link(rel="stylesheet" href="/assets/css/mono.css")
+
+  style.
+    @media (max-width: 600px) { main { margin-top: -4em } }
+    .col-sm-6 { width: 50%; box-sizing: border-box; float: left }
+
+block content
+  .container
+    section#tester.pt6.flx.flx-col.flx-jc.bg-beluga(data-component="tester")
+      .row.flx.flx-row.flx-col-sm
+        .col-lg-3.col-md-4.flx.flx-col.pv2
+          #test-settings
+            label.p2.bg-urchin.clr-beluga.mb1
+              span.fs1.ttu Weight
+              input(
+                id="input-weight"
+                type="range"
+                min="0"
+                max=(font.weights.length - 1)
+                value=font.weights.findIndex((w) => w.value === 400)
+              )
+
+            label.p2.bg-urchin.clr-beluga.mb1
+              span.fs1.ttu Size
+              input(
+                id="input-size"
+                type="range"
+                min="4"
+                max="72"
+                value="21"
+              )
+
+            .flx.flx-row.pb1.brb.hidden-xs.hidden-sm
+              label.flx-grow.pv2
+                span.fs1.ttu Leading
+                input(
+                  id="input-lead"
+                  type="range"
+                  min="0.8"
+                  max="2"
+                  step="0.01111"
+                  value="1.5238095238"
+                )
+
+              label.flx-grow.pv2.ml1
+                span.fs1.ttu Tracking
+                input(
+                  id="input-track"
+                  type="range"
+                  min="-0.05"
+                  max="0.05"
+                  step="0.002"
+                )
+
+            .pv3.flx.flx-row.flx-ac.fs1.ttu.brb
+              span.mra Width
+              span
+                input#input-normal.input-hidden(
+                  type="radio"
+                  name="input-family"
+                  value="var(--font-family)"
+                  data-label=""
+                )
+                label.m0(for="input-normal") Normal
+              span &ensp;/&ensp;
+              span
+                input#input-mono.input-hidden(
+                  type="radio"
+                  name="input-family"
+                  value="var(--font-family-mono)"
+                  checked
+                  data-label="Mono"
+                )
+
+                label.m0.ff-mono(for="input-mono") Mono
+
+            #test-features.brb
+              .dd
+                input#dd-feat.input-hidden(type="checkbox" data-component="dropdown")
+                label.dd-button.pv3.ph0.fs1.ttu(for="dd-feat") Features
+                ul.dd-list.p0.list-bare.bg-beluga.brt.brb
+                  each feature in font.features
+                    li
+                      label.pv2.flx.flx-ac.fs1.ttu
+                        input.m0(
+                          type=feature.flavor ? "radio" : "checkbox"
+                          name=feature.flavor ? "ff-flavor" : "ff-setting"
+                          value=feature.code
+                          checked=feature.active
+                        )
+                        span.mra.pl2.lh120
+                          = feature.title
+                          if !feature.flavor
+                            br
+                            code.txt-muted.tt0= feature.code
+                        samp.tt0.fs2.ta-c
+                          if feature.flavor
+                            span(class=`ff-${feature.flavor}`)
+                              for c in "I’ll jigsaw".split("")
+                                span(
+                                  class=feature.sample.indexOf(c) >= 0 ? "" : "txt-muted")
+                                  = c
+                          else
+                            span.ff-normal.txt-muted= feature.sample
+                            span.txt-muted!= " &rarr; "
+                            span(class=`ff-${feature.code}`)
+                              = feature.sample
+
+            #test-version.hidden-xs.hidden-sm.brb
+              .dd
+                input#dd-version.input-hidden(type="checkbox" data-component="dropdown")
+                label.dd-button.pv3.ph0.fs1.ttu(for="dd-version") Version
+                ul.dd-list.p0.list-bare.bg-beluga.brt.brb
+                  each v, i in font.monospacedVersions
+                    li
+                      label.pv2.flx.flx-ac.fs1.ttu
+                        input.m0(
+                          type="radio"
+                          name="input-version"
+                          value=(i > 0 ? "Mono-" +v : "")
+                          checked=(i === 0)
+                        )
+                        span.pl2.lh120 v#{font.versions[0]}-#{v}
+
+          p#test-criteria.txt-muted.mta.pt2
+
+        .col-lg-9.col-md-8.pv2
+          #test-wrapper(style="height: 378px")
+            #test-area.ff-mono(data-component="mirror")
+              span.ff-normal.fs1.pv1 1080
+              textarea(
+                arial-label="Test area"
+                spellcheck="false"
+              )
+              span.ff-normal.fs1.pv1 1140
+              textarea.ff-mono1140(
+                arial-label="Test area"
+                spellcheck="false"
+              )
+
+    section#side-by-side.pt6(
+      data-component="style"
+    )
+      .pv3
+        .flx.flx-row.flx-col-sm.fs3.tt0.fs-roman
+          ul.list-bare.ma-sm.pl0.flx.flx-row.fw400.mb0.pb3.pr4
+            li.txt-muted Case
+            li.pl2.active
+              button.btn-bare.p0(data-text-transform="none") Lower
+            li.pl2
+              button.btn-bare.p0.ttu(data-text-transform="uppercase") Upper
+
+          ul.list-bare.ma-sm.pl0.flx.flx-row.mra.fw400.mb0.pb3
+            li.txt-muted Size
+            for size, i in [16, 20, 24, 32, 64]
+              li.pl2(class=(i === 0 && "active"))
+                button.btn-bare.p0(
+                  data-line-height=size < 24 ? "" : 1 + (8 / size)
+                  data-font-size=`${size}px`
+                )= size
+
+          ul.list-bare.ma-sm.pl0.flx.flx-row.flx-wrap.flx-jc.mla.mb0.pb3
+            for weight in font.weights
+              li.pl2(class=[
+                `fw${weight.value}`,
+                weight.value === 400 ? "active" : ""
+              ])
+                button.btn-bare.p0(data-font-weight=weight.value)= weight.label
+
+        .pv2
+          each item, i in samples.kerning.lower
+            .row
+              each family in ["normal", "mono", "mono1140"]
+                .col-sm-4.pv2(class=`ff-${family}${i ? " ff-noliga" : ""}`)
+                  p= item
+
+          .row
+            //- each family in ["normal", "mono"]
+              .col-sm-6.pv2(class=`ff-${family}`)
+
+            each family in ["normal", "mono", "mono1140"]
+              .col-sm-4.pv2(class=`ff-${family}${i ? " ff-noliga" : ""}`)
+                p
+                  each item in samples.mathematics
+                    = item
+                    br
+
+    #compare
+      .pv6
+        | Width Comparison at 48px
+        .pv3.brb.ofh(data-component="measure")
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-normal= samples.alpha
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-mono= samples.alpha
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-mono1140= samples.alpha
+            span &nbsp;
+
+        .pv3.brb.ofh(data-component="measure")
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-normal= samples.alpha.toLowerCase()
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-mono= samples.alpha.toLowerCase()
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-mono1140= samples.alpha.toLowerCase()
+            span &nbsp;
+
+        .pv3.ofh(data-component="measure")
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-normal 0123456789
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-mono 0123456789
+            span &nbsp;
+          .flx.flx-ac.flx-wrap
+            span.mra.measure.fs8.ff-mono1140 0123456789
+            span &nbsp;
+
+  style.
+    .ff-mono1140 { font-family: "RedditSansMono1140" }

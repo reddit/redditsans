@@ -78,6 +78,7 @@ async function getData() {
       total: glyphs.length,
     },
     condensedVersions: ["03", "02", "01"],
+    monospacedVersions: ["01"],
   }
 }
 

@@ -36,6 +36,10 @@ const update = (node) => (e) => {
   )
 }
 
+const click = (el) => {
+  if (el) el.click()
+}
+
 module.exports = {
   initialize: (node) => {
     const style = decode(window.location.search)
@@ -46,7 +50,7 @@ module.exports = {
     })
 
     Object.entries(style).forEach(([key, val]) => {
-      node.querySelector(`[data-${key}="${val}"]`).click()
+      click(node.querySelector(`[data-${key}="${val}"]`))
     })
   },
 }

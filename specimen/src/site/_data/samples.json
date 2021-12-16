@@ -1,5 +1,9 @@
 {
   "alpha": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "extended": {
+    "upper": "AÆBCDEFGHIJKLMNŊOŒPÞQRSẞƏTUVWXYZ",
+    "lower": "aæbcdðeəfghiıjȷkĸlmnŋoœpþqrsßtuvwxyz"
+  },
   "words": {
     "upper": [
       "HYPERREACTOR",

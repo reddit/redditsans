@@ -164,7 +164,7 @@ block content
           ul.list-bare.ma-sm.pl0.flx.flx-row.fw400.mb0.pb3.pr4
             li.txt-muted Case
             li.pl2.active
-              button.btn-bare.p0(data-text-transform="none") Lower
+              button.btn-bare.p0(data-text-transform="") Lower
             li.pl2
               button.btn-bare.p0.ttu(data-text-transform="uppercase") Upper
 
@@ -173,8 +173,8 @@ block content
             for size, i in [16, 20, 24, 32, 64]
               li.pl2(class=(i === 0 && "active"))
                 button.btn-bare.p0(
-                  data-line-height=size < 24 ? "" : 1 + (8 / size)
-                  data-font-size=`${size}px`
+                  data-line-height=(size > 24 ? 1 + (8 / size) : null)
+                  data-font-size=(size > 16 ? `${size}px` : "")
                 )= size
 
           ul.list-bare.ma-sm.pl0.flx.flx-row.flx-wrap.flx-jc.mla.mb0.pb3
@@ -183,7 +183,9 @@ block content
                 `fw${weight.value}`,
                 weight.value === 400 ? "active" : ""
               ])
-                button.btn-bare.p0(data-font-weight=weight.value)= weight.label
+                button.btn-bare.p0(
+                  data-font-weight=(weight.value !== 400 ? weight.value : "")
+                )= weight.label
 
         .pv2
           each item in samples.kerning.lower

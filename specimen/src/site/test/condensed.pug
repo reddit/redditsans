@@ -10,6 +10,9 @@ navigation:
   - id: "compare"
     url: "#compare"
     title: "Width comparison"
+styles: 
+  - "normal"
+  - "condensed"
 ---
 
 
@@ -23,6 +26,7 @@ block append head
   style.
     @media (max-width: 600px) { main { margin-top: -4em } }
     .col-sm-6 { width: 50%; box-sizing: border-box; float: left }
+    .txt-ul { text-decoration-color: var(--color-seal); }
 
 block content
   .container
@@ -184,17 +188,32 @@ block content
         .pv2
           each item in samples.kerning.lower
             .row
-              each family in ["normal", "condensed"]
+              each family in styles
                 .col-sm-6.pv2(class=`ff-${family}`)
                   p= item
 
           .row
-            each family in ["normal", "condensed"]
+            each family in styles
               .col-sm-6.pv2(class=`ff-${family}`)
                 p
                   each item in samples.mathematics
                     = item
                     br
+
+          .row
+            each family, i in styles
+              - const alternate = styles[(i + 1) % styles.length]
+              .col-sm-6.pv2(class=`ff-${family}`)
+                p 
+                  | This sentence contains some words 
+                  span.txt-ul(class=`ff-${alternate}`)
+                    | which have been emphasized
+                  |  inline with #{family} width characters, in order to compare the 
+                  span.txt-ul(class=`ff-${alternate}`)
+                    | different x-heights
+                  |  and ensure that they do not appear to be 
+                  span.txt-ul(class=`ff-${alternate}`)
+                    | visually inconsistent.
 
     #compare
       .pv6

@@ -1,4 +1,3 @@
-const versions = require("./data/versions")
 const components = require("./components/index.js")
 
 // Dynamic component loading from data-component attribute

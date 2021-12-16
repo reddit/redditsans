@@ -1,0 +1,51 @@
+mixin style-bar(options)
+  .flx.flx-row.flx-col-sm.fs3.tt0.fs-roman.ff-normal.mhn1
+    .flx.flx-wrap.flx-c.ma-sm.mra
+      if options.case
+        ul.list-bare.ph2.flx.flx-row.fw400.mb0.pb3.pr4
+          li.txt-muted Case
+          li.pl2.active
+            button.btn-bare.p0(data-text-transform="") Lower
+          li.pl2
+            button.btn-bare.p0.ttu(data-text-transform="uppercase") Upper
+
+      if options.size
+        ul.list-bare.ph2.flx.flx-row.fw400.mb0.pb3.pr4
+          li.txt-muted Size
+          for size, i in [16, 20, 24, 32, 64]
+            li.pl2(class=(i === 0 && "active"))
+              button.btn-bare.p0(
+                data-line-height=size > 24 ? 1 + (8 / size) : ""
+                data-font-size=size > 16 ? `${size}px` : ""
+              )= size
+
+    .flx.flx-wrap.flx-c.ma-sm
+      if options.style
+        ul.list-bare.ph2.flx.flx-row.fw400.mb0.pb3
+          li.pl2.active
+            button.btn-bare.p0(data-font-style="") Roman
+          li.pl2
+            button.btn-bare.p0.fs-italic(data-font-style="italic") Italic
+
+      if options.family
+        ul.list-bare.ph2.flx.flx-row.fw400.mb0.pb3
+          li.pl2.active
+            button.btn-bare.p0(
+              data-font-family=""
+            ) Normal
+          li.pl2
+            button.btn-bare.p0.ff-condensed(
+              data-font-family="var(--font-family-condensed)"
+            ) Condensed
+
+    .flx.flx-wrap.flx-c.ma-sm
+      if options.weights
+        ul.list-bare.ph2.flx.flx-row.flx-wrap.flx-jc.mb0
+          for weight in font.weights
+            li.pl2.pb3(class=[
+              `fw${weight.value}`,
+              weight.value === 400 ? "active" : ""
+            ])
+              button.btn-bare.p0(
+                data-font-weight=(weight.value === 400 ? "" : weight.value)
+              )= weight.label

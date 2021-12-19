@@ -4,25 +4,34 @@ title: "Kerning"
 
 extends /layouts/default
 
+include /mixins/style-bar
+
 block append head
   link(rel="stylesheet" href="/assets/css/condensed.css")
+  link(rel="stylesheet" href="/assets/css/archive.css")
+  link(rel="stylesheet" href="/assets/css/archive-condensed.css")
 
 block content
-  each style in ["roman", "italic"]
-    .container.ff-condensed(class=`fs-${style}`)
-      .row.pv5
-        each weight in [300, 400, 600, 700]
-          .col-sm-6.fs3(class=`fw${weight}`)
-            each item in samples.kerning.bringhurst
-              p!= item
-            each item in samples.kerning.upper
-              p= item
-            each item in samples.kerning.lower
-              p= item
+  .container.pv5(
+    data-component="style"
+  )
+    .pv3
+      +style-bar({
+        case: true,
+        size: true,
+        style: true,
+        family: true,
+        weights: true,
+      })
 
-      hr.m0
-      .row.pv5
-        each weight in [300, 400, 600]
-          .col-sm-4(class=`fw${weight}`)
-            each item in samples.kerning.subreddits
-              p= item
+    .row
+      each style in ["", "ff-ss01", "ff-ss02", "ff-ss03"]
+        .col-sm-6.pv3(class=style)
+          each item in samples.kerning.bringhurst
+            p!= item
+          each item in samples.kerning.lower
+            p= item
+
+    .pv3
+      each item in samples.kerning.subreddits
+        p= item

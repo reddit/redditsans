@@ -10,10 +10,14 @@ navigation:
   - id: "compare"
     url: "#compare"
     title: "Width comparison"
+styles: 
+  - "normal"
+  - "condensed"
 ---
 
-
 extends /layouts/default
+
+include /mixins/style-bar
 
 block append head
   - font.version += "-" + font.condensedVersions[0]
@@ -23,6 +27,7 @@ block append head
   style.
     @media (max-width: 600px) { main { margin-top: -4em } }
     .col-sm-6 { width: 50%; box-sizing: border-box; float: left }
+    .txt-ul { text-decoration-color: var(--color-seal); }
 
 block content
   .container
@@ -156,45 +161,41 @@ block content
       data-component="style"
     )
       .pv3
-        .flx.flx-row.flx-col-sm.fs3.tt0.fs-roman
-          ul.list-bare.ma-sm.pl0.flx.flx-row.fw400.mb0.pb3.pr4
-            li.txt-muted Case
-            li.pl2.active
-              button.btn-bare.p0(data-text-transform="none") Lower
-            li.pl2
-              button.btn-bare.p0.ttu(data-text-transform="uppercase") Upper
-
-          ul.list-bare.ma-sm.pl0.flx.flx-row.mra.fw400.mb0.pb3
-            li.txt-muted Size
-            for size, i in [16, 20, 24, 32, 64]
-              li.pl2(class=(i === 0 && "active"))
-                button.btn-bare.p0(
-                  data-line-height=size < 24 ? "" : 1 + (8 / size)
-                  data-font-size=`${size}px`
-                )= size
-
-          ul.list-bare.ma-sm.pl0.flx.flx-row.flx-wrap.flx-jc.mla.mb0.pb3
-            for weight in font.weights
-              li.pl2(class=[
-                `fw${weight.value}`,
-                weight.value === 400 ? "active" : ""
-              ])
-                button.btn-bare.p0(data-font-weight=weight.value)= weight.label
+        +style-bar({
+          case: true,
+          size: true,
+          weights: true,
+        })
 
         .pv2
           each item in samples.kerning.lower
             .row
-              each family in ["normal", "condensed"]
+              each family in styles
                 .col-sm-6.pv2(class=`ff-${family}`)
                   p= item
 
           .row
-            each family in ["normal", "condensed"]
+            each family in styles
               .col-sm-6.pv2(class=`ff-${family}`)
                 p
                   each item in samples.mathematics
                     = item
                     br
+
+          .row
+            each family, i in styles
+              - const alternate = styles[(i + 1) % styles.length]
+              .col-sm-6.pv2(class=`ff-${family}`)
+                p 
+                  | This sentence contains some words 
+                  span.txt-ul(class=`ff-${alternate}`)
+                    | which have been emphasized
+                  |  inline with #{family} width characters, in order to compare the 
+                  span.txt-ul(class=`ff-${alternate}`)
+                    | different x-heights
+                  |  and ensure that they do not appear to be 
+                  span.txt-ul(class=`ff-${alternate}`)
+                    | visually inconsistent.
 
     #compare
       .pv6

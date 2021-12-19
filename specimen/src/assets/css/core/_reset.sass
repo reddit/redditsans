@@ -3,6 +3,7 @@ html
   font-family: var(--font-family), var(--font-system), sans-serif
   font-size: 16px
   line-height: 1.5
+  text-underline-position: from-font
   -ms-overflow-style: -ms-autohiding-scrollbar
 
   @media (max-width: $screen-sm-max)
@@ -15,7 +16,10 @@ html, body
 body, input, textarea, a
   color: var(--color-orca)
 
-a
+*
+  font-synthesis: none
+
+a, .txt-ul
   text-decoration: underline
   color: inherit
 

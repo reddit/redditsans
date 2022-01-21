@@ -23,6 +23,7 @@ module.exports = function (config) {
   const passthrough = {
     "src/static/": "/",
     "../fonts/condensed/*.(woff|woff2)": "/fonts/web/condensed",
+    "../fonts/mono/*.(woff|woff2)": "/fonts/web/mono",
   }
 
   passthrough[`../fonts/RedditSans-${weight}*.(woff2|woff)`] =

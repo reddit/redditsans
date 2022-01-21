@@ -20,7 +20,7 @@ extends /layouts/default
 include /mixins/style-bar
 
 block append head
-  - font.version += "-" + font.condensedVersions[0]
+  - font.version += " C" + font.condensedVersions[0]
   link(rel="stylesheet" href="/assets/css/condensed.css")
   link(rel="stylesheet" href="/assets/css/archive-condensed.css")
 
@@ -200,7 +200,7 @@ block content
     #compare
       .pv6
         | Width Comparison at 48px
-        .pv3.brb.ofh(data-component="measure")
+        .pv3.brb.clip(data-component="measure")
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-normal= samples.alpha
             span &nbsp;
@@ -208,7 +208,7 @@ block content
             span.mra.measure.fs8.ff-condensed= samples.alpha
             span &nbsp;
 
-        .pv3.brb.ofh(data-component="measure")
+        .pv3.brb.clip(data-component="measure")
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-normal= samples.alpha.toLowerCase()
             span &nbsp;
@@ -216,7 +216,7 @@ block content
             span.mra.measure.fs8.ff-condensed= samples.alpha.toLowerCase()
             span &nbsp;
 
-        .pv3.ofh(data-component="measure")
+        .pv3.clip(data-component="measure")
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-normal 0123456789
             span &nbsp;

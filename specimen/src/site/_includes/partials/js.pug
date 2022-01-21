@@ -1,0 +1,13 @@
+pre(style="color: #abb2bf;").
+  # JAVASCRIPT
+  <span style="color: #5bd0df;">const</span> <span style="color: #9ad56f;">decode</span> <span style="color: #e06c75;">=</span> (<span style="color: #ff866a;">params</span>) <span style="color: #56b6c2;">=&gt;</span> {
+    <span style="color: #e06c75;">return</span> <span style="color: #6e93ff;">Object</span>.<span style="color: #9ad56f;">fromEntries</span>(
+      <span style="color: #d3d6dd;">params</span>
+        .<span style="color: #9ad56f;">slice</span>(<span style="color: #e182fd;">1</span>)
+        .<span style="color: #9ad56f;">split</span>(<span style="color: #ffca4e;">/&amp;/</span>)
+        .<span style="color: #9ad56f;">map</span>((<span style="color: #ff866a;">group</span>) <span style="color: #56b6c2;">=&gt;</span>
+          <span style="color: #6e93ff;">group</span>.<span style="color: #9ad56f;">split</span>(<span style="color: #ffca4e;">"="</span>).<span style="color: #9ad56f;">map</span>(<span style="color: #d3d6dd;">decodeURIComponent</span>)
+        )</span>
+        .<span style="color: #9ad56f;">filter</span>(([<span style="color: #ff866a;">key</span>, <span style="color: #ff866a;">val</span>]) <span style="color: #56b6c2;">=&gt;</span> <span style="color: #d3d6dd;">val</span>)
+    )
+  }

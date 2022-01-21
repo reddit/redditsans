@@ -16,7 +16,7 @@ navigation:
 extends /layouts/default
 
 block append head
-  - font.version += "-" + font.monospacedVersions[0]
+  - font.version += " M" + font.monospacedVersions[0]
   link(rel="stylesheet" href="/assets/css/mono.css")
 
   style.
@@ -25,7 +25,7 @@ block append head
 
 block content
   .container
-    section#tester.pt6.flx.flx-col.flx-jc.bg-beluga(data-component="tester")
+    section#tester.pv6.flx.flx-col.flx-jc.bg-beluga(data-component="tester")
       .row.flx.flx-row.flx-col-sm
         .col-lg-3.col-md-4.flx.flx-col.pv2
           #test-settings
@@ -72,7 +72,7 @@ block content
                 )
 
             .pv3.flx.flx-row.flx-ac.fs1.ttu.brb
-              span.mra Width
+              span.mra Style
               span
                 input#input-normal.input-hidden(
                   type="radio"
@@ -146,17 +146,20 @@ block content
         .col-lg-9.col-md-8.pv2
           #test-wrapper(style="height: 378px")
             #test-area.ff-mono(data-component="mirror")
-              span.ff-normal.fs1.pv1 1080
               textarea(
                 arial-label="Test area"
                 spellcheck="false"
               )
-              span.ff-normal.fs1.pv1 1140
-              textarea.ff-mono1140(
-                arial-label="Test area"
-                spellcheck="false"
-              )
 
+  section.bg-squid.clr-beluga
+    .container
+      .row.ff-mono.pv5.scroll
+        .col-md-6.pv2
+          include /partials/js
+        .col-md-6.pv2
+          include /partials/css
+
+  .container    
     section#side-by-side.pt6(
       data-component="style"
     )
@@ -165,7 +168,7 @@ block content
           ul.list-bare.ma-sm.pl0.flx.flx-row.fw400.mb0.pb3.pr4
             li.txt-muted Case
             li.pl2.active
-              button.btn-bare.p0(data-text-transform="none") Lower
+              button.btn-bare.p0(data-text-transform="") Lower
             li.pl2
               button.btn-bare.p0.ttu(data-text-transform="uppercase") Upper
 
@@ -174,8 +177,8 @@ block content
             for size, i in [16, 20, 24, 32, 64]
               li.pl2(class=(i === 0 && "active"))
                 button.btn-bare.p0(
-                  data-line-height=size < 24 ? "" : 1 + (8 / size)
-                  data-font-size=`${size}px`
+                  data-line-height=(size < 24 ? "" : 1 + (8 / size))
+                  data-font-size=(size > 16 ? `${size}px` : "")
                 )= size
 
           ul.list-bare.ma-sm.pl0.flx.flx-row.flx-wrap.flx-jc.mla.mb0.pb3
@@ -184,21 +187,20 @@ block content
                 `fw${weight.value}`,
                 weight.value === 400 ? "active" : ""
               ])
-                button.btn-bare.p0(data-font-weight=weight.value)= weight.label
+                button.btn-bare.p0(
+                  data-font-weight=(weight.value === 400 ? "" : weight.value)
+                )= weight.label
 
         .pv2
           each item, i in samples.kerning.lower
             .row
-              each family in ["normal", "mono", "mono1140"]
-                .col-sm-4.pv2(class=`ff-${family}${i ? " ff-noliga" : ""}`)
+              each family in ["normal", "mono"]
+                .col-sm-6.pv2(class=`ff-${family}${i ? " ff-noliga" : ""}`)
                   p= item
 
           .row
-            //- each family in ["normal", "mono"]
-              .col-sm-6.pv2(class=`ff-${family}`)
-
-            each family in ["normal", "mono", "mono1140"]
-              .col-sm-4.pv2(class=`ff-${family}${i ? " ff-noliga" : ""}`)
+            each family in ["normal", "mono"]
+              .col-sm-6.pv2(class=`ff-${family}${i ? " ff-noliga" : ""}`)
                 p
                   each item in samples.mathematics
                     = item
@@ -207,37 +209,28 @@ block content
     #compare
       .pv6
         | Width Comparison at 48px
-        .pv3.brb.ofh(data-component="measure")
+        .pv3.brb.clip(data-component="measure")
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-normal= samples.alpha
             span &nbsp;
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-mono= samples.alpha
             span &nbsp;
-          .flx.flx-ac.flx-wrap
-            span.mra.measure.fs8.ff-mono1140= samples.alpha
-            span &nbsp;
 
-        .pv3.brb.ofh(data-component="measure")
+        .pv3.brb.clip(data-component="measure")
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-normal= samples.alpha.toLowerCase()
             span &nbsp;
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-mono= samples.alpha.toLowerCase()
             span &nbsp;
-          .flx.flx-ac.flx-wrap
-            span.mra.measure.fs8.ff-mono1140= samples.alpha.toLowerCase()
-            span &nbsp;
 
-        .pv3.ofh(data-component="measure")
+        .pv3.clip(data-component="measure")
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-normal 0123456789
             span &nbsp;
           .flx.flx-ac.flx-wrap
             span.mra.measure.fs8.ff-mono 0123456789
-            span &nbsp;
-          .flx.flx-ac.flx-wrap
-            span.mra.measure.fs8.ff-mono1140 0123456789
             span &nbsp;
 
   style.

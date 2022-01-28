@@ -1,0 +1,29 @@
+---
+permalink: assets/css/archive-mono.css
+dynamicPermalink: false
+---
+
+| @charset "UTF-8";
+
+| .show-previous-version {
+|   --font-family-mono: "Mono-#{font.monospacedVersions[1]}";
+| }
+
+for version in font.monospacedVersions.slice(1)
+  = "\n\n"
+
+  | /* Version #{version} */
+
+  for weight in font.weights
+    - var path = `/fonts/archive/mono/${version}`;
+    - var name = "RedditSans";
+    - var file = `${path}/${name}Mono-${weight.label}`;
+
+    = "\n\n"
+
+    | @font-face {
+    |   font-family: "Mono-#{version}";
+    |   font-style: normal;
+    |   font-weight: #{weight.value};
+    |   src: url("#{file}.woff2") format("woff2");
+    | }

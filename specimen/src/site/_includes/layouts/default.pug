@@ -16,7 +16,7 @@ html(lang="en-us" class=`page-${page.fileSlug || "home"}`)
       link(rel="shortcut icon" href="/favicon.ico")
       link(rel="apple-touch-icon" href="/apple-touch-icon.png")
 
-      link(rel="canonical" href=site.url + page.filePathStem)
+      link(rel="canonical" href=site.url + page.filePathStem.slice(1))
       link(rel="manifest" href="/manifest.json")
 
       link(rel="stylesheet" href="/assets/css/app.css")

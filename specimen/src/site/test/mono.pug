@@ -16,7 +16,6 @@ extends /layouts/default
 
 block append head
   - font.version += " M" + font.monospacedVersions[0]
-  - font.features.unshift({ code: "ss05", title: "Mono alts", sample: "li" })
 
   link(rel="stylesheet" href="/assets/css/mono.css")
   link(rel="stylesheet" href="/assets/css/archive-mono.css")
@@ -100,7 +99,21 @@ block content
                 input#dd-feat.input-hidden(type="checkbox" data-component="dropdown")
                 label.dd-button.pv3.ph0.fs1.ttu(for="dd-feat") Features
                 ul.dd-list.p0.list-bare.bg-beluga.brt.brb
-                  each feature in font.features
+                  li
+                    label.pv2.flx.flx-ac.fs1.ttu
+                      input.m0(
+                        type="checkbox"
+                        name="ff-setting"
+                        value="ss05"
+                      )
+                      span.mra.pl2.lh120
+                        | Alternates
+
+                      samp.tt0.fs2.ta-c.ff-mono
+                        | il &rarr; 
+                        span.ff-ss05 il
+
+                  each feature, i in font.features
                     li
                       label.pv2.flx.flx-ac.fs1.ttu
                         input.m0(
@@ -111,7 +124,7 @@ block content
                         )
                         span.mra.pl2.lh120
                           = feature.title
-                          if !feature.flavor
+                          if !feature.flavor && i > 0
                             br
                             code.txt-muted.tt0= feature.code
                         

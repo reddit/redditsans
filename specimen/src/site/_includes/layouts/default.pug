@@ -24,12 +24,13 @@ html(lang="en-us" class=`page-${page.fileSlug || "home"}`)
       link(rel="stylesheet" href="/assets/css/archive.css")
 
   body
-    include ../partials/header
+    block body
+      include ../partials/header
 
-    #wrapper
-      main#main
-        block content
+      #wrapper
+        main#main
+          block content
 
-      include ../partials/footer
+        include ../partials/footer
 
-  script(src="/assets/js/app.js")
+      script(src="/assets/js/app.js")

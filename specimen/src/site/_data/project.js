@@ -1,5 +1,5 @@
 module.exports = {
-  production: process.env.NODE_ENV === "production",
-  development: process.env.NODE_ENV === "development",
-  env: process.env.NODE_ENV || "development",
+  production: process.env.NODE_ENV === "prod",
+  development: process.env.NODE_ENV === "dev",
+  env: process.env.NODE_ENV || "dev",
 }

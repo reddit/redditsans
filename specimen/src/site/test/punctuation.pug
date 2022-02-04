@@ -8,7 +8,9 @@ include /mixins/style-bar
 
 block append head
   link(rel="stylesheet" href="/assets/css/condensed.css")
+  link(rel="stylesheet" href="/assets/css/mono.css")
   link(rel="stylesheet" href="/assets/css/archive-condensed.css")
+  link(rel="stylesheet" href="/assets/css/archive-mono.css")
 
 mixin pattern(pattern, str, glue)
   - str = str ||"AÆBCDEFGHIJKLMNŊOŒPÞQRSẞƏTUVWXYZaæbcdðeəfghiıjȷkĸlmnŋoœpþqrsßtuvwxyz0123456789"
@@ -37,6 +39,8 @@ block content
       +pattern("r/$1mhom")
       +pattern("*$1*$1*")
       +pattern("H&amp;H H&amp;$1 $1&amp;H O&amp;O", samples.extended.upper)
+      +pattern("H@H H@$1 $1@H O@O", samples.extended.upper)
+      +pattern("h@h h@$1 $1@h o@o", samples.extended.upper)
       +pattern("HO_H$1_$1H_OH", samples.extended.upper)
       +pattern("ho_h$1_$1h_oh", samples.extended.lower)
 

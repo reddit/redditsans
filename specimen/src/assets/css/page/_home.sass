@@ -1,9 +1,11 @@
 .page-home
+  scroll-snap-align: end
+
   #wrapper:before
     content: none !important
 
   @media (min-height: 720px)
-    scroll-snap-type: y
+    scroll-snap-type: y proximity
 
   #main > section
     min-height: 100vh

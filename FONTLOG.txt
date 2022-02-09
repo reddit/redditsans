@@ -47,4 +47,4 @@ If you make modifications be sure to add your name (N), email (E), web-address
 N: Stephen Hutchings
 E: stephen@s-ings.com
 W: http://www.s-ings.com
-D: Designer - original Roman glyphs
+D: Designer - original Roman and Italic glyphs

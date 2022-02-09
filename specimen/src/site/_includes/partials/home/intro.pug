@@ -1,8 +1,16 @@
 section#intro.flx.flx-col.bg-beluga(
-  data-component="style, mirror"
+  data-component="mirror, family"
 )
   .container.pt5.pb4.ta-c
-    .fs10.lh120.pb4
+    ul.list-bare.flx.flx-c.p0
+      li.pl2.active
+        button.btn-bare.p0.ff-normal(data-font-family="") Sans
+      li.pl2
+        button.btn-bare.p0.ff-condensed(data-font-family="condensed") Condensed
+      li.pl2
+        button.btn-bare.p0.ff-mono(data-font-family="mono") Mono
+
+    .fs10.lh120.pv4
       for weight in font.weights
         samp.dib(class=`fw${weight.value}` data-width=samples.alpha)
           input(placeholder=samples.alpha title="Edit me!")

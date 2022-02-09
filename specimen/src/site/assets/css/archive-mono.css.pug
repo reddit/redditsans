@@ -15,9 +15,12 @@ for version in font.monospacedVersions.slice(1)
   | /* Version #{version} */
 
   for weight in font.weights
-    - var path = `/fonts/archive/mono/${version}`;
-    - var name = "RedditSans";
-    - var file = `${path}/${name}Mono-${weight.label}`;
+    - var path = `/fonts/reddit-mono/archive/${version}`;
+
+    if ["03", "02", "01"].includes(version)
+      - var file = `${path}/RedditSansMono-${weight.label}`;
+    else
+      - var file = `${path}/RedditMono-${weight.label}`;
 
     = "\n\n"
 

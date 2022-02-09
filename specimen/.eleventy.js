@@ -7,6 +7,8 @@ const weights = require("./src/assets/js/data/weights")
 
 const weight = `(${weights.map((n) => n.label).join("|")}|Italic)`
 
+const families = ["Reddit Sans", "Reddit Sans Condensed", "Reddit Mono"]
+
 module.exports = function (config) {
   config.setPugOptions({
     pretty: env.development,
@@ -22,41 +24,52 @@ module.exports = function (config) {
 
   const passthrough = {
     "src/static/": "/",
-    "../fonts/condensed/*.(woff|woff2)": "/fonts/web/condensed",
-    "../fonts/mono/*.(woff|woff2)": "/fonts/web/mono",
   }
 
-  passthrough[`../fonts/RedditSans-${weight}*.(woff2|woff)`] =
-    "/fonts/web/full/"
+  families.forEach((family, i) => {
+    const src = `../fonts/${family}`
+    const out = "/fonts/" + family.toLocaleLowerCase().replace(/\s/g, "-")
+    const familyName = family.replace(/\s/g, "")
 
-  passthrough[`../fonts/RedditSans-${weight}*.ttf`] = "/fonts/desktop/"
+    // Full desktop fonts
+    passthrough[`${src}/${familyName}-${weight}+.ttf`] = `${out}/desktop/`
 
-  // Web subsets
-  subsets
-    .map((n) => n.label)
-    .forEach((set) => {
-      const key = `../fonts/RedditSans-${set}${weight}*.(woff2|woff)`
-      const val = `/fonts/web/subsets/${set}`
-      passthrough[key] = val
-    })
+    // Full webfonts
+    passthrough[
+      `${src}/${familyName}-${weight}+.(woff2|woff)`
+    ] = `${out}/web/full/`
 
-  // Web variants
-  flavors
-    .map((n) => n.label)
-    .forEach((set) => {
-      const key = `../fonts/variants/RedditSans${set}*.(woff2|woff)`
-      const val = `/fonts/web/variants/${set}`
-      passthrough[key] = val
-    })
+    // Web subsets
+    subsets
+      .map((n) => n.label)
+      .forEach((set) => {
+        const key = `${src}/${familyName}-${set}${weight}+.(woff2|woff)`
+        const val = `${out}/web/subsets/${set}`
+        passthrough[key] = val
+      })
 
-  // Desktop variants
-  flavors
-    .map((n) => n.label)
-    .forEach((set) => {
-      const key = `../fonts/variants/RedditSans${set}*.ttf`
-      const val = `/fonts/desktop/variants/${set}`
-      passthrough[key] = val
-    })
+    if (i == 0) {
+      // Web variants
+      flavors
+        .map((n) => n.label)
+        .forEach((flavor) => {
+          const key = `${src}/variants/${familyName}${flavor}*.(woff2|woff)`
+          const val = `${out}/web/variants/${flavor}`
+          passthrough[key] = val
+        })
+
+      // Desktop variants
+      flavors
+        .map((n) => n.label)
+        .forEach((flavor) => {
+          const key = `${src}/variants/${familyName}${flavor}*.ttf`
+          const val = `${out}/desktop/variants/${flavor}`
+          passthrough[key] = val
+        })
+    }
+  })
+
+  console.log(passthrough)
 
   config.addPassthroughCopy(passthrough)
 

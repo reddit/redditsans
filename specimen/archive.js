@@ -13,11 +13,32 @@ require("./src/site/_data/font").then(({ version }) => {
 
   archive.pipe(output)
 
-  archive.directory("./dist/fonts/desktop", "fonts/desktop")
-  archive.directory("./dist/fonts/web", "fonts/web")
+  archive.directory("./dist/fonts/reddit-mono/desktop", "Reddit Mono/desktop")
+  archive.directory("./dist/fonts/reddit-mono/web", "Reddit Mono/web")
+
+  archive.directory("./dist/fonts/reddit-sans/desktop", "Reddit Sans/desktop")
+  archive.directory("./dist/fonts/reddit-sans/web", "Reddit Sans/web")
+
+  archive.directory(
+    "./dist/fonts/reddit-sans-condensed/desktop",
+    "Reddit Sans Condensed/desktop"
+  )
+  archive.directory(
+    "./dist/fonts/reddit-sans-condensed/web",
+    "Reddit Sans Condensed/web"
+  )
+
   archive.directory("../documents", false)
   archive.file("../LICENSE.md", false)
   archive.file("../FONTLOG.txt", false)
+
+  archive.file("./dist/assets/css/fonts.css", { name: "Resources/fonts.css" })
+  archive.file("./dist/assets/css/subsets.css", {
+    name: "Resources/subsets.css",
+  })
+  archive.file("./dist/assets/css/variants.css", {
+    name: "Resources/variants.css",
+  })
 
   archive.finalize()
 })

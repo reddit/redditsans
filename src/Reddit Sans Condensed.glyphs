@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright © 2020 by Stephen Hutchings. All rights reserved.";
+copyright = "Copyright (c) 2021-22, Reddit, Inc. (https://www.reddit.com), with Reserved Font Name \"Reddit Sans Condensed\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 customParameters = (
 {
 name = "Family Alignment Zones";
@@ -26,7 +26,7 @@ value = (
 date = "2021-01-27 11:30:18 +0000";
 designer = "Stephen Hutchings";
 designerURL = "https://www.s-ings.com/";
-familyName = "Reddit Sans";
+familyName = "Reddit Sans Condensed";
 featurePrefixes = (
 {
 automatic = 1;
@@ -98039,7 +98039,7 @@ interpolationWeight = 32;
 instanceInterpolations = {
 "AB099EFE-E788-4EFC-8633-CF147CB782A6" = 1;
 };
-name = "Thin Condensed";
+name = Thin;
 weightClass = Thin;
 widthClass = Condensed;
 },
@@ -98064,7 +98064,7 @@ instanceInterpolations = {
 "AB099EFE-E788-4EFC-8633-CF147CB782A6" = 0.71429;
 "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6" = 0.28571;
 };
-name = "ExtraLight Condensed";
+name = ExtraLight;
 weightClass = ExtraLight;
 widthClass = Condensed;
 },
@@ -98088,7 +98088,7 @@ instanceInterpolations = {
 "AB099EFE-E788-4EFC-8633-CF147CB782A6" = 0.42857;
 "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6" = 0.57143;
 };
-name = "Light Condensed";
+name = Light;
 weightClass = Light;
 widthClass = Condensed;
 },
@@ -98111,7 +98111,7 @@ interpolationWeight = 88;
 instanceInterpolations = {
 "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6" = 1;
 };
-name = "Regular Condensed";
+name = Regular;
 widthClass = Condensed;
 },
 {
@@ -98134,7 +98134,7 @@ instanceInterpolations = {
 "2D8F7115-C311-411E-929D-56333CF7FFB2" = 0.34783;
 "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6" = 0.65217;
 };
-name = "SemiBold Condensed";
+name = SemiBold;
 weightClass = SemiBold;
 widthClass = Condensed;
 },
@@ -98158,7 +98158,7 @@ instanceInterpolations = {
 "2D8F7115-C311-411E-929D-56333CF7FFB2" = 0.56522;
 "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6" = 0.43478;
 };
-name = "Bold Condensed";
+name = Bold;
 weightClass = Bold;
 widthClass = Condensed;
 },
@@ -98183,7 +98183,7 @@ instanceInterpolations = {
 "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6" = 0.21739;
 };
 isBold = 1;
-name = "ExtraBold Condensed";
+name = ExtraBold;
 weightClass = ExtraBold;
 widthClass = Condensed;
 },
@@ -98208,7 +98208,7 @@ instanceInterpolations = {
 "2D8F7115-C311-411E-929D-56333CF7FFB2" = 1;
 };
 isBold = 1;
-name = "Black Condensed";
+name = Black;
 weightClass = Black;
 widthClass = Condensed;
 }

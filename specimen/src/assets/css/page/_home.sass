@@ -40,19 +40,19 @@
       margin-left: -3em
       z-index: 1
 
-    &[style*="background: var(--color-orca)"]
+    &[style*="background-color: var(--color-orca)"]
       &:before
         background: var(--color-beluga)
 
-    &[style*="background: var(--color-orca)"],
-    &[style*="background: var(--color-orangered)"]
+    &[style*="background-color: var(--color-orca)"],
+    &[style*="background-color: var(--color-orangered)"]
       input::placeholder
         color: var(--color-beluga)
 
       input:focus::placeholder
         color: var(--color-seal)
 
-    &[style*="background: var(--color-orangered)"]
+    &[style*="background-color: var(--color-orangered)"]
       .btn-bare:hover,
       li.active .btn-bare
         border-bottom-color: var(--color-orca)
@@ -87,7 +87,7 @@
   .btn-color.btn-color-invert:focus
     border-color: var(--color-beluga)
 
-  &[style*="background: var(--color-orangered)"]
+  &[style*="background-color: var(--color-orangered)"]
     li.active .btn-bare,
     .btn-color.btn-bare:focus
       border-color: var(--color-orca)

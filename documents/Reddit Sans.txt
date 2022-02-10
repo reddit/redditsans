@@ -1,14 +1,19 @@
 Reddit Sans
-v1.008
+v1.009
+
+Families
+-------------
+Fonts are organised by family. Reddit Sans, Reddit Sans Condensed and Reddit
+Mono desktop and web font files can be found in their respective subdirectories.
 
 Desktop fonts
 -------------
-Desktop fonts can be found in "fonts/desktop".
+Desktop fonts can be found in "/desktop".
 
 Web fonts
 -------------
 Web fonts are available in two varieties, full and subset.
-The full webfonts contain all features and are found in "fonts/web/full".
+The full webfonts contain all features and are found in "/web/full".
 
 The subset webfonts are split into six unicode ranges to provide the smallest
 footprint. Most English-language users are covered by the basic glyphs in the
@@ -17,7 +22,7 @@ miscellaneous characters are provided in the supplementary fonts. Not each
 range covers the same number of code points, and not every code point has a
 corresponding glyph. Future versions of the fonts may contain more glyphs, but
 are unlikely to require changes to the unicode range listed below. These fonts
-are found in "fonts/web/subset" and are grouped by folder.
+are found in "/web/subset" and are grouped by folder.
 
 A: U+0020-00BF
 B: U+00C0-00FF
@@ -26,20 +31,33 @@ D: U+0200-0FFF
 E: U+1000-1FFF
 F: U+2000-FFFF
 
-CSS files are provided for both full and subset fonts.
+Example CSS files are provided for both full and subset fonts in the Resources folder.
 
 Variant fonts
 -------------
 Desktop and web fonts are exported for each flavor – Vanilla, Chocolate, 
-Strawberry and Fudge. They can be found in "fonts/desktop/variants" and
-"fonts/web/variants". These are useful in contexts that don't support
+Strawberry and Fudge. They can be found in "/desktop/variants" and
+"/web/variants". These are useful in contexts that don't support
 stylistic alternatives. Note there is no italic variant for Strawberry.
 
-A CSS file is provided for web versions of variant fonts.
+An example CSS file is provided for web versions of variant fonts in the Resources folder.
 
 -------------
 
-Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font Name "Reddit Sans". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+Reddit Sans
+Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font
+Name "Reddit Sans". This Font Software is licensed under the SIL Open Font
+License, Version 1.1. This license is available with a FAQ at:
+http://scripts.sil.org/OFL
+
+Reddit Sans Condensed
+Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font
+Name "Reddit Sans Condensed". This Font Software is licensed under the SIL Open
+Font License, Version 1.1. This license is available with a FAQ at:
+http://scripts.sil.org/OFL
+
+Reddit Mono
+Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font Name "Reddit Mono". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
 -------------
 

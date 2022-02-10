@@ -7,11 +7,10 @@ dynamicPermalink: false
 
 - var query = "?v" + Math.random()
 
-
 for style in font.styles.slice(0, 1)
   for weight in font.weights
-    - var path = `/fonts/web/mono`;
-    - var name = "RedditSansMono";
+    - var path = `/fonts/reddit-mono/web/full`;
+    - var name = "RedditMono";
     - var file = `${path}/${name}-${weight.label}${style.label}`;
 
     if weight.value === 400 && style.value === "italic"
@@ -20,7 +19,7 @@ for style in font.styles.slice(0, 1)
     = "\n\n"
 
     | @font-face {
-    |   font-family: "#{font.cssName}Mono";
+    |   font-family: "RedditMono";
     |   font-style: #{style.value};
     |   font-weight: #{weight.value};
     |   src: url("#{file}.woff2#{query}") format("woff2"),

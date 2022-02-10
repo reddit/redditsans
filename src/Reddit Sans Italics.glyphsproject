@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>exportPath</key>
-	<string>/Users/stephenhutchings/Projects/reddit-font/Demo/fonts</string>
+	<string>/Users/stephenhutchings/Projects/reddit-font/Demo/fonts/Reddit Sans</string>
 	<key>fontPath</key>
 	<string>Reddit Sans Italics.glyphs</string>
 	<key>instances</key>

@@ -27,10 +27,15 @@ block content
       })
 
     .row
-      each style in ["", "ff-ss01", "ff-ss02", "ff-ss03"]
+      each style, i in ["", "ff-ss01", "ff-ss02", "ff-ss03"]
         .col-sm-6.pv3(class=style)
-          each item in samples.kerning.bringhurst
-            p!= item
+          each item, j in samples.kerning.bringhurst
+            if j === 0
+              p
+                = ["Vanilla", "Chocolate", "Strawberry", "Fudge"][i] + ". "
+                != item
+            else
+              p!= item
           each item in samples.kerning.lower
             p= item
 

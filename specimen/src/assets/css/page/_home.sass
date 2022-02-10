@@ -1,9 +1,16 @@
 .page-home
+  scroll-snap-align: end
+
   #wrapper:before
     content: none !important
 
-  @media (min-height: 720px)
-    scroll-snap-type: y
+  @media (min-height: 800px)
+    scroll-snap-type: y proximity
+
+  @media (max-width: $screen-sm-max)
+    a[download]
+      margin: 3em auto 0
+      width: fit-content
 
   #main > section
     min-height: 100vh
@@ -40,19 +47,19 @@
       margin-left: -3em
       z-index: 1
 
-    &[style*="background: var(--color-orca)"]
+    &[style*="background-color: var(--color-orca)"]
       &:before
         background: var(--color-beluga)
 
-    &[style*="background: var(--color-orca)"],
-    &[style*="background: var(--color-orangered)"]
+    &[style*="background-color: var(--color-orca)"],
+    &[style*="background-color: var(--color-orangered)"]
       input::placeholder
         color: var(--color-beluga)
 
       input:focus::placeholder
         color: var(--color-seal)
 
-    &[style*="background: var(--color-orangered)"]
+    &[style*="background-color: var(--color-orangered)"]
       .btn-bare:hover,
       li.active .btn-bare
         border-bottom-color: var(--color-orca)
@@ -87,7 +94,7 @@
   .btn-color.btn-color-invert:focus
     border-color: var(--color-beluga)
 
-  &[style*="background: var(--color-orangered)"]
+  &[style*="background-color: var(--color-orangered)"]
     li.active .btn-bare,
     .btn-color.btn-bare:focus
       border-color: var(--color-orca)

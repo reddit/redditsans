@@ -77,8 +77,8 @@ async function getData() {
       codes: glyphs.filter((e) => e.codes).length,
       total: glyphs.length,
     },
-    monospacedVersions: ["04", "03", "02", "01"],
-    condensedVersions: ["04", "03", "02", "01"],
+    monospacedVersions: ["05", "04", "03", "02", "01"],
+    condensedVersions: ["05", "04", "03", "02", "01"],
   }
 }
 

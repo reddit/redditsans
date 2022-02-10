@@ -23,6 +23,24 @@ languages.
 
 ChangeLog
 
+10 Februrary 2022 (Stephen Hutchings) Reddit Sans 1.009
+
+- Added first exports of Mono and Condensed fonts.
+
+- Regular
+  - Minor width and weight adjustments (a.ss01, k, v, y).
+  - Correction of minor alignment problems in currency (lira, manat, naira, peso, ruble, rupeeIndian, sterling, yen) and other symbols (commercialMinusSign, percent)
+  - Increased spacing for arrows
+
+- Condensed
+  - Finalised small number glyphs (dnom, etc.).
+  - Corrections for currency and other symbols.
+  - Reset arrows to use full width glyphs
+  - Increased spacing for arrows
+
+Mono
+- Regular figures are tabular figure composites
+
 10 September 2021 (Stephen Hutchings) Reddit Sans 1.008
 
 - Updated copyright attribution

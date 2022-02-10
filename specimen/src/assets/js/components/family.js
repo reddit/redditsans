@@ -33,7 +33,7 @@ const samples = {
     "LACKADAISICAL",
     "swashbuckling",
     "farkleberries",
-    "hyperextended",
+    "hypnotizingly",
     "spaghettilike",
     "blatherskites",
   ],

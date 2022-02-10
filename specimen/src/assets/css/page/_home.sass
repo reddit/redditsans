@@ -4,8 +4,13 @@
   #wrapper:before
     content: none !important
 
-  @media (min-height: 720px)
+  @media (min-height: 800px)
     scroll-snap-type: y proximity
+
+  @media (max-width: $screen-sm-max)
+    a[download]
+      margin: 3em auto 0
+      width: fit-content
 
   #main > section
     min-height: 100vh

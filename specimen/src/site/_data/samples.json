@@ -1,5 +1,6 @@
 {
   "alpha": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "alphanumeric": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
   "extended": {
     "upper": "AÆBCDEFGHIJKLMNŊOŒPÞQRSẞƏTUVWXYZ",
     "lower": "aæbcdðeəfghiıjȷkĸlmnŋoœpþqrsßtuvwxyz"

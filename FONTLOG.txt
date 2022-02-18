@@ -23,6 +23,11 @@ languages.
 
 ChangeLog
 
+18 Februrary 2022 (Stephen Hutchings) Reddit Sans 1.010
+- De-kinking and removal of unused glyphs
+- Vertical extremes added to common italic glyphs
+- Lightening of condensed A angled strokes
+
 10 Februrary 2022 (Stephen Hutchings) Reddit Sans 1.009
 
 - Added first exports of Mono and Condensed fonts.

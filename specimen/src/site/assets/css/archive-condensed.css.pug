@@ -17,7 +17,10 @@ for version in font.condensedVersions.slice(1)
   for weight in font.weights
     - var path = `/fonts/reddit-sans-condensed/archive/${version}`;
     - var name = "RedditSans";
-    - var file = `${path}/${name}-${weight.label}Condensed`;
+    - var file = `${path}/${name}Condensed-${weight.label}`;
+
+    if +version < 5
+      - var file = `${path}/${name}-${weight.label}Condensed`;
 
     = "\n\n"
 

@@ -14,9 +14,10 @@ navigation:
 
 extends /layouts/default
 
-block append head
-  - font.version += " M" + font.monospacedVersions[0]
+block version
+  = "MONO v" + font.monospacedVersions[0]
 
+block append head
   link(rel="stylesheet" href="/assets/css/mono.css")
   link(rel="stylesheet" href="/assets/css/archive-mono.css")
 
@@ -141,7 +142,7 @@ block content
                           value=(i > 0 ? "Mono-" + v : "")
                           checked=(i === 0)
                         )
-                        span.pl2.lh120 v#{font.versions[0]} M#{v}
+                        span.pl2.lh120 MONO v#{v}
 
           p#test-criteria.txt-muted.mta.pt2
 

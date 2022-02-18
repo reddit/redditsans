@@ -1,0 +1,30 @@
+---
+title: "Languages"
+---
+
+extends /layouts/default
+
+include /mixins/style-bar
+
+block append head
+  link(rel="stylesheet" href="/assets/css/condensed.css")
+  link(rel="stylesheet" href="/assets/css/mono.css")
+  link(rel="stylesheet" href="/assets/css/archive.css")
+  link(rel="stylesheet" href="/assets/css/archive-condensed.css")
+  link(rel="stylesheet" href="/assets/css/archive-mono.css")
+
+block content
+  .container.pv5(
+    data-component="style"
+  )
+    .pv3
+      +style-bar({
+        case: true,
+        size: true,
+        style: true,
+        family: true,
+        weights: true,
+      })
+
+    .pv3
+      include:markdown /partials/languages.md

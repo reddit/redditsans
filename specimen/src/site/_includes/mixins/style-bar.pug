@@ -5,16 +5,16 @@ mixin style-bar(options)
         ul.list-bare.ph2.flx.flx-row.fw400.mb0.pb3.pr4
           li.txt-muted Case
           li.pl2.active
-            button.btn-bare.p0(data-text-transform="") Lower
+            button.btn-bare.p0.mv0(data-text-transform="") Lower
           li.pl2
-            button.btn-bare.p0.ttu(data-text-transform="uppercase") Upper
+            button.btn-bare.p0.mv0.ttu(data-text-transform="uppercase") Upper
 
       if options.size
         ul.list-bare.ph2.flx.flx-row.fw400.mb0.pb3.pr4
           li.txt-muted Size
           for size, i in [16, 20, 24, 32, 64]
             li.pl2(class=(i === 0 && "active"))
-              button.btn-bare.p0(
+              button.btn-bare.p0.mv0(
                 data-line-height=size > 24 ? 1 + (8 / size) : ""
                 data-font-size=size > 16 ? `${size}px` : ""
               )= size
@@ -23,22 +23,22 @@ mixin style-bar(options)
       if options.style
         ul.list-bare.ph2.flx.flx-row.fw400.mb0.pb3.opt-italic
           li.pl2.active
-            button.btn-bare.p0(data-font-style="") Roman
+            button.btn-bare.p0.mv0(data-font-style="") Roman
           li.pl2
-            button.btn-bare.p0.fs-italic(data-font-style="italic") Italic
+            button.btn-bare.p0.mv0.fs-italic(data-font-style="italic") Italic
 
       if options.family
         ul.list-bare.ph2.flx.flx-row.fw400.mb0.pb3
           li.pl2.active
-            button.btn-bare.p0(
+            button.btn-bare.p0.mv0(
               data-font-family=""
             ) Normal
           li.pl2
-            button.btn-bare.p0.ff-condensed(
+            button.btn-bare.p0.mv0.ff-condensed(
               data-font-family="var(--font-family-condensed)"
             ) Condensed
           li.pl2
-            button.btn-bare.p0.ff-mono(
+            button.btn-bare.p0.mv0.ff-mono(
               data-font-family="var(--font-family-mono)"
             ) Mono
 
@@ -50,6 +50,6 @@ mixin style-bar(options)
               `fw${weight.value}`,
               weight.value === 400 ? "active" : ""
             ])
-              button.btn-bare.p0(
+              button.btn-bare.p0.mv0(
                 data-font-weight=(weight.value === 400 ? "" : weight.value)
               )= weight.label

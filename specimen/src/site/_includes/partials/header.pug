@@ -9,7 +9,10 @@ header#header.ttu.fs2.flx(data-component="header")
         |  Font Specimen
 
       nav.ta-r
-        span#header-version v#{font.version}
+        span#header-version
+          block version
+            | v#{font.version}
+
         br
         ul#header-nav.flx.flx-row.flx-jb.list-bare.p0.m0
           each item, i in navigation

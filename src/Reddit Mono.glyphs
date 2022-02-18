@@ -1,5 +1,5 @@
 {
-.appVersion = "1357";
+.appVersion = "1358";
 classes = (
 {
 automatic = 1;
@@ -2434,7 +2434,7 @@ unicode = 0042;
 },
 {
 glyphname = C;
-lastChange = "2021-12-21 04:16:03 +0000";
+lastChange = "2022-02-14 06:46:50 +0000";
 layers = (
 {
 anchors = (
@@ -2612,7 +2612,6 @@ nodes = (
 width = 1152;
 }
 );
-leftMetricsKey = O;
 unicode = 0043;
 },
 {
@@ -18072,183 +18071,6 @@ rightKerningGroup = LAT_Z_UC;
 unicode = 1E92;
 },
 {
-export = 0;
-glyphname = G.001;
-lastChange = "2022-01-30 23:43:13 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{582, 0}";
-},
-{
-name = hook;
-position = "{954, 1336}";
-},
-{
-name = top;
-position = "{580, 1474}";
-}
-);
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-paths = (
-{
-closed = 1;
-nodes = (
-"922 -16 OFFCURVE",
-"1076 274 OFFCURVE",
-"1076 704 CURVE SMOOTH",
-"1076 758 LINE",
-"574 758 LINE",
-"574 698 LINE",
-"1014 698 LINE",
-"1014 350 OFFCURVE",
-"904 44 OFFCURVE",
-"592 44 CURVE SMOOTH",
-"304 44 OFFCURVE",
-"140 316 OFFCURVE",
-"140 730 CURVE SMOOTH",
-"140 1156 OFFCURVE",
-"302 1430 OFFCURVE",
-"614 1430 CURVE SMOOTH",
-"744 1430 OFFCURVE",
-"884 1380 OFFCURVE",
-"974 1272 CURVE",
-"1002 1336 LINE",
-"908 1426 OFFCURVE",
-"766 1490 OFFCURVE",
-"606 1490 CURVE SMOOTH",
-"258 1490 OFFCURVE",
-"76 1194 OFFCURVE",
-"76 738 CURVE SMOOTH",
-"76 280 OFFCURVE",
-"268 -16 OFFCURVE",
-"596 -16 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{588, 0}";
-},
-{
-name = hook;
-position = "{946, 1372}";
-},
-{
-name = top;
-position = "{592, 1474}";
-}
-);
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-paths = (
-{
-closed = 1;
-nodes = (
-"932 -16 OFFCURVE",
-"1118 246 OFFCURVE",
-"1118 622 CURVE SMOOTH",
-"1118 872 LINE",
-"586 872 LINE",
-"586 568 LINE",
-"786 568 LINE",
-"786 422 OFFCURVE",
-"718 320 OFFCURVE",
-"604 320 CURVE SMOOTH",
-"456 320 OFFCURVE",
-"400 488 OFFCURVE",
-"400 734 CURVE SMOOTH",
-"400 992 OFFCURVE",
-"458 1154 OFFCURVE",
-"644 1154 CURVE SMOOTH",
-"752 1154 OFFCURVE",
-"848 1098 OFFCURVE",
-"878 1058 CURVE",
-"1022 1368 LINE",
-"930 1428 OFFCURVE",
-"822 1490 OFFCURVE",
-"634 1490 CURVE SMOOTH",
-"234 1490 OFFCURVE",
-"52 1194 OFFCURVE",
-"52 732 CURVE SMOOTH",
-"52 282 OFFCURVE",
-"230 -16 OFFCURVE",
-"590 -16 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{622, 0}";
-},
-{
-name = hook;
-position = "{976, 1352}";
-},
-{
-name = top;
-position = "{616, 1474}";
-}
-);
-background = {
-components = (
-{
-name = O;
-}
-);
-};
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-paths = (
-{
-closed = 1;
-nodes = (
-"922 -16 OFFCURVE",
-"1096 268 OFFCURVE",
-"1096 672 CURVE SMOOTH",
-"1096 802 LINE",
-"582 802 LINE",
-"582 638 LINE",
-"924 638 LINE",
-"924 352 OFFCURVE",
-"820 148 OFFCURVE",
-"604 148 CURVE SMOOTH",
-"368 148 OFFCURVE",
-"236 376 OFFCURVE",
-"236 734 CURVE SMOOTH",
-"236 1090 OFFCURVE",
-"377 1326 OFFCURVE",
-"634 1326 CURVE SMOOTH",
-"741 1326 OFFCURVE",
-"874 1270 OFFCURVE",
-"942 1184 CURVE",
-"1010 1352 LINE",
-"914 1430 OFFCURVE",
-"768 1490 OFFCURVE",
-"622 1490 CURVE SMOOTH",
-"267 1490 OFFCURVE",
-"60 1190 OFFCURVE",
-"60 732 CURVE SMOOTH",
-"60 278 OFFCURVE",
-"262 -16 OFFCURVE",
-"604 -16 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-}
-);
-leftMetricsKey = O;
-},
-{
 glyphname = a;
 lastChange = "2022-02-06 08:11:00 +0000";
 layers = (
@@ -30264,9 +30086,23 @@ unicode = 0131;
 {
 color = 8;
 glyphname = idotless.ss01;
-lastChange = "2022-01-18 04:07:19 +0000";
+lastChange = "2022-02-14 07:49:22 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{632, 0}";
+},
+{
+name = ogonek;
+position = "{972, 0}";
+},
+{
+name = top;
+position = "{632, 1048}";
+}
+);
 background = {
 anchors = (
 {
@@ -30310,11 +30146,6 @@ nodes = (
 }
 );
 };
-components = (
-{
-name = idotless.001;
-}
-);
 guideLines = (
 {
 angle = 80;
@@ -30322,9 +30153,52 @@ position = "{182, -8}";
 }
 );
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
+paths = (
+{
+closed = 1;
+nodes = (
+"656 0 LINE",
+"656 1048 LINE",
+"596 1048 LINE",
+"596 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"216 992 LINE",
+"648 992 LINE",
+"648 1048 LINE",
+"216 1048 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"216 0 LINE",
+"972 0 LINE",
+"972 56 LINE",
+"216 56 LINE"
+);
+}
+);
 width = 1152;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{630, 0}";
+},
+{
+name = ogonek;
+position = "{1048, 0}";
+},
+{
+name = top;
+position = "{630, 1080}";
+}
+);
 background = {
 anchors = (
 {
@@ -30368,11 +30242,6 @@ nodes = (
 }
 );
 };
-components = (
-{
-name = idotless.001;
-}
-);
 guideLines = (
 {
 angle = 80;
@@ -30380,15 +30249,82 @@ position = "{308, -8}";
 }
 );
 layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
+paths = (
+{
+closed = 1;
+nodes = (
+"808 0 LINE",
+"808 1080 LINE",
+"452 1080 LINE",
+"452 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"172 780 LINE",
+"808 780 LINE",
+"808 1080 LINE",
+"172 1080 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"172 0 LINE",
+"1048 0 LINE",
+"1048 300 LINE",
+"172 300 LINE"
+);
+}
+);
 width = 1152;
 },
 {
-components = (
+anchors = (
 {
-name = idotless.001;
+name = bottom;
+position = "{622, 0}";
+},
+{
+name = ogonek;
+position = "{1002, 0}";
+},
+{
+name = top;
+position = "{622, 1060}";
 }
 );
 layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
+paths = (
+{
+closed = 1;
+nodes = (
+"708 0 LINE",
+"708 1060 LINE",
+"536 1060 LINE",
+"536 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"224 904 LINE",
+"708 904 LINE",
+"708 1060 LINE",
+"224 1060 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"224 0 LINE",
+"1004 0 LINE",
+"1004 156 LINE",
+"224 156 LINE"
+);
+}
+);
 width = 1152;
 }
 );
@@ -33446,7 +33382,7 @@ unicode = 006C;
 {
 color = 4;
 glyphname = l.ss01;
-lastChange = "2022-02-03 00:26:12 +0000";
+lastChange = "2022-02-14 06:52:24 +0000";
 layers = (
 {
 anchors = (
@@ -33468,7 +33404,7 @@ position = "{574, 1540}";
 },
 {
 name = topright;
-position = "{782, 1538}";
+position = "{604, 1540}";
 }
 );
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -33523,7 +33459,7 @@ position = "{580, 1540}";
 },
 {
 name = topright;
-position = "{834, 1540}";
+position = "{678, 1540}";
 }
 );
 layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
@@ -33578,7 +33514,7 @@ position = "{578, 1540}";
 },
 {
 name = topright;
-position = "{800, 1540}";
+position = "{664, 1540}";
 }
 );
 layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
@@ -33991,7 +33927,7 @@ unicode = 013E;
 {
 color = 4;
 glyphname = lcaron.ss01;
-lastChange = "2022-01-28 04:06:56 +0000";
+lastChange = "2022-02-14 06:52:34 +0000";
 layers = (
 {
 components = (
@@ -34000,7 +33936,7 @@ name = l.ss01;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 480, -2}";
+transform = "{1, 0, 0, 1, 302, 0}";
 }
 );
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -34009,11 +33945,13 @@ width = 1152;
 {
 components = (
 {
+alignment = -1;
 name = l.ss01;
+transform = "{1, 0, 0, 1, -32, 0}";
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 592, 0}";
+transform = "{1, 0, 0, 1, 404, 0}";
 }
 );
 layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
@@ -34026,7 +33964,7 @@ name = l.ss01;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 576, 0}";
+transform = "{1, 0, 0, 1, 440, 0}";
 }
 );
 layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
@@ -49361,332 +49299,6 @@ rightKerningGroup = LAT_A_LC;
 rightMetricsKey = n;
 },
 {
-export = 0;
-glyphname = idotless.001;
-lastChange = "2022-02-03 00:28:30 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{632, 0}";
-},
-{
-name = ogonek;
-position = "{972, 0}";
-},
-{
-name = top;
-position = "{632, 1048}";
-}
-);
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-paths = (
-{
-closed = 1;
-nodes = (
-"656 0 LINE",
-"656 1048 LINE",
-"596 1048 LINE",
-"596 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"216 992 LINE",
-"648 992 LINE",
-"648 1048 LINE",
-"216 1048 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"216 0 LINE",
-"972 0 LINE",
-"972 56 LINE",
-"216 56 LINE"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{630, 0}";
-},
-{
-name = ogonek;
-position = "{1048, 0}";
-},
-{
-name = top;
-position = "{630, 1080}";
-}
-);
-guideLines = (
-{
-angle = 60;
-position = "{180, 0}";
-}
-);
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-paths = (
-{
-closed = 1;
-nodes = (
-"808 0 LINE",
-"808 1080 LINE",
-"452 1080 LINE",
-"452 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"172 780 LINE",
-"808 780 LINE",
-"808 1080 LINE",
-"172 1080 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"172 0 LINE",
-"1048 0 LINE",
-"1048 300 LINE",
-"172 300 LINE"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{622, 0}";
-},
-{
-name = ogonek;
-position = "{1002, 0}";
-},
-{
-name = top;
-position = "{622, 1060}";
-}
-);
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-paths = (
-{
-closed = 1;
-nodes = (
-"708 0 LINE",
-"708 1060 LINE",
-"536 1060 LINE",
-"536 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"224 904 LINE",
-"708 904 LINE",
-"708 1060 LINE",
-"224 1060 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"224 0 LINE",
-"1004 0 LINE",
-"1004 156 LINE",
-"224 156 LINE"
-);
-}
-);
-width = 1152;
-}
-);
-},
-{
-export = 0;
-glyphname = idotless.002;
-lastChange = "2022-01-28 04:35:26 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{620, 0}";
-},
-{
-name = ogonek;
-position = "{596, 0}";
-},
-{
-name = top;
-position = "{590, 1048}";
-}
-);
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-paths = (
-{
-closed = 1;
-nodes = (
-"234 932 LINE",
-"292 976 OFFCURVE",
-"378 1008 OFFCURVE",
-"438 1008 CURVE SMOOTH",
-"506 1008 OFFCURVE",
-"584 984 OFFCURVE",
-"578 826 CURVE SMOOTH",
-"558 326 LINE SMOOTH",
-"556 272 OFFCURVE",
-"560 -12 OFFCURVE",
-"838 -12 CURVE SMOOTH",
-"926 -12 OFFCURVE",
-"996 18 OFFCURVE",
-"1068 66 CURVE",
-"1042 120 LINE",
-"972 68 OFFCURVE",
-"910 44 OFFCURVE",
-"840 44 CURVE SMOOTH",
-"686 44 OFFCURVE",
-"612 156 OFFCURVE",
-"618 314 CURVE SMOOTH",
-"638 814 LINE SMOOTH",
-"646 1018 OFFCURVE",
-"548 1064 OFFCURVE",
-"436 1064 CURVE SMOOTH",
-"372 1064 OFFCURVE",
-"278 1032 OFFCURVE",
-"208 986 CURVE"
-);
-}
-);
-width = 1148;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{630, 0}";
-},
-{
-name = ogonek;
-position = "{622, 0}";
-},
-{
-name = top;
-position = "{584, 1080}";
-}
-);
-guideLines = (
-{
-angle = 60;
-position = "{180, 0}";
-}
-);
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-paths = (
-{
-closed = 1;
-nodes = (
-"154 728 LINE",
-"168 756 OFFCURVE",
-"208 778 OFFCURVE",
-"252 778 CURVE SMOOTH",
-"312 778 OFFCURVE",
-"350 746 OFFCURVE",
-"346 682 CURVE SMOOTH",
-"330 430 LINE SMOOTH",
-"314 166 OFFCURVE",
-"482 -16 OFFCURVE",
-"744 -16 CURVE SMOOTH",
-"858 -16 OFFCURVE",
-"986 20 OFFCURVE",
-"1040 62 CURVE",
-"924 332 LINE",
-"896 306 OFFCURVE",
-"850 286 OFFCURVE",
-"810 286 CURVE SMOOTH",
-"744 286 OFFCURVE",
-"682 340 OFFCURVE",
-"686 430 CURVE SMOOTH",
-"704 762 LINE SMOOTH",
-"714 960 OFFCURVE",
-"586 1096 OFFCURVE",
-"372 1096 CURVE SMOOTH",
-"264 1096 OFFCURVE",
-"130 1062 OFFCURVE",
-"54 1008 CURVE"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{574, 0}";
-},
-{
-name = ogonek;
-position = "{1052, 76}";
-},
-{
-name = top;
-position = "{572, 1060}";
-}
-);
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-paths = (
-{
-closed = 1;
-nodes = (
-"228 846 LINE",
-"270 892 OFFCURVE",
-"322 914 OFFCURVE",
-"370 914 CURVE SMOOTH",
-"442 914 OFFCURVE",
-"504 884 OFFCURVE",
-"500 780 CURVE SMOOTH",
-"480 334 LINE SMOOTH",
-"470 108 OFFCURVE",
-"600 -16 OFFCURVE",
-"810 -16 CURVE SMOOTH",
-"896 -16 OFFCURVE",
-"974 6 OFFCURVE",
-"1060 76 CURVE",
-"994 228 LINE",
-"934 160 OFFCURVE",
-"878 144 OFFCURVE",
-"824 144 CURVE SMOOTH",
-"732 144 OFFCURVE",
-"644 186 OFFCURVE",
-"650 336 CURVE SMOOTH",
-"668 800 LINE SMOOTH",
-"676 988 OFFCURVE",
-"560 1076 OFFCURVE",
-"410 1076 CURVE SMOOTH",
-"338 1076 OFFCURVE",
-"248 1050 OFFCURVE",
-"174 998 CURVE"
-);
-}
-);
-width = 1152;
-}
-);
-},
-{
 color = 8;
 export = 0;
 glyphname = idotless.ss02.archive;
@@ -49840,752 +49452,6 @@ nodes = (
 width = 578;
 }
 );
-},
-{
-export = 0;
-glyphname = r.001;
-lastChange = "2022-01-30 23:41:20 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{270, 0}";
-},
-{
-name = top;
-position = "{620, 1048}";
-}
-);
-guideLines = (
-{
-angle = 22.5;
-position = "{960, 742}";
-}
-);
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-paths = (
-{
-closed = 1;
-nodes = (
-"300 0 LINE",
-"300 598 LINE SMOOTH",
-"300 842 OFFCURVE",
-"450 1008 OFFCURVE",
-"640 1008 CURVE SMOOTH",
-"790 1008 OFFCURVE",
-"914 906 OFFCURVE",
-"958 742 CURVE",
-"1012 764 LINE",
-"972 940 OFFCURVE",
-"822 1064 OFFCURVE",
-"648 1064 CURVE SMOOTH",
-"462 1064 OFFCURVE",
-"324 924 OFFCURVE",
-"290 796 CURVE",
-"336 842 LINE",
-"302 842 LINE",
-"302 1048 LINE",
-"240 1048 LINE",
-"240 0 LINE"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{280, 0}";
-},
-{
-name = top;
-position = "{604, 1080}";
-}
-);
-background = {
-anchors = (
-{
-name = bottom;
-position = "{698, -102}";
-},
-{
-name = cedilla;
-position = "{710, -102}";
-},
-{
-name = top;
-position = "{694, 958}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"896 -118 OFFCURVE",
-"1064 14 OFFCURVE",
-"1062 198 CURVE SMOOTH",
-"1064 402 OFFCURVE",
-"854 472 OFFCURVE",
-"744 508 CURVE SMOOTH",
-"654 538 OFFCURVE",
-"530 574 OFFCURVE",
-"530 684 CURVE SMOOTH",
-"530 770 OFFCURVE",
-"608 818 OFFCURVE",
-"694 818 CURVE SMOOTH",
-"788 818 OFFCURVE",
-"842 758 OFFCURVE",
-"874 696 CURVE",
-"1030 762 LINE",
-"982 870 OFFCURVE",
-"866 974 OFFCURVE",
-"694 974 CURVE SMOOTH",
-"522 974 OFFCURVE",
-"362 870 OFFCURVE",
-"362 684 CURVE SMOOTH",
-"362 496 OFFCURVE",
-"526 426 OFFCURVE",
-"646 386 CURVE SMOOTH",
-"740 354 OFFCURVE",
-"896 312 OFFCURVE",
-"894 192 CURVE SMOOTH",
-"896 100 OFFCURVE",
-"802 42 OFFCURVE",
-"706 42 CURVE SMOOTH",
-"604 42 OFFCURVE",
-"518 112 OFFCURVE",
-"490 192 CURVE",
-"334 128 LINE",
-"376 4 OFFCURVE",
-"518 -118 OFFCURVE",
-"706 -118 CURVE SMOOTH"
-);
-}
-);
-};
-guideLines = (
-{
-angle = 22.5;
-position = "{822, 648}";
-}
-);
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-paths = (
-{
-closed = 1;
-nodes = (
-"472 -2 LINE",
-"472 576 LINE SMOOTH",
-"472 702 OFFCURVE",
-"534 790 OFFCURVE",
-"638 790 CURVE SMOOTH",
-"722 790 OFFCURVE",
-"792 734 OFFCURVE",
-"812 648 CURVE",
-"1112 772 LINE",
-"1076 958 OFFCURVE",
-"946 1094 OFFCURVE",
-"772 1094 CURVE SMOOTH",
-"588 1094 OFFCURVE",
-"472 950 OFFCURVE",
-"416 736 CURVE",
-"504 890 LINE",
-"470 890 LINE",
-"470 1078 LINE",
-"116 1078 LINE",
-"116 -2 LINE"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{290, 0}";
-},
-{
-name = top;
-position = "{610, 1060}";
-}
-);
-guideLines = (
-{
-angle = 107.5;
-position = "{1032, 756}";
-},
-{
-angle = 22.5;
-position = "{886, 696}";
-}
-);
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-paths = (
-{
-closed = 1;
-nodes = (
-"360 -2 LINE",
-"360 602 LINE SMOOTH",
-"360 785 OFFCURVE",
-"490 912 OFFCURVE",
-"630 912 CURVE SMOOTH",
-"748 912 OFFCURVE",
-"830 824 OFFCURVE",
-"872 690 CURVE",
-"1032 756 LINE",
-"968 960 OFFCURVE",
-"841 1076 OFFCURVE",
-"672 1076 CURVE SMOOTH",
-"514 1076 OFFCURVE",
-"370 964 OFFCURVE",
-"334 816 CURVE",
-"394 900 LINE",
-"362 900 LINE",
-"362 1060 LINE",
-"188 1060 LINE",
-"188 -2 LINE"
-);
-}
-);
-width = 1152;
-}
-);
-},
-{
-export = 0;
-glyphname = s.001;
-lastChange = "2022-01-28 04:35:26 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{568, 0}";
-},
-{
-name = cedilla;
-position = "{572, 0}";
-},
-{
-name = top;
-position = "{542, 1048}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"830 -16 OFFCURVE",
-"1010 96 OFFCURVE",
-"1010 272 CURVE SMOOTH",
-"1010 478 OFFCURVE",
-"764 536 OFFCURVE",
-"586 578 CURVE SMOOTH",
-"466 606 OFFCURVE",
-"276 662 OFFCURVE",
-"270 802 CURVE SMOOTH",
-"264 916 OFFCURVE",
-"376 1008 OFFCURVE",
-"568 1008 CURVE SMOOTH",
-"722 1008 OFFCURVE",
-"854 944 OFFCURVE",
-"906 862 CURVE",
-"962 884 LINE",
-"898 988 OFFCURVE",
-"752 1064 OFFCURVE",
-"576 1064 CURVE SMOOTH",
-"364 1064 OFFCURVE",
-"210 960 OFFCURVE",
-"210 814 CURVE SMOOTH",
-"210 638 OFFCURVE",
-"448 554 OFFCURVE",
-"592 522 CURVE SMOOTH",
-"706 496 OFFCURVE",
-"950 442 OFFCURVE",
-"950 272 CURVE SMOOTH",
-"950 138 OFFCURVE",
-"802 40 OFFCURVE",
-"608 40 CURVE SMOOTH",
-"428 40 OFFCURVE",
-"290 130 OFFCURVE",
-"232 232 CURVE",
-"170 208 LINE",
-"232 92 OFFCURVE",
-"392 -16 OFFCURVE",
-"608 -16 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-paths = (
-{
-closed = 1;
-nodes = (
-"842 -16 OFFCURVE",
-"1008 96 OFFCURVE",
-"1008 272 CURVE SMOOTH",
-"1008 482 OFFCURVE",
-"772 534 OFFCURVE",
-"568 586 CURVE SMOOTH",
-"428 622 OFFCURVE",
-"256 676 OFFCURVE",
-"252 792 CURVE SMOOTH",
-"248 908 OFFCURVE",
-"376 1008 OFFCURVE",
-"562 1008 CURVE SMOOTH",
-"724 1008 OFFCURVE",
-"870 922 OFFCURVE",
-"932 784 CURVE",
-"982 816 LINE",
-"910 974 OFFCURVE",
-"748 1064 OFFCURVE",
-"564 1064 CURVE SMOOTH",
-"374 1064 OFFCURVE",
-"190 966 OFFCURVE",
-"190 806 CURVE SMOOTH",
-"190 648 OFFCURVE",
-"356 578 OFFCURVE",
-"564 526 CURVE SMOOTH",
-"734 484 OFFCURVE",
-"948 442 OFFCURVE",
-"948 268 CURVE SMOOTH",
-"948 130 OFFCURVE",
-"808 40 OFFCURVE",
-"622 40 CURVE SMOOTH",
-"424 40 OFFCURVE",
-"262 136 OFFCURVE",
-"196 294 CURVE",
-"140 272 LINE",
-"214 92 OFFCURVE",
-"396 -16 OFFCURVE",
-"620 -16 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{584, 0}";
-},
-{
-name = cedilla;
-position = "{604, 0}";
-},
-{
-name = top;
-position = "{570, 1080}";
-}
-);
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-paths = (
-{
-closed = 1;
-nodes = (
-"860 -16 OFFCURVE",
-"1080 126 OFFCURVE",
-"1080 328 CURVE SMOOTH",
-"1080 552 OFFCURVE",
-"816 624 OFFCURVE",
-"716 646 CURVE SMOOTH",
-"628 666 OFFCURVE",
-"464 688 OFFCURVE",
-"464 756 CURVE SMOOTH",
-"464 796 OFFCURVE",
-"522 828 OFFCURVE",
-"582 828 CURVE SMOOTH",
-"676 828 OFFCURVE",
-"746 766 OFFCURVE",
-"760 710 CURVE",
-"1056 828 LINE",
-"996 992 OFFCURVE",
-"790 1096 OFFCURVE",
-"570 1096 CURVE SMOOTH",
-"314 1096 OFFCURVE",
-"114 958 OFFCURVE",
-"114 762 CURVE SMOOTH",
-"114 588 OFFCURVE",
-"270 482 OFFCURVE",
-"456 436 CURVE SMOOTH",
-"570 408 OFFCURVE",
-"734 384 OFFCURVE",
-"734 324 CURVE SMOOTH",
-"734 288 OFFCURVE",
-"672 254 OFFCURVE",
-"604 254 CURVE SMOOTH",
-"500 254 OFFCURVE",
-"426 320 OFFCURVE",
-"388 376 CURVE",
-"76 258 LINE",
-"152 84 OFFCURVE",
-"360 -16 OFFCURVE",
-"586 -16 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{572, 0}";
-},
-{
-name = cedilla;
-position = "{582, 0}";
-},
-{
-name = top;
-position = "{552, 1060}";
-}
-);
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-paths = (
-{
-closed = 1;
-nodes = (
-"838 -16 OFFCURVE",
-"1020 104 OFFCURVE",
-"1020 286 CURVE SMOOTH",
-"1020 508 OFFCURVE",
-"762 580 OFFCURVE",
-"622 616 CURVE SMOOTH",
-"500 648 OFFCURVE",
-"342 680 OFFCURVE",
-"342 784 CURVE SMOOTH",
-"342 868 OFFCURVE",
-"442 920 OFFCURVE",
-"554 920 CURVE SMOOTH",
-"688 920 OFFCURVE",
-"796 848 OFFCURVE",
-"852 742 CURVE",
-"1002 822 LINE",
-"930 976 OFFCURVE",
-"752 1076 OFFCURVE",
-"556 1076 CURVE SMOOTH",
-"338 1076 OFFCURVE",
-"170 958 OFFCURVE",
-"170 784 CURVE SMOOTH",
-"170 624 OFFCURVE",
-"310 542 OFFCURVE",
-"520 486 CURVE SMOOTH",
-"658 450 OFFCURVE",
-"848 416 OFFCURVE",
-"848 294 CURVE SMOOTH",
-"848 200 OFFCURVE",
-"738 140 OFFCURVE",
-"616 140 CURVE SMOOTH",
-"464 140 OFFCURVE",
-"340 224 OFFCURVE",
-"290 354 CURVE",
-"132 288 LINE",
-"204 100 OFFCURVE",
-"398 -16 OFFCURVE",
-"612 -16 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-}
-);
-userData = {
-com.typemytype.robofont.layerData = {
-background = {
-anchors = (
-);
-components = (
-);
-contours = (
-{
-points = (
-{
-segmentType = curve;
-smooth = 1;
-x = 213;
-y = -12;
-},
-{
-smooth = 0;
-x = 318;
-y = -12;
-},
-{
-smooth = 0;
-x = 376;
-y = 50;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 376;
-y = 120;
-},
-{
-smooth = 0;
-x = 376;
-y = 214;
-},
-{
-smooth = 0;
-x = 288;
-y = 237;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 208;
-y = 266;
-},
-{
-smooth = 0;
-x = 147;
-y = 288;
-},
-{
-smooth = 0;
-x = 85;
-y = 310;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 85;
-y = 368;
-},
-{
-smooth = 0;
-x = 85;
-y = 415;
-},
-{
-smooth = 0;
-x = 124;
-y = 462;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 208;
-y = 462;
-},
-{
-smooth = 0;
-x = 253;
-y = 462;
-},
-{
-smooth = 0;
-x = 284;
-y = 448;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 314;
-y = 429;
-},
-{
-smooth = 0;
-x = 325;
-y = 422;
-},
-{
-smooth = 0;
-x = 336;
-y = 423;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 343;
-y = 434;
-},
-{
-segmentType = line;
-smooth = 1;
-x = 346;
-y = 439;
-},
-{
-smooth = 0;
-x = 347;
-y = 441;
-},
-{
-smooth = 0;
-x = 347;
-y = 443;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 345;
-y = 444;
-},
-{
-smooth = 0;
-x = 311;
-y = 468;
-},
-{
-smooth = 0;
-x = 257;
-y = 490;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 211;
-y = 490;
-},
-{
-smooth = 0;
-x = 108;
-y = 490;
-},
-{
-smooth = 0;
-x = 54;
-y = 432;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 54;
-y = 366;
-},
-{
-smooth = 0;
-x = 54;
-y = 284;
-},
-{
-smooth = 0;
-x = 141;
-y = 256;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 218;
-y = 230;
-},
-{
-smooth = 0;
-x = 277;
-y = 210;
-},
-{
-smooth = 0;
-x = 344;
-y = 182;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 344;
-y = 118;
-},
-{
-smooth = 0;
-x = 344;
-y = 64;
-},
-{
-smooth = 0;
-x = 300;
-y = 16;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 215;
-y = 16;
-},
-{
-smooth = 0;
-x = 148;
-y = 16;
-},
-{
-smooth = 0;
-x = 105;
-y = 37;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 66;
-y = 65;
-},
-{
-smooth = 0;
-x = 55;
-y = 73;
-},
-{
-smooth = 0;
-x = 45;
-y = 74;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 37;
-y = 63;
-},
-{
-segmentType = line;
-smooth = 1;
-x = 33;
-y = 57;
-},
-{
-smooth = 0;
-x = 32;
-y = 55;
-},
-{
-smooth = 0;
-x = 32;
-y = 53;
-},
-{
-segmentType = curve;
-smooth = 1;
-x = 34;
-y = 51;
-},
-{
-smooth = 0;
-x = 73;
-y = 12;
-},
-{
-smooth = 0;
-x = 139;
-y = -12;
-}
-);
-}
-);
-lib = {
-};
-name = s;
-unicodes = (
-);
-width = 439;
-};
-};
-};
 },
 {
 glyphname = f_f;
@@ -51776,7 +50642,7 @@ source = o;
 },
 {
 glyphname = pi;
-lastChange = "2021-12-21 02:54:48 +0000";
+lastChange = "2022-02-14 06:54:10 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -51784,50 +50650,50 @@ paths = (
 {
 closed = 1;
 nodes = (
-"374 1010 LINE",
-"381 625 OFFCURVE",
-"314 294 OFFCURVE",
-"256 0 CURVE",
-"316 0 LINE",
-"390 356 OFFCURVE",
-"436 664 OFFCURVE",
-"432 1010 CURVE"
+"378 1010 LINE",
+"386 630 OFFCURVE",
+"320 292 OFFCURVE",
+"264 0 CURVE",
+"324 0 LINE",
+"396 358 OFFCURVE",
+"440 664 OFFCURVE",
+"436 1010 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"176 998 OFFCURVE",
-"256 994 OFFCURVE",
-"412 994 CURVE SMOOTH",
-"1084 994 LINE",
-"1084 1048 LINE",
-"374 1048 LINE SMOOTH",
-"236 1048 OFFCURVE",
-"142 1048 OFFCURVE",
-"68 884 CURVE",
-"124 862 LINE"
+"186 998 OFFCURVE",
+"264 994 OFFCURVE",
+"416 994 CURVE SMOOTH",
+"1072 994 LINE",
+"1072 1048 LINE",
+"380 1048 LINE SMOOTH",
+"244 1048 OFFCURVE",
+"152 1048 OFFCURVE",
+"80 884 CURVE",
+"136 862 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"964 -16 OFFCURVE",
-"994 -8 OFFCURVE",
-"1018 8 CURVE",
-"996 60 LINE",
-"970 44 OFFCURVE",
-"950 38 OFFCURVE",
-"930 38 CURVE SMOOTH",
-"844 38 OFFCURVE",
-"849 158 OFFCURVE",
-"852 236 CURVE SMOOTH",
-"886 1014 LINE",
-"830 1014 LINE",
-"796 236 LINE SMOOTH",
-"790 110 OFFCURVE",
-"792 -16 OFFCURVE",
-"930 -16 CURVE SMOOTH"
+"956 -16 OFFCURVE",
+"984 -8 OFFCURVE",
+"1008 8 CURVE",
+"986 60 LINE",
+"964 46 OFFCURVE",
+"944 38 OFFCURVE",
+"922 38 CURVE SMOOTH",
+"840 38 OFFCURVE",
+"842 158 OFFCURVE",
+"846 236 CURVE SMOOTH",
+"878 1014 LINE",
+"822 1014 LINE",
+"790 236 LINE SMOOTH",
+"784 110 OFFCURVE",
+"788 -16 OFFCURVE",
+"922 -16 CURVE SMOOTH"
 );
 }
 );
@@ -51855,12 +50721,12 @@ nodes = (
 "270 740 OFFCURVE",
 "294 776 OFFCURVE",
 "334 776 CURVE SMOOTH",
-"1084 776 LINE",
-"1084 1080 LINE",
+"1104 776 LINE",
+"1104 1080 LINE",
 "392 1080 LINE SMOOTH",
 "212 1080 OFFCURVE",
-"100 1006 OFFCURVE",
-"36 822 CURVE",
+"80 1006 OFFCURVE",
+"16 822 CURVE",
 "266 698 LINE"
 );
 },
@@ -51875,12 +50741,12 @@ nodes = (
 "1018 266 OFFCURVE",
 "1006 266 CURVE SMOOTH",
 "976 266 OFFCURVE",
-"957 308 OFFCURVE",
+"955 308 OFFCURVE",
 "960 378 CURVE SMOOTH",
-"984 860 LINE",
+"992 860 LINE",
 "710 860 LINE",
-"664 360 LINE SMOOTH",
-"638 79 OFFCURVE",
+"678 360 LINE SMOOTH",
+"660 78 OFFCURVE",
 "796 -16 OFFCURVE",
 "940 -16 CURVE SMOOTH"
 );
@@ -51894,50 +50760,50 @@ paths = (
 {
 closed = 1;
 nodes = (
-"336 942 LINE",
-"348 632 OFFCURVE",
-"300 378 OFFCURVE",
-"242 0 CURVE",
-"410 0 LINE",
-"462 336 OFFCURVE",
-"502 628 OFFCURVE",
-"498 942 CURVE"
+"344 942 LINE",
+"356 632 OFFCURVE",
+"308 376 OFFCURVE",
+"252 0 CURVE",
+"420 0 LINE",
+"470 342 OFFCURVE",
+"508 628 OFFCURVE",
+"504 942 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"200 894 OFFCURVE",
-"250 914 OFFCURVE",
-"366 914 CURVE SMOOTH",
-"1140 914 LINE",
-"1140 1060 LINE",
-"370 1060 LINE SMOOTH",
-"184 1060 OFFCURVE",
-"82 1020 OFFCURVE",
-"12 864 CURVE",
-"160 794 LINE"
+"216 894 OFFCURVE",
+"260 914 OFFCURVE",
+"372 914 CURVE SMOOTH",
+"1120 914 LINE",
+"1120 1060 LINE",
+"378 1060 LINE SMOOTH",
+"198 1060 OFFCURVE",
+"100 1020 OFFCURVE",
+"32 864 CURVE",
+"178 794 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"1022 -16 OFFCURVE",
-"1086 -2 OFFCURVE",
-"1108 16 CURVE",
-"1050 152 LINE",
-"1032 142 OFFCURVE",
-"1004 136 OFFCURVE",
-"982 136 CURVE SMOOTH",
-"914 136 OFFCURVE",
-"904 200 OFFCURVE",
-"906 260 CURVE SMOOTH",
-"934 958 LINE",
-"772 958 LINE",
-"746 246 LINE SMOOTH",
-"739 58 OFFCURVE",
-"828 -16 OFFCURVE",
-"966 -16 CURVE SMOOTH"
+"1004 -16 OFFCURVE",
+"1066 -2 OFFCURVE",
+"1086 16 CURVE",
+"1030 152 LINE",
+"1014 142 OFFCURVE",
+"986 136 OFFCURVE",
+"966 136 CURVE SMOOTH",
+"900 136 OFFCURVE",
+"892 202 OFFCURVE",
+"894 260 CURVE SMOOTH",
+"920 958 LINE",
+"760 958 LINE",
+"734 246 LINE SMOOTH",
+"728 58 OFFCURVE",
+"814 -16 OFFCURVE",
+"948 -16 CURVE SMOOTH"
 );
 }
 );
@@ -54666,7 +53532,7 @@ source = six;
 },
 {
 glyphname = six.tf;
-lastChange = "2022-02-10 01:23:50 +0000";
+lastChange = "2022-02-14 06:55:59 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -54739,7 +53605,7 @@ nodes = (
 "940 1474 LINE",
 "556 1474 LINE",
 "188 884 LINE SMOOTH",
-"144 816 OFFCURVE",
+"145 815 OFFCURVE",
 "60 644 OFFCURVE",
 "60 480 CURVE SMOOTH",
 "60 214 OFFCURVE",
@@ -57539,7 +56405,7 @@ source = one;
 },
 {
 glyphname = two.dnom;
-lastChange = "2022-02-03 01:13:21 +0000";
+lastChange = "2022-02-14 06:56:32 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -57642,10 +56508,10 @@ nodes = (
 "894 0 LINE",
 "894 132 LINE",
 "640 132 LINE",
-"508 132 LINE",
-"508 140 LINE",
+"510 132 LINE",
+"510 140 LINE",
 "662 310 LINE SMOOTH",
-"774 438 OFFCURVE",
+"775 437 OFFCURVE",
 "880 528 OFFCURVE",
 "880 668 CURVE SMOOTH",
 "880 824 OFFCURVE",
@@ -57662,8 +56528,8 @@ nodes = (
 "736 738 OFFCURVE",
 "736 664 CURVE SMOOTH",
 "736 576 OFFCURVE",
-"642 486 OFFCURVE",
-"536 364 CURVE SMOOTH",
+"643 487 OFFCURVE",
+"538 364 CURVE SMOOTH",
 "260 40 LINE"
 );
 }
@@ -58126,7 +56992,7 @@ source = five;
 },
 {
 glyphname = six.dnom;
-lastChange = "2022-01-28 00:44:48 +0000";
+lastChange = "2022-02-14 06:56:59 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -58187,41 +57053,41 @@ paths = (
 {
 closed = 1;
 nodes = (
-"791 -16 OFFCURVE",
-"934 114 OFFCURVE",
-"934 304 CURVE SMOOTH",
+"792 -16 OFFCURVE",
+"934 116 OFFCURVE",
+"934 302 CURVE SMOOTH",
 "934 478 OFFCURVE",
 "806 598 OFFCURVE",
-"620 598 CURVE SMOOTH",
-"597 598 OFFCURVE",
-"574 595 OFFCURVE",
+"622 598 CURVE SMOOTH",
+"598 598 OFFCURVE",
+"578 596 OFFCURVE",
 "562 590 CURVE",
 "594 570 LINE",
 "840 914 LINE",
 "540 914 LINE",
 "310 578 LINE SMOOTH",
-"255 495 OFFCURVE",
-"218 390 OFFCURVE",
-"218 320 CURVE SMOOTH",
-"218 121 OFFCURVE",
-"367 -16 OFFCURVE",
+"254 496 OFFCURVE",
+"218 394 OFFCURVE",
+"218 306 CURVE SMOOTH",
+"218 128 OFFCURVE",
+"366 -16 OFFCURVE",
 "584 -16 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"511 212 OFFCURVE",
-"466 253 OFFCURVE",
+"512 212 OFFCURVE",
+"466 254 OFFCURVE",
 "466 312 CURVE SMOOTH",
 "466 370 OFFCURVE",
-"511 410 OFFCURVE",
+"512 410 OFFCURVE",
 "576 410 CURVE SMOOTH",
-"641 410 OFFCURVE",
+"642 410 OFFCURVE",
 "686 370 OFFCURVE",
 "686 312 CURVE SMOOTH",
-"686 253 OFFCURVE",
-"641 212 OFFCURVE",
+"686 254 OFFCURVE",
+"642 212 OFFCURVE",
 "576 212 CURVE SMOOTH"
 );
 }
@@ -58254,8 +57120,8 @@ nodes = (
 "786 914 LINE",
 "618 914 LINE",
 "358 562 LINE SMOOTH",
-"288 462 OFFCURVE",
-"250 360 OFFCURVE",
+"282 459 OFFCURVE",
+"250 366 OFFCURVE",
 "250 280 CURVE SMOOTH",
 "250 134 OFFCURVE",
 "374 -16 OFFCURVE",
@@ -67765,7 +66631,7 @@ unicode = 00A4;
 },
 {
 glyphname = dollar;
-lastChange = "2022-02-04 05:45:34 +0000";
+lastChange = "2022-02-14 06:57:22 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -67913,43 +66779,43 @@ paths = (
 {
 closed = 1;
 nodes = (
-"807 -16 OFFCURVE",
-"1015 148 OFFCURVE",
+"806 -16 OFFCURVE",
+"1014 146 OFFCURVE",
 "1016 398 CURVE SMOOTH",
-"1015 692 OFFCURVE",
-"749 786 OFFCURVE",
+"1018 688 OFFCURVE",
+"744 790 OFFCURVE",
 "626 836 CURVE SMOOTH",
-"519 878 OFFCURVE",
-"361 938 OFFCURVE",
-"362 1110 CURVE SMOOTH",
-"361 1254 OFFCURVE",
-"475 1328 OFFCURVE",
+"506 882 OFFCURVE",
+"362 944 OFFCURVE",
+"362 1108 CURVE SMOOTH",
+"362 1254 OFFCURVE",
+"476 1328 OFFCURVE",
 "588 1328 CURVE SMOOTH",
-"711 1328 OFFCURVE",
-"799 1238 OFFCURVE",
+"710 1328 OFFCURVE",
+"798 1240 OFFCURVE",
 "836 1164 CURVE",
 "986 1228 LINE",
-"927 1360 OFFCURVE",
-"799 1490 OFFCURVE",
-"586 1490 CURVE SMOOTH",
-"361 1490 OFFCURVE",
-"195 1348 OFFCURVE",
+"926 1362 OFFCURVE",
+"798 1490 OFFCURVE",
+"584 1490 CURVE SMOOTH",
+"360 1490 OFFCURVE",
+"196 1348 OFFCURVE",
 "196 1114 CURVE SMOOTH",
-"195 886 OFFCURVE",
-"351 770 OFFCURVE",
+"196 886 OFFCURVE",
+"352 768 OFFCURVE",
 "546 692 CURVE SMOOTH",
-"637 656 OFFCURVE",
-"847 586 OFFCURVE",
+"640 656 OFFCURVE",
+"848 582 OFFCURVE",
 "848 394 CURVE SMOOTH",
-"847 246 OFFCURVE",
-"717 148 OFFCURVE",
-"582 148 CURVE SMOOTH",
-"441 148 OFFCURVE",
-"341 250 OFFCURVE",
-"300 372 CURVE SMOOTH",
-"140 304 LINE SMOOTH",
-"189 148 OFFCURVE",
-"357 -16 OFFCURVE",
+"848 246 OFFCURVE",
+"716 148 OFFCURVE",
+"580 148 CURVE SMOOTH",
+"448 148 OFFCURVE",
+"344 242 OFFCURVE",
+"300 372 CURVE",
+"140 304 LINE",
+"190 146 OFFCURVE",
+"358 -16 OFFCURVE",
 "582 -16 CURVE SMOOTH"
 );
 },
@@ -68804,7 +67670,7 @@ unicode = 20AC;
 },
 {
 glyphname = florin;
-lastChange = "2022-02-04 05:27:00 +0000";
+lastChange = "2022-02-14 07:00:53 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -68912,8 +67778,8 @@ nodes = (
 "604 132 OFFCURVE",
 "624 336 CURVE SMOOTH",
 "704 1142 LINE SMOOTH",
-"712 1242 OFFCURVE",
-"776 1336 OFFCURVE",
+"713 1236 OFFCURVE",
+"772 1336 OFFCURVE",
 "888 1336 CURVE SMOOTH",
 "950 1336 OFFCURVE",
 "1022 1308 OFFCURVE",
@@ -68923,11 +67789,11 @@ nodes = (
 "954 1490 OFFCURVE",
 "884 1490 CURVE SMOOTH",
 "676 1490 OFFCURVE",
-"554 1352 OFFCURVE",
+"555 1352 OFFCURVE",
 "532 1134 CURVE SMOOTH",
 "448 328 LINE SMOOTH",
-"436 222 OFFCURVE",
-"372 136 OFFCURVE",
+"438 228 OFFCURVE",
+"376 136 OFFCURVE",
 "264 136 CURVE SMOOTH",
 "204 136 OFFCURVE",
 "136 164 OFFCURVE",
@@ -70512,7 +69378,7 @@ unicode = 20BD;
 },
 {
 glyphname = rupeeIndian;
-lastChange = "2021-12-21 10:36:51 +0000";
+lastChange = "2022-02-14 06:57:53 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -70632,21 +69498,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"366 554 LINE SMOOTH",
-"689 558 OFFCURVE",
-"859 756 OFFCURVE",
-"860 1020 CURVE SMOOTH",
-"859 1286 OFFCURVE",
-"673 1476 OFFCURVE",
-"362 1476 CURVE SMOOTH",
-"132 1476 LINE",
-"132 1314 LINE",
+"366 552 LINE SMOOTH",
+"674 552 OFFCURVE",
+"860 746 OFFCURVE",
+"860 1016 CURVE SMOOTH",
+"860 1286 OFFCURVE",
+"672 1474 OFFCURVE",
+"362 1474 CURVE SMOOTH",
+"132 1474 LINE",
+"132 1316 LINE",
 "356 1316 LINE SMOOTH",
-"565 1320 OFFCURVE",
-"685 1184 OFFCURVE",
+"564 1316 OFFCURVE",
+"686 1188 OFFCURVE",
 "686 1016 CURVE SMOOTH",
-"685 840 OFFCURVE",
-"569 714 OFFCURVE",
+"686 838 OFFCURVE",
+"562 714 OFFCURVE",
 "362 714 CURVE SMOOTH",
 "132 714 LINE",
 "132 552 LINE"
@@ -70664,19 +69530,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1022 988 LINE",
+"1022 986 LINE",
 "1022 1126 LINE",
 "132 1126 LINE",
-"132 988 LINE"
+"132 986 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"1022 1336 LINE",
+"1022 1334 LINE",
 "1022 1474 LINE",
 "132 1474 LINE",
-"132 1336 LINE"
+"132 1334 LINE"
 );
 }
 );
@@ -72839,7 +71705,7 @@ unicode = 221E;
 },
 {
 glyphname = integral;
-lastChange = "2021-12-21 10:54:07 +0000";
+lastChange = "2022-02-14 06:57:59 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -72890,8 +71756,8 @@ nodes = (
 "682 -258 OFFCURVE",
 "706 -8 CURVE SMOOTH",
 "806 1074 LINE SMOOTH",
-"810 1130 OFFCURVE",
-"866 1176 OFFCURVE",
+"812 1134 OFFCURVE",
+"870 1176 OFFCURVE",
 "930 1176 CURVE SMOOTH",
 "962 1176 OFFCURVE",
 "1020 1164 OFFCURVE",
@@ -72899,8 +71765,8 @@ nodes = (
 "1148 1450 LINE",
 "1092 1476 OFFCURVE",
 "986 1490 OFFCURVE",
-"906 1490 CURVE SMOOTH",
-"636 1490 OFFCURVE",
+"908 1490 CURVE SMOOTH",
+"634 1490 OFFCURVE",
 "468 1312 OFFCURVE",
 "446 1074 CURVE SMOOTH",
 "348 -8 LINE SMOOTH",
@@ -76016,7 +74882,7 @@ rightMetricsKey = upArrow;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2022-01-28 05:39:21 +0000";
+lastChange = "2022-02-14 06:59:45 +0000";
 layers = (
 {
 anchors = (
@@ -76286,17 +75152,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"623 1150 OFFCURVE",
-"658 1185 OFFCURVE",
-"658 1228 CURVE SMOOTH",
-"658 1273 OFFCURVE",
+"623 1148 OFFCURVE",
+"658 1184 OFFCURVE",
+"658 1230 CURVE SMOOTH",
+"658 1274 OFFCURVE",
 "623 1308 OFFCURVE",
 "578 1308 CURVE SMOOTH",
 "533 1308 OFFCURVE",
-"498 1273 OFFCURVE",
-"498 1228 CURVE SMOOTH",
-"498 1185 OFFCURVE",
-"533 1150 OFFCURVE",
+"498 1274 OFFCURVE",
+"498 1230 CURVE SMOOTH",
+"498 1184 OFFCURVE",
+"533 1148 OFFCURVE",
 "578 1148 CURVE SMOOTH"
 );
 },
@@ -76323,11 +75189,11 @@ nodes = (
 "197 902 OFFCURVE",
 "232 937 OFFCURVE",
 "232 982 CURVE SMOOTH",
-"232 1028 OFFCURVE",
-"197 1064 OFFCURVE",
-"152 1064 CURVE SMOOTH",
-"107 1064 OFFCURVE",
-"72 1028 OFFCURVE",
+"232 1027 OFFCURVE",
+"197 1062 OFFCURVE",
+"152 1062 CURVE SMOOTH",
+"107 1062 OFFCURVE",
+"72 1027 OFFCURVE",
 "72 982 CURVE SMOOTH",
 "72 937 OFFCURVE",
 "107 902 OFFCURVE",
@@ -76357,14 +75223,14 @@ nodes = (
 "197 410 OFFCURVE",
 "232 445 OFFCURVE",
 "232 490 CURVE SMOOTH",
-"232 537 OFFCURVE",
-"197 572 OFFCURVE",
-"152 570 CURVE SMOOTH",
-"109 572 OFFCURVE",
-"74 537 OFFCURVE",
-"72 490 CURVE SMOOTH",
-"74 445 OFFCURVE",
-"109 410 OFFCURVE",
+"232 535 OFFCURVE",
+"198 570 OFFCURVE",
+"154 570 CURVE SMOOTH",
+"108 570 OFFCURVE",
+"72 536 OFFCURVE",
+"72 492 CURVE SMOOTH",
+"72 446 OFFCURVE",
+"107 410 OFFCURVE",
 "152 410 CURVE SMOOTH"
 );
 },
@@ -76388,17 +75254,17 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"623 164 OFFCURVE",
-"658 199 OFFCURVE",
+"623 162 OFFCURVE",
+"658 197 OFFCURVE",
 "658 242 CURVE SMOOTH",
 "658 287 OFFCURVE",
 "623 322 OFFCURVE",
 "578 322 CURVE SMOOTH",
 "533 322 OFFCURVE",
-"498 287 OFFCURVE",
-"498 242 CURVE SMOOTH",
-"498 199 OFFCURVE",
-"533 164 OFFCURVE",
+"498 288 OFFCURVE",
+"498 244 CURVE SMOOTH",
+"498 198 OFFCURVE",
+"533 162 OFFCURVE",
 "578 162 CURVE SMOOTH"
 );
 },
@@ -76423,17 +75289,17 @@ nodes = (
 closed = 1;
 nodes = (
 "1043 410 OFFCURVE",
-"1078 446 OFFCURVE",
+"1078 445 OFFCURVE",
 "1078 490 CURVE SMOOTH",
-"1078 534 OFFCURVE",
-"1043 568 OFFCURVE",
-"998 568 CURVE SMOOTH",
-"953 568 OFFCURVE",
-"918 534 OFFCURVE",
+"1078 535 OFFCURVE",
+"1043 570 OFFCURVE",
+"998 570 CURVE SMOOTH",
+"953 570 OFFCURVE",
+"918 535 OFFCURVE",
 "918 490 CURVE SMOOTH",
-"918 446 OFFCURVE",
+"918 445 OFFCURVE",
 "953 410 OFFCURVE",
-"998 408 CURVE SMOOTH"
+"998 410 CURVE SMOOTH"
 );
 },
 {
@@ -76456,18 +75322,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1043 900 OFFCURVE",
-"1078 935 OFFCURVE",
-"1078 980 CURVE SMOOTH",
-"1078 1025 OFFCURVE",
-"1043 1060 OFFCURVE",
-"998 1060 CURVE SMOOTH",
-"953 1060 OFFCURVE",
-"918 1025 OFFCURVE",
-"918 980 CURVE SMOOTH",
-"918 935 OFFCURVE",
-"953 900 OFFCURVE",
-"998 900 CURVE SMOOTH"
+"1043 902 OFFCURVE",
+"1078 937 OFFCURVE",
+"1078 982 CURVE SMOOTH",
+"1078 1027 OFFCURVE",
+"1043 1062 OFFCURVE",
+"998 1062 CURVE SMOOTH",
+"953 1062 OFFCURVE",
+"918 1027 OFFCURVE",
+"918 982 CURVE SMOOTH",
+"918 937 OFFCURVE",
+"953 902 OFFCURVE",
+"998 902 CURVE SMOOTH"
 );
 },
 {
@@ -76522,18 +75388,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"606 1200 OFFCURVE",
+"605 1200 OFFCURVE",
 "628 1223 OFFCURVE",
 "628 1252 CURVE SMOOTH",
 "628 1281 OFFCURVE",
-"606 1304 OFFCURVE",
-"578 1304 CURVE SMOOTH",
-"548 1304 OFFCURVE",
+"605 1304 OFFCURVE",
+"576 1304 CURVE SMOOTH",
+"547 1304 OFFCURVE",
 "524 1281 OFFCURVE",
 "524 1252 CURVE SMOOTH",
 "524 1223 OFFCURVE",
-"548 1200 OFFCURVE",
-"578 1200 CURVE SMOOTH"
+"547 1200 OFFCURVE",
+"576 1200 CURVE SMOOTH"
 );
 },
 {
@@ -76593,11 +75459,11 @@ nodes = (
 "161 426 OFFCURVE",
 "184 449 OFFCURVE",
 "184 478 CURVE SMOOTH",
-"184 509 OFFCURVE",
-"161 532 OFFCURVE",
+"184 507 OFFCURVE",
+"161 530 OFFCURVE",
 "132 530 CURVE SMOOTH",
-"103 532 OFFCURVE",
-"80 509 OFFCURVE",
+"103 530 OFFCURVE",
+"80 507 OFFCURVE",
 "80 478 CURVE SMOOTH",
 "80 449 OFFCURVE",
 "103 426 OFFCURVE",
@@ -76659,15 +75525,15 @@ nodes = (
 closed = 1;
 nodes = (
 "1049 426 OFFCURVE",
-"1072 450 OFFCURVE",
-"1072 480 CURVE SMOOTH",
-"1072 508 OFFCURVE",
+"1072 449 OFFCURVE",
+"1072 478 CURVE SMOOTH",
+"1072 507 OFFCURVE",
 "1049 530 OFFCURVE",
 "1020 530 CURVE SMOOTH",
 "991 530 OFFCURVE",
-"968 508 OFFCURVE",
-"968 480 CURVE SMOOTH",
-"968 450 OFFCURVE",
+"968 507 OFFCURVE",
+"968 478 CURVE SMOOTH",
+"968 449 OFFCURVE",
 "991 426 OFFCURVE",
 "1020 426 CURVE SMOOTH"
 );
@@ -78646,7 +77512,7 @@ unicode = 2665;
 },
 {
 glyphname = at;
-lastChange = "2022-01-13 02:23:38 +0000";
+lastChange = "2022-02-14 07:02:31 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -78670,20 +77536,20 @@ nodes = (
 "840 1430 OFFCURVE",
 "958 1218 OFFCURVE",
 "958 948 CURVE SMOOTH",
-"958 874 LINE",
-"938 874 LINE",
-"958 818 LINE",
-"958 390 LINE",
-"948 354 LINE",
-"960 354 LINE",
-"980 258 OFFCURVE",
-"1048 216 OFFCURVE",
-"1098 198 CURVE SMOOTH",
-"1126 188 LINE",
+"958 870 LINE",
+"930 870 LINE",
+"960 816 LINE",
+"960 406 LINE",
+"932 356 LINE",
+"960 356 LINE",
+"982 254 OFFCURVE",
+"1054 214 OFFCURVE",
+"1094 200 CURVE SMOOTH",
+"1122 190 LINE",
 "1140 246 LINE",
-"1118 252 LINE SMOOTH",
-"1068 266 OFFCURVE",
-"1018 314 OFFCURVE",
+"1118 254 LINE SMOOTH",
+"1074 270 OFFCURVE",
+"1018 310 OFFCURVE",
 "1018 396 CURVE SMOOTH",
 "1018 948 LINE SMOOTH",
 "1018 1262 OFFCURVE",
@@ -78700,17 +77566,17 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"880 188 OFFCURVE",
-"1018 360 OFFCURVE",
-"1018 612 CURVE SMOOTH",
-"1018 864 OFFCURVE",
+"880 186 OFFCURVE",
+"1014 360 OFFCURVE",
+"1014 612 CURVE SMOOTH",
+"1014 864 OFFCURVE",
 "880 1034 OFFCURVE",
 "678 1034 CURVE SMOOTH",
 "478 1034 OFFCURVE",
 "336 862 OFFCURVE",
 "336 612 CURVE SMOOTH",
 "336 362 OFFCURVE",
-"478 188 OFFCURVE",
+"478 186 OFFCURVE",
 "678 186 CURVE SMOOTH"
 );
 },
@@ -79912,7 +78778,7 @@ unicode = 00B6;
 },
 {
 glyphname = section;
-lastChange = "2022-01-18 00:24:21 +0000";
+lastChange = "2022-02-14 07:00:15 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -80000,75 +78866,75 @@ paths = (
 {
 closed = 1;
 nodes = (
-"819 -270 OFFCURVE",
-"1013 -106 OFFCURVE",
+"820 -270 OFFCURVE",
+"1014 -106 OFFCURVE",
 "1014 122 CURVE SMOOTH",
-"1013 304 OFFCURVE",
-"893 386 OFFCURVE",
+"1014 278 OFFCURVE",
+"922 380 OFFCURVE",
 "740 422 CURVE",
 "740 324 LINE",
-"925 390 OFFCURVE",
-"1029 488 OFFCURVE",
+"932 392 OFFCURVE",
+"1030 496 OFFCURVE",
 "1030 664 CURVE SMOOTH",
-"1029 856 OFFCURVE",
-"897 942 OFFCURVE",
-"726 1000 CURVE SMOOTH",
-"601 1040 OFFCURVE",
-"475 1070 OFFCURVE",
-"476 1156 CURVE SMOOTH",
-"475 1208 OFFCURVE",
-"527 1232 OFFCURVE",
-"578 1232 CURVE SMOOTH",
-"645 1232 OFFCURVE",
-"709 1188 OFFCURVE",
+"1030 860 OFFCURVE",
+"894 942 OFFCURVE",
+"724 1000 CURVE SMOOTH",
+"606 1040 OFFCURVE",
+"476 1068 OFFCURVE",
+"476 1154 CURVE SMOOTH",
+"476 1210 OFFCURVE",
+"528 1232 OFFCURVE",
+"576 1232 CURVE SMOOTH",
+"644 1232 OFFCURVE",
+"708 1190 OFFCURVE",
 "742 1110 CURVE",
 "1000 1242 LINE",
-"941 1376 OFFCURVE",
-"765 1490 OFFCURVE",
+"944 1370 OFFCURVE",
+"772 1490 OFFCURVE",
 "564 1490 CURVE SMOOTH",
-"339 1490 OFFCURVE",
-"159 1348 OFFCURVE",
+"340 1490 OFFCURVE",
+"160 1348 OFFCURVE",
 "160 1142 CURVE SMOOTH",
-"159 1002 OFFCURVE",
-"247 908 OFFCURVE",
+"160 994 OFFCURVE",
+"252 908 OFFCURVE",
 "422 856 CURVE",
 "422 950 LINE",
-"235 890 OFFCURVE",
-"141 752 OFFCURVE",
-"142 602 CURVE SMOOTH",
-"141 424 OFFCURVE",
-"261 296 OFFCURVE",
+"236 890 OFFCURVE",
+"142 756 OFFCURVE",
+"142 600 CURVE SMOOTH",
+"142 420 OFFCURVE",
+"266 294 OFFCURVE",
 "464 242 CURVE SMOOTH",
-"571 214 OFFCURVE",
-"693 202 OFFCURVE",
-"694 102 CURVE SMOOTH",
-"693 46 OFFCURVE",
-"647 4 OFFCURVE",
+"566 216 OFFCURVE",
+"694 200 OFFCURVE",
+"694 104 CURVE SMOOTH",
+"694 46 OFFCURVE",
+"646 4 OFFCURVE",
 "580 4 CURVE SMOOTH",
-"503 4 OFFCURVE",
-"425 62 OFFCURVE",
+"504 4 OFFCURVE",
+"426 60 OFFCURVE",
 "378 148 CURVE",
 "124 -8 LINE",
-"177 -150 OFFCURVE",
-"369 -270 OFFCURVE",
+"180 -156 OFFCURVE",
+"376 -270 OFFCURVE",
 "576 -270 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"487 484 OFFCURVE",
-"421 546 OFFCURVE",
+"488 484 OFFCURVE",
+"422 544 OFFCURVE",
 "422 622 CURVE SMOOTH",
-"421 700 OFFCURVE",
-"487 762 OFFCURVE",
-"580 762 CURVE SMOOTH",
-"679 762 OFFCURVE",
-"743 700 OFFCURVE",
+"422 700 OFFCURVE",
+"486 762 OFFCURVE",
+"582 762 CURVE SMOOTH",
+"680 762 OFFCURVE",
+"744 698 OFFCURVE",
 "744 622 CURVE SMOOTH",
-"743 546 OFFCURVE",
-"679 484 OFFCURVE",
-"580 484 CURVE SMOOTH"
+"744 546 OFFCURVE",
+"678 484 OFFCURVE",
+"582 484 CURVE SMOOTH"
 );
 }
 );
@@ -81834,755 +80700,6 @@ width = 1152;
 }
 );
 unicode = 1F845;
-},
-{
-export = 0;
-glyphname = at.001;
-lastChange = "2022-01-28 04:35:26 +0000";
-layers = (
-{
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-paths = (
-{
-closed = 1;
-nodes = (
-"710 -270 OFFCURVE",
-"812 -222 OFFCURVE",
-"876 -144 CURVE",
-"846 -96 LINE",
-"782 -172 OFFCURVE",
-"700 -210 OFFCURVE",
-"604 -210 CURVE SMOOTH",
-"306 -210 OFFCURVE",
-"116 164 OFFCURVE",
-"116 628 CURVE SMOOTH",
-"116 1086 OFFCURVE",
-"302 1430 OFFCURVE",
-"584 1430 CURVE SMOOTH",
-"824 1430 OFFCURVE",
-"1032 1178 OFFCURVE",
-"1032 662 CURVE SMOOTH",
-"1032 404 OFFCURVE",
-"980 254 OFFCURVE",
-"890 254 CURVE SMOOTH",
-"826 254 OFFCURVE",
-"776 332 OFFCURVE",
-"776 466 CURVE SMOOTH",
-"776 992 LINE",
-"716 992 LINE",
-"716 842 LINE",
-"698 842 LINE",
-"718 778 LINE",
-"718 402 LINE",
-"706 358 LINE",
-"732 358 LINE",
-"756 240 OFFCURVE",
-"834 194 OFFCURVE",
-"892 194 CURVE SMOOTH",
-"1022 192 OFFCURVE",
-"1090 388 OFFCURVE",
-"1092 668 CURVE SMOOTH",
-"1096 1204 OFFCURVE",
-"854 1490 OFFCURVE",
-"580 1490 CURVE SMOOTH",
-"272 1490 OFFCURVE",
-"56 1130 OFFCURVE",
-"56 622 CURVE SMOOTH",
-"56 92 OFFCURVE",
-"292 -270 OFFCURVE",
-"598 -270 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"674 190 OFFCURVE",
-"772 366 OFFCURVE",
-"772 594 CURVE SMOOTH",
-"772 826 OFFCURVE",
-"674 992 OFFCURVE",
-"544 992 CURVE SMOOTH",
-"414 992 OFFCURVE",
-"312 826 OFFCURVE",
-"312 590 CURVE SMOOTH",
-"312 358 OFFCURVE",
-"410 192 OFFCURVE",
-"540 192 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"452 252 OFFCURVE",
-"372 382 OFFCURVE",
-"372 588 CURVE SMOOTH",
-"372 792 OFFCURVE",
-"450 932 OFFCURVE",
-"548 932 CURVE SMOOTH",
-"646 932 OFFCURVE",
-"716 792 OFFCURVE",
-"716 590 CURVE SMOOTH",
-"716 398 OFFCURVE",
-"650 250 OFFCURVE",
-"548 250 CURVE SMOOTH"
-);
-}
-);
-width = 1148;
-},
-{
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-paths = (
-{
-closed = 1;
-nodes = (
-"666 -270 OFFCURVE",
-"764 -230 OFFCURVE",
-"834 -166 CURVE",
-"766 -12 LINE",
-"722 -62 OFFCURVE",
-"634 -106 OFFCURVE",
-"550 -106 CURVE SMOOTH",
-"346 -106 OFFCURVE",
-"216 176 OFFCURVE",
-"216 580 CURVE SMOOTH",
-"216 1026 OFFCURVE",
-"370 1326 OFFCURVE",
-"592 1326 CURVE SMOOTH",
-"808 1326 OFFCURVE",
-"934 1044 OFFCURVE",
-"934 634 CURVE SMOOTH",
-"934 456 OFFCURVE",
-"910 336 OFFCURVE",
-"870 336 CURVE SMOOTH",
-"850 336 OFFCURVE",
-"836 362 OFFCURVE",
-"836 408 CURVE SMOOTH",
-"836 996 LINE",
-"666 996 LINE",
-"666 934 LINE",
-"634 934 LINE",
-"658 848 LINE",
-"658 396 LINE",
-"636 278 LINE",
-"706 278 LINE",
-"734 204 OFFCURVE",
-"806 156 OFFCURVE",
-"880 156 CURVE SMOOTH",
-"1016 156 OFFCURVE",
-"1098 316 OFFCURVE",
-"1098 658 CURVE SMOOTH",
-"1098 1182 OFFCURVE",
-"906 1490 OFFCURVE",
-"598 1490 CURVE SMOOTH",
-"270 1490 OFFCURVE",
-"52 1138 OFFCURVE",
-"52 598 CURVE SMOOTH",
-"52 72 OFFCURVE",
-"258 -270 OFFCURVE",
-"562 -270 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"676 156 OFFCURVE",
-"758 320 OFFCURVE",
-"758 576 CURVE SMOOTH",
-"758 832 OFFCURVE",
-"676 996 OFFCURVE",
-"532 996 CURVE SMOOTH",
-"386 996 OFFCURVE",
-"290 830 OFFCURVE",
-"290 576 CURVE SMOOTH",
-"290 318 OFFCURVE",
-"388 156 OFFCURVE",
-"532 156 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"508 342 OFFCURVE",
-"470 434 OFFCURVE",
-"470 576 CURVE SMOOTH",
-"470 718 OFFCURVE",
-"508 812 OFFCURVE",
-"566 812 CURVE SMOOTH",
-"622 812 OFFCURVE",
-"656 718 OFFCURVE",
-"656 576 CURVE SMOOTH",
-"656 434 OFFCURVE",
-"622 342 OFFCURVE",
-"566 340 CURVE SMOOTH"
-);
-}
-);
-width = 1144;
-},
-{
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-paths = (
-{
-closed = 1;
-nodes = (
-"688 -274 OFFCURVE",
-"802 -226 OFFCURVE",
-"852 -156 CURVE",
-"796 -32 LINE",
-"730 -96 OFFCURVE",
-"644 -138 OFFCURVE",
-"564 -138 CURVE SMOOTH",
-"346 -138 OFFCURVE",
-"190 166 OFFCURVE",
-"190 608 CURVE SMOOTH",
-"190 1052 OFFCURVE",
-"348 1354 OFFCURVE",
-"592 1354 CURVE SMOOTH",
-"802 1354 OFFCURVE",
-"960 1130 OFFCURVE",
-"960 652 CURVE SMOOTH",
-"960 438 OFFCURVE",
-"928 314 OFFCURVE",
-"880 314 CURVE SMOOTH",
-"848 314 OFFCURVE",
-"812 374 OFFCURVE",
-"812 494 CURVE SMOOTH",
-"812 1006 LINE",
-"684 1006 LINE",
-"684 906 LINE",
-"662 906 LINE",
-"684 830 LINE",
-"684 410 LINE",
-"666 324 LINE",
-"708 324 LINE",
-"732 240 OFFCURVE",
-"800 182 OFFCURVE",
-"884 182 CURVE SMOOTH",
-"1004 182 OFFCURVE",
-"1096 298 OFFCURVE",
-"1096 658 CURVE SMOOTH",
-"1096 1204 OFFCURVE",
-"884 1490 OFFCURVE",
-"590 1490 CURVE SMOOTH",
-"262 1490 OFFCURVE",
-"54 1130 OFFCURVE",
-"54 612 CURVE SMOOTH",
-"54 86 OFFCURVE",
-"268 -274 OFFCURVE",
-"576 -274 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"666 182 OFFCURVE",
-"750 346 OFFCURVE",
-"750 596 CURVE SMOOTH",
-"750 846 OFFCURVE",
-"666 1006 OFFCURVE",
-"528 1006 CURVE SMOOTH",
-"388 1006 OFFCURVE",
-"290 846 OFFCURVE",
-"290 596 CURVE SMOOTH",
-"290 344 OFFCURVE",
-"388 182 OFFCURVE",
-"526 182 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"488 322 OFFCURVE",
-"438 432 OFFCURVE",
-"438 598 CURVE SMOOTH",
-"438 768 OFFCURVE",
-"490 868 OFFCURVE",
-"560 866 CURVE SMOOTH",
-"632 864 OFFCURVE",
-"676 760 OFFCURVE",
-"676 596 CURVE SMOOTH",
-"676 430 OFFCURVE",
-"630 326 OFFCURVE",
-"560 324 CURVE SMOOTH"
-);
-}
-);
-width = 1148;
-}
-);
-leftKerningGroup = LAT_O_UC;
-rightKerningGroup = LAT_O_UC;
-},
-{
-export = 0;
-glyphname = at.002;
-lastChange = "2022-01-28 04:35:26 +0000";
-layers = (
-{
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-paths = (
-{
-closed = 1;
-nodes = (
-"200 1136 LINE",
-"239 1324 OFFCURVE",
-"366 1434 OFFCURVE",
-"528 1434 CURVE SMOOTH",
-"812 1434 OFFCURVE",
-"980 1100 OFFCURVE",
-"970 574 CURVE SMOOTH",
-"964 254 OFFCURVE",
-"916 40 OFFCURVE",
-"806 40 CURVE SMOOTH",
-"728 40 OFFCURVE",
-"674 145 OFFCURVE",
-"674 298 CURVE SMOOTH",
-"674 910 LINE",
-"610 910 LINE",
-"610 732 LINE",
-"588 732 LINE",
-"612 658 LINE",
-"612 222 LINE",
-"598 174 LINE",
-"630 174 LINE",
-"651 61 OFFCURVE",
-"722 -16 OFFCURVE",
-"804 -16 CURVE SMOOTH",
-"948 -16 OFFCURVE",
-"1020 222 OFFCURVE",
-"1030 580 CURVE SMOOTH",
-"1044 1136 OFFCURVE",
-"848 1490 OFFCURVE",
-"536 1490 CURVE SMOOTH",
-"372 1490 OFFCURVE",
-"198 1392 OFFCURVE",
-"146 1156 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"559 -16 OFFCURVE",
-"670 172 OFFCURVE",
-"670 446 CURVE SMOOTH",
-"670 721 OFFCURVE",
-"559 910 OFFCURVE",
-"398 910 CURVE SMOOTH",
-"230 910 OFFCURVE",
-"114 721 OFFCURVE",
-"114 446 CURVE SMOOTH",
-"114 172 OFFCURVE",
-"230 -16 OFFCURVE",
-"398 -16 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"268 40 OFFCURVE",
-"178 205 OFFCURVE",
-"178 446 CURVE SMOOTH",
-"178 688 OFFCURVE",
-"268 854 OFFCURVE",
-"398 854 CURVE SMOOTH",
-"524 854 OFFCURVE",
-"610 688 OFFCURVE",
-"610 446 CURVE SMOOTH",
-"610 205 OFFCURVE",
-"524 40 OFFCURVE",
-"398 40 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-},
-{
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-paths = (
-{
-closed = 1;
-nodes = (
-"262 986 LINE",
-"310 1172 OFFCURVE",
-"424 1286 OFFCURVE",
-"554 1286 CURVE SMOOTH",
-"752 1286 OFFCURVE",
-"868 1018 OFFCURVE",
-"868 578 CURVE SMOOTH",
-"868 340 OFFCURVE",
-"834 200 OFFCURVE",
-"766 200 CURVE SMOOTH",
-"740 200 OFFCURVE",
-"718 222 OFFCURVE",
-"718 262 CURVE SMOOTH",
-"718 854 LINE",
-"512 854 LINE",
-"512 780 LINE",
-"468 780 LINE",
-"518 722 LINE",
-"518 232 LINE",
-"464 108 LINE",
-"552 108 LINE",
-"578 34 OFFCURVE",
-"656 -16 OFFCURVE",
-"748 -16 CURVE SMOOTH",
-"962 -16 OFFCURVE",
-"1080 252 OFFCURVE",
-"1074 664 CURVE SMOOTH",
-"1068 1168 OFFCURVE",
-"882 1490 OFFCURVE",
-"562 1490 CURVE SMOOTH",
-"328 1490 OFFCURVE",
-"142 1320 OFFCURVE",
-"76 1040 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"508 -16 OFFCURVE",
-"604 150 OFFCURVE",
-"604 420 CURVE SMOOTH",
-"604 690 OFFCURVE",
-"508 854 OFFCURVE",
-"348 854 CURVE SMOOTH",
-"186 854 OFFCURVE",
-"88 690 OFFCURVE",
-"88 420 CURVE SMOOTH",
-"88 150 OFFCURVE",
-"186 -16 OFFCURVE",
-"348 -16 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"358 212 OFFCURVE",
-"322 290 OFFCURVE",
-"322 418 CURVE SMOOTH",
-"322 548 OFFCURVE",
-"358 628 OFFCURVE",
-"416 628 CURVE SMOOTH",
-"474 628 OFFCURVE",
-"510 548 OFFCURVE",
-"510 418 CURVE SMOOTH",
-"510 290 OFFCURVE",
-"474 212 OFFCURVE",
-"416 212 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-},
-{
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-paths = (
-{
-closed = 1;
-nodes = (
-"238 1034 LINE",
-"282 1216 OFFCURVE",
-"402 1330 OFFCURVE",
-"550 1330 CURVE SMOOTH",
-"782 1330 OFFCURVE",
-"902 1056 OFFCURVE",
-"902 596 CURVE SMOOTH",
-"902 336 OFFCURVE",
-"864 146 OFFCURVE",
-"786 146 CURVE SMOOTH",
-"748 146 OFFCURVE",
-"714 188 OFFCURVE",
-"714 254 CURVE SMOOTH",
-"714 878 LINE",
-"558 878 LINE",
-"558 782 LINE",
-"522 782 LINE",
-"552 704 LINE",
-"552 228 LINE",
-"526 126 LINE",
-"592 126 LINE",
-"612 46 OFFCURVE",
-"696 -16 OFFCURVE",
-"782 -16 CURVE SMOOTH",
-"960 -16 OFFCURVE",
-"1058 224 OFFCURVE",
-"1058 624 CURVE SMOOTH",
-"1058 1164 OFFCURVE",
-"880 1490 OFFCURVE",
-"558 1490 CURVE SMOOTH",
-"328 1490 OFFCURVE",
-"140 1324 OFFCURVE",
-"92 1082 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"540 -16 OFFCURVE",
-"642 164 OFFCURVE",
-"642 428 CURVE SMOOTH",
-"642 694 OFFCURVE",
-"538 878 OFFCURVE",
-"382 878 CURVE SMOOTH",
-"222 878 OFFCURVE",
-"114 692 OFFCURVE",
-"114 426 CURVE SMOOTH",
-"114 162 OFFCURVE",
-"222 -16 OFFCURVE",
-"382 -16 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"338 142 OFFCURVE",
-"286 258 OFFCURVE",
-"286 426 CURVE SMOOTH",
-"286 598 OFFCURVE",
-"340 718 OFFCURVE",
-"418 718 CURVE SMOOTH",
-"496 718 OFFCURVE",
-"548 598 OFFCURVE",
-"548 428 CURVE SMOOTH",
-"548 260 OFFCURVE",
-"498 142 OFFCURVE",
-"418 142 CURVE SMOOTH"
-);
-}
-);
-width = 1152;
-}
-);
-leftKerningGroup = LAT_O_UC;
-rightKerningGroup = LAT_O_UC;
-},
-{
-export = 0;
-glyphname = numero.001;
-lastChange = "2022-02-04 00:08:14 +0000";
-layers = (
-{
-anchors = (
-{
-name = leghookright;
-position = "{764, 0}";
-}
-);
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-paths = (
-{
-closed = 1;
-nodes = (
-"162 0 LINE",
-"162 776 LINE",
-"162 1108 LINE",
-"168 1108 LINE",
-"726 0 LINE",
-"792 0 LINE",
-"792 680 LINE",
-"728 680 LINE",
-"728 162 LINE",
-"722 162 LINE",
-"160 1280 LINE",
-"98 1280 LINE",
-"98 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"925 866 OFFCURVE",
-"1050 1002 OFFCURVE",
-"1050 1178 CURVE SMOOTH",
-"1050 1354 OFFCURVE",
-"925 1490 OFFCURVE",
-"762 1490 CURVE SMOOTH",
-"596 1490 OFFCURVE",
-"468 1354 OFFCURVE",
-"468 1178 CURVE SMOOTH",
-"468 1002 OFFCURVE",
-"596 866 OFFCURVE",
-"762 866 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"634 928 OFFCURVE",
-"534 1038 OFFCURVE",
-"532 1178 CURVE SMOOTH",
-"530 1320 OFFCURVE",
-"630 1430 OFFCURVE",
-"762 1430 CURVE SMOOTH",
-"888 1430 OFFCURVE",
-"986 1320 OFFCURVE",
-"986 1178 CURVE SMOOTH",
-"986 1034 OFFCURVE",
-"888 924 OFFCURVE",
-"762 926 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"728 624 LINE",
-"1028 624 LINE",
-"1028 680 LINE",
-"728 680 LINE"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = leghookright;
-position = "{854, 0}";
-}
-);
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-paths = (
-{
-closed = 1;
-nodes = (
-"368 0 LINE",
-"368 428 LINE",
-"362 672 LINE",
-"370 672 LINE",
-"762 0 LINE",
-"988 0 LINE",
-"988 740 LINE",
-"726 740 LINE",
-"726 496 LINE",
-"718 496 LINE",
-"298 1280 LINE",
-"68 1280 LINE",
-"68 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"1008 890 OFFCURVE",
-"1140 1021 OFFCURVE",
-"1140 1190 CURVE SMOOTH",
-"1140 1359 OFFCURVE",
-"1008 1490 OFFCURVE",
-"838 1490 CURVE SMOOTH",
-"670 1490 OFFCURVE",
-"540 1359 OFFCURVE",
-"540 1190 CURVE SMOOTH",
-"540 1021 OFFCURVE",
-"670 890 OFFCURVE",
-"838 890 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"793 1086 OFFCURVE",
-"760 1131 OFFCURVE",
-"760 1190 CURVE SMOOTH",
-"760 1249 OFFCURVE",
-"793 1294 OFFCURVE",
-"836 1294 CURVE SMOOTH",
-"884 1294 OFFCURVE",
-"920 1249 OFFCURVE",
-"920 1190 CURVE SMOOTH",
-"920 1131 OFFCURVE",
-"885 1086 OFFCURVE",
-"836 1086 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"726 548 LINE",
-"1118 548 LINE",
-"1118 780 LINE",
-"726 780 LINE"
-);
-}
-);
-width = 1152;
-},
-{
-anchors = (
-{
-name = leghookright;
-position = "{786, 0}";
-}
-);
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-paths = (
-{
-closed = 1;
-nodes = (
-"228 0 LINE",
-"228 556 LINE",
-"226 904 LINE",
-"232 904 LINE",
-"742 0 LINE",
-"870 0 LINE",
-"870 796 LINE",
-"698 796 LINE",
-"698 418 LINE",
-"692 418 LINE",
-"190 1280 LINE",
-"56 1280 LINE",
-"56 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"949 912 OFFCURVE",
-"1074 1037 OFFCURVE",
-"1074 1200 CURVE SMOOTH",
-"1074 1364 OFFCURVE",
-"949 1490 OFFCURVE",
-"786 1490 CURVE SMOOTH",
-"623 1490 OFFCURVE",
-"498 1365 OFFCURVE",
-"498 1202 CURVE SMOOTH",
-"498 1038 OFFCURVE",
-"623 912 OFFCURVE",
-"786 912 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"713 1060 OFFCURVE",
-"656 1122 OFFCURVE",
-"654 1202 CURVE SMOOTH",
-"652 1281 OFFCURVE",
-"710 1342 OFFCURVE",
-"786 1342 CURVE SMOOTH",
-"860 1342 OFFCURVE",
-"918 1280 OFFCURVE",
-"918 1200 CURVE SMOOTH",
-"918 1121 OFFCURVE",
-"860 1060 OFFCURVE",
-"786 1060 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"698 644 LINE",
-"1070 644 LINE",
-"1070 796 LINE",
-"698 796 LINE"
-);
-}
-);
-width = 1152;
-}
-);
-leftMetricsKey = H;
 },
 {
 glyphname = registered.sups;
@@ -106163,5 +104280,5 @@ com.typesupply.MetricsMachine4.groupColors = {
 org.unifiedfontobject.normalizer.modTimes = "version: 0a1\0121440534632.0 fontinfo.plist\0121440534632.0 glyphs/A_.glif\0121440534632.0 glyphs/A_.sc.glif\0121440534632.0 glyphs/A_.sups.glif\0121440534632.0 glyphs/A_E_.glif\0121440534632.0 glyphs/A_E_.sc.glif\0121440534632.0 glyphs/A_E_acute.glif\0121440534632.0 glyphs/A_E_acute.sc.glif\0121440534632.0 glyphs/A_E_macron.glif\0121440534632.0 glyphs/A_E_macron.sc.glif\0121440534632.0 glyphs/A_acute.glif\0121440534632.0 glyphs/A_acute.sc.glif\0121440534632.0 glyphs/A_breve.glif\0121440534632.0 glyphs/A_breve.sc.glif\0121440534632.0 glyphs/A_breveacute.glif\0121440534632.0 glyphs/A_breveacute.sc.glif\0121440534632.0 glyphs/A_brevecyr.glif\0121440534632.0 glyphs/A_brevecyr.sc.glif\0121440534632.0 glyphs/A_brevedotbelow.glif\0121440534632.0 glyphs/A_brevedotbelow.sc.glif\0121440534632.0 glyphs/A_brevegrave.glif\0121440534632.0 glyphs/A_brevegrave.sc.glif\0121440534632.0 glyphs/A_brevehoi.glif\0121440534632.0 glyphs/A_brevehoi.sc.glif\0121440534632.0 glyphs/A_brevetilde.glif\0121440534632.0 glyphs/A_brevetilde.sc.glif\0121440534632.0 glyphs/A_caron.glif\0121440534632.0 glyphs/A_caron.sc.glif\0121440534632.0 glyphs/A_circumflex.glif\0121440534632.0 glyphs/A_circumflex.sc.glif\0121440534632.0 glyphs/A_circumflexacute.glif\0121440534632.0 glyphs/A_circumflexacute.sc.glif\0121440534632.0 glyphs/A_circumflexdotbelow.glif\0121440534632.0 glyphs/A_circumflexdotbelow.sc.glif\0121440534632.0 glyphs/A_circumflexgrave.glif\0121440534632.0 glyphs/A_circumflexgrave.sc.glif\0121440534632.0 glyphs/A_circumflexhoi.glif\0121440534632.0 glyphs/A_circumflexhoi.sc.glif\0121440534632.0 glyphs/A_circumflextilde.glif\0121440534632.0 glyphs/A_circumflextilde.sc.glif\0121440534632.0 glyphs/A_cyr.glif\0121440534632.0 glyphs/A_cyr.sc.glif\0121440534632.0 glyphs/A_dieresis.glif\0121440534632.0 glyphs/A_dieresis.sc.glif\0121440534632.0 glyphs/A_dotbelow.glif\0121440534632.0 glyphs/A_dotbelow.sc.glif\0121440534632.0 glyphs/A_grave.glif\0121440534632.0 glyphs/A_grave.sc.glif\0121440534632.0 glyphs/A_hoi.glif\0121440534632.0 glyphs/A_hoi.sc.glif\0121440534632.0 glyphs/A_ie.glif\0121440534632.0 glyphs/A_ie.sc.glif\0121440534632.0 glyphs/A_lpha.glif\0121440534632.0 glyphs/A_lpha.sc.glif\0121440534632.0 glyphs/A_lphaacute.glif\0121440534632.0 glyphs/A_lphaasper.glif\0121440534632.0 glyphs/A_lphaasperacute.glif\0121440534632.0 glyphs/A_lphaaspergrave.glif\0121440534632.0 glyphs/A_lphaaspertilde.glif\0121440534632.0 glyphs/A_lphabreve.glif\0121440534632.0 glyphs/A_lphagrave.glif\0121440534632.0 glyphs/A_lphaiotasub.glif\0121440534632.0 glyphs/A_lphaiotasub.sc.glif\0121440534632.0 glyphs/A_lphaiotasubasper.glif\0121440534632.0 glyphs/A_lphaiotasubasperacute.glif\0121440534632.0 glyphs/A_lphaiotasubaspergrave.glif\0121440534632.0 glyphs/A_lphaiotasubaspertilde.glif\0121440534632.0 glyphs/A_lphaiotasublenis.glif\0121440534632.0 glyphs/A_lphaiotasublenisacute.glif\0121440534632.0 glyphs/A_lphaiotasublenisgrave.glif\0121440534632.0 glyphs/A_lphaiotasublenistilde.glif\0121440534632.0 glyphs/A_lphalenis.glif\0121440534632.0 glyphs/A_lphalenisacute.glif\0121440534632.0 glyphs/A_lphalenisgrave.glif\0121440534632.0 glyphs/A_lphalenistilde.glif\0121440534632.0 glyphs/A_lphamacron.glif\0121440534632.0 glyphs/A_lphatonos.glif\0121440534632.0 glyphs/A_macron.glif\0121440534632.0 glyphs/A_macron.sc.glif\0121440534632.0 glyphs/A_ogonek.glif\0121440534632.0 glyphs/A_ogonek.sc.glif\0121440534632.0 glyphs/A_ring.glif\0121440534632.0 glyphs/A_ring.sc.glif\0121440534632.0 glyphs/A_tilde.glif\0121440534632.0 glyphs/A_tilde.sc.glif\0121440534632.0 glyphs/B_.glif\0121440534632.0 glyphs/B_.sc.glif\0121440534632.0 glyphs/B_.sups.glif\0121440534632.0 glyphs/B_e.glif\0121440534632.0 glyphs/B_e.sc.glif\0121440534632.0 glyphs/B_eta.glif\0121440534632.0 glyphs/B_eta.sc.glif\0121440534632.0 glyphs/B_linebelow.glif\0121440534632.0 glyphs/B_linebelow.sc.glif\0121440534632.0 glyphs/B_small.glif\0121440534632.0 glyphs/B_stroke.glif\0121440534632.0 glyphs/B_stroke.sc.glif\0121440534632.0 glyphs/C_.glif\0121440534632.0 glyphs/C_.sc.glif\0121440534632.0 glyphs/C_.sups.glif\0121440534632.0 glyphs/C_acute.glif\0121440534632.0 glyphs/C_acute.sc.glif\0121440534632.0 glyphs/C_caron.glif\0121440534632.0 glyphs/C_caron.sc.glif\0121440534632.0 glyphs/C_cedilla.glif\0121440534632.0 glyphs/C_cedilla.sc.glif\0121440534632.0 glyphs/C_circumflex.glif\0121440534632.0 glyphs/C_circumflex.sc.glif\0121440534632.0 glyphs/C_dotaccent.glif\0121440534632.0 glyphs/C_dotaccent.sc.glif\0121440534632.0 glyphs/C_he.glif\0121440534632.0 glyphs/C_he.sc.glif\0121440534632.0 glyphs/C_hedescender.glif\0121440534632.0 glyphs/C_hedescender.sc.glif\0121440534632.0 glyphs/C_hi.glif\0121440534632.0 glyphs/C_hi.sc.glif\0121440534632.0 glyphs/D_.glif\0121440534632.0 glyphs/D_.sc.glif\0121440534632.0 glyphs/D_.sups.glif\0121440534632.0 glyphs/D_caron.glif\0121440534632.0 glyphs/D_caron.sc.glif\0121440534633.0 glyphs/D_croat.glif\0121440534633.0 glyphs/D_croat.sc.glif\0121440534633.0 glyphs/D_dotbelow.glif\0121440534633.0 glyphs/D_dotbelow.sc.glif\0121440534633.0 glyphs/D_e.glif\0121440534633.0 glyphs/D_e.sc.glif\0121440534633.0 glyphs/D_elta.glif\0121440534633.0 glyphs/D_elta.math.glif\0121440534633.0 glyphs/D_elta.sc.glif\0121440534633.0 glyphs/D_je.glif\0121440534633.0 glyphs/D_je.sc.glif\0121440534633.0 glyphs/D_linebelow.glif\0121440534633.0 glyphs/D_linebelow.sc.glif\0121440534633.0 glyphs/D_ze.glif\0121440534633.0 glyphs/D_ze.sc.glif\0121440534633.0 glyphs/D_zhe.glif\0121440534633.0 glyphs/D_zhe.sc.glif\0121440534633.0 glyphs/E_.glif\0121440534633.0 glyphs/E_.sc.glif\0121440534633.0 glyphs/E_.sups.glif\0121440534633.0 glyphs/E_acute.glif\0121440534633.0 glyphs/E_acute.sc.glif\0121440534633.0 glyphs/E_breve.glif\0121440534633.0 glyphs/E_breve.sc.glif\0121440534633.0 glyphs/E_caron.glif\0121440534633.0 glyphs/E_caron.sc.glif\0121440534633.0 glyphs/E_circumflex.glif\0121440534633.0 glyphs/E_circumflex.sc.glif\0121440534633.0 glyphs/E_circumflexacute.glif\0121440534633.0 glyphs/E_circumflexacute.sc.glif\0121440534633.0 glyphs/E_circumflexdotbelow.glif\0121440534633.0 glyphs/E_circumflexdotbelow.sc.glif\0121440534633.0 glyphs/E_circumflexgrave.glif\0121440534633.0 glyphs/E_circumflexgrave.sc.glif\0121440534633.0 glyphs/E_circumflexhoi.glif\0121440534633.0 glyphs/E_circumflexhoi.sc.glif\0121440534633.0 glyphs/E_circumflextilde.glif\0121440534633.0 glyphs/E_circumflextilde.sc.glif\0121440534633.0 glyphs/E_cyr.glif\0121440534633.0 glyphs/E_cyr.sc.glif\0121440534633.0 glyphs/E_dieresis.glif\0121440534633.0 glyphs/E_dieresis.sc.glif\0121440534633.0 glyphs/E_dotaccent.glif\0121440534633.0 glyphs/E_dotaccent.sc.glif\0121440534633.0 glyphs/E_dotbelow.glif\0121440534633.0 glyphs/E_dotbelow.sc.glif\0121440534633.0 glyphs/E_f.glif\0121440534633.0 glyphs/E_f.sc.glif\0121440534633.0 glyphs/E_grave.glif\0121440534633.0 glyphs/E_grave.sc.glif\0121440534633.0 glyphs/E_hoi.glif\0121440534633.0 glyphs/E_hoi.sc.glif\0121440534633.0 glyphs/E_l.glif\0121440534633.0 glyphs/E_l.sc.glif\0121440534633.0 glyphs/E_m.glif\0121440534633.0 glyphs/E_m.sc.glif\0121440534633.0 glyphs/E_macron.glif\0121440534633.0 glyphs/E_macron.sc.glif\0121440534633.0 glyphs/E_macronacute.glif\0121440534633.0 glyphs/E_macronacute.sc.glif\0121440534633.0 glyphs/E_n.glif\0121440534633.0 glyphs/E_n.sc.glif\0121440534633.0 glyphs/E_ndescender.glif\0121440534633.0 glyphs/E_ndescender.sc.glif\0121440534633.0 glyphs/E_ng.alt.glif\0121440534633.0 glyphs/E_ng.glif\0121440534633.0 glyphs/E_ng.sc.glif\0121440534633.0 glyphs/E_ng.sca.glif\0121440534633.0 glyphs/E_ogonek.glif\0121440534633.0 glyphs/E_ogonek.sc.glif\0121440534633.0 glyphs/E_psilon.glif\0121440534633.0 glyphs/E_psilon.sc.glif\0121440534633.0 glyphs/E_psilonacute.glif\0121440534633.0 glyphs/E_psilonasper.glif\0121440534633.0 glyphs/E_psilonasperacute.glif\0121440534633.0 glyphs/E_psilonaspergrave.glif\0121440534633.0 glyphs/E_psilongrave.glif\0121440534633.0 glyphs/E_psilonlenis.glif\0121440534633.0 glyphs/E_psilonlenisacute.glif\0121440534633.0 glyphs/E_psilonlenisgrave.glif\0121440534633.0 glyphs/E_psilontonos.glif\0121440534633.0 glyphs/E_r.glif\0121440534633.0 glyphs/E_r.sc.glif\0121440534633.0 glyphs/E_s.glif\0121440534633.0 glyphs/E_s.sc.glif\0121440534633.0 glyphs/E_sdescender.glif\0121440534633.0 glyphs/E_sdescender.sc.glif\0121440534633.0 glyphs/E_ta.glif\0121440534633.0 glyphs/E_ta.sc.glif\0121440534633.0 glyphs/E_taacute.glif\0121440534633.0 glyphs/E_taasper.glif\0121440534633.0 glyphs/E_taasperacute.glif\0121440534633.0 glyphs/E_taaspergrave.glif\0121440534633.0 glyphs/E_taaspertilde.glif\0121440534633.0 glyphs/E_tagrave.glif\0121440534633.0 glyphs/E_taiotasub.glif\0121440534633.0 glyphs/E_taiotasub.sc.glif\0121440534633.0 glyphs/E_taiotasubasper.glif\0121440534633.0 glyphs/E_taiotasubasperacute.glif\0121440534633.0 glyphs/E_taiotasubaspergrave.glif\0121440534633.0 glyphs/E_taiotasubaspertilde.glif\0121440534633.0 glyphs/E_taiotasublenis.glif\0121440534633.0 glyphs/E_taiotasublenisacute.glif\0121440534633.0 glyphs/E_taiotasublenisgrave.glif\0121440534633.0 glyphs/E_taiotasublenistilde.glif\0121440534633.0 glyphs/E_talenis.glif\0121440534633.0 glyphs/E_talenisacute.glif\0121440534633.0 glyphs/E_talenisgrave.glif\0121440534633.0 glyphs/E_talenistilde.glif\0121440534633.0 glyphs/E_tatonos.glif\0121440534633.0 glyphs/E_th.glif\0121440534633.0 glyphs/E_th.sc.glif\0121440534633.0 glyphs/E_tilde.glif\0121440534633.0 glyphs/E_tilde.sc.glif\0121440534633.0 glyphs/E_uro.glif\0121440534633.0 glyphs/F_.glif\0121440534633.0 glyphs/F_.sc.glif\0121440534633.0 glyphs/F_.sups.glif\0121440534633.0 glyphs/F_ita.glif\0121440534633.0 glyphs/F_ita.sc.glif\0121440534633.0 glyphs/G_.glif\0121440534633.0 glyphs/G_.sc.glif\0121440534633.0 glyphs/G_.sups.glif\0121440534633.0 glyphs/G_acute.glif\0121440534633.0 glyphs/G_acute.sc.glif\0121440534633.0 glyphs/G_amma.glif\0121440534633.0 glyphs/G_amma.sc.glif\0121440534633.0 glyphs/G_breve.glif\0121440534633.0 glyphs/G_breve.sc.glif\0121440534633.0 glyphs/G_caron.glif\0121440534633.0 glyphs/G_caron.sc.glif\0121440534633.0 glyphs/G_circumflex.glif\0121440534633.0 glyphs/G_circumflex.sc.glif\0121440534633.0 glyphs/G_commaaccent.glif\0121440534633.0 glyphs/G_commaaccent.sc.glif\0121440534633.0 glyphs/G_dotaccent.glif\0121440534633.0 glyphs/G_dotaccent.sc.glif\0121440534633.0 glyphs/G_ermandbls.glif\0121440534633.0 glyphs/G_ermandbls.sc.glif\0121440534633.0 glyphs/G_he.glif\0121440534633.0 glyphs/G_he.sc.glif\0121440534633.0 glyphs/G_hestroke.glif\0121440534633.0 glyphs/G_hestroke.sc.glif\0121440534633.0 glyphs/G_heup.glif\0121440534633.0 glyphs/G_heup.sc.glif\0121440534633.0 glyphs/G_hook.glif\0121440534633.0 glyphs/G_hook.sc.glif\0121440534633.0 glyphs/G_je.glif\0121440534633.0 glyphs/G_je.sc.glif\0121440534633.0 glyphs/G_macron.glif\0121440534633.0 glyphs/G_macron.sc.glif\0121440534633.0 glyphs/G_small.glif\0121440534633.0 glyphs/G_tilde.glif\0121440534633.0 glyphs/G_tilde.sc.glif\0121440534633.0 glyphs/H_.glif\0121440534633.0 glyphs/H_.sc.glif\0121440534633.0 glyphs/H_.sups.glif\0121440534633.0 glyphs/H_a.glif\0121440534633.0 glyphs/H_a.sc.glif\0121440534633.0 glyphs/H_adescender.glif\0121440534633.0 glyphs/H_adescender.sc.glif\0121440534633.0 glyphs/H_ard.glif\0121440534633.0 glyphs/H_ard.sc.glif\0121440534633.0 glyphs/H_bar.glif\0121440534633.0 glyphs/H_bar.sc.glif\0121440534633.0 glyphs/H_brevebelow.glif\0121440534633.0 glyphs/H_brevebelow.sc.glif\0121440534633.0 glyphs/H_circumflex.glif\0121440534633.0 glyphs/H_circumflex.sc.glif\0121440534633.0 glyphs/H_dotbelow.glif\0121440534633.0 glyphs/H_dotbelow.sc.glif\0121440534633.0 glyphs/H_small.glif\0121440534633.0 glyphs/I_.alt.glif\0121440534633.0 glyphs/I_.glif\0121440534633.0 glyphs/I_.sc.glif\0121440534633.0 glyphs/I_.sups.glif\0121440534633.0 glyphs/I_J_.glif\0121440534633.0 glyphs/I_J_.sc.glif\0121440534633.0 glyphs/I_acute.alt.glif\0121440534633.0 glyphs/I_acute.glif\0121440534633.0 glyphs/I_acute.sc.glif\0121440534633.0 glyphs/I_breve.alt.glif\0121440534633.0 glyphs/I_breve.glif\0121440534633.0 glyphs/I_breve.sc.glif\0121440534633.0 glyphs/I_caron.alt.glif\0121440534633.0 glyphs/I_caron.glif\0121440534633.0 glyphs/I_caron.sc.glif\0121440534633.0 glyphs/I_circumflex.alt.glif\0121440534633.0 glyphs/I_circumflex.glif\0121440534633.0 glyphs/I_circumflex.sc.glif\0121440534633.0 glyphs/I_cyr.glif\0121440534633.0 glyphs/I_cyr.sc.glif\0121440534633.0 glyphs/I_dieresis.alt.glif\0121440534633.0 glyphs/I_dieresis.glif\0121440534633.0 glyphs/I_dieresis.sc.glif\0121440534633.0 glyphs/I_dotaccent.alt.glif\0121440534633.0 glyphs/I_dotaccent.glif\0121440534633.0 glyphs/I_dotaccent.sc.glif\0121440534633.0 glyphs/I_dotbelow.alt.glif\0121440534633.0 glyphs/I_dotbelow.glif\0121440534633.0 glyphs/I_dotbelow.sc.glif\0121440534633.0 glyphs/I_e.glif\0121440534633.0 glyphs/I_e.sc.glif\0121440534633.0 glyphs/I_ebreve.glif\0121440534633.0 glyphs/I_ebreve.sc.glif\0121440534633.0 glyphs/I_egrave.glif\0121440534633.0 glyphs/I_egrave.sc.glif\0121440534633.0 glyphs/I_eukran.glif\0121440534633.0 glyphs/I_eukran.sc.glif\0121440534633.0 glyphs/I_grave.alt.glif\0121440534633.0 glyphs/I_grave.glif\0121440534633.0 glyphs/I_grave.sc.glif\0121440534633.0 glyphs/I_gravecyr.glif\0121440534633.0 glyphs/I_gravecyr.sc.glif\0121440534633.0 glyphs/I_hoi.alt.glif\0121440534633.0 glyphs/I_hoi.glif\0121440534633.0 glyphs/I_hoi.sc.glif\0121440534633.0 glyphs/I_macron.alt.glif\0121440534633.0 glyphs/I_macron.glif\0121440534633.0 glyphs/I_macron.sc.glif\0121440534633.0 glyphs/I_macroncyr.glif\0121440534633.0 glyphs/I_macroncyr.sc.glif\0121440534633.0 glyphs/I_o.glif\0121440534633.0 glyphs/I_o.sc.glif\0121440534633.0 glyphs/I_ogonek.alt.glif\0121440534633.0 glyphs/I_ogonek.glif\0121440534633.0 glyphs/I_ogonek.sc.glif\0121440534633.0 glyphs/I_ota.glif\0121440534633.0 glyphs/I_ota.sc.glif\0121440534633.0 glyphs/I_otaacute.glif\0121440534633.0 glyphs/I_otaasper.glif\0121440534633.0 glyphs/I_otaasperacute.glif\0121440534633.0 glyphs/I_otaaspergrave.glif\0121440534633.0 glyphs/I_otaaspertilde.glif\0121440534633.0 glyphs/I_otabreve.glif\0121440534633.0 glyphs/I_otadieresis.glif\0121440534633.0 glyphs/I_otadieresis.sc.glif\0121440534633.0 glyphs/I_otagrave.glif\0121440534633.0 glyphs/I_otalenis.glif\0121440534633.0 glyphs/I_otalenisacute.glif\0121440534633.0 glyphs/I_otalenisgrave.glif\0121440534633.0 glyphs/I_otalenistilde.glif\0121440534633.0 glyphs/I_otamacron.glif\0121440534633.0 glyphs/I_otatonos.glif\0121440534633.0 glyphs/I_short.glif\0121440534633.0 glyphs/I_short.sc.glif\0121440534633.0 glyphs/I_small.glif\0121440534633.0 glyphs/I_tilde.alt.glif\0121440534633.0 glyphs/I_tilde.glif\0121440534633.0 glyphs/I_tilde.sc.glif\0121440534633.0 glyphs/I_ukran.glif\0121440534633.0 glyphs/I_ukran.sc.glif\0121440534633.0 glyphs/I_zhitsa.glif\0121440534633.0 glyphs/I_zhitsa.sc.glif\0121440534633.0 glyphs/J_.glif\0121440534633.0 glyphs/J_.sc.glif\0121440534633.0 glyphs/J_.sups.glif\0121440534633.0 glyphs/J_circumflex.glif\0121440534633.0 glyphs/J_circumflex.sc.glif\0121440534633.0 glyphs/J_e.glif\0121440534633.0 glyphs/J_e.sc.glif\0121440534633.0 glyphs/K_.glif\0121440534633.0 glyphs/K_.sc.glif\0121440534633.0 glyphs/K_.sups.glif\0121440534633.0 glyphs/K_a.a.glif\0121440534633.0 glyphs/K_a.b.glif\0121440534633.0 glyphs/K_a.glif\0121440534633.0 glyphs/K_a.sc.glif\0121440534633.0 glyphs/K_abashkir.a.glif\0121440534633.0 glyphs/K_abashkir.b.glif\0121440534633.0 glyphs/K_abashkir.glif\0121440534633.0 glyphs/K_abashkir.sc.glif\0121440534633.0 glyphs/K_adescender.a.glif\0121440534633.0 glyphs/K_adescender.b.glif\0121440534633.0 glyphs/K_adescender.glif\0121440534633.0 glyphs/K_adescender.sc.glif\0121440534633.0 glyphs/K_appa.glif\0121440534633.0 glyphs/K_appa.sc.glif\0121440534633.0 glyphs/K_commaaccent.glif\0121440534633.0 glyphs/K_commaaccent.sc.glif\0121440534633.0 glyphs/K_dotbelow.glif\0121440534633.0 glyphs/K_dotbelow.sc.glif\0121440534633.0 glyphs/K_je.a.glif\0121440534633.0 glyphs/K_je.b.glif\0121440534633.0 glyphs/K_je.glif\0121440534633.0 glyphs/K_je.sc.glif\0121440534633.0 glyphs/K_linebelow.glif\0121440534633.0 glyphs/K_linebelow.sc.glif\0121440534633.0 glyphs/L_.glif\0121440534633.0 glyphs/L_.sc.glif\0121440534633.0 glyphs/L_.sups.glif\0121440534633.0 glyphs/L_acute.glif\0121440534633.0 glyphs/L_acute.sc.glif\0121440534633.0 glyphs/L_ambda.glif\0121440534633.0 glyphs/L_ambda.sc.glif\0121440534633.0 glyphs/L_caron.glif\0121440534633.0 glyphs/L_caron.sc.glif\0121440534633.0 glyphs/L_commaaccent.glif\0121440534633.0 glyphs/L_commaaccent.sc.glif\0121440534633.0 glyphs/L_dot.glif\0121440534633.0 glyphs/L_dot.sc.glif\0121440534633.0 glyphs/L_dotbelow.glif\0121440534633.0 glyphs/L_dotbelow.sc.glif\0121440534633.0 glyphs/L_dotbelowmacron.glif\0121440534633.0 glyphs/L_dotbelowmacron.sc.glif\0121440534633.0 glyphs/L_je.glif\0121440534633.0 glyphs/L_je.sc.glif\0121440534633.0 glyphs/L_linebelow.glif\0121440534633.0 glyphs/L_linebelow.sc.glif\0121440534633.0 glyphs/L_slash.glif\0121440534633.0 glyphs/L_slash.sc.glif\0121440534633.0 glyphs/L_small.glif\0121440534633.0 glyphs/M_.glif\0121440534633.0 glyphs/M_.sc.glif\0121440534633.0 glyphs/M_.sups.glif\0121440534633.0 glyphs/M_acute.glif\0121440534634.0 glyphs/M_acute.sc.glif\0121440534634.0 glyphs/M_dotaccent.glif\0121440534634.0 glyphs/M_dotaccent.sc.glif\0121440534634.0 glyphs/M_dotbelow.glif\0121440534634.0 glyphs/M_dotbelow.sc.glif\0121440534634.0 glyphs/M_u.glif\0121440534634.0 glyphs/M_u.sc.glif\0121440534634.0 glyphs/N_.glif\0121440534634.0 glyphs/N_.sc.glif\0121440534634.0 glyphs/N_.sups.glif\0121440534634.0 glyphs/N_N_B_S_.glif\0121440534634.0 glyphs/N_acute.glif\0121440534634.0 glyphs/N_acute.sc.glif\0121440534634.0 glyphs/N_caron.glif\0121440534634.0 glyphs/N_caron.sc.glif\0121440534634.0 glyphs/N_commaaccent.glif\0121440534634.0 glyphs/N_commaaccent.sc.glif\0121440534634.0 glyphs/N_dotaccent.glif\0121440534634.0 glyphs/N_dotaccent.sc.glif\0121440534634.0 glyphs/N_dotbelow.glif\0121440534634.0 glyphs/N_dotbelow.sc.glif\0121440534634.0 glyphs/N_grave.glif\0121440534634.0 glyphs/N_grave.sc.glif\0121440534634.0 glyphs/N_je.glif\0121440534634.0 glyphs/N_je.sc.glif\0121440534634.0 glyphs/N_linebelow.glif\0121440534634.0 glyphs/N_linebelow.sc.glif\0121440534634.0 glyphs/N_small.glif\0121440534634.0 glyphs/N_tilde.glif\0121440534634.0 glyphs/N_tilde.sc.glif\0121440534634.0 glyphs/N_u.glif\0121440534634.0 glyphs/N_u.sc.glif\0121440534634.0 glyphs/O_.glif\0121440534634.0 glyphs/O_.sc.glif\0121440534634.0 glyphs/O_.sups.glif\0121440534634.0 glyphs/O_E_.glif\0121440534634.0 glyphs/O_E_.sc.glif\0121440534634.0 glyphs/O_E_small.glif\0121440534634.0 glyphs/O_acute.glif\0121440534634.0 glyphs/O_acute.sc.glif\0121440534634.0 glyphs/O_barcyr.glif\0121440534634.0 glyphs/O_barcyr.sc.glif\0121440534634.0 glyphs/O_breve.glif\0121440534634.0 glyphs/O_breve.sc.glif\0121440534634.0 glyphs/O_caron.glif\0121440534634.0 glyphs/O_caron.sc.glif\0121440534634.0 glyphs/O_circumflex.glif\0121440534634.0 glyphs/O_circumflex.sc.glif\0121440534634.0 glyphs/O_circumflexacute.glif\0121440534634.0 glyphs/O_circumflexacute.sc.glif\0121440534634.0 glyphs/O_circumflexdotbelow.glif\0121440534634.0 glyphs/O_circumflexdotbelow.sc.glif\0121440534634.0 glyphs/O_circumflexgrave.glif\0121440534634.0 glyphs/O_circumflexgrave.sc.glif\0121440534634.0 glyphs/O_circumflexhoi.glif\0121440534634.0 glyphs/O_circumflexhoi.sc.glif\0121440534634.0 glyphs/O_circumflextilde.glif\0121440534634.0 glyphs/O_circumflextilde.sc.glif\0121440534634.0 glyphs/O_cyr.glif\0121440534634.0 glyphs/O_cyr.sc.glif\0121440534634.0 glyphs/O_dieresis.glif\0121440534634.0 glyphs/O_dieresis.sc.glif\0121440534634.0 glyphs/O_dieresiscyr.glif\0121440534634.0 glyphs/O_dieresiscyr.sc.glif\0121440534634.0 glyphs/O_dotbelow.glif\0121440534634.0 glyphs/O_dotbelow.sc.glif\0121440534634.0 glyphs/O_grave.glif\0121440534634.0 glyphs/O_grave.sc.glif\0121440534634.0 glyphs/O_hoi.glif\0121440534634.0 glyphs/O_hoi.sc.glif\0121440534634.0 glyphs/O_horn.glif\0121440534634.0 glyphs/O_horn.sc.glif\0121440534634.0 glyphs/O_hornacute.glif\0121440534634.0 glyphs/O_hornacute.sc.glif\0121440534634.0 glyphs/O_horndotbelow.glif\0121440534634.0 glyphs/O_horndotbelow.sc.glif\0121440534634.0 glyphs/O_horngrave.glif\0121440534634.0 glyphs/O_horngrave.sc.glif\0121440534634.0 glyphs/O_hornhoi.glif\0121440534634.0 glyphs/O_hornhoi.sc.glif\0121440534634.0 glyphs/O_horntilde.glif\0121440534634.0 glyphs/O_horntilde.sc.glif\0121440534634.0 glyphs/O_hungarumlaut.glif\0121440534634.0 glyphs/O_hungarumlaut.sc.glif\0121440534634.0 glyphs/O_macron.glif\0121440534634.0 glyphs/O_macron.sc.glif\0121440534634.0 glyphs/O_macronacute.glif\0121440534634.0 glyphs/O_macronacute.sc.glif\0121440534634.0 glyphs/O_mega.glif\0121440534634.0 glyphs/O_mega.math.glif\0121440534634.0 glyphs/O_mega.sc.glif\0121440534634.0 glyphs/O_megaacute.glif\0121440534634.0 glyphs/O_megaasper.glif\0121440534634.0 glyphs/O_megaasperacute.glif\0121440534634.0 glyphs/O_megaaspergrave.glif\0121440534634.0 glyphs/O_megaaspertilde.glif\0121440534634.0 glyphs/O_megagrave.glif\0121440534634.0 glyphs/O_megaiotasub.glif\0121440534634.0 glyphs/O_megaiotasub.sc.glif\0121440534634.0 glyphs/O_megaiotasubasper.glif\0121440534634.0 glyphs/O_megaiotasubasperacute.glif\0121440534634.0 glyphs/O_megaiotasubaspergrave.glif\0121440534634.0 glyphs/O_megaiotasubaspertilde.glif\0121440534634.0 glyphs/O_megaiotasublenis.glif\0121440534634.0 glyphs/O_megaiotasublenisacute.glif\0121440534634.0 glyphs/O_megaiotasublenisgrave.glif\0121440534634.0 glyphs/O_megaiotasublenistilde.glif\0121440534634.0 glyphs/O_megalenis.glif\0121440534634.0 glyphs/O_megalenisacute.glif\0121440534634.0 glyphs/O_megalenisgrave.glif\0121440534634.0 glyphs/O_megalenistilde.glif\0121440534634.0 glyphs/O_megatonos.glif\0121440534634.0 glyphs/O_micron.glif\0121440534634.0 glyphs/O_micron.sc.glif\0121440534634.0 glyphs/O_micronacute.glif\0121440534634.0 glyphs/O_micronasper.glif\0121440534634.0 glyphs/O_micronasperacute.glif\0121440534634.0 glyphs/O_micronaspergrave.glif\0121440534634.0 glyphs/O_microngrave.glif\0121440534634.0 glyphs/O_micronlenis.glif\0121440534634.0 glyphs/O_micronlenisacute.glif\0121440534634.0 glyphs/O_micronlenisgrave.glif\0121440534634.0 glyphs/O_microntonos.glif\0121440534634.0 glyphs/O_ogonek.glif\0121440534634.0 glyphs/O_ogonek.sc.glif\0121440534634.0 glyphs/O_slash.glif\0121440534634.0 glyphs/O_slash.sc.glif\0121440534634.0 glyphs/O_tilde.glif\0121440534634.0 glyphs/O_tilde.sc.glif\0121440534634.0 glyphs/P_.glif\0121440534634.0 glyphs/P_.sc.glif\0121440534634.0 glyphs/P_.sups.glif\0121440534634.0 glyphs/P_alochka.glif\0121440534634.0 glyphs/P_alochka.sc.glif\0121440534634.0 glyphs/P_e.glif\0121440534634.0 glyphs/P_e.sc.glif\0121440534634.0 glyphs/P_hi.glif\0121440534634.0 glyphs/P_hi.sc.glif\0121440534634.0 glyphs/P_i.glif\0121440534634.0 glyphs/P_i.sc.glif\0121440534634.0 glyphs/P_si.glif\0121440534634.0 glyphs/P_si.sc.glif\0121440534634.0 glyphs/Q_.glif\0121440534634.0 glyphs/Q_.sc.glif\0121440534634.0 glyphs/Q_.sups.glif\0121440534634.0 glyphs/R_.glif\0121440534634.0 glyphs/R_.sc.glif\0121440534634.0 glyphs/R_.sups.glif\0121440534634.0 glyphs/R_acute.glif\0121440534634.0 glyphs/R_acute.sc.glif\0121440534634.0 glyphs/R_caron.glif\0121440534634.0 glyphs/R_caron.sc.glif\0121440534634.0 glyphs/R_commaaccent.glif\0121440534634.0 glyphs/R_commaaccent.sc.glif\0121440534634.0 glyphs/R_dotaccent.glif\0121440534634.0 glyphs/R_dotaccent.sc.glif\0121440534634.0 glyphs/R_dotbelow.glif\0121440534634.0 glyphs/R_dotbelow.sc.glif\0121440534634.0 glyphs/R_dotbelowmacron.glif\0121440534634.0 glyphs/R_dotbelowmacron.sc.glif\0121440534634.0 glyphs/R_ho.glif\0121440534634.0 glyphs/R_ho.sc.glif\0121440534634.0 glyphs/R_hoasper.glif\0121440534634.0 glyphs/R_linebelow.glif\0121440534634.0 glyphs/R_linebelow.sc.glif\0121440534634.0 glyphs/R_small.glif\0121440534634.0 glyphs/R_smallinverted.glif\0121440534634.0 glyphs/S_.glif\0121440534634.0 glyphs/S_.sc.glif\0121440534634.0 glyphs/S_.sups.glif\0121440534634.0 glyphs/S_acute.glif\0121440534634.0 glyphs/S_acute.sc.glif\0121440534634.0 glyphs/S_caron.glif\0121440534634.0 glyphs/S_caron.sc.glif\0121440534634.0 glyphs/S_cedilla.glif\0121440534634.0 glyphs/S_cedilla.sc.glif\0121440534634.0 glyphs/S_chwa.glif\0121440534634.0 glyphs/S_chwa.sc.glif\0121440534634.0 glyphs/S_chwacyr.glif\0121440534634.0 glyphs/S_chwacyr.sc.glif\0121440534634.0 glyphs/S_circumflex.glif\0121440534634.0 glyphs/S_circumflex.sc.glif\0121440534634.0 glyphs/S_commaaccent.glif\0121440534634.0 glyphs/S_commaaccent.sc.glif\0121440534634.0 glyphs/S_dotaccent.glif\0121440534634.0 glyphs/S_dotaccent.sc.glif\0121440534634.0 glyphs/S_dotbelow.glif\0121440534634.0 glyphs/S_dotbelow.sc.glif\0121440534634.0 glyphs/S_ha.glif\0121440534634.0 glyphs/S_ha.sc.glif\0121440534634.0 glyphs/S_hcha.glif\0121440534634.0 glyphs/S_hcha.sc.glif\0121440534634.0 glyphs/S_hha.glif\0121440534634.0 glyphs/S_hha.sc.glif\0121440534634.0 glyphs/S_igma.glif\0121440534634.0 glyphs/S_igma.sc.glif\0121440534634.0 glyphs/S_oft.glif\0121440534634.0 glyphs/S_oft.sc.glif\0121440534634.0 glyphs/T_.glif\0121440534634.0 glyphs/T_.sc.glif\0121440534634.0 glyphs/T_.sups.glif\0121440534634.0 glyphs/T_au.glif\0121440534634.0 glyphs/T_au.sc.glif\0121440534634.0 glyphs/T_bar.glif\0121440534634.0 glyphs/T_bar.sc.glif\0121440534634.0 glyphs/T_caron.glif\0121440534634.0 glyphs/T_caron.sc.glif\0121440534634.0 glyphs/T_cedilla.glif\0121440534634.0 glyphs/T_cedilla.sc.glif\0121440534634.0 glyphs/T_commaaccent.glif\0121440534634.0 glyphs/T_commaaccent.sc.glif\0121440534634.0 glyphs/T_dotbelow.glif\0121440534634.0 glyphs/T_dotbelow.sc.glif\0121440534634.0 glyphs/T_e.glif\0121440534634.0 glyphs/T_e.sc.glif\0121440534634.0 glyphs/T_heta.glif\0121440534634.0 glyphs/T_heta.sc.glif\0121440534634.0 glyphs/T_horn.glif\0121440534634.0 glyphs/T_horn.sc.glif\0121440534634.0 glyphs/T_linebelow.glif\0121440534634.0 glyphs/T_linebelow.sc.glif\0121440534634.0 glyphs/T_se.glif\0121440534634.0 glyphs/T_se.sc.glif\0121440534634.0 glyphs/T_she.glif\0121440534634.0 glyphs/T_she.sc.glif\0121440534634.0 glyphs/U_.glif\0121440534634.0 glyphs/U_.sc.glif\0121440534634.0 glyphs/U_.sups.glif\0121440534634.0 glyphs/U_acute.glif\0121440534634.0 glyphs/U_acute.sc.glif\0121440534634.0 glyphs/U_acutedblcyr.glif\0121440534634.0 glyphs/U_acutedblcyr.sc.glif\0121440534634.0 glyphs/U_breve.glif\0121440534634.0 glyphs/U_breve.sc.glif\0121440534634.0 glyphs/U_caron.glif\0121440534634.0 glyphs/U_caron.sc.glif\0121440534634.0 glyphs/U_circumflex.glif\0121440534634.0 glyphs/U_circumflex.sc.glif\0121440534634.0 glyphs/U_cyr.glif\0121440534634.0 glyphs/U_cyr.sc.glif\0121440534634.0 glyphs/U_dieresis.glif\0121440534634.0 glyphs/U_dieresis.sc.glif\0121440534634.0 glyphs/U_dieresisacute.glif\0121440534634.0 glyphs/U_dieresisacute.sc.glif\0121440534634.0 glyphs/U_dieresiscaron.glif\0121440534634.0 glyphs/U_dieresiscaron.sc.glif\0121440534634.0 glyphs/U_dieresisgrave.glif\0121440534634.0 glyphs/U_dieresisgrave.sc.glif\0121440534634.0 glyphs/U_dieresismacron.glif\0121440534634.0 glyphs/U_dieresismacron.sc.glif\0121440534634.0 glyphs/U_dotbelow.glif\0121440534634.0 glyphs/U_dotbelow.sc.glif\0121440534634.0 glyphs/U_grave.glif\0121440534634.0 glyphs/U_grave.sc.glif\0121440534634.0 glyphs/U_hoi.glif\0121440534634.0 glyphs/U_hoi.sc.glif\0121440534634.0 glyphs/U_horn.glif\0121440534634.0 glyphs/U_horn.sc.glif\0121440534634.0 glyphs/U_hornacute.glif\0121440534634.0 glyphs/U_hornacute.sc.glif\0121440534634.0 glyphs/U_horndotbelow.glif\0121440534634.0 glyphs/U_horndotbelow.sc.glif\0121440534634.0 glyphs/U_horngrave.glif\0121440534634.0 glyphs/U_horngrave.sc.glif\0121440534634.0 glyphs/U_hornhoi.glif\0121440534634.0 glyphs/U_hornhoi.sc.glif\0121440534634.0 glyphs/U_horntilde.glif\0121440534634.0 glyphs/U_horntilde.sc.glif\0121440534634.0 glyphs/U_hungarumlaut.glif\0121440534634.0 glyphs/U_hungarumlaut.sc.glif\0121440534634.0 glyphs/U_macron.glif\0121440534634.0 glyphs/U_macron.sc.glif\0121440534634.0 glyphs/U_macroncyr.glif\0121440534634.0 glyphs/U_macroncyr.sc.glif\0121440534634.0 glyphs/U_ogonek.glif\0121440534634.0 glyphs/U_ogonek.sc.glif\0121440534634.0 glyphs/U_psilon.glif\0121440534634.0 glyphs/U_psilon.sc.glif\0121440534634.0 glyphs/U_psilonacute.glif\0121440534634.0 glyphs/U_psilonasper.glif\0121440534634.0 glyphs/U_psilonasperacute.glif\0121440534634.0 glyphs/U_psilonaspergrave.glif\0121440534634.0 glyphs/U_psilonaspertilde.glif\0121440534634.0 glyphs/U_psilonbreve.glif\0121440534634.0 glyphs/U_psilondieresis.glif\0121440534634.0 glyphs/U_psilondieresis.sc.glif\0121440534634.0 glyphs/U_psilongrave.glif\0121440534634.0 glyphs/U_psilonmacron.glif\0121440534634.0 glyphs/U_psilontonos.glif\0121440534634.0 glyphs/U_ring.glif\0121440534634.0 glyphs/U_ring.sc.glif\0121440534634.0 glyphs/U_short.glif\0121440534634.0 glyphs/U_short.sc.glif\0121440534634.0 glyphs/U_straight.glif\0121440534634.0 glyphs/U_straight.sc.glif\0121440534634.0 glyphs/U_straightstroke.glif\0121440534634.0 glyphs/U_straightstroke.sc.glif\0121440534634.0 glyphs/U_tilde.glif\0121440534634.0 glyphs/U_tilde.sc.glif\0121440534634.0 glyphs/V_.glif\0121440534634.0 glyphs/V_.sc.glif\0121440534634.0 glyphs/V_.sups.glif\0121440534634.0 glyphs/V_e.glif\0121440534634.0 glyphs/V_e.sc.glif\0121440534634.0 glyphs/W_.glif\0121440534634.0 glyphs/W_.sc.glif\0121440534634.0 glyphs/W_.sups.glif\0121440534634.0 glyphs/W_acute.glif\0121440534634.0 glyphs/W_acute.sc.glif\0121440534634.0 glyphs/W_circumflex.glif\0121440534634.0 glyphs/W_circumflex.sc.glif\0121440534634.0 glyphs/W_dieresis.glif\0121440534634.0 glyphs/W_dieresis.sc.glif\0121440534635.0 glyphs/W_grave.glif\0121440534635.0 glyphs/W_grave.sc.glif\0121440534635.0 glyphs/X_.glif\0121440534635.0 glyphs/X_.sc.glif\0121440534635.0 glyphs/X_.sups.glif\0121440534635.0 glyphs/X_i.glif\0121440534635.0 glyphs/X_i.sc.glif\0121440534635.0 glyphs/Y_.glif\0121440534635.0 glyphs/Y_.sc.glif\0121440534635.0 glyphs/Y_.sups.glif\0121440534635.0 glyphs/Y_a.glif\0121440534635.0 glyphs/Y_a.sc.glif\0121440534635.0 glyphs/Y_acute.glif\0121440534635.0 glyphs/Y_acute.sc.glif\0121440534635.0 glyphs/Y_at.glif\0121440534635.0 glyphs/Y_at.sc.glif\0121440534635.0 glyphs/Y_circumflex.glif\0121440534635.0 glyphs/Y_circumflex.sc.glif\0121440534635.0 glyphs/Y_dieresis.glif\0121440534635.0 glyphs/Y_dieresis.sc.glif\0121440534635.0 glyphs/Y_dotaccent.glif\0121440534635.0 glyphs/Y_dotaccent.sc.glif\0121440534635.0 glyphs/Y_dotbelow.glif\0121440534635.0 glyphs/Y_dotbelow.sc.glif\0121440534635.0 glyphs/Y_eru.glif\0121440534635.0 glyphs/Y_eru.sc.glif\0121440534635.0 glyphs/Y_grave.glif\0121440534635.0 glyphs/Y_grave.sc.glif\0121440534635.0 glyphs/Y_hoi.glif\0121440534635.0 glyphs/Y_hoi.sc.glif\0121440534635.0 glyphs/Y_i.a.glif\0121440534635.0 glyphs/Y_i.glif\0121440534635.0 glyphs/Y_i.sc.glif\0121440534635.0 glyphs/Y_i.sca.glif\0121440534635.0 glyphs/Y_small.glif\0121440534635.0 glyphs/Y_tilde.glif\0121440534635.0 glyphs/Y_tilde.sc.glif\0121440534635.0 glyphs/Y_u.glif\0121440534635.0 glyphs/Y_u.sc.glif\0121440534635.0 glyphs/Z_.glif\0121440534635.0 glyphs/Z_.sc.glif\0121440534635.0 glyphs/Z_.sups.glif\0121440534635.0 glyphs/Z_W_N_B_S_.glif\0121440534635.0 glyphs/Z_acute.glif\0121440534635.0 glyphs/Z_acute.sc.glif\0121440534635.0 glyphs/Z_caron.glif\0121440534635.0 glyphs/Z_caron.sc.glif\0121440534635.0 glyphs/Z_dotaccent.glif\0121440534635.0 glyphs/Z_dotaccent.sc.glif\0121440534635.0 glyphs/Z_dotbelow.glif\0121440534635.0 glyphs/Z_dotbelow.sc.glif\0121440534635.0 glyphs/Z_e.glif\0121440534635.0 glyphs/Z_e.sc.glif\0121440534635.0 glyphs/Z_edescender.glif\0121440534635.0 glyphs/Z_edescender.sc.glif\0121440534635.0 glyphs/Z_eta.glif\0121440534635.0 glyphs/Z_eta.sc.glif\0121440534635.0 glyphs/Z_he.a.glif\0121440534635.0 glyphs/Z_he.b.glif\0121440534635.0 glyphs/Z_he.glif\0121440534635.0 glyphs/Z_he.sc.glif\0121440534635.0 glyphs/Z_hebreve.a.glif\0121440534635.0 glyphs/Z_hebreve.b.glif\0121440534635.0 glyphs/Z_hebreve.glif\0121440534635.0 glyphs/Z_hebreve.sc.glif\0121440534635.0 glyphs/Z_hedescender.a.glif\0121440534635.0 glyphs/Z_hedescender.b.glif\0121440534635.0 glyphs/Z_hedescender.glif\0121440534635.0 glyphs/Z_hedescender.sc.glif\0121440534635.0 glyphs/Z_linebelow.glif\0121440534635.0 glyphs/Z_linebelow.sc.glif\0121440534635.0 glyphs/_notdef.glif\0121440534635.0 glyphs/a.alt.glif\0121440534635.0 glyphs/a.glif\0121440534635.0 glyphs/a.supa.glif\0121440534635.0 glyphs/a.sups.glif\0121440534635.0 glyphs/aacute.alt.glif\0121440534635.0 glyphs/aacute.glif\0121440534635.0 glyphs/abreve.alt.glif\0121440534635.0 glyphs/abreve.glif\0121440534635.0 glyphs/abreveacute.alt.glif\0121440534635.0 glyphs/abreveacute.glif\0121440534635.0 glyphs/abrevecyr.glif\0121440534635.0 glyphs/abrevedotbelow.alt.glif\0121440534635.0 glyphs/abrevedotbelow.glif\0121440534635.0 glyphs/abrevegrave.alt.glif\0121440534635.0 glyphs/abrevegrave.glif\0121440534635.0 glyphs/abrevehoi.alt.glif\0121440534635.0 glyphs/abrevehoi.glif\0121440534635.0 glyphs/abrevetilde.alt.glif\0121440534635.0 glyphs/abrevetilde.glif\0121440534635.0 glyphs/acaron.alt.glif\0121440534635.0 glyphs/acaron.glif\0121440534635.0 glyphs/acircumflex.alt.glif\0121440534635.0 glyphs/acircumflex.glif\0121440534635.0 glyphs/acircumflexacute.alt.glif\0121440534635.0 glyphs/acircumflexacute.glif\0121440534635.0 glyphs/acircumflexdotbelow.alt.glif\0121440534635.0 glyphs/acircumflexdotbelow.glif\0121440534635.0 glyphs/acircumflexgrave.alt.glif\0121440534635.0 glyphs/acircumflexgrave.glif\0121440534635.0 glyphs/acircumflexhoi.alt.glif\0121440534635.0 glyphs/acircumflexhoi.glif\0121440534635.0 glyphs/acircumflextilde.alt.glif\0121440534635.0 glyphs/acircumflextilde.glif\0121440534635.0 glyphs/acute.glif\0121440534635.0 glyphs/acutecmb.cap.glif\0121440534635.0 glyphs/acutecmb.glif\0121440534635.0 glyphs/acutemod.glif\0121440534635.0 glyphs/acyr.glif\0121440534635.0 glyphs/adieresis.alt.glif\0121440534635.0 glyphs/adieresis.glif\0121440534635.0 glyphs/adotbelow.alt.glif\0121440534635.0 glyphs/adotbelow.glif\0121440534635.0 glyphs/ae.glif\0121440534635.0 glyphs/aeacute.glif\0121440534635.0 glyphs/aemacron.glif\0121440534635.0 glyphs/agrave.alt.glif\0121440534635.0 glyphs/agrave.glif\0121440534635.0 glyphs/ahoi.alt.glif\0121440534635.0 glyphs/ahoi.glif\0121440534635.0 glyphs/aie.glif\0121440534635.0 glyphs/alpha.glif\0121440534635.0 glyphs/alphaacute.glif\0121440534635.0 glyphs/alphaasper.glif\0121440534635.0 glyphs/alphaasperacute.glif\0121440534635.0 glyphs/alphaaspergrave.glif\0121440534635.0 glyphs/alphaaspertilde.glif\0121440534635.0 glyphs/alphabreve.glif\0121440534635.0 glyphs/alphagrave.glif\0121440534635.0 glyphs/alphaiotasub.glif\0121440534635.0 glyphs/alphaiotasubacute.glif\0121440534635.0 glyphs/alphaiotasubasper.glif\0121440534635.0 glyphs/alphaiotasubasperacute.glif\0121440534635.0 glyphs/alphaiotasubaspergrave.glif\0121440534635.0 glyphs/alphaiotasubaspertilde.glif\0121440534635.0 glyphs/alphaiotasubgrave.glif\0121440534635.0 glyphs/alphaiotasublenis.glif\0121440534635.0 glyphs/alphaiotasublenisacute.glif\0121440534635.0 glyphs/alphaiotasublenisgrave.glif\0121440534635.0 glyphs/alphaiotasublenistilde.glif\0121440534635.0 glyphs/alphaiotasubtilde.glif\0121440534635.0 glyphs/alphalatin.glif\0121440534635.0 glyphs/alphalatinturned.glif\0121440534635.0 glyphs/alphalenis.glif\0121440534635.0 glyphs/alphalenisacute.glif\0121440534635.0 glyphs/alphalenisgrave.glif\0121440534635.0 glyphs/alphalenistilde.glif\0121440534635.0 glyphs/alphamacron.glif\0121440534635.0 glyphs/alphatilde.glif\0121440534635.0 glyphs/alphatonos.glif\0121440534635.0 glyphs/amacron.alt.glif\0121440534635.0 glyphs/amacron.glif\0121440534635.0 glyphs/ampersand.glif\0121440534635.0 glyphs/ampersand.sc.glif\0121440534635.0 glyphs/anoteleia.cap.glif\0121440534635.0 glyphs/anoteleia.glif\0121440534635.0 glyphs/aogonek.alt.glif\0121440534635.0 glyphs/aogonek.glif\0121440534635.0 glyphs/apostrophemod.glif\0121440534635.0 glyphs/approxequal.glif\0121440534635.0 glyphs/aring.alt.glif\0121440534635.0 glyphs/aring.glif\0121440534635.0 glyphs/arrowdown.glif\0121440534635.0 glyphs/arrowleft.glif\0121440534635.0 glyphs/arrowright.glif\0121440534635.0 glyphs/arrowup.glif\0121440534635.0 glyphs/asciicircum.glif\0121440534635.0 glyphs/asciitilde.glif\0121440534635.0 glyphs/asper.cap.glif\0121440534635.0 glyphs/asper.glif\0121440534635.0 glyphs/asperacute.cap.glif\0121440534635.0 glyphs/asperacute.glif\0121440534635.0 glyphs/asperacutecmb.glif\0121440534635.0 glyphs/aspercmb.glif\0121440534635.0 glyphs/aspergrave.cap.glif\0121440534635.0 glyphs/aspergrave.glif\0121440534635.0 glyphs/aspergravecmb.glif\0121440534635.0 glyphs/aspertilde.cap.glif\0121440534635.0 glyphs/aspertilde.glif\0121440534635.0 glyphs/aspertildecmb.glif\0121440534635.0 glyphs/asterisk.glif\0121440534635.0 glyphs/at.case.glif\0121440534635.0 glyphs/at.glif\0121440534635.0 glyphs/atilde.alt.glif\0121440534635.0 glyphs/atilde.glif\0121440534635.0 glyphs/aturned.glif\0121440534635.0 glyphs/b.glif\0121440534635.0 glyphs/b.sups.glif\0121440534635.0 glyphs/backslash.glif\0121440534635.0 glyphs/bar.glif\0121440534635.0 glyphs/bardbl.glif\0121440534635.0 glyphs/be.glif\0121440534635.0 glyphs/be.srb.glif\0121440534635.0 glyphs/beta.alt.glif\0121440534635.0 glyphs/beta.glif\0121440534635.0 glyphs/bhook.glif\0121440534635.0 glyphs/blinebelow.glif\0121440534635.0 glyphs/braceleft.glif\0121440534635.0 glyphs/braceleft.sc.glif\0121440534635.0 glyphs/braceright.glif\0121440534635.0 glyphs/braceright.sc.glif\0121440534635.0 glyphs/bracketleft.glif\0121440534635.0 glyphs/bracketleft.sc.glif\0121440534635.0 glyphs/bracketleftwhite.glif\0121440534635.0 glyphs/bracketright.glif\0121440534635.0 glyphs/bracketright.sc.glif\0121440534635.0 glyphs/bracketrightwhite.glif\0121440534635.0 glyphs/brackhalfbotleft.glif\0121440534635.0 glyphs/brackhalfbotright.glif\0121440534635.0 glyphs/brackhalftopleft.glif\0121440534635.0 glyphs/brackhalftopright.glif\0121440534635.0 glyphs/breve.glif\0121440534635.0 glyphs/breveacute.cap.glif\0121440534635.0 glyphs/breveacute.glif\0121440534635.0 glyphs/brevebelowcmb.glif\0121440534635.0 glyphs/brevecmb.cap.glif\0121440534635.0 glyphs/brevecmb.cyr.glif\0121440534635.0 glyphs/brevecmb.cyrcap.glif\0121440534635.0 glyphs/brevecmb.glif\0121440534635.0 glyphs/brevegrave.cap.glif\0121440534635.0 glyphs/brevegrave.glif\0121440534635.0 glyphs/brevehoi.cap.glif\0121440534635.0 glyphs/brevehoi.glif\0121440534635.0 glyphs/breveinvertedbelowcmb.glif\0121440534635.0 glyphs/breveinvertedcmb.cap.glif\0121440534635.0 glyphs/breveinvertedcmb.glif\0121440534635.0 glyphs/breveinverteddoublecmb.glif\0121440534635.0 glyphs/brevetilde.cap.glif\0121440534635.0 glyphs/brevetilde.glif\0121440534635.0 glyphs/bridgebelowcmb.glif\0121440534635.0 glyphs/bridgeinvertedbelowcmb.glif\0121440534635.0 glyphs/brokenbar.glif\0121440534635.0 glyphs/bstroke.glif\0121440534635.0 glyphs/bullet.glif\0121440534635.0 glyphs/bulletoperator.glif\0121440534635.0 glyphs/c.glif\0121440534635.0 glyphs/c.sups.glif\0121440534635.0 glyphs/cacute.glif\0121440534635.0 glyphs/caron.alt.glif\0121440534635.0 glyphs/caron.glif\0121440534635.0 glyphs/caronbelowcmb.glif\0121440534635.0 glyphs/caroncmb.cap.glif\0121440534635.0 glyphs/caroncmb.glif\0121440534635.0 glyphs/ccaron.glif\0121440534635.0 glyphs/ccedilla.glif\0121440534635.0 glyphs/ccircumflex.glif\0121440534635.0 glyphs/ccurl.glif\0121440534635.0 glyphs/cdotaccent.glif\0121440534635.0 glyphs/cedi.glif\0121440534635.0 glyphs/cedilla.glif\0121440534635.0 glyphs/cedillacmb.cap.glif\0121440534635.0 glyphs/cedillacmb.glif\0121440534635.0 glyphs/ceilingleft.glif\0121440534635.0 glyphs/ceilingright.glif\0121440534635.0 glyphs/cent.glif\0121440534635.0 glyphs/che.glif\0121440534635.0 glyphs/check.glif\0121440534635.0 glyphs/checkbox.glif\0121440534635.0 glyphs/checkedbox.glif\0121440534635.0 glyphs/chedescender.glif\0121440534635.0 glyphs/chi.glif\0121440534635.0 glyphs/circledotted.glif\0121440534635.0 glyphs/circumflex.glif\0121440534635.0 glyphs/circumflexacute.cap.glif\0121440534635.0 glyphs/circumflexacute.glif\0121440534635.0 glyphs/circumflexbreve.cap.glif\0121440534635.0 glyphs/circumflexbreve.glif\0121440534635.0 glyphs/circumflexcmb.cap.glif\0121440534635.0 glyphs/circumflexcmb.glif\0121440534635.0 glyphs/circumflexgrave.cap.glif\0121440534635.0 glyphs/circumflexgrave.glif\0121440534635.0 glyphs/circumflexhoi.cap.glif\0121440534635.0 glyphs/circumflexhoi.glif\0121440534635.0 glyphs/circumflextilde.cap.glif\0121440534635.0 glyphs/circumflextilde.glif\0121440534635.0 glyphs/clickalveolar.glif\0121440534635.0 glyphs/clickbilabial.glif\0121440534635.0 glyphs/colon.glif\0121440534635.0 glyphs/colon.sups.glif\0121440534635.0 glyphs/colonmonetary.glif\0121440534635.0 glyphs/colontriangularhalfmod.glif\0121440534635.0 glyphs/colontriangularmod.glif\0121440534635.0 glyphs/comma.dnom.glif\0121440534635.0 glyphs/comma.glif\0121440534635.0 glyphs/comma.numr.glif\0121440534635.0 glyphs/comma.subs.glif\0121440534635.0 glyphs/comma.sups.glif\0121440534635.0 glyphs/commaabovecmb.glif\0121440534635.0 glyphs/commabelowcmb.alt.glif\0121440534635.0 glyphs/commabelowcmb.glif\0121440534635.0 glyphs/commaturnedabovecmb.glif\0121440534635.0 glyphs/commaturnedmod.glif\0121440534635.0 glyphs/commercemark.glif\0121440534635.0 glyphs/copyright.glif\0121440534635.0 glyphs/currency.glif\0121440534635.0 glyphs/d.glif\0121440534635.0 glyphs/d.sups.glif\0121440534635.0 glyphs/dagger.glif\0121440534635.0 glyphs/daggerdbl.glif\0121440534635.0 glyphs/dblgravecmb.cap.glif\0121440534635.0 glyphs/dblgravecmb.glif\0121440534635.0 glyphs/dblprime.glif\0121440534635.0 glyphs/dcaron.glif\0121440534635.0 glyphs/dcroat.glif\0121440534635.0 glyphs/ddotbelow.glif\0121440534636.0 glyphs/de.glif\0121440534636.0 glyphs/degree.glif\0121440534636.0 glyphs/delta.glif\0121440534636.0 glyphs/deposeemark.glif\0121440534636.0 glyphs/dhook.glif\0121440534636.0 glyphs/dialytikaacute.glif\0121440534636.0 glyphs/dialytikagrave.glif\0121440534636.0 glyphs/dialytikagravecmb.glif\0121440534636.0 glyphs/dialytikatilde.glif\0121440534636.0 glyphs/diamondblack.glif\0121440534636.0 glyphs/dieresis.glif\0121440534636.0 glyphs/dieresisacute.cap.glif\0121440534636.0 glyphs/dieresisacute.glif\0121440534636.0 glyphs/dieresisbelowcmb.glif\0121440534636.0 glyphs/dieresiscaron.cap.glif\0121440534636.0 glyphs/dieresiscaron.glif\0121440534636.0 glyphs/dieresiscmb.cap.glif\0121440534636.0 glyphs/dieresiscmb.glif\0121440534636.0 glyphs/dieresisgrave.cap.glif\0121440534636.0 glyphs/dieresisgrave.glif\0121440534636.0 glyphs/dieresismacron.cap.glif\0121440534636.0 glyphs/dieresismacron.glif\0121440534636.0 glyphs/dieresistilde.glif\0121440534636.0 glyphs/dieresistonos.glif\0121440534636.0 glyphs/dieresistonoscmb.glif\0121440534636.0 glyphs/digamma.glif\0121440534636.0 glyphs/divide.glif\0121440534636.0 glyphs/divisionslash.glif\0121440534636.0 glyphs/dje.glif\0121440534636.0 glyphs/dlinebelow.glif\0121440534636.0 glyphs/dollar.glif\0121440534636.0 glyphs/dong.glif\0121440534636.0 glyphs/dotaccent.glif\0121440534636.0 glyphs/dotaccentcmb.cap.glif\0121440534636.0 glyphs/dotaccentcmb.glif\0121440534636.0 glyphs/dotbelowcmb.glif\0121440534636.0 glyphs/dotlessi.glif\0121440534636.0 glyphs/dotlessj.glif\0121440534636.0 glyphs/dotlessjstroke.glif\0121440534636.0 glyphs/dotlessjstrokehook.glif\0121440534636.0 glyphs/downtackbelowcmb.glif\0121440534636.0 glyphs/dtail.glif\0121440534636.0 glyphs/dze.glif\0121440534636.0 glyphs/dzhe.glif\0121440534636.0 glyphs/e.glif\0121440534636.0 glyphs/e.sups.glif\0121440534636.0 glyphs/eacute.glif\0121440534636.0 glyphs/eacute.sups.glif\0121440534636.0 glyphs/ebreve.glif\0121440534636.0 glyphs/ecaron.glif\0121440534636.0 glyphs/ecircumflex.glif\0121440534636.0 glyphs/ecircumflexacute.glif\0121440534636.0 glyphs/ecircumflexdotbelow.glif\0121440534636.0 glyphs/ecircumflexgrave.glif\0121440534636.0 glyphs/ecircumflexhoi.glif\0121440534636.0 glyphs/ecircumflextilde.glif\0121440534636.0 glyphs/ecyr.glif\0121440534636.0 glyphs/edieresis.glif\0121440534636.0 glyphs/edotaccent.glif\0121440534636.0 glyphs/edotbelow.glif\0121440534636.0 glyphs/ef.glif\0121440534636.0 glyphs/egrave.glif\0121440534636.0 glyphs/egrave.sups.glif\0121440534636.0 glyphs/ehoi.glif\0121440534636.0 glyphs/eight.cap.glif\0121440534636.0 glyphs/eight.dnom.glif\0121440534636.0 glyphs/eight.glif\0121440534636.0 glyphs/eight.numr.glif\0121440534636.0 glyphs/eight.onum.glif\0121440534636.0 glyphs/eight.pnum.glif\0121440534636.0 glyphs/eight.sc.glif\0121440534636.0 glyphs/eight.subs.glif\0121440534636.0 glyphs/eight.sups.glif\0121440534636.0 glyphs/eight.tnum.glif\0121440534636.0 glyphs/eighthnote.glif\0121440534636.0 glyphs/el.glif\0121440534636.0 glyphs/ellipsis.glif\0121440534636.0 glyphs/em.glif\0121440534636.0 glyphs/emacron.glif\0121440534636.0 glyphs/emacronacute.glif\0121440534636.0 glyphs/emdash.glif\0121440534636.0 glyphs/emdash.sc.glif\0121440534636.0 glyphs/emdash.sups.glif\0121440534636.0 glyphs/en.glif\0121440534636.0 glyphs/endash.glif\0121440534636.0 glyphs/endash.sc.glif\0121440534636.0 glyphs/endash.sups.glif\0121440534636.0 glyphs/endescender.glif\0121440534636.0 glyphs/eng.glif\0121440534636.0 glyphs/eogonek.glif\0121440534636.0 glyphs/eopen.glif\0121440534636.0 glyphs/eopenreversed.glif\0121440534636.0 glyphs/eopenreversedclosed.glif\0121440534636.0 glyphs/epsilon.glif\0121440534636.0 glyphs/epsilonacute.glif\0121440534636.0 glyphs/epsilonasper.glif\0121440534636.0 glyphs/epsilonasperacute.glif\0121440534636.0 glyphs/epsilonaspergrave.glif\0121440534636.0 glyphs/epsilongrave.glif\0121440534636.0 glyphs/epsilonlenis.glif\0121440534636.0 glyphs/epsilonlenisacute.glif\0121440534636.0 glyphs/epsilonlenisgrave.glif\0121440534636.0 glyphs/epsilontonos.glif\0121440534636.0 glyphs/equal.glif\0121440534636.0 glyphs/er.glif\0121440534636.0 glyphs/ereversed.glif\0121440534636.0 glyphs/es.glif\0121440534636.0 glyphs/esdescender.glif\0121440534636.0 glyphs/esh.glif\0121440534636.0 glyphs/estimated.glif\0121440534636.0 glyphs/eta.glif\0121440534636.0 glyphs/etaacute.glif\0121440534636.0 glyphs/etaasper.glif\0121440534636.0 glyphs/etaasperacute.glif\0121440534636.0 glyphs/etaaspergrave.glif\0121440534636.0 glyphs/etaaspertilde.glif\0121440534636.0 glyphs/etagrave.glif\0121440534636.0 glyphs/etaiotasub.glif\0121440534636.0 glyphs/etaiotasubacute.glif\0121440534636.0 glyphs/etaiotasubasper.glif\0121440534636.0 glyphs/etaiotasubasperacute.glif\0121440534636.0 glyphs/etaiotasubaspergrave.glif\0121440534636.0 glyphs/etaiotasubaspertilde.glif\0121440534636.0 glyphs/etaiotasubgrave.glif\0121440534636.0 glyphs/etaiotasublenis.glif\0121440534636.0 glyphs/etaiotasublenisacute.glif\0121440534636.0 glyphs/etaiotasublenisgrave.glif\0121440534636.0 glyphs/etaiotasublenistilde.glif\0121440534636.0 glyphs/etaiotasubtilde.glif\0121440534636.0 glyphs/etalenis.glif\0121440534636.0 glyphs/etalenisacute.glif\0121440534636.0 glyphs/etalenisgrave.glif\0121440534636.0 glyphs/etalenistilde.glif\0121440534636.0 glyphs/etatilde.glif\0121440534636.0 glyphs/etatonos.glif\0121440534636.0 glyphs/eth.glif\0121440534636.0 glyphs/etilde.glif\0121440534636.0 glyphs/exclam.glif\0121440534636.0 glyphs/exclam.sc.glif\0121440534636.0 glyphs/exclamdbl.glif\0121440534636.0 glyphs/exclamdown.glif\0121440534636.0 glyphs/exclamdown.sc.glif\0121440534636.0 glyphs/exclamquestion.glif\0121440534636.0 glyphs/ezh.glif\0121440534636.0 glyphs/f.glif\0121440534636.0 glyphs/f.sups.glif\0121440534636.0 glyphs/f_f.glif\0121440534636.0 glyphs/f_f_i.glif\0121440534636.0 glyphs/f_f_l.glif\0121440534636.0 glyphs/f_f_t.glif\0121440534636.0 glyphs/f_t.glif\0121440534636.0 glyphs/fi.glif\0121440534636.0 glyphs/figuredash.glif\0121440534636.0 glyphs/figurespace.glif\0121440539922.0 glyphs/fisheye.glif\0121440534636.0 glyphs/fita.glif\0121440534636.0 glyphs/five.cap.glif\0121440534636.0 glyphs/five.dnom.glif\0121440534636.0 glyphs/five.glif\0121440534636.0 glyphs/five.numr.glif\0121440534636.0 glyphs/five.onum.glif\0121440534636.0 glyphs/five.pnum.glif\0121440534636.0 glyphs/five.sc.glif\0121440534636.0 glyphs/five.subs.glif\0121440534636.0 glyphs/five.sups.glif\0121440534636.0 glyphs/five.tnum.glif\0121440534636.0 glyphs/fiveeighths.glif\0121440534636.0 glyphs/fivesixths.glif\0121440534636.0 glyphs/fl.alt.glif\0121440534636.0 glyphs/fl.glif\0121440534636.0 glyphs/floorleft.glif\0121440534636.0 glyphs/floorright.glif\0121440534636.0 glyphs/florin.glif\0121440534636.0 glyphs/four.cap.glif\0121440534636.0 glyphs/four.dnom.glif\0121440534636.0 glyphs/four.glif\0121440534636.0 glyphs/four.numr.glif\0121440534636.0 glyphs/four.onum.glif\0121440534636.0 glyphs/four.pnum.glif\0121440534636.0 glyphs/four.sc.glif\0121440534636.0 glyphs/four.subs.glif\0121440534636.0 glyphs/four.sups.glif\0121440534636.0 glyphs/four.tnum.glif\0121440534636.0 glyphs/fourfifths.glif\0121440534636.0 glyphs/fraction.glif\0121440534636.0 glyphs/g.alt.glif\0121440534636.0 glyphs/g.glif\0121440534636.0 glyphs/g.supa.glif\0121440534636.0 glyphs/g.sups.glif\0121440534636.0 glyphs/gacute.alt.glif\0121440534636.0 glyphs/gacute.glif\0121440534636.0 glyphs/gamma.glif\0121440534636.0 glyphs/gammalatin.glif\0121440534636.0 glyphs/gammalatinsupmod.glif\0121440534636.0 glyphs/gbreve.alt.glif\0121440534636.0 glyphs/gbreve.glif\0121440534636.0 glyphs/gcaron.alt.glif\0121440534636.0 glyphs/gcaron.glif\0121440534636.0 glyphs/gcircumflex.alt.glif\0121440534636.0 glyphs/gcircumflex.glif\0121440534636.0 glyphs/gcommaaccent.alt.glif\0121440534636.0 glyphs/gcommaaccent.glif\0121440534636.0 glyphs/gdotaccent.alt.glif\0121440534636.0 glyphs/gdotaccent.glif\0121440534636.0 glyphs/germandbls.glif\0121440534636.0 glyphs/germandbls.sc.glif\0121440534636.0 glyphs/ghe.glif\0121440534636.0 glyphs/ghestroke.glif\0121440534636.0 glyphs/gheup.glif\0121440534636.0 glyphs/ghook.glif\0121440534636.0 glyphs/gje.glif\0121440534636.0 glyphs/glottalstop.glif\0121440534636.0 glyphs/glottalstopreversed.glif\0121440534636.0 glyphs/glottalstopreversedmod.glif\0121440534636.0 glyphs/glottalstopstroke.glif\0121440534636.0 glyphs/glottalstopstrokereversed.glif\0121440534636.0 glyphs/gmacron.alt.glif\0121440534636.0 glyphs/gmacron.glif\0121440534636.0 glyphs/grave.glif\0121440534636.0 glyphs/gravecmb.cap.glif\0121440534636.0 glyphs/gravecmb.glif\0121440534636.0 glyphs/gravemod.glif\0121440534636.0 glyphs/greater.glif\0121440534636.0 glyphs/greaterequal.glif\0121440534636.0 glyphs/gscript.glif\0121440534636.0 glyphs/gtilde.alt.glif\0121440534636.0 glyphs/gtilde.glif\0121440534636.0 glyphs/guarani.glif\0121440534636.0 glyphs/guillemotleft.glif\0121440534636.0 glyphs/guillemotright.glif\0121440534636.0 glyphs/guilsinglleft.glif\0121440534636.0 glyphs/guilsinglright.glif\0121440534636.0 glyphs/h.glif\0121440534636.0 glyphs/h.sups.glif\0121440534636.0 glyphs/ha.glif\0121440534636.0 glyphs/hadescender.glif\0121440534636.0 glyphs/hard.glif\0121440534636.0 glyphs/hbar.glif\0121440534636.0 glyphs/hbrevebelow.glif\0121440534636.0 glyphs/hcircumflex.glif\0121440534636.0 glyphs/hdotbelow.glif\0121440534636.0 glyphs/henghook.glif\0121440534636.0 glyphs/hhook.glif\0121440534636.0 glyphs/hlinebelow.glif\0121440534636.0 glyphs/hoicmb.cap.glif\0121440534636.0 glyphs/hoicmb.glif\0121440534636.0 glyphs/hookrhoticmod.glif\0121440534636.0 glyphs/horizontalbar.glif\0121440534636.0 glyphs/horncmb.glif\0121440534636.0 glyphs/hryvnia.glif\0121440534636.0 glyphs/hturned.glif\0121440534636.0 glyphs/hungarumlaut.glif\0121440534636.0 glyphs/hungarumlautcmb.cap.glif\0121440534636.0 glyphs/hungarumlautcmb.glif\0121440534636.0 glyphs/hyphen.glif\0121440534636.0 glyphs/hyphen.sc.glif\0121440534636.0 glyphs/hyphen.sups.glif\0121440534636.0 glyphs/i.glif\0121440534636.0 glyphs/i.sups.glif\0121440534636.0 glyphs/i.trk.glif\0121440534636.0 glyphs/iacute.glif\0121440534636.0 glyphs/ibreve.glif\0121440534636.0 glyphs/icaron.glif\0121440534636.0 glyphs/icircumflex.glif\0121440534636.0 glyphs/icyr.glif\0121440534636.0 glyphs/idieresis.glif\0121440534636.0 glyphs/idotbelow.glif\0121440534636.0 glyphs/ie.glif\0121440534636.0 glyphs/iebreve.glif\0121440534636.0 glyphs/iegrave.glif\0121440534636.0 glyphs/ieukran.glif\0121440534636.0 glyphs/igrave.glif\0121440534636.0 glyphs/igravecyr.glif\0121440534636.0 glyphs/ihoi.glif\0121440534636.0 glyphs/ij.glif\0121440534636.0 glyphs/imacron.glif\0121440534636.0 glyphs/imacroncyr.glif\0121440534636.0 glyphs/infinity.glif\0121440534636.0 glyphs/integral.glif\0121440534636.0 glyphs/interrobang.glif\0121440534636.0 glyphs/io.glif\0121440534636.0 glyphs/iogonek.d.glif\0121440534636.0 glyphs/iogonek.glif\0121440534636.0 glyphs/iota.glif\0121440534636.0 glyphs/iotaacute.glif\0121440534636.0 glyphs/iotaadscript.glif\0121440534636.0 glyphs/iotaasper.glif\0121440534636.0 glyphs/iotaasperacute.glif\0121440534636.0 glyphs/iotaaspergrave.glif\0121440534636.0 glyphs/iotaaspertilde.glif\0121440534636.0 glyphs/iotabreve.glif\0121440534636.0 glyphs/iotadieresis.glif\0121440534636.0 glyphs/iotadieresisacute.glif\0121440534636.0 glyphs/iotadieresisgrave.glif\0121440534636.0 glyphs/iotadieresistilde.glif\0121440534636.0 glyphs/iotadieresistonos.glif\0121440534636.0 glyphs/iotagrave.glif\0121440534637.0 glyphs/iotalenis.glif\0121440534637.0 glyphs/iotalenisacute.glif\0121440534637.0 glyphs/iotalenisgrave.glif\0121440534637.0 glyphs/iotalenistilde.glif\0121440534637.0 glyphs/iotamacron.glif\0121440534637.0 glyphs/iotasubscript.glif\0121440534637.0 glyphs/iotasubscriptcmb.glif\0121440534637.0 glyphs/iotatilde.glif\0121440534637.0 glyphs/iotatonos.glif\0121440534637.0 glyphs/ishort.glif\0121440534637.0 glyphs/istroke.glif\0121440534637.0 glyphs/itilde.glif\0121440534637.0 glyphs/iukran.glif\0121440534637.0 glyphs/izhitsa.glif\0121440534637.0 glyphs/j.glif\0121440534637.0 glyphs/j.sups.glif\0121440534637.0 glyphs/jcircumflex.glif\0121440534637.0 glyphs/jcrossedtail.glif\0121440534637.0 glyphs/je.glif\0121440534637.0 glyphs/k.glif\0121440534637.0 glyphs/k.sups.glif\0121440534637.0 glyphs/ka.a.glif\0121440534637.0 glyphs/ka.b.glif\0121440534637.0 glyphs/ka.glif\0121440534637.0 glyphs/kabashkir.a.glif\0121440534637.0 glyphs/kabashkir.b.glif\0121440534637.0 glyphs/kabashkir.glif\0121440534637.0 glyphs/kadescender.a.glif\0121440534637.0 glyphs/kadescender.b.glif\0121440534637.0 glyphs/kadescender.glif\0121440534637.0 glyphs/kai.glif\0121440534637.0 glyphs/kappa.glif\0121440534637.0 glyphs/kcommaaccent.glif\0121440534637.0 glyphs/kdotbelow.glif\0121440534637.0 glyphs/kgreenlandic.glif\0121440534637.0 glyphs/kje.a.glif\0121440534637.0 glyphs/kje.b.glif\0121440534637.0 glyphs/kje.glif\0121440534637.0 glyphs/klinebelow.glif\0121440534637.0 glyphs/koppa.glif\0121440534637.0 glyphs/l.alt.glif\0121440534637.0 glyphs/l.glif\0121440534637.0 glyphs/l.supa.glif\0121440534637.0 glyphs/l.sups.glif\0121440534637.0 glyphs/lacute.alt.glif\0121440534637.0 glyphs/lacute.glif\0121440534637.0 glyphs/lambda.glif\0121440534637.0 glyphs/lbelt.glif\0121440534637.0 glyphs/lcaron.alt.glif\0121440534637.0 glyphs/lcaron.glif\0121440534637.0 glyphs/lcommaaccent.alt.glif\0121440534637.0 glyphs/lcommaaccent.glif\0121440534637.0 glyphs/ldot.alt.glif\0121440534637.0 glyphs/ldot.glif\0121440534637.0 glyphs/ldotbelow.alt.glif\0121440534637.0 glyphs/ldotbelow.glif\0121440534637.0 glyphs/ldotbelowmacron.alt.glif\0121440534637.0 glyphs/ldotbelowmacron.glif\0121440534637.0 glyphs/leftangleabovecmb.glif\0121440534637.0 glyphs/lefttackbelowcmb.glif\0121440534637.0 glyphs/lenis.cap.glif\0121440534637.0 glyphs/lenis.glif\0121440534637.0 glyphs/lenisacute.cap.glif\0121440534637.0 glyphs/lenisacute.glif\0121440534637.0 glyphs/lenisacutecmb.glif\0121440534637.0 glyphs/leniscmb.glif\0121440534637.0 glyphs/lenisgrave.cap.glif\0121440534637.0 glyphs/lenisgrave.glif\0121440534637.0 glyphs/lenisgravecmb.glif\0121440534637.0 glyphs/lenistilde.cap.glif\0121440534637.0 glyphs/lenistilde.glif\0121440534637.0 glyphs/lenistildecmb.glif\0121440534637.0 glyphs/less.glif\0121440534637.0 glyphs/lessequal.glif\0121440534637.0 glyphs/lezh.glif\0121440534637.0 glyphs/lira.glif\0121440534637.0 glyphs/liraturkish.glif\0121440534637.0 glyphs/litre.glif\0121440534637.0 glyphs/lje.glif\0121440534637.0 glyphs/llinebelow.alt.glif\0121440534637.0 glyphs/llinebelow.glif\0121440534637.0 glyphs/logicalnot.glif\0121440534637.0 glyphs/lownumeralsign.glif\0121440534637.0 glyphs/lozenge.glif\0121440534637.0 glyphs/lretroflex.glif\0121440534637.0 glyphs/lslash.alt.glif\0121440534637.0 glyphs/lslash.glif\0121440534637.0 glyphs/m.glif\0121440534637.0 glyphs/m.sups.glif\0121440534637.0 glyphs/macron.glif\0121440534637.0 glyphs/macronacute.cap.glif\0121440534637.0 glyphs/macronacute.glif\0121440534637.0 glyphs/macronbelowcmb.glif\0121440534637.0 glyphs/macroncmb.cap.glif\0121440534637.0 glyphs/macroncmb.glif\0121440534637.0 glyphs/macronmod.glif\0121440534637.0 glyphs/macute.glif\0121440534637.0 glyphs/mdotaccent.glif\0121440534637.0 glyphs/mdotbelow.glif\0121440534637.0 glyphs/mhook.glif\0121440534637.0 glyphs/minus.glif\0121440534637.0 glyphs/minusbelowcmb.glif\0121440534637.0 glyphs/mlonglegturned.glif\0121440534637.0 glyphs/mturned.glif\0121440534637.0 glyphs/mu.glif\0121440534637.0 glyphs/mu.math.glif\0121440534637.0 glyphs/multiply.glif\0121440534637.0 glyphs/n.glif\0121440534637.0 glyphs/n.sups.glif\0121440534637.0 glyphs/nacute.glif\0121440534637.0 glyphs/naira.glif\0121440534637.0 glyphs/napostrophe.glif\0121440534637.0 glyphs/nbspace.frac.glif\0121440534637.0 glyphs/nbspace.glif\0121440534637.0 glyphs/ncaron.glif\0121440534637.0 glyphs/ncommaaccent.glif\0121440534637.0 glyphs/ndotaccent.glif\0121440534637.0 glyphs/ndotbelow.glif\0121440534637.0 glyphs/ngrave.glif\0121440534637.0 glyphs/nhookleft.glif\0121440534637.0 glyphs/nine.cap.glif\0121440534637.0 glyphs/nine.dnom.glif\0121440534637.0 glyphs/nine.glif\0121440534637.0 glyphs/nine.numr.glif\0121440534637.0 glyphs/nine.onum.glif\0121440534637.0 glyphs/nine.pnum.glif\0121440534637.0 glyphs/nine.sc.glif\0121440534637.0 glyphs/nine.subs.glif\0121440534637.0 glyphs/nine.sups.glif\0121440534637.0 glyphs/nine.tnum.glif\0121440534637.0 glyphs/nje.glif\0121440534637.0 glyphs/nlinebelow.glif\0121440534637.0 glyphs/notequal.glif\0121440534637.0 glyphs/nretroflex.glif\0121440534637.0 glyphs/ntilde.glif\0121440534637.0 glyphs/nu.glif\0121440534637.0 glyphs/numbersign.glif\0121440534637.0 glyphs/numeralsign.glif\0121440534637.0 glyphs/numero.glif\0121440534637.0 glyphs/o.glif\0121440534637.0 glyphs/o.sups.glif\0121440534637.0 glyphs/oacute.glif\0121440534637.0 glyphs/obar.glif\0121440534637.0 glyphs/obarcyr.glif\0121440534637.0 glyphs/obreve.glif\0121440534637.0 glyphs/ocaron.glif\0121440534637.0 glyphs/ocircumflex.glif\0121440534637.0 glyphs/ocircumflexacute.glif\0121440534637.0 glyphs/ocircumflexdotbelow.glif\0121440534637.0 glyphs/ocircumflexgrave.glif\0121440534637.0 glyphs/ocircumflexhoi.glif\0121440534637.0 glyphs/ocircumflextilde.glif\0121440534637.0 glyphs/ocyr.glif\0121440534637.0 glyphs/odieresis.glif\0121440534637.0 glyphs/odieresiscyr.glif\0121440534637.0 glyphs/odotbelow.glif\0121440534637.0 glyphs/oe.glif\0121440534637.0 glyphs/ogonek.glif\0121440534637.0 glyphs/ogonekcmb.cap.glif\0121440534637.0 glyphs/ogonekcmb.glif\0121440534637.0 glyphs/ograve.glif\0121440534637.0 glyphs/ohoi.glif\0121440534637.0 glyphs/ohorn.glif\0121440534637.0 glyphs/ohornacute.glif\0121440534637.0 glyphs/ohorndotbelow.glif\0121440534637.0 glyphs/ohorngrave.glif\0121440534637.0 glyphs/ohornhoi.glif\0121440534637.0 glyphs/ohorntilde.glif\0121440534637.0 glyphs/ohungarumlaut.glif\0121440534637.0 glyphs/omacron.glif\0121440534637.0 glyphs/omacronacute.glif\0121440534637.0 glyphs/omega.glif\0121440534637.0 glyphs/omegaacute.glif\0121440534637.0 glyphs/omegaasper.glif\0121440534637.0 glyphs/omegaasperacute.glif\0121440534637.0 glyphs/omegaaspergrave.glif\0121440534637.0 glyphs/omegaaspertilde.glif\0121440534637.0 glyphs/omegagrave.glif\0121440534637.0 glyphs/omegaiotasub.glif\0121440534637.0 glyphs/omegaiotasubacute.glif\0121440534637.0 glyphs/omegaiotasubasper.glif\0121440534637.0 glyphs/omegaiotasubasperacute.glif\0121440534637.0 glyphs/omegaiotasubaspergrave.glif\0121440534637.0 glyphs/omegaiotasubaspertilde.glif\0121440534637.0 glyphs/omegaiotasubgrave.glif\0121440534637.0 glyphs/omegaiotasublenis.glif\0121440534637.0 glyphs/omegaiotasublenisacute.glif\0121440534637.0 glyphs/omegaiotasublenisgrave.glif\0121440534637.0 glyphs/omegaiotasublenistilde.glif\0121440534637.0 glyphs/omegaiotasubtilde.glif\0121440534637.0 glyphs/omegalenis.glif\0121440534637.0 glyphs/omegalenisacute.glif\0121440534637.0 glyphs/omegalenisgrave.glif\0121440534637.0 glyphs/omegalenistilde.glif\0121440534637.0 glyphs/omegatilde.glif\0121440534637.0 glyphs/omegatonos.glif\0121440534637.0 glyphs/omicron.glif\0121440534637.0 glyphs/omicronacute.glif\0121440534637.0 glyphs/omicronasper.glif\0121440534637.0 glyphs/omicronasperacute.glif\0121440534637.0 glyphs/omicronaspergrave.glif\0121440534637.0 glyphs/omicrongrave.glif\0121440534637.0 glyphs/omicronlenis.glif\0121440534637.0 glyphs/omicronlenisacute.glif\0121440534637.0 glyphs/omicronlenisgrave.glif\0121440534637.0 glyphs/omicrontonos.glif\0121440534637.0 glyphs/one.cap.glif\0121440534637.0 glyphs/one.dnom.glif\0121440534637.0 glyphs/one.glif\0121440534637.0 glyphs/one.numr.glif\0121440534637.0 glyphs/one.onum.glif\0121440534637.0 glyphs/one.pnum.glif\0121440534637.0 glyphs/one.sc.glif\0121440534637.0 glyphs/one.subs.glif\0121440534637.0 glyphs/one.sups.glif\0121440534637.0 glyphs/one.tnum.glif\0121440534637.0 glyphs/oneeighth.glif\0121440534637.0 glyphs/onefifth.glif\0121440534637.0 glyphs/onehalf.glif\0121440534637.0 glyphs/oneninth.glif\0121440534637.0 glyphs/onequarter.glif\0121440534637.0 glyphs/oneseventh.glif\0121440534637.0 glyphs/onesixth.glif\0121440534637.0 glyphs/onetenth.glif\0121440534637.0 glyphs/onethird.glif\0121440534637.0 glyphs/oogonek.glif\0121440534637.0 glyphs/oopen.glif\0121440534637.0 glyphs/ordfeminine.alt.glif\0121440534637.0 glyphs/ordfeminine.glif\0121440534637.0 glyphs/ordmasculine.glif\0121440534637.0 glyphs/oslash.glif\0121440534637.0 glyphs/otilde.glif\0121440534637.0 glyphs/overline.glif\0121440534637.0 glyphs/overlinecmb.cap.glif\0121440534637.0 glyphs/overlinecmb.glif\0121440534637.0 glyphs/oxia.cap.glif\0121440534637.0 glyphs/oxia.glif\0121440534637.0 glyphs/p.glif\0121440534637.0 glyphs/p.sups.glif\0121440534637.0 glyphs/palochka.glif\0121440534637.0 glyphs/paragraph.glif\0121440534637.0 glyphs/parenleft.dnom.glif\0121440534637.0 glyphs/parenleft.glif\0121440534637.0 glyphs/parenleft.numr.glif\0121440534637.0 glyphs/parenleft.sc.glif\0121440534637.0 glyphs/parenleft.subs.glif\0121440534637.0 glyphs/parenleft.sups.glif\0121440534637.0 glyphs/parenright.dnom.glif\0121440534637.0 glyphs/parenright.glif\0121440534637.0 glyphs/parenright.numr.glif\0121440534637.0 glyphs/parenright.sc.glif\0121440534637.0 glyphs/parenright.subs.glif\0121440534637.0 glyphs/parenright.sups.glif\0121440534637.0 glyphs/partialdiff.glif\0121440534637.0 glyphs/pe.glif\0121440534637.0 glyphs/percent.glif\0121440534637.0 glyphs/period.dnom.glif\0121440534637.0 glyphs/period.glif\0121440534637.0 glyphs/period.numr.glif\0121440534637.0 glyphs/period.subs.glif\0121440534637.0 glyphs/period.sups.glif\0121440534637.0 glyphs/periodcentered.glif\0121440534637.0 glyphs/perispomeni.glif\0121440534637.0 glyphs/perispomenicmb.cap.glif\0121440534637.0 glyphs/perispomenicmb.glif\0121440534637.0 glyphs/perthousand.glif\0121440534637.0 glyphs/peseta.glif\0121440534637.0 glyphs/peso.glif\0121440534637.0 glyphs/phi.alt.glif\0121440534637.0 glyphs/phi.glif\0121440534637.0 glyphs/philatin.glif\0121440534637.0 glyphs/pi.glif\0121440534637.0 glyphs/plus.glif\0121440534637.0 glyphs/plusbelowcmb.glif\0121440534637.0 glyphs/plusminus.glif\0121440534637.0 glyphs/prime.glif\0121440534637.0 glyphs/primemod.glif\0121440534637.0 glyphs/primereversed.glif\0121440534637.0 glyphs/product.glif\0121440534637.0 glyphs/psi.glif\0121440534637.0 glyphs/psili.glif\0121440534637.0 glyphs/q.glif\0121440534637.0 glyphs/q.sups.glif\0121440534637.0 glyphs/question.glif\0121440534637.0 glyphs/question.sc.glif\0121440534637.0 glyphs/questiondbl.glif\0121440534637.0 glyphs/questiondown.glif\0121440534637.0 glyphs/questiondown.sc.glif\0121440534637.0 glyphs/questionexclam.glif\0121440534637.0 glyphs/questiongreek.glif\0121440534637.0 glyphs/quotedbl.glif\0121440534637.0 glyphs/quotedbl.sc.glif\0121440534637.0 glyphs/quotedblbase.glif\0121440534637.0 glyphs/quotedblleft.glif\0121440534637.0 glyphs/quotedblleft.sc.glif\0121440534637.0 glyphs/quotedblright.glif\0121440534637.0 glyphs/quotedblright.sc.glif\0121440534637.0 glyphs/quoteleft.glif\0121440534637.0 glyphs/quoteleft.sc.glif\0121440534637.0 glyphs/quoteright.glif\0121440534637.0 glyphs/quoteright.sc.glif\0121440534637.0 glyphs/quotesinglbase.glif\0121440534637.0 glyphs/quotesingle.glif\0121440534637.0 glyphs/quotesingle.sc.glif\0121440534637.0 glyphs/r.glif\0121440534637.0 glyphs/r.sups.glif\0121440534637.0 glyphs/racute.glif\0121440534637.0 glyphs/radical.glif\0121440534637.0 glyphs/ramshorn.glif\0121440534638.0 glyphs/rcaron.glif\0121440534638.0 glyphs/rcommaaccent.glif\0121440534638.0 glyphs/rdotaccent.glif\0121440534638.0 glyphs/rdotbelow.glif\0121440534638.0 glyphs/rdotbelowmacron.glif\0121440534638.0 glyphs/registered.glif\0121440534638.0 glyphs/rfishhook.glif\0121440534638.0 glyphs/rho.glif\0121440534638.0 glyphs/rhoasper.glif\0121440534638.0 glyphs/rholenis.glif\0121440534638.0 glyphs/rhookturned.glif\0121440534638.0 glyphs/righttackbelowcmb.glif\0121440534638.0 glyphs/ring.glif\0121440534638.0 glyphs/ringbelowcmb.glif\0121440534638.0 glyphs/ringcmb.cap.glif\0121440534638.0 glyphs/ringcmb.glif\0121440534638.0 glyphs/ringhalfleftbelowcmb.glif\0121440534638.0 glyphs/ringhalfleftmod.glif\0121440534638.0 glyphs/ringhalfrightbelowcmb.glif\0121440534638.0 glyphs/ringhalfrightmod.glif\0121440534638.0 glyphs/rlinebelow.glif\0121440534638.0 glyphs/rlonglegturned.glif\0121440534638.0 glyphs/rtail.glif\0121440534638.0 glyphs/rturned.glif\0121440534638.0 glyphs/ruble.glif\0121440534638.0 glyphs/rupeeindian.glif\0121440534638.0 glyphs/s.glif\0121440534638.0 glyphs/s.sups.glif\0121440534638.0 glyphs/sacute.glif\0121440534638.0 glyphs/sampi.glif\0121440534638.0 glyphs/scaron.glif\0121440534638.0 glyphs/scedilla.glif\0121440534638.0 glyphs/schwa.glif\0121440534638.0 glyphs/schwa.sups.glif\0121440534638.0 glyphs/schwacyr.glif\0121440534638.0 glyphs/schwahookrhotic.glif\0121440534638.0 glyphs/scircumflex.glif\0121440534638.0 glyphs/scommaaccent.glif\0121440534638.0 glyphs/sdotaccent.glif\0121440534638.0 glyphs/sdotbelow.glif\0121440534638.0 glyphs/seagullbelowcmb.glif\0121440534638.0 glyphs/section.glif\0121440534638.0 glyphs/semicolon.glif\0121440534638.0 glyphs/servicemark.glif\0121440534638.0 glyphs/seven.cap.glif\0121440534638.0 glyphs/seven.dnom.glif\0121440534638.0 glyphs/seven.glif\0121440534638.0 glyphs/seven.numr.glif\0121440534638.0 glyphs/seven.onum.glif\0121440534638.0 glyphs/seven.pnum.glif\0121440534638.0 glyphs/seven.sc.glif\0121440534638.0 glyphs/seven.subs.glif\0121440534638.0 glyphs/seven.sups.glif\0121440534638.0 glyphs/seven.tnum.glif\0121440534638.0 glyphs/seveneighths.glif\0121440534638.0 glyphs/sfthyphen.glif\0121440534638.0 glyphs/sha.glif\0121440534638.0 glyphs/shcha.glif\0121440534638.0 glyphs/shha.glif\0121440534638.0 glyphs/shook.glif\0121440534638.0 glyphs/sigma.end.glif\0121440534638.0 glyphs/sigma.glif\0121440534638.0 glyphs/six.cap.glif\0121440534638.0 glyphs/six.dnom.glif\0121440534638.0 glyphs/six.glif\0121440534638.0 glyphs/six.numr.glif\0121440534638.0 glyphs/six.onum.glif\0121440534638.0 glyphs/six.pnum.glif\0121440534638.0 glyphs/six.sc.glif\0121440534638.0 glyphs/six.subs.glif\0121440534638.0 glyphs/six.sups.glif\0121440534638.0 glyphs/six.tnum.glif\0121440534638.0 glyphs/slash.frac.glif\0121440534638.0 glyphs/slash.glif\0121440534638.0 glyphs/soft.glif\0121440534638.0 glyphs/soundcopyright.glif\0121440534638.0 glyphs/space.frac.glif\0121440534638.0 glyphs/space.glif\0121440534638.0 glyphs/squarebelowcmb.glif\0121440534638.0 glyphs/squareblack.glif\0121440534638.0 glyphs/squareshadow.glif\0121440534638.0 glyphs/sterling.glif\0121440534638.0 glyphs/stigma.glif\0121440534638.0 glyphs/summation.glif\0121440534638.0 glyphs/t.glif\0121440534638.0 glyphs/t.sups.glif\0121440534638.0 glyphs/tau.glif\0121440534638.0 glyphs/tbar.glif\0121440534638.0 glyphs/tcaron.glif\0121440534638.0 glyphs/tcedilla.glif\0121440534638.0 glyphs/tcommaaccent.glif\0121440534638.0 glyphs/tdieresis.glif\0121440534638.0 glyphs/tdotbelow.glif\0121440534638.0 glyphs/te.glif\0121440534638.0 glyphs/tenge.glif\0121440534638.0 glyphs/theta.alt.glif\0121440534638.0 glyphs/theta.glif\0121440534638.0 glyphs/thorn.glif\0121440534638.0 glyphs/three.cap.glif\0121440534638.0 glyphs/three.dnom.glif\0121440534638.0 glyphs/three.glif\0121440534638.0 glyphs/three.numr.glif\0121440534638.0 glyphs/three.onum.glif\0121440534638.0 glyphs/three.pnum.glif\0121440534638.0 glyphs/three.sc.glif\0121440534638.0 glyphs/three.subs.glif\0121440534638.0 glyphs/three.sups.glif\0121440534638.0 glyphs/three.tnum.glif\0121440534638.0 glyphs/threeeighths.glif\0121440534638.0 glyphs/threeemdash.glif\0121440534638.0 glyphs/threefifths.glif\0121440534638.0 glyphs/threequarters.glif\0121440534638.0 glyphs/tilde.glif\0121440534638.0 glyphs/tildebelowcmb.glif\0121440534638.0 glyphs/tildecmb.cap.glif\0121440534638.0 glyphs/tildecmb.glif\0121440534638.0 glyphs/tildeoverlaycmb.glif\0121440534638.0 glyphs/tlinebelow.glif\0121440534638.0 glyphs/tonos.cap.glif\0121440534638.0 glyphs/tonos.glif\0121440534638.0 glyphs/tonoscmb.glif\0121440534638.0 glyphs/trademark.glif\0121440534638.0 glyphs/tretroflex.glif\0121440534638.0 glyphs/triangleblackdown.glif\0121440534638.0 glyphs/triangleblackleft.glif\0121440534638.0 glyphs/triangleblackright.glif\0121440534638.0 glyphs/triangleblackup.glif\0121440534638.0 glyphs/trianglewhitedown.glif\0121440534638.0 glyphs/trianglewhiteleft.glif\0121440534638.0 glyphs/trianglewhiteright.glif\0121440534638.0 glyphs/trianglewhiteup.glif\0121440534638.0 glyphs/tse.glif\0121440534638.0 glyphs/tshe.glif\0121440534638.0 glyphs/tugrik.glif\0121440534638.0 glyphs/two.cap.glif\0121440534638.0 glyphs/two.dnom.glif\0121440534638.0 glyphs/two.glif\0121440534638.0 glyphs/two.numr.glif\0121440534638.0 glyphs/two.onum.glif\0121440534638.0 glyphs/two.pnum.glif\0121440534638.0 glyphs/two.sc.glif\0121440534638.0 glyphs/two.subs.glif\0121440534638.0 glyphs/two.sups.glif\0121440534638.0 glyphs/two.tnum.glif\0121440534638.0 glyphs/twoemdash.glif\0121440534638.0 glyphs/twofifths.glif\0121440534638.0 glyphs/twothirds.glif\0121440534638.0 glyphs/u.glif\0121440534638.0 glyphs/u.sups.glif\0121440534638.0 glyphs/uacute.glif\0121440534638.0 glyphs/uacutedblcyr.glif\0121440534638.0 glyphs/ubar.glif\0121440534638.0 glyphs/ubreve.glif\0121440534638.0 glyphs/ucaron.glif\0121440534638.0 glyphs/ucircumflex.glif\0121440534638.0 glyphs/ucyr.glif\0121440534638.0 glyphs/udieresis.glif\0121440534638.0 glyphs/udieresisacute.glif\0121440534638.0 glyphs/udieresiscaron.glif\0121440534638.0 glyphs/udieresisgrave.glif\0121440534638.0 glyphs/udieresismacron.glif\0121440534638.0 glyphs/udotbelow.glif\0121440534638.0 glyphs/ugrave.glif\0121440534638.0 glyphs/uhoi.glif\0121440534638.0 glyphs/uhorn.glif\0121440534638.0 glyphs/uhornacute.glif\0121440534638.0 glyphs/uhorndotbelow.glif\0121440534638.0 glyphs/uhorngrave.glif\0121440534638.0 glyphs/uhornhoi.glif\0121440534638.0 glyphs/uhorntilde.glif\0121440534638.0 glyphs/uhungarumlaut.glif\0121440534638.0 glyphs/umacron.glif\0121440534638.0 glyphs/umacroncyr.glif\0121440534638.0 glyphs/underscore.glif\0121440534638.0 glyphs/undertie.glif\0121440534638.0 glyphs/uogonek.glif\0121440534638.0 glyphs/upsilon.glif\0121440534638.0 glyphs/upsilonacute.glif\0121440534638.0 glyphs/upsilonasper.glif\0121440534638.0 glyphs/upsilonasperacute.glif\0121440534638.0 glyphs/upsilonaspergrave.glif\0121440534638.0 glyphs/upsilonaspertilde.glif\0121440534638.0 glyphs/upsilonbreve.glif\0121440534638.0 glyphs/upsilondieresis.glif\0121440534638.0 glyphs/upsilondieresisacute.glif\0121440534638.0 glyphs/upsilondieresisgrave.glif\0121440534638.0 glyphs/upsilondieresistilde.glif\0121440534638.0 glyphs/upsilondieresistonos.glif\0121440534638.0 glyphs/upsilongrave.glif\0121440534638.0 glyphs/upsilonlatin.glif\0121440534638.0 glyphs/upsilonlenis.glif\0121440534638.0 glyphs/upsilonlenisacute.glif\0121440534638.0 glyphs/upsilonlenisgrave.glif\0121440534638.0 glyphs/upsilonlenistilde.glif\0121440534638.0 glyphs/upsilonmacron.glif\0121440534638.0 glyphs/upsilontilde.glif\0121440534638.0 glyphs/upsilontonos.glif\0121440534638.0 glyphs/uptackbelowcmb.glif\0121440534638.0 glyphs/uring.glif\0121440534638.0 glyphs/ushort.glif\0121440534638.0 glyphs/ustraight.glif\0121440534638.0 glyphs/ustraightstroke.glif\0121440534638.0 glyphs/utilde.glif\0121440534638.0 glyphs/v.glif\0121440534638.0 glyphs/v.sups.glif\0121440534638.0 glyphs/varia.cap.glif\0121440534638.0 glyphs/varia.glif\0121440534638.0 glyphs/variacmb.glif\0121440534638.0 glyphs/ve.glif\0121440534638.0 glyphs/verticallinebelowcmb.glif\0121440534638.0 glyphs/verticallinelowmod.glif\0121440534638.0 glyphs/verticallinemod.glif\0121440534638.0 glyphs/vhook.glif\0121440534638.0 glyphs/vturned.glif\0121440534638.0 glyphs/w.glif\0121440534638.0 glyphs/w.sups.glif\0121440534638.0 glyphs/wacute.glif\0121440534638.0 glyphs/wcircumflex.glif\0121440534638.0 glyphs/wdieresis.glif\0121440534638.0 glyphs/wgrave.glif\0121440534638.0 glyphs/won.glif\0121440534638.0 glyphs/wturned.glif\0121440534638.0 glyphs/x.glif\0121440534638.0 glyphs/x.sups.glif\0121440534638.0 glyphs/xabovecmb.glif\0121440534638.0 glyphs/xi.glif\0121440534638.0 glyphs/y.glif\0121440534638.0 glyphs/y.sups.glif\0121440534638.0 glyphs/ya.glif\0121440534638.0 glyphs/yacute.glif\0121440534638.0 glyphs/yat.glif\0121440534638.0 glyphs/ycircumflex.glif\0121440534638.0 glyphs/ydieresis.glif\0121440534638.0 glyphs/ydotaccent.glif\0121440534638.0 glyphs/ydotbelow.glif\0121440534638.0 glyphs/yen.glif\0121440534638.0 glyphs/yeru.glif\0121440534638.0 glyphs/ygrave.glif\0121440534638.0 glyphs/yhoi.glif\0121440534638.0 glyphs/yi.a.glif\0121440534638.0 glyphs/yi.glif\0121440534638.0 glyphs/ytilde.glif\0121440534638.0 glyphs/yturned.glif\0121440534638.0 glyphs/yu.glif\0121440534638.0 glyphs/yuan.glif\0121440534638.0 glyphs/z.glif\0121440534638.0 glyphs/z.sups.glif\0121440534638.0 glyphs/zacute.glif\0121440534638.0 glyphs/zcaron.glif\0121440534638.0 glyphs/zcurl.glif\0121440534638.0 glyphs/zdotaccent.glif\0121440534638.0 glyphs/zdotbelow.glif\0121440534638.0 glyphs/ze.glif\0121440534638.0 glyphs/zedescender.glif\0121440534638.0 glyphs/zero.0.glif\0121440534638.0 glyphs/zero.0p.glif\0121440534638.0 glyphs/zero.0ps.glif\0121440534638.0 glyphs/zero.0s.glif\0121440534638.0 glyphs/zero.cap.glif\0121440534638.0 glyphs/zero.dnom.glif\0121440534638.0 glyphs/zero.glif\0121440534638.0 glyphs/zero.numr.glif\0121440534638.0 glyphs/zero.onum.glif\0121440534638.0 glyphs/zero.pnum.glif\0121440534638.0 glyphs/zero.sc.glif\0121440534638.0 glyphs/zero.subs.glif\0121440534638.0 glyphs/zero.sups.glif\0121440534638.0 glyphs/zero.tnum.glif\0121440534638.0 glyphs/zerothirds.glif\0121440534638.0 glyphs/zeta.glif\0121440534638.0 glyphs/zhe.a.glif\0121440534638.0 glyphs/zhe.b.glif\0121440534638.0 glyphs/zhe.glif\0121440534638.0 glyphs/zhebreve.a.glif\0121440534638.0 glyphs/zhebreve.b.glif\0121440534638.0 glyphs/zhebreve.glif\0121440534638.0 glyphs/zhedescender.a.glif\0121440534638.0 glyphs/zhedescender.b.glif\0121440534638.0 glyphs/zhedescender.glif\0121440534638.0 glyphs/zlinebelow.glif\0121440534638.0 glyphs/zretroflex.glif\0121440534638.0 groups.plist\0121440534638.0 kerning.plist\0121440534638.0 metainfo.plist";
 };
 versionMajor = 1;
-versionMinor = 9;
+versionMinor = 10;
 }

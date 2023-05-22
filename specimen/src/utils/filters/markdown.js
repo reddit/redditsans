@@ -1,4 +1,5 @@
-const marked = require("marked")
+const { marked } = require("marked")
+const { markedSmartypants } = require("marked-smartypants")
 
 const joinAttrs = (attrs) => (attrs.length ? " " + attrs.join(" ") : "")
 
@@ -15,9 +16,11 @@ const renderer = {
 }
 
 marked.use({ renderer })
+marked.use(markedSmartypants())
 
 marked.setOptions({
-  smartypants: true,
+  mangle: false,
+  headerIds: false,
 })
 
 module.exports = marked

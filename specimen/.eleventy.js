@@ -69,8 +69,6 @@ module.exports = function (config) {
     }
   })
 
-  console.log(passthrough)
-
   config.addPassthroughCopy(passthrough)
 
   config.setQuietMode(true)

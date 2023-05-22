@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "archiver": "^5.3.0",
-    "autoprefixer": "^10.2.5",
-    "esbuild": "^0.12.16",
+    "@11ty/eleventy": "^2.0.1",
+    "archiver": "^5.3.1",
+    "autoprefixer": "^10.4.14",
+    "esbuild": "^0.12.29",
     "html-minifier": "^4.0.0",
     "load-nextstep-plist": "^1.0.3",
-    "marked": "^2.0.5",
+    "marked": "^5.0.2",
+    "marked-smartypants": "^1.0.2",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.36.0"
+    "sass": "^1.62.1"
   },
   "browserslist": [
     "last 2 versions",

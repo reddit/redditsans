@@ -1,5 +1,4 @@
-Copyright (c) 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font
-Name "Reddit Sans".
+Copyright (c) 2020-21, Reddit, Inc. (https://www.reddit.com).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 

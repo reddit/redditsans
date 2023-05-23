@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2021-22, Reddit, Inc. (https://www.reddit.com), with Reserved Font Name \"Reddit Mono\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+copyright = "Copyright (c) 2021-22, Reddit, Inc. (https://www.reddit.com). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 customParameters = (
 {
 name = "Family Alignment Zones";

@@ -31,33 +31,35 @@ D: U+0200-0FFF
 E: U+1000-1FFF
 F: U+2000-FFFF
 
-Example CSS files are provided for both full and subset fonts in the Resources folder.
+Example CSS files are provided for both full and subset fonts in the Resources
+folder.
 
 Variant fonts
 -------------
-Desktop and web fonts are exported for each flavor – Vanilla, Chocolate, 
+Desktop and web fonts are exported for each flavor – Vanilla, Chocolate,
 Strawberry and Fudge. They can be found in "/desktop/variants" and
-"/web/variants". These are useful in contexts that don't support
-stylistic alternatives. Note there is no italic variant for Strawberry.
+"/web/variants". These are useful in contexts that don't support stylistic
+alternatives. Note there is no italic variant for Strawberry.
 
-An example CSS file is provided for web versions of variant fonts in the Resources folder.
+An example CSS file is provided for web versions of variant fonts in the
+Resources folder.
 
 -------------
 
 Reddit Sans
-Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font
-Name "Reddit Sans". This Font Software is licensed under the SIL Open Font
-License, Version 1.1. This license is available with a FAQ at:
-http://scripts.sil.org/OFL
+Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com).
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
 
 Reddit Sans Condensed
-Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font
-Name "Reddit Sans Condensed". This Font Software is licensed under the SIL Open
-Font License, Version 1.1. This license is available with a FAQ at:
-http://scripts.sil.org/OFL
+Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com).
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
 
-Reddit Mono
-Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com), with Reserved Font Name "Reddit Mono". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+Reddit Mono Copyright
+© 2020-21, Reddit, Inc. (https://www.reddit.com). 
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
 
 -------------
 

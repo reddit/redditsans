@@ -23,6 +23,16 @@ languages.
 
 ChangeLog
 
+23 May 2023 (Stephen Hutchings) Reddit Sans 1.011
+- Remove reserved font name declaration in copyright
+- De-kinking of glyph paths
+- Set automatic alignment on punctuation upper case alternatives
+- Fix italic backslash upper case alternative
+- Fix inconsistent italic tabular old-style figure advance widths
+- Add missing licence URL and type to Reddit Sans Condensed
+- Correct all path directions
+- Remove harmonization on export
+
 18 Februrary 2022 (Stephen Hutchings) Reddit Sans 1.010
 - De-kinking and removal of unused glyphs
 - Vertical extremes added to common italic glyphs

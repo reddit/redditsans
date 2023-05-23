@@ -2,13 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>.appVersion</key>
+	<string>3191</string>
+	<key>.formatVersion</key>
+	<integer>1</integer>
 	<key>exportPath</key>
-	<string>/Users/stephenhutchings/Projects/reddit-font/Demo/fonts/Reddit Sans Condensed</string>
+	<string>/Users/me/Projects/reddit-sans/fonts/Reddit Sans Condensed</string>
 	<key>fontPath</key>
 	<string>Reddit Sans Condensed.glyphs</string>
 	<key>instances</key>
 	<array>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -16,12 +24,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -225,14 +227,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>name</key>
 			<string>A Light</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -240,12 +244,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -449,12 +447,14 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>name</key>
 			<string>A Regular</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -462,12 +462,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -671,14 +665,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>name</key>
 			<string>A SemiBold</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -686,12 +682,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -895,8 +885,6 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
@@ -904,9 +892,13 @@
 			<key>name</key>
 			<string>A Bold</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -914,12 +906,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1123,14 +1109,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>name</key>
 			<string>A ExtraBold</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -1138,12 +1126,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1286,14 +1268,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>name</key>
 			<string>B Light</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -1301,12 +1285,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1449,12 +1427,14 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>name</key>
 			<string>B Regular</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -1462,12 +1442,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1610,14 +1584,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>name</key>
 			<string>B SemiBold</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -1625,12 +1601,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1773,8 +1743,6 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
@@ -1782,9 +1750,13 @@
 			<key>name</key>
 			<string>B Bold</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -1792,12 +1764,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1940,14 +1906,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>name</key>
 			<string>B ExtraBold</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -1955,12 +1923,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2192,14 +2154,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>name</key>
 			<string>C Light</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -2207,12 +2171,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2444,12 +2402,14 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>name</key>
 			<string>C Regular</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -2457,12 +2417,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2694,14 +2648,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>name</key>
 			<string>C SemiBold</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -2709,12 +2665,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2946,8 +2896,6 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
@@ -2955,9 +2903,13 @@
 			<key>name</key>
 			<string>C Bold</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -2965,12 +2917,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3202,14 +3148,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>name</key>
 			<string>C ExtraBold</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -3217,12 +3165,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3387,14 +3329,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>name</key>
 			<string>D Light</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -3402,12 +3346,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3572,12 +3510,14 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>name</key>
 			<string>D Regular</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -3585,12 +3525,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3755,14 +3689,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>name</key>
 			<string>D SemiBold</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -3770,12 +3706,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3940,8 +3870,6 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
@@ -3949,9 +3877,13 @@
 			<key>name</key>
 			<string>D Bold</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -3959,12 +3891,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4129,14 +4055,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>name</key>
 			<string>D ExtraBold</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -4144,12 +4072,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4392,14 +4314,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>name</key>
 			<string>E Light</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -4407,12 +4331,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4655,12 +4573,14 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>name</key>
 			<string>E Regular</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -4668,12 +4588,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4916,14 +4830,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>name</key>
 			<string>E SemiBold</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -4931,12 +4847,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5179,8 +5089,6 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
@@ -5188,9 +5096,13 @@
 			<key>name</key>
 			<string>E Bold</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -5198,12 +5110,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5446,14 +5352,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>name</key>
 			<string>E ExtraBold</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -5461,12 +5369,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5670,14 +5572,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>name</key>
 			<string>F Light</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -5685,12 +5589,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5894,12 +5792,14 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>name</key>
 			<string>F Regular</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -5907,12 +5807,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6116,14 +6010,16 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>name</key>
 			<string>F SemiBold</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -6131,12 +6027,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6340,8 +6230,6 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
@@ -6349,9 +6237,13 @@
 			<key>name</key>
 			<string>F Bold</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
@@ -6359,12 +6251,6 @@
 					<string>Grid Spacing</string>
 					<key>value</key>
 					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6568,21 +6454,23 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>name</key>
 			<string>F ExtraBold</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
 					<key>name</key>
-					<string>Filter</string>
+					<string>Grid Spacing</string>
 					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6607,21 +6495,23 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>name</key>
 			<string>Light</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
 					<key>name</key>
-					<string>Filter</string>
+					<string>Grid Spacing</string>
 					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6646,19 +6536,21 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>name</key>
 			<string>Regular</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
 					<key>name</key>
-					<string>Filter</string>
+					<string>Grid Spacing</string>
 					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6683,21 +6575,23 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>name</key>
 			<string>SemiBold</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
 					<key>name</key>
-					<string>Filter</string>
+					<string>Grid Spacing</string>
 					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6722,8 +6616,6 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
@@ -6731,16 +6623,20 @@
 			<key>name</key>
 			<string>Bold</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
 				<dict>
 					<key>name</key>
-					<string>Filter</string>
+					<string>Grid Spacing</string>
 					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6765,12 +6661,10 @@
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>name</key>
 			<string>ExtraBold</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 	</array>
 </dict>

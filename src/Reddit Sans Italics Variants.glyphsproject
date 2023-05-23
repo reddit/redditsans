@@ -2,21 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>.appVersion</key>
+	<string>3191</string>
+	<key>.formatVersion</key>
+	<integer>1</integer>
 	<key>exportPath</key>
-	<string>/Users/stephenhutchings/Projects/reddit-font/Demo/fonts/Reddit Sans/variants</string>
+	<string>/Users/me/Projects/reddit-sans/fonts/Reddit Sans/variants</string>
 	<key>fontPath</key>
 	<string>Reddit Sans Italics.glyphs</string>
 	<key>instances</key>
 	<array>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -434,24 +436,20 @@
 					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
 			<string>Light Italic</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -869,22 +867,18 @@
 					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
 			<string>Italic</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -1302,24 +1296,20 @@
 					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
 			<string>SemiBold Italic</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -1737,8 +1727,6 @@
 					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>isItalic</key>
@@ -1748,17 +1736,15 @@
 			<key>name</key>
 			<string>Bold Italic</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -2176,24 +2162,20 @@
 					<string>Reddit Sans Chocolate</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
 			<string>ExtraBold Italic</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -2447,24 +2429,20 @@
 					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
 			<string>Light Italic</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -2718,22 +2696,18 @@
 					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
 			<string>Italic</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -2987,24 +2961,20 @@
 					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
 			<string>SemiBold Italic</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -3258,8 +3228,6 @@
 					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>isItalic</key>
@@ -3269,17 +3237,15 @@
 			<key>name</key>
 			<string>Bold Italic</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -3533,24 +3499,20 @@
 					<string>Reddit Sans Vanilla</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>isItalic</key>
 			<true/>
 			<key>name</key>
 			<string>ExtraBold Italic</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>64</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -3854,22 +3816,18 @@
 					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>64</real>
 			<key>name</key>
 			<string>Light Italic</string>
 			<key>weightClass</key>
-			<string>Light</string>
+			<integer>300</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>88</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -4173,20 +4131,16 @@
 					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>88</real>
 			<key>name</key>
 			<string>Italic</string>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>120</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -4490,22 +4444,18 @@
 					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>120</real>
 			<key>name</key>
 			<string>SemiBold Italic</string>
 			<key>weightClass</key>
-			<string>SemiBold</string>
+			<integer>600</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>140</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -4809,8 +4759,6 @@
 					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>140</real>
 			<key>isBold</key>
 			<true/>
 			<key>linkStyle</key>
@@ -4818,17 +4766,15 @@
 			<key>name</key>
 			<string>Bold Italic</string>
 			<key>weightClass</key>
-			<string>Bold</string>
+			<integer>700</integer>
 		</dict>
 		<dict>
+			<key>axesValues</key>
+			<array>
+				<real>160</real>
+			</array>
 			<key>customParameters</key>
 			<array>
-				<dict>
-					<key>name</key>
-					<string>Filter</string>
-					<key>value</key>
-					<string>RMXHarmonizer;supersmooth all</string>
-				</dict>
 				<dict>
 					<key>name</key>
 					<string>Webfont Formats</string>
@@ -5132,12 +5078,10 @@
 					<string>Reddit Sans Fudge</string>
 				</dict>
 			</array>
-			<key>interpolationWeight</key>
-			<real>160</real>
 			<key>name</key>
 			<string>ExtraBold Italic</string>
 			<key>weightClass</key>
-			<string>ExtraBold</string>
+			<integer>800</integer>
 		</dict>
 	</array>
 </dict>

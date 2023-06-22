@@ -47,22 +47,22 @@ Resources folder.
 -------------
 
 Reddit Sans
-Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com).
+Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com).
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: http://scripts.sil.org/OFL
 
 Reddit Sans Condensed
-Copyright © 2020-21, Reddit, Inc. (https://www.reddit.com).
+Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com).
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: http://scripts.sil.org/OFL
 
-Reddit Mono Copyright
-© 2020-21, Reddit, Inc. (https://www.reddit.com). 
+Reddit Mono 
+Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com). 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: http://scripts.sil.org/OFL
 
 -------------
 
-Produced for Reddit by Stephen Hutchings
+Produced for Reddit Inc. by Stephen Hutchings
 https://www.s-ings.com/
 mailto: stephen@s-ings.com

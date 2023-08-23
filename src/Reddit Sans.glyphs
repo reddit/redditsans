@@ -30998,7 +30998,7 @@ width = 230;
 {
 color = 4;
 glyphname = lslash.ss01;
-lastChange = "2022-02-10 04:45:03 +0000";
+lastChange = "2023-08-23 06:46:07 +0000";
 layers = (
 {
 components = (
@@ -31018,35 +31018,36 @@ components = (
 {
 alignment = -1;
 name = l.ss01;
-transform = "{1, 0, 0, 1, 118, 0}";
+transform = "{1, 0, 0, 1, 142, 0}";
 },
 {
 name = slashshortcomb;
-transform = "{1, 0, 0, 1, -92, 24}";
+transform = "{1, 0, 0, 1, -68, 24}";
 }
 );
 layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-width = 880;
+width = 864;
 },
 {
 components = (
 {
 alignment = -1;
 name = l.ss01;
-transform = "{1, 0, 0, 1, 46, 0}";
+transform = "{1, 0, 0, 1, 116, 0}";
 },
 {
-alignment = -1;
 name = slashshortcomb;
-transform = "{1, 0, 0, 1, -82, -4}";
+transform = "{1, 0, 0, 1, -20, 0}";
 }
 );
 layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-width = 590;
+width = 714;
 }
 );
 leftKerningGroup = LAT_LSLASH_LC_ALT;
+leftMetricsKey = t.ss01;
 rightKerningGroup = LAT_LSLASH_LC_ALT;
+rightMetricsKey = t.ss01;
 userData = {
 com.typemytype.robofont.layerData = {
 mask = {

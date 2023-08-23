@@ -1,5 +1,5 @@
 {
-.appVersion = "3191";
+.appVersion = "3204";
 classes = (
 {
 automatic = 1;
@@ -421,7 +421,7 @@ xHeight = 1080;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2023-05-23 00:55:26 +0000";
+lastChange = "2023-08-23 07:31:03 +0000";
 layers = (
 {
 anchors = (
@@ -12246,7 +12246,7 @@ width = 1188;
 );
 leftKerningGroup = LAT_H_UC;
 leftMetricsKey = H;
-rightKerningGroup = LAT_P_SC;
+rightKerningGroup = LAT_THORN_UC;
 unicode = 00DE;
 },
 {
@@ -23344,7 +23344,7 @@ unicode = 00F0;
 },
 {
 glyphname = e;
-lastChange = "2023-05-23 02:53:39 +0000";
+lastChange = "2023-08-23 07:29:56 +0000";
 layers = (
 {
 anchors = (
@@ -23461,7 +23461,7 @@ position = "{522, 0}";
 },
 {
 name = ogonek;
-position = "{915, 53}";
+position = "{916, 58}";
 },
 {
 name = top;
@@ -24782,7 +24782,7 @@ unicode = 1E15;
 },
 {
 glyphname = eogonek;
-lastChange = "2023-05-23 07:45:20 +0000";
+lastChange = "2023-08-23 07:29:56 +0000";
 layers = (
 {
 components = (
@@ -24804,7 +24804,7 @@ name = e;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 538, 53}";
+transform = "{1, 0, 0, 1, 538, 58}";
 }
 );
 layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
@@ -104984,31 +104984,6 @@ trademark = -32;
 "@MMK_R_PCT_UNDERSCORE" = -100;
 trademark = -40;
 };
-"@MMK_L_LAT_P_SC" = {
-"@MMK_R_LAT_ASS02_LC" = -80;
-"@MMK_R_LAT_G_LC" = -92;
-"@MMK_R_LAT_I_LC" = -48;
-"@MMK_R_LAT_O_LC" = -100;
-"@MMK_R_LAT_O_LC_ACUTE" = -80;
-"@MMK_R_LAT_O_LC_BAR" = -56;
-"@MMK_R_LAT_O_LC_GRAVE" = -80;
-"@MMK_R_LAT_S_LC" = -24;
-"@MMK_R_LAT_X_LC" = -24;
-"@MMK_R_LAT_Y_LC" = -40;
-"@MMK_R_LAT_Z_LC" = -220;
-"@MMK_R_NUM_EIGHT" = -40;
-"@MMK_R_NUM_FOUR" = -80;
-"@MMK_R_NUM_NINE_OSF" = -108;
-"@MMK_R_NUM_SEVEN" = -80;
-"@MMK_R_NUM_SIX" = -40;
-"@MMK_R_NUM_THREE" = -80;
-"@MMK_R_NUM_TWO" = -48;
-"@MMK_R_PCT_COMMA" = -236;
-"@MMK_R_PCT_EMDASH" = -80;
-"@MMK_R_PCT_GUILLEFT" = -40;
-"@MMK_R_PCT_SLASH" = -204;
-periodcentered = -24;
-};
 "@MMK_L_LAT_P_UC" = {
 "@MMK_R_LAT_AE_UC" = -132;
 "@MMK_R_LAT_ASS02_LC" = -80;
@@ -105169,6 +105144,32 @@ periodcentered = -24;
 "@MMK_R_PCT_EMDASH" = 24;
 "@MMK_R_PCT_QUOTE" = -64;
 "@MMK_R_PCT_SLASH" = -24;
+periodcentered = -24;
+};
+"@MMK_L_LAT_THORN_UC" = {
+"@MMK_R_LAT_ASS02_LC" = -80;
+"@MMK_R_LAT_A_UC" = -68;
+"@MMK_R_LAT_G_LC" = -92;
+"@MMK_R_LAT_I_LC" = -48;
+"@MMK_R_LAT_O_LC" = -100;
+"@MMK_R_LAT_O_LC_ACUTE" = -80;
+"@MMK_R_LAT_O_LC_BAR" = -56;
+"@MMK_R_LAT_O_LC_GRAVE" = -80;
+"@MMK_R_LAT_S_LC" = -24;
+"@MMK_R_LAT_X_LC" = -24;
+"@MMK_R_LAT_Y_LC" = -40;
+"@MMK_R_LAT_Z_LC" = -220;
+"@MMK_R_NUM_EIGHT" = -40;
+"@MMK_R_NUM_FOUR" = -80;
+"@MMK_R_NUM_NINE_OSF" = -108;
+"@MMK_R_NUM_SEVEN" = -80;
+"@MMK_R_NUM_SIX" = -40;
+"@MMK_R_NUM_THREE" = -80;
+"@MMK_R_NUM_TWO" = -48;
+"@MMK_R_PCT_COMMA" = -236;
+"@MMK_R_PCT_EMDASH" = -80;
+"@MMK_R_PCT_GUILLEFT" = -40;
+"@MMK_R_PCT_SLASH" = -204;
 periodcentered = -24;
 };
 "@MMK_L_LAT_TSS04_LC" = {
@@ -106849,33 +106850,6 @@ trademark = -48;
 "@MMK_R_PCT_UNDERSCORE" = -100;
 trademark = -48;
 };
-"@MMK_L_LAT_P_SC" = {
-"@MMK_R_LAT_ASS02_LC" = -72;
-"@MMK_R_LAT_G_LC" = -64;
-"@MMK_R_LAT_I_LC" = -48;
-"@MMK_R_LAT_O_LC" = -92;
-"@MMK_R_LAT_O_LC_ACUTE" = -64;
-"@MMK_R_LAT_O_LC_BAR" = -48;
-"@MMK_R_LAT_O_LC_GRAVE" = -56;
-"@MMK_R_LAT_S_LC" = -24;
-"@MMK_R_LAT_X_LC" = -32;
-"@MMK_R_LAT_Y_LC" = -32;
-"@MMK_R_LAT_Z_LC" = -156;
-"@MMK_R_NUM_EIGHT" = -40;
-"@MMK_R_NUM_FOUR" = -64;
-"@MMK_R_NUM_NINE_OSF" = -64;
-"@MMK_R_NUM_SEVEN" = -48;
-"@MMK_R_NUM_SIX" = -24;
-"@MMK_R_NUM_THREE" = -48;
-"@MMK_R_NUM_TWO" = -40;
-"@MMK_R_NUM_ZERO" = -8;
-"@MMK_R_PCT_COMMA" = -212;
-"@MMK_R_PCT_EMDASH" = -72;
-"@MMK_R_PCT_GUILLEFT" = -40;
-"@MMK_R_PCT_SLASH" = -156;
-eacute = -72;
-periodcentered = -32;
-};
 "@MMK_L_LAT_P_UC" = {
 "@MMK_R_LAT_AE_UC" = -140;
 "@MMK_R_LAT_ASS02_LC" = -72;
@@ -107060,6 +107034,34 @@ periodcentered = -24;
 "@MMK_R_PCT_QUOTE" = -64;
 "@MMK_R_PCT_SLASH" = -40;
 periodcentered = -24;
+};
+"@MMK_L_LAT_THORN_UC" = {
+"@MMK_R_LAT_ASS02_LC" = -72;
+"@MMK_R_LAT_A_UC" = -64;
+"@MMK_R_LAT_G_LC" = -64;
+"@MMK_R_LAT_I_LC" = -48;
+"@MMK_R_LAT_O_LC" = -92;
+"@MMK_R_LAT_O_LC_ACUTE" = -64;
+"@MMK_R_LAT_O_LC_BAR" = -48;
+"@MMK_R_LAT_O_LC_GRAVE" = -56;
+"@MMK_R_LAT_S_LC" = -24;
+"@MMK_R_LAT_X_LC" = -32;
+"@MMK_R_LAT_Y_LC" = -32;
+"@MMK_R_LAT_Z_LC" = -156;
+"@MMK_R_NUM_EIGHT" = -40;
+"@MMK_R_NUM_FOUR" = -64;
+"@MMK_R_NUM_NINE_OSF" = -64;
+"@MMK_R_NUM_SEVEN" = -48;
+"@MMK_R_NUM_SIX" = -24;
+"@MMK_R_NUM_THREE" = -48;
+"@MMK_R_NUM_TWO" = -40;
+"@MMK_R_NUM_ZERO" = -8;
+"@MMK_R_PCT_COMMA" = -212;
+"@MMK_R_PCT_EMDASH" = -72;
+"@MMK_R_PCT_GUILLEFT" = -40;
+"@MMK_R_PCT_SLASH" = -156;
+eacute = -72;
+periodcentered = -32;
 };
 "@MMK_L_LAT_TSS04_LC" = {
 "@MMK_R_LAT_G_LC" = -48;
@@ -108848,28 +108850,6 @@ trademark = -72;
 "@MMK_R_PCT_SLASH" = -80;
 "@MMK_R_PCT_UNDERSCORE" = -100;
 };
-"@MMK_L_LAT_P_SC" = {
-"@MMK_R_LAT_ASS02_LC" = -64;
-"@MMK_R_LAT_G_LC" = -24;
-"@MMK_R_LAT_I_LC" = -40;
-"@MMK_R_LAT_O_LC" = -64;
-"@MMK_R_LAT_O_LC_ACUTE" = -40;
-"@MMK_R_LAT_O_LC_BAR" = -24;
-"@MMK_R_LAT_O_LC_GRAVE" = -24;
-"@MMK_R_LAT_S_LC" = -24;
-"@MMK_R_LAT_X_LC" = -40;
-"@MMK_R_LAT_Y_LC" = -24;
-"@MMK_R_LAT_Z_LC" = -40;
-"@MMK_R_NUM_EIGHT" = -40;
-"@MMK_R_NUM_FOUR" = -40;
-"@MMK_R_NUM_TWO" = -32;
-"@MMK_R_NUM_ZERO" = -24;
-"@MMK_R_PCT_COMMA" = -172;
-"@MMK_R_PCT_EMDASH" = -48;
-"@MMK_R_PCT_GUILLEFT" = -40;
-"@MMK_R_PCT_SLASH" = -80;
-eacute = -24;
-};
 "@MMK_L_LAT_P_UC" = {
 "@MMK_R_LAT_AE_UC" = -148;
 "@MMK_R_LAT_ASS02_LC" = -64;
@@ -109040,6 +109020,29 @@ periodcentered = -24;
 "@MMK_R_PCT_EMDASH" = -24;
 "@MMK_R_PCT_QUOTE" = -56;
 "@MMK_R_PCT_SLASH" = -64;
+};
+"@MMK_L_LAT_THORN_UC" = {
+"@MMK_R_LAT_ASS02_LC" = -64;
+"@MMK_R_LAT_A_UC" = -60;
+"@MMK_R_LAT_G_LC" = -24;
+"@MMK_R_LAT_I_LC" = -40;
+"@MMK_R_LAT_O_LC" = -64;
+"@MMK_R_LAT_O_LC_ACUTE" = -40;
+"@MMK_R_LAT_O_LC_BAR" = -24;
+"@MMK_R_LAT_O_LC_GRAVE" = -24;
+"@MMK_R_LAT_S_LC" = -24;
+"@MMK_R_LAT_X_LC" = -40;
+"@MMK_R_LAT_Y_LC" = -24;
+"@MMK_R_LAT_Z_LC" = -40;
+"@MMK_R_NUM_EIGHT" = -40;
+"@MMK_R_NUM_FOUR" = -40;
+"@MMK_R_NUM_TWO" = -32;
+"@MMK_R_NUM_ZERO" = -24;
+"@MMK_R_PCT_COMMA" = -172;
+"@MMK_R_PCT_EMDASH" = -48;
+"@MMK_R_PCT_GUILLEFT" = -40;
+"@MMK_R_PCT_SLASH" = -80;
+eacute = -24;
 };
 "@MMK_L_LAT_TSS04_LC" = {
 "@MMK_R_LAT_G_LC" = -24;
@@ -113115,12 +113118,6 @@ com.typesupply.MetricsMachine4.groupColors = {
 "@MMK_L_LAT_O_UC" = (
 0,
 1,
-1,
-0.25
-);
-"@MMK_L_LAT_P_SC" = (
-0,
-0.5,
 1,
 0.25
 );

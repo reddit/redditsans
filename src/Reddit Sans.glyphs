@@ -415,7 +415,7 @@ xHeight = 1080;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2023-05-23 02:50:21 +0000";
+lastChange = "2023-08-23 07:23:21 +0000";
 layers = (
 {
 anchors = (
@@ -11625,7 +11625,7 @@ width = 1208;
 );
 leftKerningGroup = LAT_H_UC;
 leftMetricsKey = H;
-rightKerningGroup = LAT_P_SC;
+rightKerningGroup = LAT_THORN_UC;
 unicode = 00DE;
 },
 {
@@ -94374,8 +94374,9 @@ trademark = -32;
 "@MMK_R_PCT_UNDERSCORE" = -148;
 trademark = -40;
 };
-"@MMK_L_LAT_P_SC" = {
+"@MMK_L_LAT_THORN_UC" = {
 "@MMK_R_LAT_ASS02_LC" = -80;
+"@MMK_R_LAT_A_UC" = -68;
 "@MMK_R_LAT_G_LC" = -92;
 "@MMK_R_LAT_ISS05_LC" = -48;
 "@MMK_R_LAT_O_LC" = -100;
@@ -96321,8 +96322,9 @@ trademark = -40;
 "@MMK_R_PCT_UNDERSCORE" = -140;
 trademark = -24;
 };
-"@MMK_L_LAT_P_SC" = {
+"@MMK_L_LAT_THORN_UC" = {
 "@MMK_R_LAT_ASS02_LC" = -64;
+"@MMK_R_LAT_A_UC" = -64;
 "@MMK_R_LAT_G_LC" = -56;
 "@MMK_R_LAT_ISS05_LC" = -40;
 "@MMK_R_LAT_O_LC" = -80;
@@ -98407,8 +98409,9 @@ trademark = -72;
 "@MMK_R_PCT_SLASH" = -80;
 "@MMK_R_PCT_UNDERSCORE" = -140;
 };
-"@MMK_L_LAT_P_SC" = {
+"@MMK_L_LAT_THORN_UC" = {
 "@MMK_R_LAT_ASS02_LC" = -64;
+"@MMK_R_LAT_A_UC" = -60;
 "@MMK_R_LAT_G_LC" = -24;
 "@MMK_R_LAT_ISS05_LC" = -40;
 "@MMK_R_LAT_O_LC" = -64;
@@ -102740,7 +102743,7 @@ com.typesupply.MetricsMachine4.groupColors = {
 1,
 0.25
 );
-"@MMK_L_LAT_P_SC" = (
+"@MMK_L_LAT_THORN_UC" = (
 0,
 0.5,
 1,

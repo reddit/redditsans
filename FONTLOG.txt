@@ -1,0 +1,83 @@
+FONTLOG for the Reddit Sans fonts
+
+This file provides detailed information on the Reddit Sans Font Software. This
+information should be distributed along with the Reddit Sans fonts and any
+derivative works.
+
+Basic Font Information
+
+The typeface of the Internet, Reddit Sans is a sans serif family available in 5 weights with true italics. Reddit Sans letterforms were chosen for legibility and distinctiveness, pairing humanist characteristics with a geometric base. Humanist sans-serif typefaces have roots in hand-drawn lettering, giving them warmth and personality, while geometric typefaces focus on practicality and simplicity, making them ideal for information delivery.
+
+Reddit Sans has clear, understandable letterforms which maintain some of the warm eclectic nature of online discourse. It’s designed to be incredibly versatile with a large x-height for readability, and disambiguated letterforms for rapid identification. The slash, such a key part of the internet's syntax, is foundational to the design of Reddit Sans. In Reddit Sans, the slash's 67.5º angle is repeated throughout the letterforms, giving them a distinct, contemporary appearance.
+
+We connect people of all ages and abilities, so special attention was paid to accessibility features of Reddit Sans. In particular, we chose a large x-height to make characters easily legible even at small sizes, and included rounded bowls to make characters like o, p, d, and p easily recognizable when scanning text. To aid character recognition further for people with dyslexia, we made sure to disambiguate characters that can be easily confused, such as capital 'I' and lowercase 'l' as well as ensuring that characters like 'b' and 'd' or 'u' and 'n' are not simply rotated or flipped variations of one another. Dots on characters like 'I' and 'j' are fully round, helping differentiate them from the uppercase. And Reddit Sans' unique 'r' shape ensures that the 'rn' pairing is not easily mistaken for an 'm'.
+
+The fonts include more than 1,000 glyphs. This character set includes support for the Google Fonts Latin Core, Latin Plus, Latin Pro and Latin Expert glyph sets, excluding the small capitals and discretionary ligatures from the Expert set. It also contains a small number of additional glyphs and stylistic sets. The range covers Western and Central European language, Vietnamese, currencies, alternate numerals, math symbols and units of measure, Latin general use extensions, superiors and inferiors, spacing modifiers, typographic spaces, additional punctuation (with case alternates), numerators and denominators, fractions, arrows and geometric shapes. Reddit Sans includes support for over 100 languages.
+
+ChangeLog
+
+23 May 2023 (Stephen Hutchings) Reddit Sans 1.011
+- Remove reserved font name declaration in copyright
+- De-kinking of glyph paths
+- Set automatic alignment on punctuation upper case alternatives
+- Fix italic backslash upper case alternative
+- Fix inconsistent italic tabular old-style figure advance widths
+- Add missing license URL and type to Reddit Sans Condensed
+- Correct all path directions
+- Remove harmonization on export
+
+18 February 2022 (Stephen Hutchings) Reddit Sans 1.010
+- De-kinking and removal of unused glyphs
+- Vertical extremes added to common italic glyphs
+- Lightening of condensed A angled strokes
+
+10 February 2022 (Stephen Hutchings) Reddit Sans 1.009
+
+- Added first exports of Mono and Condensed fonts.
+
+- Regular
+  - Minor width and weight adjustments (a.ss01, k, v, y).
+  - Correction of minor alignment problems in currency (lira, manat, naira, peso, ruble, rupeeIndian, sterling, yen) and other symbols (commercialMinusSign, percent)
+  - Increased spacing for arrows
+
+- Condensed
+  - Finalised small number glyphs (dnom, etc.).
+  - Corrections for currency and other symbols.
+  - Reset arrows to use full width glyphs
+  - Increased spacing for arrows
+
+Mono
+- Regular figures are tabular figure composites
+
+10 September 2021 (Stephen Hutchings) Reddit Sans 1.008
+
+- Updated copyright attribution
+
+June 2021 (Stephen Hutchings) Reddit Sans 1.007
+
+- Separate exports for Chocolate, Vanilla, Strawberry and Fudge
+
+March 2021 (Stephen Hutchings) Reddit Sans 1.005
+
+- Updated spacing
+
+July 2020 (Stephen Hutchings) Reddit Sans 1.000
+
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email and/or web-address
+(W), and description (D). This list is in alphabetical order.
+
+N: Stephen Hutchings 
+W: stephen@s-ings.com, http://www.s-ings.com
+D: Type design: original Roman and Italic glyphs
+
+N: Tavish MacLellan
+W: http://www.reddit.com
+D: Creative direction and concepts for Reddit Inc.
+
+N: Andrew Prinz
+W: http://www.reddit.com
+D: Type direction for Reddit Inc.

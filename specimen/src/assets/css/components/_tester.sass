@@ -54,6 +54,30 @@
     border-radius: 0
     outline: none
 
+  input[type="checkbox"],
+  input[type="radio"]
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    color: inherit
+    border: 2px solid currentColor
+    width: 1.25rem
+    height: 1.25rem
+    border-radius: 50%
+    z-index: 2
+    outline: none
+    vertical-align: middle
+    transition: all 200ms
+    transform: scale(0.8)
+
+    &:checked
+      background: currentColor
+
+  input[disabled] + label
+    cursor: not-allowed
+    color: var(--color-narwhal) !important
+    font-weight: inherit !important
+
 #test-settings
   > label
     display: block
@@ -111,7 +135,7 @@
 
 #test-wrapper
   border-bottom: 1px solid
-  height: 580px
+  height: 592px
   max-height: 60vh
 
   @media (max-width: $screen-sm-max)

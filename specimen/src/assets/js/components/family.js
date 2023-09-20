@@ -52,8 +52,12 @@ const update = (node) => (e) => {
     el.firstElementChild.placeholder = sample[i]
   })
 
-  document.querySelectorAll(".opt-italic").forEach((el) => {
-    el.classList.toggle("disabled", family !== "")
+  document.querySelectorAll(`[name="input-style"]`).forEach((el) => {
+    el.disabled = family !== ""
+  })
+
+  document.querySelectorAll('[data-component="tester"]').forEach((el) => {
+    el.dispatchEvent(new CustomEvent("update"))
   })
 }
 

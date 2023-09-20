@@ -1,54 +1,47 @@
 const weights = require("../data/weights")
+const samples = require("../../../site/_data/samples.json")
 
 const base = {
-  kern: 1,
-  liga: 1,
   fw: weights.findIndex((w) => w.value === 400),
-  // fs: 21,
-  lh: 1.53,
   ls: 0,
   style: "",
-  content: [
-    "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversations?”",
-    "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
-    "There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, “Oh dear! Oh dear! I shall be late!” (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.",
-  ].join("\n\n"),
+  kern: 1,
+  liga: 1,
 }
 
 const options = {
   reset: {},
-  text: {
-    ss02: 1,
-    ss11: 1,
-    fs: 16,
+  body: {
+    fs: 18,
+    lh: 28 / 18,
+    content: samples.alice,
   },
-  grotesque: {
+  title: {
     ss01: 1,
-  },
-  kaomoji: {
-    content: [
-      "(╯°□°）╯︵ ┻━┻",
-      "",
-      "( •_•)",
-      "( •_•)>⌐■-■",
-      "(⌐■_■)",
-      "",
-      "(  ͡° ͜ʖ ͡° )",
-    ].join("\n"),
+    fw: 600,
+    fs: 64,
+    lh: 1.125,
+    ls: -0.02,
+    content:
+      "Hyperreactor alphabetizers quintuplicate metagalaxies kaleidoscope!",
   },
 }
 
-Object.keys(options).forEach(
-  (o) => (options[o] = Object.assign({}, base, options[o]))
-)
+const onClick = (e, elements) => {
+  const option = e ? options[e.target.dataset.option] : options.reset
+  const content = e ? option.content : samples.alice
 
-function onClick(e, elements) {
-  var option = e ? options[e.target.dataset.option] : options.reset
-
-  elements.FE.forEach((e) => (e.checked = !!option[e.value]))
+  elements.FE.forEach((e) => (e.checked = option[e.value] === 1))
   elements.ST.forEach((e) => (e.checked = option.style === e.value))
 
-  Array.from(elements.TA.children).forEach((el) => (el.value = option.content))
+  if (option.ss01) elements.FV[1].checked = true
+  else if (option.ss02) elements.FV[2].checked = true
+  else if (option.ss03) elements.FV[3].checked = true
+  else elements.FV[0].checked = true
+
+  if (content) {
+    Array.from(elements.TA.children).forEach((el) => (el.value = content))
+  }
 
   elements.FW.value = option.fw
   elements.FS.value = option.fs
@@ -56,31 +49,29 @@ function onClick(e, elements) {
   elements.LH.value = option.lh
   elements.LS.value = option.ls
 
-  onInput(e, elements)
+  update(elements)
 }
 
-function onInput(e, elements) {
-  var weight = elements.FW.value,
-    size = elements.FS.value,
-    lineHeight = elements.LH.value,
-    letterSpacing = elements.LS.value,
+const update = (elements) => {
+  let weight = +elements.FW.value,
+    size = +elements.FS.value,
+    lineHeight = +elements.LH.value,
+    letterSpacing = +elements.LS.value,
     flavor = elements.FV.find((e) => e.checked).value
 
-  var features = elements.FE.filter((e) => !e.dataset.flavor).map(
+  let features = elements.FE.filter((e) => !e.dataset.flavor).map(
     (e) => "'" + e.value + "' " + (e.checked ? 1 : 0)
   )
+
+  let version = elements.VS.find((e) => e.checked)?.value || ""
+
+  let style = elements.ST.find((e) => e.checked && !e.disabled)?.value || ""
+
+  let family = elements.FF.find((e) => e.checked)?.value || ""
 
   if (flavor) {
     features = features.concat(flavor.split(", ").map((e) => "'" + e + "' "))
   }
-
-  var version = elements.VS.length
-    ? elements.VS.find((e) => e.checked).value
-    : ""
-  var style = elements.ST.length ? elements.ST.find((e) => e.checked).value : ""
-  var family = elements.FF.length
-    ? elements.FF.find((e) => e.checked).value
-    : ""
 
   lineHeight = Math.round(lineHeight * size)
 
@@ -93,16 +84,19 @@ function onInput(e, elements) {
 
   document.body.style.fontFeatureSettings = features.join(",")
 
-  elements.TC.innerHTML = [
-    weights[weight].label,
-    elements.FF.find((e) => e.checked)?.dataset.label || "",
-    style.slice(0, 1).toUpperCase() + style.slice(1),
-    size,
-    "/ " + lineHeight + "px",
-    letterSpacing == 0
-      ? ""
-      : (letterSpacing >= 0 ? "+" : "") + letterSpacing * 1000,
-  ].join(" ")
+  style = style.slice(0, 1).toUpperCase() + style.slice(1)
+
+  let label = weights[weight].label
+
+  if (style) label = label === "Regular" ? style : label + " " + style
+
+  label += " " + size
+  label += " / " + lineHeight + "px "
+
+  if (letterSpacing > 0) label += "+"
+  if (letterSpacing !== 0) label += letterSpacing * 1000
+
+  elements.TC.innerHTML = label
 }
 
 const getElements = () => ({
@@ -123,10 +117,15 @@ module.exports = {
   initialize: (el) => {
     const elements = getElements()
 
-    options.reset.fs = +elements.FS.value
-    options.reset.lh = +elements.LH.value
+    base.fs = +elements.FS.value
+    base.lh = +elements.LH.value
 
-    el.addEventListener("input", (e) => onInput(e, elements))
+    Object.keys(options).forEach(
+      (o) => (options[o] = Object.assign({}, base, options[o]))
+    )
+
+    el.addEventListener("input", () => update(elements))
+    el.addEventListener("update", () => update(elements))
 
     Array.from(document.querySelectorAll("[data-option]")).forEach((el) =>
       el.addEventListener("click", (e) => onClick(e, elements))

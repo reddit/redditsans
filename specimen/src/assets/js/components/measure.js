@@ -1,17 +1,17 @@
-const measure = (children, widths, count) => {
-  if (widths[1] !== children[1].offsetWidth) {
-    widths = children.map((child) => child.getBoundingClientRect().width)
-  }
+// Measure and compare the width of children e.g. Normal and Condensed
 
-  if (count < 20) {
-    window.setTimeout(() => measure(children, widths, count++), 1000)
-  }
+const measure = (children, widths, count) => {
+  widths = children.map((child) => child.getBoundingClientRect().width)
 
   children.forEach((child, i) => {
     const width = widths[i].toFixed(0)
     const ratio = (widths[i] / widths[0]) * 100
     child.nextElementSibling.innerHTML = `${width}px / ${ratio.toFixed(1)}%`
   })
+
+  if (++count < 10 && widths[0] === widths[1]) {
+    window.setTimeout(() => measure(children, widths, count), count * 100)
+  }
 }
 
 module.exports = {

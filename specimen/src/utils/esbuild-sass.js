@@ -1,4 +1,3 @@
-const fs = require("fs")
 const sass = require("sass")
 const glob = require("glob")
 const path = require("path")

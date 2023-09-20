@@ -17,7 +17,6 @@ section#coverage.flx.flx-col.flx-jc.bg-beluga
           | alternates), numerators and denominators, fractions, arrows and
           | geometric shapes. It includes support for over 100 languages.
 
-
     ul#glyphs
       each glyph in font.glyphs
         if glyph.codes || !String.fromCharCode("0x" + glyph.code).match(/^\s*$/)
@@ -35,6 +34,3 @@ section#coverage.flx.flx-col.flx-jc.bg-beluga
                 != `&#x${g.code};`
             else
               != `&#x${glyph.code};`
-
-    .row
-      .col-lg-8.col-md-9

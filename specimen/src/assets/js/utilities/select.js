@@ -1,4 +1,4 @@
-const toggle = require("./toggle")
+const toggle = (index) => (e, i) => e.classList.toggle("active", i === index)
 
 const select = (syncList = []) => (e) => {
   e.preventDefault()

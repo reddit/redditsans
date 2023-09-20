@@ -132,33 +132,6 @@ module.exports = {
       el.addEventListener("click", (e) => onClick(e, elements))
     )
 
-    let timer
-
-    const scroll = (e) => {
-      if (e.target.__ignorescroll) return
-
-      const c = e.target
-      const t = c.scrollTop / (c.scrollHeight - c.offsetHeight)
-
-      if (elements.TA.children.length > 0) {
-        Array.from(elements.TA.children)
-          .filter((el) => el !== c)
-          .forEach((el) => {
-            el.__ignorescroll = true
-            el.scrollTop = t * (el.scrollHeight - el.offsetHeight)
-            window.clearTimeout(el.__timer)
-            el.__timer = window.setTimeout(
-              () => (el.__ignorescroll = false),
-              300
-            )
-          })
-      }
-    }
-
-    Array.from(elements.TA.children).forEach((el) => {
-      el.addEventListener("scroll", scroll, { passive: true })
-    })
-
     onClick(null, elements)
   },
 }

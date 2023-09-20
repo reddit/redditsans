@@ -1,5 +1,4 @@
 const markdown = require("./src/utils/filters/markdown")
-const env = require("./src/site/_data/project")
 
 const flavors = require("./src/assets/js/data/variants")
 const subsets = require("./src/assets/js/data/ranges")
@@ -9,13 +8,17 @@ const weight = `(${weights.map((n) => n.label).join("|")}|Italic)`
 
 const families = ["Reddit Sans", "Reddit Sans Condensed", "Reddit Mono"]
 
+const isDev = process.env.NODE_ENV === "dev"
+
 module.exports = function (config) {
+  config.setDataDeepMerge(false)
+
   config.setPugOptions({
-    pretty: env.development,
+    pretty: isDev,
     filters: { markdown },
   })
 
-  if (env.production) {
+  if (!isDev) {
     config.addTransform(
       "htmlmin",
       require("./src/utils/transforms/minify-html")

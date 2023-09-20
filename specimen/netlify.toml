@@ -9,7 +9,6 @@
     Access-Control-Allow-Origin = "*"
 
 [build]
-  base = ""
   command = "npm run build"
   publish = "dist"
 

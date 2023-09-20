@@ -1,3 +1,5 @@
+// Toggle between feature sections by keyboard or mouse
+
 const select = require("../utilities/select")
 
 module.exports = {

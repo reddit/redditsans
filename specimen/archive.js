@@ -1,3 +1,5 @@
+// Create a downloadable ZIP archive of fonts and additional resources
+
 const fs = require("fs")
 const archiver = require("archiver")
 

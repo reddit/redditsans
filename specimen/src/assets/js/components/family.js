@@ -1,3 +1,5 @@
+// Set the font family and update sample text to match
+
 const select = require("../utilities/select")
 
 const samples = {

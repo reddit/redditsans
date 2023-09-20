@@ -1,3 +1,5 @@
+// Copy the input value from one child input or textarea to other elements
+
 const mirror = (inputs) => (e) => {
   if (document.activeElement !== e.currentTarget) return
 

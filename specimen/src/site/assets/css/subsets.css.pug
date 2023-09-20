@@ -12,7 +12,7 @@ for range in font.ranges
 
   for style in font.styles
     for weight in font.weights
-      - var path = `/fonts/web/subset/${range.label}`;
+      - var path = `/fonts/reddit-sans/web/subsets/${range.label}`;
       - var name = `RedditSans`;
       - var file = `${path}/${name}-${range.label}${weight.label}${style.label}`;
 
@@ -20,6 +20,7 @@ for range in font.ranges
         - var file = `${path}/${name}-${range.label}${style.label}`;
 
       = "\n\n"
+
       | @font-face {
       |   font-family: "#{font.cssName}-subset";
       |   font-style: #{style.value};

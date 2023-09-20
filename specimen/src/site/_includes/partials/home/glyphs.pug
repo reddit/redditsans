@@ -1,0 +1,36 @@
+section#coverage.flx.flx-col.flx-jc.bg-beluga
+  .container.pv5
+    .row.pt3
+      .col-lg-8.col-md-9
+        h3.ttu.fs2 Glyphs
+        p
+          | There are #{font.glyphs.length} glyphs in total. This character set
+          | includes support for the Google Fonts Latin Core, Latin Plus, Latin
+          | Pro and Latin Expert glyph sets, excluding the small capitals and
+          | discretionary ligatures from the Expert set. It also contains a
+          | small number of additional glyphs and stylistic sets.
+        p
+          | The range covers Western and Central European language, Vietnamese,
+          | currencies, alternate numerals, math symbols and units of measure,
+          | Latin general use extensions, superiors and inferiors, spacing
+          | modifiers, typographic spaces, additional punctuation (with case
+          | alternates), numerators and denominators, fractions, arrows and
+          | geometric shapes. It includes support for over 100 languages.
+
+    ul#glyphs
+      each glyph in font.glyphs
+        if glyph.codes || !String.fromCharCode("0x" + glyph.code).match(/^\s*$/)
+          li.glyph(
+            class=(glyph.type ? `glyph-otf ff-${glyph.type}` : null)
+            title=`${glyph.name}${glyph.code ? ` (U+${glyph.code})` : ""}`
+            data-code=glyph.code
+            data-type=glyph.type
+          )
+            if glyph.name.match(/comb\b/)
+              | ◌
+
+            if glyph.codes
+              each g in glyph.codes
+                != `&#x${g.code};`
+            else
+              != `&#x${glyph.code};`

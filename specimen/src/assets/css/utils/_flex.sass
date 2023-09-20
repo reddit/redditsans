@@ -1,0 +1,39 @@
+.flx
+  display: flex
+  &:before,
+  &:after
+    content: none
+
+.flx-c
+  place-content: center
+
+.flx-jc
+  justify-content: center
+
+.flx-ac
+  align-items: center
+
+.flx-jb
+  justify-content: space-between
+
+.flx-row
+  flex-direction: row
+
+.flx-col
+  flex-direction: column
+
+.flx-wrap
+  flex-wrap: wrap
+
+.flx-grow
+  flex-grow: 1
+
+@media (max-width: $screen-sm-max)
+  .flx-row-sm
+    flex-direction: row
+
+  .flx-col-sm
+    flex-direction: column
+
+  .flx-wrap-sm
+    flex-wrap: wrap

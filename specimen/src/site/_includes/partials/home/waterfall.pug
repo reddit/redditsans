@@ -1,0 +1,50 @@
+include /mixins/style-bar
+
+section#waterfall.flx.flx-col.flx-jc.bg-beluga(
+  data-component="style, mirror"
+)
+  .container.pt5.pb4
+    .flx.flx-col-sm.flx-jb.pb5
+      +style-bar({
+        style: true,
+        weights: true
+      })
+
+      ul.list-bare.flx.flx-row.pl0.fw400
+        li.active.mla-sm
+          button.btn-color.p0.bg-beluga(
+            aria-label="Change background color to beluga"
+            data-color=""
+            data-background-color=""
+          )
+        li.pl2
+          button.btn-color.p0.bg-hedgehog(
+            aria-label="Change background color to hedgehog"
+            data-color="var(--color-orca)"
+            data-background-color="var(--color-hedgehog)"
+          )
+        li.pl2
+          button.btn-color.p0.bg-orangered.btn-color-invert(
+            aria-label="Change background color to orangered"
+            data-color="var(--color-beluga)"
+            data-background-color="var(--color-orangered)"
+          )
+        li.pl2.mra-sm
+          button.btn-color.p0.bg-orca.btn-color-invert(
+            aria-label="Change background color to orca"
+            data-color="var(--color-beluga)"
+            data-background-color="var(--color-orca)"
+          )
+
+    .clip.nowrap
+      for e, i in [48, 32, 24, 21, 18, 16, 15, 14, 13, 12, 11, 10]
+        .pv1.lh-120.flx.flx-row.flx-ac
+          span.fs1.pr3.ff-tnum.fw400 #{e}&thinsp;px
+          samp.db.flx-grow(
+            style=`font-size: ${e}px`
+          )
+            input(
+              title="Click to edit this text"
+              spellcheck="false"
+              placeholder="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+            )

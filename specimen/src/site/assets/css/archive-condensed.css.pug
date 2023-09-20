@@ -1,0 +1,32 @@
+---
+permalink: assets/css/archive-condensed.css
+dynamicPermalink: false
+---
+
+| @charset "UTF-8";
+
+| .show-previous-version {
+|   --font-family-condensed: "Condensed-#{font.condensedVersions[1]}";
+| }
+
+for version in font.condensedVersions.slice(1)
+  = "\n\n"
+
+  | /* Version #{version} */
+
+  for weight in font.weights
+    - var path = `/fonts/reddit-sans-condensed/archive/${version}`;
+    - var name = "RedditSans";
+    - var file = `${path}/${name}Condensed-${weight.label}`;
+
+    if +version < 5
+      - var file = `${path}/${name}-${weight.label}Condensed`;
+
+    = "\n\n"
+
+    | @font-face {
+    |   font-family: "Condensed-#{version}";
+    |   font-style: normal;
+    |   font-weight: #{weight.value};
+    |   src: url("#{file}.woff2") format("woff2");
+    | }

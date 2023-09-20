@@ -22,7 +22,7 @@ ChangeLog
 - Set automatic alignment on punctuation upper case alternatives
 - Fix italic backslash upper case alternative
 - Fix inconsistent italic tabular old-style figure advance widths
-- Add missing license URL and type to Reddit Sans Condensed
+- Add missing licence URL and type to Reddit Sans Condensed
 - Correct all path directions
 - Remove harmonization on export
 
@@ -71,7 +71,7 @@ If you make modifications be sure to add your name (N), email and/or web-address
 (W), and description (D). This list is in alphabetical order.
 
 N: Stephen Hutchings 
-W: stephen@s-ings.com, http://www.s-ings.com
+W: http://www.s-ings.com
 D: Type design: original Roman and Italic glyphs
 
 N: Tavish MacLellan

@@ -1,0 +1,128 @@
+html
+  box-sizing: border-box
+  font-family: var(--font-family), var(--font-system), sans-serif
+  font-size: 16px
+  line-height: 1.5
+  text-underline-position: from-font
+  -ms-overflow-style: -ms-autohiding-scrollbar
+
+  @media (max-width: $screen-sm-max)
+    font-size: 17px
+
+html, body
+  margin: 0
+  padding: 0
+
+body, input, textarea, a
+  color: var(--color-orca)
+
+*
+  font-synthesis: none
+  outline-color: var(--color-orangered)
+
+a, .txt-ul
+  text-decoration: underline
+  color: inherit
+
+a:hover,
+a:focus
+  color: var(--color-orangered)
+
+a.bg-orangered
+  transition: background 250ms
+  &:hover,
+  &:focus
+    color: var(--color-beluga)
+    background: var(--color-orca)
+
+h2, h3, h4, ol, ul, dd, figure
+  margin: 0 0 0.5rem
+  &:last-child
+    margin-bottom: 0
+
+p, pre, dl, dd, ul, ol, svg
+  margin: 0 0 1.5rem
+  &:last-child
+    margin-bottom: 0
+
+samp, input, textarea, pre, code, button
+  font: inherit
+
+button, select, label, input[type="checkbox"], input[type="radio"]
+  cursor: pointer
+  touch-action: manipulation
+
+button
+  background: none
+  border: 0
+  color: inherit
+
+hr
+  border: 0
+  border-bottom: 1px solid
+
+.container
+  width: 100%
+  margin: auto
+  padding: 0 1rem
+
+\::selection
+  background: var(--color-dolphin)
+
+.list-bare
+  list-style: none
+
+.txt-bare
+  text-decoration: none
+
+input.input-hidden
+  position: absolute
+  width: 1px
+  height: 1px
+  left: 100%
+  opacity: 0
+
+.clip
+  overflow: hidden
+
+.scroll
+  overflow: auto
+
+.db
+  display: block
+
+.dib
+  display: inline-block
+
+.posr
+  position: relative
+
+@media (max-width: $screen-xs-max)
+  .hidden-xs
+    display: none !important
+
+@media (min-width: $screen-xs-min) and (max-width: $screen-sm-max)
+  .hidden-sm
+    display: none !important
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-max)
+  .hidden-md
+    display: none !important
+
+@media (min-width: ($screen-md-max + 1px))
+  .hidden-lg
+    display: none !important
+
+button
+  border-bottom: 1px solid transparent
+  transition: border-bottom-color 250ms
+
+  &:hover
+    border-bottom-color: var(--color-beluga)
+
+  &:focus
+    outline: none
+    color: var(--color-orangered)
+
+li.active button
+  border-bottom-color: var(--color-orangered)

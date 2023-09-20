@@ -1,0 +1,101 @@
+.page-home
+  #wrapper:before
+    content: none !important
+
+  @media (min-height: 800px)
+    scroll-snap-type: y proximity
+
+  @media (max-width: $screen-sm-max)
+    a[download]
+      margin: 3em auto 0
+      width: fit-content
+
+  #main > section
+    min-height: 100vh
+    position: relative
+    scroll-snap-align: center
+    transition: color 250ms, background-color 250ms
+
+    @for $i from 1 through 10
+      &:nth-child(#{$i})
+        z-index: 10 - $i
+
+    &:first-child:before
+      margin: 0
+
+    &:last-child
+      scroll-snap-align: none
+
+    &:before
+      content: ""
+      position: sticky
+      top: -2px
+      width: 100%
+      height: $header-height
+      margin: -$header-height 0 0
+      background: inherit
+      padding-bottom: 1px
+      z-index: 1
+      transform: translate3d(0, 1px, 0)
+
+    &.bg-beluga + .bg-beluga:after
+      content: ""
+      position: absolute
+      left: 50%
+      top: 0
+      border-bottom: 1px solid
+      width: 6em
+      margin-left: -3em
+      z-index: 1
+
+    &[style*="background-color: var(--color-orca)"]
+      &:before
+        background: var(--color-beluga)
+
+    &[style*="background-color: var(--color-orca)"],
+    &[style*="background-color: var(--color-orangered)"]
+      input::placeholder
+        color: var(--color-beluga)
+
+      input:focus::placeholder
+        color: var(--color-seal)
+
+    &[style*="background-color: var(--color-orangered)"]
+      button:hover,
+      li.active button
+        border-color: var(--color-orca)
+
+      button:focus
+        color: var(--color-orca)
+
+    @media (max-width: $screen-sm-max)
+      > .container
+        padding-top: 4rem
+        padding-bottom: 4rem
+
+  .btn-color
+    width: 20px
+    height: 20px
+    border-radius: 10px
+    transition: all 200ms
+    transform: scale(0.8)
+    border: 2px solid transparent
+
+  li.active .btn-color,
+  .btn-color:hover,
+  .btn-color:focus
+    outline: none
+    transform: scale(1)
+
+  li.active .btn-color,
+  .btn-color:focus
+    border-color: var(--color-orca)
+
+  li.active .btn-color.btn-color-invert,
+  .btn-color.btn-color-invert:focus
+    border-color: var(--color-beluga)
+
+  &[style*="background-color: var(--color-orangered)"]
+    li.active button,
+    .btn-color:focus
+      border-color: var(--color-orca)

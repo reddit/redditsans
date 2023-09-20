@@ -1,0 +1,238 @@
+// Weight
+.fw100
+  font-weight: 100
+
+.fw200
+  font-weight: 200
+
+.fw300
+  font-weight: 300
+
+.fw400
+  font-weight: 400
+
+.fw500
+  font-weight: 500
+
+.fw600
+  font-weight: 600
+
+.fw700
+  font-weight: 700
+
+.fw800
+  font-weight: 800
+
+.fw900
+  font-weight: 900
+
+// Width
+.ff-normal
+  font-family: var(--font-family)
+
+.ff-condensed
+  font-family: var(--font-family-condensed)
+
+.ff-mono
+  font-family: var(--font-family-mono)
+
+// Size
+.fs10, .fs9, .fs8, .fs7
+  font-size: 32px
+
+.fs6, .fs5
+  font-size: 20px
+
+.fs4, .fs3
+  font-size: 16px
+
+.fs2, .fs1
+  font-size: 14px
+
+@media (min-width: 1000px)
+  .fs10
+    font-size: 72px
+
+  .fs9
+    font-size: 60px
+
+  .fs8
+    font-size: 48px
+
+  .fs7
+    font-size: 36px
+
+  .fs6
+    font-size: 32px
+
+  .fs5
+    font-size: 24px
+
+  .fs4
+    font-size: 20px
+
+  .fs3
+    font-size: 16px
+
+  .fs2
+    font-size: 14px
+
+  .fs1
+    font-size: 12px
+
+.lh133
+  line-height: 1.33
+
+.lh120
+  line-height: 1.2
+
+.lh100
+  line-height: 1
+
+.lh80
+  line-height: 0.8
+
+// Alignment
+.ta-l
+  text-align: left
+
+.ta-r
+  text-align: right
+
+.ta-c
+  text-align: center
+  hyphens: none
+
+.ta-j
+  text-align: justify
+
+  @media (max-width: 560px)
+    text-align: unset
+
+// Wrapping
+.nowrap
+  white-space: nowrap
+
+.txt-ellipsis
+  text-overflow: ellipsis
+  white-space: nowrap
+  overflow: hidden
+
+// Style
+.fs-italic, em
+  font-style: italic
+.fs-roman
+  font-style: normal
+
+// OpenType features
+.ff-none
+  font-feature-settings: "kern" 0, "liga" 0
+
+.ff-noliga
+  font-feature-settings: "liga" 0
+
+.ff-norm
+  font-feature-settings: normal
+
+.ff-tnum
+  font-feature-settings: "tnum"
+
+.ff-onum
+  font-feature-settings: "onum"
+
+.ff-osf
+  font-feature-settings: "onum"
+
+.ff-tosf
+  font-feature-settings: "onum", "tnum"
+
+.ff-frac
+  font-feature-settings: "frac"
+
+.ff-dnom
+  font-feature-settings: "dnom"
+
+.ff-numr
+  font-feature-settings: "numr"
+
+.ff-dlig
+  font-feature-settings: "dlig"
+
+.ff-c2sc
+  font-feature-settings: "c2sc"
+
+.ff-sups, .ff-sinf
+  font-feature-settings: "sups"
+
+.ff-subs
+  font-feature-settings: "subs"
+
+.ff-ss01
+  font-feature-settings: "kern", "liga", "ss01"
+
+.ff-ss02
+  font-feature-settings: "kern", "liga", "ss02"
+
+.ff-ss03
+  font-feature-settings: "kern", "liga", "ss03"
+
+.ff-ss04
+  font-feature-settings: "kern", "liga", "ss04"
+
+.ff-ss05
+  font-feature-settings: "kern", "liga", "ss05"
+
+.ff-ss06
+  font-feature-settings: "kern", "liga", "ss06"
+
+.ff-ss07
+  font-feature-settings: "kern", "liga", "ss07"
+
+.ff-ss08
+  font-feature-settings: "kern", "liga", "ss08"
+
+.ff-ss13
+  font-feature-settings: "kern", "liga", "ss13"
+
+// Psuedo-sets
+.ff-vanilla
+  @extend .ff-norm
+
+.ff-chocolate
+  font-feature-settings: "kern", "liga", "ss01"
+
+.ff-strawberry
+  font-feature-settings: "kern", "liga", "ss02", "ss05"
+
+.ff-fudge
+  font-feature-settings: "kern", "liga", "ss03", "ss04", "ss06"
+
+.ff-sups, .ff-subs
+  font-size: inherit
+  vertical-align: inherit
+
+.ff-zero
+  font-feature-settings: "zero"
+
+.ff-case
+  font-feature-settings: "case"
+
+.ff-ordn
+  font-feature-settings: "ordn"
+
+.ff-cpsp
+  font-feature-settings: "cpsp"
+
+// Transformation
+.tt0
+  text-transform: none
+
+.ttl
+  text-transform: lowercase
+
+.ttu
+  text-transform: uppercase
+  font-feature-settings: "case", "cpsp"
+
+.ls300
+  letter-spacing: 0.3em

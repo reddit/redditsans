@@ -1,0 +1,25 @@
+---
+permalink: assets/css/fonts.css
+dynamicPermalink: false
+---
+
+| @charset "UTF-8";
+
+for style in font.styles
+  for weight in font.weights
+    - var path = `/fonts/reddit-sans/web/full`;
+    - var name = "RedditSans";
+    - var file = `${path}/${name}-${weight.label}${style.label}`;
+
+    if weight.value === 400 && style.value === "italic"
+      - var file = `${path}/${name}-${style.label}`;
+
+    = "\n\n"
+
+    | @font-face {
+    |   font-family: "#{font.cssName}";
+    |   font-style: #{style.value};
+    |   font-weight: #{weight.value};
+    |   src: url("#{file}.woff2") format("woff2"),
+    |        url("#{file}.woff") format("woff");
+    | }

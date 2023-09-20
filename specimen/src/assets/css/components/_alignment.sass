@@ -1,0 +1,23 @@
+.alignment
+  position: relative
+  z-index: 0
+  overflow: hidden
+  pointer-events: all
+  margin: 4% 7.5%
+
+  &:before
+    content: "\EA00\EA00\EA00\EA00\EA00\EA00\EA00\EA00"
+    position: absolute
+    left: 0
+    right: 0
+    font-family: var(--font-family)
+    color: var(--color-beluga)
+    pointer-events: none
+    user-select: none
+    z-index: -1
+
+  small
+    display: block
+    font-size: 0.8rem
+    font-family: var(--font-family)
+    height: 3em

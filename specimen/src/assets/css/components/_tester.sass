@@ -1,0 +1,142 @@
+=input-range-thumb
+  width: 1.25rem
+  height: 1.25rem
+  border-radius: 50%
+  border: 0
+  background-color: currentColor
+  transition: transform 250ms
+  transform: scale(0.8)
+
+#test-settings
+  input[type="range"]
+    flex: auto
+    width: 100%
+    border-radius: 0
+    color: inherit
+    background: currentColor
+    height: 2px
+    margin: 0
+    vertical-align: middle
+    cursor: pointer
+    -webkit-appearance: none
+    -moz-appearance: none
+
+    &:hover,
+    &:focus
+      outline: none
+      color: var(--color-orangered)
+
+      &::-webkit-slider-thumb
+        transform: scale(1)
+        box-shadow: 0 0 0 8px rgba(255, 160, 60, 0.2)
+
+      &::-moz-slider-thumb
+        transform: scale(1)
+        box-shadow: 0 0 0 8px rgba(255, 160, 60, 0.2)
+
+  input[type="range"]::-moz-range-thumb
+    -moz-appearance: none
+    +input-range-thumb
+
+  input[type="range"]::-webkit-slider-thumb
+    -webkit-appearance: none
+    +input-range-thumb
+
+  button
+    -webkit-appearance: none
+    -moz-appearance: none
+    border: 0
+    display: block
+    width: 100%
+    text-align: inherit
+    color: inherit
+    background: transparent
+    border-radius: 0
+    outline: none
+
+  input[type="checkbox"],
+  input[type="radio"]
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    color: inherit
+    border: 2px solid currentColor
+    width: 1.25rem
+    height: 1.25rem
+    border-radius: 50%
+    z-index: 2
+    outline: none
+    vertical-align: middle
+    transition: all 200ms
+    transform: scale(0.8)
+
+    &:checked
+      background: currentColor
+
+  input[disabled] + label
+    cursor: not-allowed
+    color: var(--color-narwhal) !important
+    font-weight: inherit !important
+
+#test-settings
+  > label
+    display: block
+
+  strong
+    display: block
+    font-weight: 400
+    white-space: nowrap
+    flex: 0 0 0%
+
+  label
+    transition: color 250ms
+
+  label samp
+    font-weight: 400
+    line-height: 2
+    overflow: visible
+    background-color: var(--color-beluga)
+    height: 2rem
+    width: 6rem
+
+  input
+    margin: -0.2rem 0.3rem 0 0
+
+  input:focus ~ label,
+  label:hover,
+  label:focus-within
+    color: var(--color-orangered)
+
+  label:hover input
+    transform: scale(1)
+
+  input:checked ~ label
+    font-weight: 600
+
+#test-area
+  width: 100%
+  height: 100%
+  display: flex
+  margin: -0.6rem -0.3rem
+
+  textarea
+    flex-grow: 1
+    resize: none
+    border: none
+    background-color: transparent
+    padding: 0.3rem
+    border-radius: 4px
+    transition: box-shadow 250ms
+    letter-spacing: inherit
+
+  &:focus
+    outline: none
+    box-shadow: 0 0 0 3px var(--color-dolphin)
+
+#test-wrapper
+  border-bottom: 1px solid
+  height: 592px
+  max-height: 60vh
+
+  @media (max-width: $screen-sm-max)
+    height: 200px

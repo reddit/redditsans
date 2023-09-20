@@ -1,0 +1,34 @@
+---
+permalink: assets/css/archive.css
+dynamicPermalink: false
+---
+
+| @charset "UTF-8";
+
+| .show-previous-version {
+|   --font-family: "#{font.versions[1]}";
+| }
+
+for version in font.versions.slice(1)
+  = "\n\n"
+
+  | /* Version #{version} */
+
+  for style in font.styles
+    for weight in font.weights
+      - var path = `/fonts/reddit-sans/archive/v${version}`;
+      - var name = version[0] === "0" ? "UnnamedSans" : "RedditSans";
+      - var file = `${path}/${name}-${weight.label}${style.label}`;
+
+      if weight.value === 400 && style.value === "italic"
+        - var file = `${path}/${name}-${style.label}`;
+
+      = "\n\n"
+
+      | @font-face {
+      |   font-family: "#{version}";
+      |   font-style: #{style.value};
+      |   font-weight: #{weight.value};
+      |   src: url("#{file}.woff2") format("woff2"),
+      |        url("#{file}.woff") format("woff");
+      | }

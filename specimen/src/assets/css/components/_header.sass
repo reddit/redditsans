@@ -1,0 +1,58 @@
+#header
+  position: sticky
+  top: 0
+  left: 0
+  right: 0
+  height: $header-height
+  background: var(--color-beluga)
+  line-height: 1.25rem
+  z-index: 1
+
+  #header-content
+    margin-bottom: -1px
+
+  @supports (position: sticky)
+    background: none
+
+  + #wrapper
+    margin-top: -$header-height
+    position: relative
+    z-index: 0
+
+    &:before
+      content: ""
+      position: sticky
+      display: block
+      top: 0
+      width: 100%
+      height: $header-height
+      margin-bottom: $header-height
+      background: white
+      z-index: 1
+
+  @media (min-width: $screen-md-min)
+    margin-top: $header-margin
+
+    + #wrapper
+      margin-top: -($header-margin + $header-height)
+
+@media (min-width: $screen-sm-min)
+  #header-title
+    max-width: 120px
+
+@media (max-width: $screen-sm-max)
+  #header-content
+    display: block
+
+    #header-title
+      position: absolute
+
+    #header-title,
+    #header-version
+      margin-top: -0.5em
+
+    #header-nav
+      overflow: auto
+      white-space: nowrap
+      padding: 0.5em 0
+      margin: -0.5em 0

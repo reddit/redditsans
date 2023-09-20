@@ -1,0 +1,34 @@
+# dependecies installed by npm
+/node_modules
+
+# build artifacts
+dist/
+src/11ty/_data/assets.json
+
+# secrets
+.env
+
+# macOS related files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Netflify
+.netlify
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+

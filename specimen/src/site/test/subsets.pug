@@ -1,0 +1,27 @@
+---
+title: "Subset Fonts"
+---
+
+extends /layouts/default
+
+block append head
+  link(rel="stylesheet" href="/assets/css/subsets.css")
+
+  style.
+    :root { --font-family: "redditsans-subset"; }
+    code { font-family: Menlo, monospace; font-size: 92%; }
+
+block content
+  .container.pv5
+    .row
+      .col-sm-8
+        :markdown
+          This page tests font subsetting using the `unicode-range` property when loading fonts. As this page only uses glyphs in a limited range, it should only require the Set A fonts.
+
+    .row
+      each weight in font.weights
+        .col-sm-6.col-md-4.fs5.ma.pt4(class=`fw${weight.value}`)
+          p.ta-j
+            = samples.range.A.split("").join(" ")
+          p.ta-j.fs-italic
+            = samples.range.A.split("").join(" ")

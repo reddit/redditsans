@@ -1,0 +1,18 @@
+section#samples.flx.flx-col.flx-jc.bg-beluga
+  .container.ta-c.pt5.pb4
+    .row
+      for list, j in [samples.words.upper, samples.words.lower]
+        .col-md-6
+          for sample, i in list
+            .fs9(class=[
+              `fw${font.weights[i].value}`,
+              !j && "ttu"
+            ])
+              samp.bg-beluga.clr-orca.m0(data-width=sample)
+                input(
+                  placeholder=sample
+                  title="Edit me!"
+                  spellcheck="false"
+                )
+            .fs1.fw400.clr-orangered
+              = j ? font.weights[i].value : font.weights[i].label

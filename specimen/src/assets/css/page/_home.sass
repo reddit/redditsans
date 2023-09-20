@@ -60,11 +60,11 @@
         color: var(--color-seal)
 
     &[style*="background-color: var(--color-orangered)"]
-      .btn-bare:hover,
-      li.active .btn-bare
-        border-bottom-color: var(--color-orca)
+      button:hover,
+      li.active button
+        border-color: var(--color-orca)
 
-      .btn-bare:focus
+      button:focus
         color: var(--color-orca)
 
     @media (max-width: $screen-sm-max)
@@ -95,6 +95,6 @@
     border-color: var(--color-beluga)
 
   &[style*="background-color: var(--color-orangered)"]
-    li.active .btn-bare,
-    .btn-color.btn-bare:focus
+    li.active button,
+    .btn-color:focus
       border-color: var(--color-orca)

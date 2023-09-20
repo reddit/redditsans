@@ -35,12 +35,12 @@ section#waterfall.flx.flx-col.flx-jc.bg-beluga(
             data-color="var(--color-beluga)"
             data-background-color="var(--color-orca)"
           )
-    .clip
 
+    .clip.nowrap
       for e, i in [48, 32, 24, 21, 18, 16, 15, 14, 13, 12, 11, 10]
         .pv1.lh-120.flx.flx-row.flx-ac
-          span.fs1.pr3.ff-tnum.fw400.txt-nowrap #{e}&thinsp;px
-          samp.db.txt-nowrap.flx-grow(
+          span.fs1.pr3.ff-tnum.fw400 #{e}&thinsp;px
+          samp.db.flx-grow(
             style=`font-size: ${e}px`
           )
             input(

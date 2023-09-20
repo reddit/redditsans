@@ -92,7 +92,7 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="tester")
                                 class=feature.sample.indexOf(c) >= 0 ? "" : "txt-muted")
                                 = c
                         else
-                          span.ff-unset.txt-muted= feature.sample
+                          span.ff-norm.txt-muted= feature.sample
                           span.txt-muted!= " &rarr; "
                           span(class=`ff-${feature.code}`)
                             = feature.sample
@@ -113,7 +113,7 @@ section#tester.flx.flx-col.flx-jc.bg-beluga(data-component="tester")
                       )
                       span.pl2.lh120 v#{v}
 
-        label#test-criteria.txt-muted.mta.pt2(for="test-text") 
+        label#test-criteria.fs2.txt-muted.mta.pt2(for="test-text") 
           | Regular 21 / 32px
 
       .col-lg-9.col-md-8.pv2

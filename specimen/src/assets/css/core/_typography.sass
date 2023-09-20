@@ -105,11 +105,12 @@
 
 .ta-j
   text-align: justify
+
   @media (max-width: 560px)
     text-align: unset
 
 // Wrapping
-.txt-nowrap
+.nowrap
   white-space: nowrap
 
 .txt-ellipsis
@@ -130,7 +131,7 @@
 .ff-noliga
   font-feature-settings: "liga" 0
 
-.ff-unset
+.ff-norm
   font-feature-settings: normal
 
 .ff-tnum
@@ -146,7 +147,7 @@
   font-feature-settings: "onum", "tnum"
 
 .ff-frac
-  font-feature-settings: "frac" 1, "kern" 1
+  font-feature-settings: "frac"
 
 .ff-dnom
   font-feature-settings: "dnom"
@@ -155,7 +156,7 @@
   font-feature-settings: "numr"
 
 .ff-dlig
-  font-feature-settings: "kern" 1, "dlig" 1
+  font-feature-settings: "dlig"
 
 .ff-c2sc
   font-feature-settings: "c2sc"
@@ -195,7 +196,7 @@
 
 // Psuedo-sets
 .ff-vanilla
-  @extend .ff-unset
+  @extend .ff-norm
 
 .ff-chocolate
   font-feature-settings: "kern", "liga", "ss01"
@@ -233,5 +234,5 @@
   text-transform: uppercase
   font-feature-settings: "case", "cpsp"
 
-.txt-spaced
+.ls300
   letter-spacing: 0.3em

@@ -8,12 +8,11 @@ header#header.ttu.fs2.flx(data-component="header")
         span.fw700 ■■■■ Sans
         |  Font Specimen
 
-      nav.ta-r
-        span#header-version
+      nav.flx.flx-col
+        span#header-version.mla
           block version
             | v#{font.version}
 
-        br
         ul#header-nav.flx.flx-row.flx-jb.list-bare.p0.m0
           each item, i in navigation
             li(class=(i > 0 && "pl3"))
@@ -23,4 +22,3 @@ header#header.ttu.fs2.flx(data-component="header")
                 aria-current=(item.id === page.fileSlug ? "page" : null)
                 rel="prefetch"
               ) #{item.title}
-

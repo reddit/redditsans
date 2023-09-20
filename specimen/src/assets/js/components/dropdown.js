@@ -1,36 +1,29 @@
-const all = Array.from(document.querySelectorAll("[data-component='dropdown']"))
-
-const focus = (el) => {
-  all.filter((e) => e !== el).forEach((e) => (e.checked = false))
-  el.focus()
-}
-
-const blur = (el) => {
-  if (!el.parentNode.matches(":focus-within")) {
-    el.checked = false
-  }
-}
+// Open and close dropdowns with keyboard or mouse
 
 module.exports = {
   initialize: (el) => {
-    el.addEventListener("input", () => {
-      focus(el)
-    })
-    el.addEventListener("focus", () => {
-      focus(el)
-    })
+    const cancel = (e) => el.checked && e.stopPropagation()
 
-    window.addEventListener("click", (e) => {
-      if (!el.parentNode.contains(e.target)) blur(el)
-    })
-
-    window.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && el.checked) {
+    const close = (e) => {
+      if (!el.parentNode.contains(e.target) && el.checked) {
         el.checked = false
-        el.focus()
-      } else {
-        window.setTimeout(() => blur(el), 0)
       }
-    })
+    }
+
+    const onkey = (e) => {
+      if (e.key === "Escape") {
+        el.checked = false
+        if (el.parentNode.contains(e.target)) e.target.blur()
+      } else if (e.target === el && e.key === "Enter") {
+        el.click()
+      }
+    }
+
+    el.addEventListener("focusin", cancel)
+    el.addEventListener("click", cancel)
+
+    window.addEventListener("focusin", close)
+    window.addEventListener("click", close)
+    window.addEventListener("keydown", onkey)
   },
 }

@@ -12,3 +12,9 @@
   base = ""
   command = "npm run build"
   publish = "dist"
+
+[[redirects]]
+  from = "https://unnamed-sans.netlify.app/*"
+  to = "https://redditsans.s-ings.com/:splat"
+  status = 301
+  force = true

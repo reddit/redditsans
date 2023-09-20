@@ -1,4 +1,4 @@
-FONTLOG for the Reddit Sans fonts
+FONTLOG for Reddit Sans
 
 This file provides detailed information on the Reddit Sans Font Software. This
 information should be distributed along with the Reddit Sans fonts and any

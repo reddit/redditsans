@@ -1,6 +1,4 @@
 .page-home
-  scroll-snap-align: end
-
   #wrapper:before
     content: none !important
 
@@ -24,6 +22,9 @@
 
     &:first-child:before
       margin: 0
+
+    &:last-child
+      scroll-snap-align: none
 
     &:before
       content: ""

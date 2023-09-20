@@ -13,7 +13,7 @@ npm start
 
 View the site at http://localhost:3000/
 
-## Previewing the production build
+## Preview the production build
 
 ```bash
 # run the production build
@@ -21,15 +21,5 @@ npm run build
 npm run serve
 ```
 
-## Other Scripts
-
-```bash
-# check to see latest packages
-npm run update-check
-
-# update all to latest
-npm run update
-
-# run npm audit and add risky dependencies in resolutions
-npm run preinstall
-```
+The build script also runs `npm run archive`, which creates a downloadable ZIP
+archive of fonts and additional resources. This is added to the build directory.

@@ -17,7 +17,7 @@ The `specimen` directory contains source files for the
 
 ## Licence
 
-Reddit Sans is Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com)
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-See [LICENCE.md](./LICENCE.md) and the [OFL-FAQ](./documents/OFL-FAQ.txt) for
-more information.
+Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com) This Font Software is
+licensed under the SIL Open Font License, Version 1.1. See
+[LICENSE.md](./LICENSE.md) and the [OFL-FAQ](./documents/OFL-FAQ.txt) for more
+information.

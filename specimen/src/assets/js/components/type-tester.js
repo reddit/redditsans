@@ -52,6 +52,11 @@ const onClick = (e, elements) => {
   update(elements)
 }
 
+const getCheckedValue = (list) => {
+  const el = list.find((e) => e.checked && !e.disabled && e.value !== "on")
+  return el ? el.value : ""
+}
+
 const update = (elements) => {
   let weight = +elements.FW.value,
     size = +elements.FS.value,
@@ -63,11 +68,9 @@ const update = (elements) => {
     (e) => "'" + e.value + "' " + (e.checked ? 1 : 0)
   )
 
-  let version = elements.VS.find((e, i) => e.checked && i > 0)?.value || ""
-
-  let style = elements.ST.find((e) => e.checked && !e.disabled)?.value || ""
-
-  let family = elements.FF.find((e) => e.checked)?.value || ""
+  let version = getCheckedValue(elements.VS)
+  let style = getCheckedValue(elements.ST)
+  let family = getCheckedValue(elements.FF)
 
   if (flavor) {
     features = features.concat(flavor.split(", ").map((e) => "'" + e + "' "))

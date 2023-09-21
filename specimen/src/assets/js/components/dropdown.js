@@ -1,6 +1,6 @@
 // Open and close dropdowns with keyboard or mouse
 
-module.exports = {
+export default {
   initialize: (el) => {
     const cancel = (e) => el.checked && e.stopPropagation()
 

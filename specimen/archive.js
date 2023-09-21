@@ -1,9 +1,9 @@
 // Create a downloadable ZIP archive of fonts and additional resources
 
-const fs = require("fs")
-const archiver = require("archiver")
+import fs from "fs"
+import archiver from "archiver"
 
-require("./src/site/_data/font").then(({ version }) => {
+import("./src/_/data/font.js").then(({ default: { version } }) => {
   const dist = `./dist/Reddit Sans ${version}.zip`
   const output = fs.createWriteStream(dist)
   const archive = archiver("zip", { zlib: { level: 9 } })

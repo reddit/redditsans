@@ -1,5 +1,5 @@
-const weights = require("../data/weights")
-const samples = require("../../../site/_data/samples.json")
+import weights from "../data/weights.js"
+import samples from "../../../_/data/samples.json"
 
 const base = {
   fw: weights.findIndex((w) => w.value === 400),
@@ -113,7 +113,7 @@ const getElements = () => ({
   FV: Array.from(document.querySelectorAll("[name='ff-flavor']")),
 })
 
-module.exports = {
+export default {
   initialize: (el) => {
     const elements = getElements()
 

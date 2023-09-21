@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   "1.010",
   "1.009",
   "1.008",

@@ -1,4 +1,4 @@
-const select = require("../utilities/select")
+import select from "../utilities/select.js"
 
 const encode = (style) => {
   return Array.from(style).reduce(
@@ -40,7 +40,7 @@ const click = (el) => {
   if (el) el.click()
 }
 
-module.exports = {
+export default {
   initialize: (node) => {
     const style = decode(window.location.search)
     const buttons = Array.from(node.querySelectorAll("button"))

@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   { label: "A", value: "U+0020-00BF" },
   { label: "B", value: "U+00C0-00FF" },
   { label: "C", value: "U+0100-01FF" },

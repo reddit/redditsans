@@ -1,8 +1,8 @@
 // Toggle between feature sections by keyboard or mouse
 
-const select = require("../utilities/select")
+import select from "../utilities/select.js"
 
-module.exports = {
+export default {
   initialize: (el) => {
     const features = Array.from(el.querySelectorAll(".featureset"))
 

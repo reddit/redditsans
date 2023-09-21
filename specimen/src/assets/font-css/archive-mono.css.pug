@@ -1,0 +1,31 @@
+---
+url: assets/css/archive-mono.css
+---
+
+| @charset "UTF-8";
+
+| .show-previous-version {
+|   --font-family-mono: "Mono-#{font.monospacedVersions[1]}";
+| }
+
+for version in font.monospacedVersions.slice(1)
+  = "\n\n"
+
+  | /* Version #{version} */
+
+  for weight in font.weights
+    - var path = `/fonts/reddit-mono/archive/${version}`;
+
+    if ["03", "02", "01"].includes(version)
+      - var file = `${path}/RedditSansMono-${weight.label}`;
+    else
+      - var file = `${path}/RedditMono-${weight.label}`;
+
+    = "\n\n"
+
+    | @font-face {
+    |   font-family: "Mono-#{version}";
+    |   font-style: normal;
+    |   font-weight: #{weight.value};
+    |   src: url("#{file}.woff2") format("woff2");
+    | }

@@ -8,7 +8,7 @@ const mirror = (inputs) => (e) => {
     .forEach((el) => (el.value = e.currentTarget.value))
 }
 
-module.exports = {
+export default {
   initialize: (node) => {
     Array.from(node.querySelectorAll("input, textarea")).forEach(
       (el, i, arr) => {

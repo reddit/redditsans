@@ -1,13 +1,13 @@
-const dropdown = require("./dropdown")
-const features = require("./features")
-const scrollto = require("./scrollto")
-const measure = require("./measure")
-const mirror = require("./mirror")
-const style = require("./style")
-const family = require("./family")
-const tester = require("./type-tester")
+import dropdown from "./dropdown.js"
+import features from "./features.js"
+import scrollto from "./scrollto.js"
+import measure from "./measure.js"
+import mirror from "./mirror.js"
+import style from "./style.js"
+import family from "./family.js"
+import tester from "./type-tester.js"
 
-module.exports = {
+export default {
   dropdown,
   features,
   scrollto,

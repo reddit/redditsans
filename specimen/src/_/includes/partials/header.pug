@@ -1,0 +1,23 @@
+header#header.ttu.fs2.flx
+  .container.mb0.ff-normal
+    #header-content.brb.flx.flx-row.pv2
+      a#header-title.mra.txt-bare(
+        href="/"
+      )
+        span.fw700 Reddit Sans
+        |  Font Specimen
+
+      nav.flx.flx-col
+        span#header-version.mla
+          block version
+            | v#{font.version}
+
+        ul#header-nav.flx.flx-row.flx-jb.list-bare.p0.m0
+          each item, i in (pageNavigation || navigation)
+            li(class=(i > 0 && "pl3"))
+              a.txt-bare(
+                href=item.url
+                class=(item.url === meta.url && "active")
+                aria-current=(item.url === meta.url ? "page" : null)
+                rel="prefetch"
+              )= item.title

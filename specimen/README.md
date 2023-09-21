@@ -1,6 +1,6 @@
 # Reddit Sans Font Specimen
 
-The specimen is a small [11ty](https://www.11ty.dev/) site.
+The specimen is a small [night-owl](https://night-owl.s-ings.com/) site.
 It requires `node` in order to build specimen.
 
 ```bash

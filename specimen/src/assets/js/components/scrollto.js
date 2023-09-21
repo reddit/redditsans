@@ -5,6 +5,7 @@ const scrollTo = (e) => {
 
   if (
     target &&
+    e.currentTarget.dataset.noscroll === undefined &&
     e.currentTarget.hash &&
     e.currentTarget.pathname === window.location.pathname
   ) {
@@ -15,7 +16,7 @@ const scrollTo = (e) => {
   }
 }
 
-module.exports = {
+export default {
   initialize: (el) => {
     Array.from(el.querySelectorAll("a[href*='#']")).forEach((a) =>
       a.addEventListener("click", scrollTo)

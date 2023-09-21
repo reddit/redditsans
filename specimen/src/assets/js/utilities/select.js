@@ -18,4 +18,4 @@ const select =
     syncList.forEach(toggle(index, className))
   }
 
-module.exports = select
+export default select

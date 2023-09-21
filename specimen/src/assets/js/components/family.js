@@ -1,6 +1,6 @@
 // Set the font family and update sample text to match
 
-const select = require("../utilities/select")
+import select from "../utilities/select.js"
 
 const samples = {
   default: [
@@ -63,7 +63,7 @@ const update = (node) => (e) => {
   })
 }
 
-module.exports = {
+export default {
   initialize: (node) => {
     const buttons = Array.from(node.querySelectorAll("button"))
 

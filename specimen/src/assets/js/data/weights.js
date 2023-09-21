@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   { value: 300, label: "Light" },
   { value: 400, label: "Regular" },
   { value: 600, label: "SemiBold" },

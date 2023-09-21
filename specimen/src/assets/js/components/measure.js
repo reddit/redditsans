@@ -14,7 +14,7 @@ const measure = (children, widths, count) => {
   }
 }
 
-module.exports = {
+export default {
   initialize: (node) => {
     const children = Array.from(node.querySelectorAll(".measure"))
 

@@ -63,7 +63,7 @@ const update = (elements) => {
     (e) => "'" + e.value + "' " + (e.checked ? 1 : 0)
   )
 
-  let version = elements.VS.find((e) => e.checked)?.value || ""
+  let version = elements.VS.find((e, i) => e.checked && i > 0)?.value || ""
 
   let style = elements.ST.find((e) => e.checked && !e.disabled)?.value || ""
 

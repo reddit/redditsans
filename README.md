@@ -1,5 +1,7 @@
 # Reddit Sans
 
+![Reddit Sans](./preview.png)
+
 ## Fonts
 
 Reddit Sans, Reddit Mono and Reddit Condensed font files can be found in the

@@ -7,7 +7,7 @@
 	<key>.formatVersion</key>
 	<integer>1</integer>
 	<key>exportPath</key>
-	<string>/Users/me/Projects/reddit-sans/fonts/Reddit Sans</string>
+	<string>/Users/me/Projects/redditsans/fonts/Reddit Sans</string>
 	<key>fontPath</key>
 	<string>Reddit Sans Italics.glyphs</string>
 	<key>instances</key>
@@ -225,6 +225,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/A</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -448,6 +454,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/A</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -667,6 +679,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/A</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -889,6 +907,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/A</string>
 				</dict>
 			</array>
 			<key>isBold</key>
@@ -1116,6 +1140,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/A</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -1276,6 +1306,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/B</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -1438,6 +1474,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/B</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -1596,6 +1638,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/B</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -1757,6 +1805,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/B</string>
 				</dict>
 			</array>
 			<key>isBold</key>
@@ -1922,6 +1976,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/B</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -2173,6 +2233,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/C</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -2423,6 +2489,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/C</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -2670,6 +2742,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/C</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -2920,6 +2998,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/C</string>
 				</dict>
 			</array>
 			<key>isBold</key>
@@ -3175,6 +3259,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/C</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -3357,6 +3447,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/D</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -3541,6 +3637,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/D</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -3721,6 +3823,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/D</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -3904,6 +4012,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/D</string>
 				</dict>
 			</array>
 			<key>isBold</key>
@@ -4091,6 +4205,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/D</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -4353,6 +4473,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/E</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -4614,6 +4740,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/E</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -4872,6 +5004,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/E</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -5133,6 +5271,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/E</string>
 				</dict>
 			</array>
 			<key>isBold</key>
@@ -5399,6 +5543,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/E</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -5620,6 +5770,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/F</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -5843,6 +5999,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/F</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -6062,6 +6224,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/F</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -6284,6 +6452,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/F</string>
 				</dict>
 			</array>
 			<key>isBold</key>
@@ -6510,6 +6684,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Export Folder</string>
+					<key>value</key>
+					<string>subsets/F</string>
 				</dict>
 			</array>
 			<key>isItalic</key>

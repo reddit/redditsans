@@ -7,7 +7,7 @@
 	<key>.formatVersion</key>
 	<integer>1</integer>
 	<key>exportPath</key>
-	<string>/Users/me/Projects/reddit-sans/fonts/Reddit Sans/variants</string>
+	<string>/Users/me/Projects/redditsans/fonts/Reddit Sans/variants</string>
 	<key>fontPath</key>
 	<string>Reddit Sans.glyphs</string>
 	<key>instances</key>

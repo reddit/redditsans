@@ -27,15 +27,10 @@ families.forEach((family, i) => {
   })
 
   // Web subsets
-  subsets
-    .map((n) => n.label)
-    .forEach((set) => {
-      fontConfig.push({
-        src,
-        dist: `${out}/web/subsets/${set}`,
-        include: `${familyName}-${set}${weight}.woff*`,
-      })
-    })
+  fontConfig.push({
+    src: `${src}/subsets`,
+    dist: `${out}/web/subsets`,
+  })
 
   if (i == 0) {
     // Web variants

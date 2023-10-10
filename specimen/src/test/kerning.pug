@@ -29,12 +29,14 @@ block content
     .row
       each style, i in ["", "ff-ss01", "ff-ss02", "ff-ss03"]
         .col-sm-6.pv3(class=style)
+          p
+            = ["Vanilla", "Chocolate", "Strawberry", "Fudge"][i] + ". "
+            s.tds
+              | Striking bouncy squad prize with pelvic flexion jump.
+            = " "
+            span.tdu
+              | Underlined quick brown fox jumps over the lazy dog.
           each item, j in samples.kerning.bringhurst
-            if j === 0
-              p
-                = ["Vanilla", "Chocolate", "Strawberry", "Fudge"][i] + ". "
-                != item
-            else
               p!= item
           each item in samples.kerning.lower
             p= item

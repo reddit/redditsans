@@ -29,7 +29,6 @@ block append head
   style.
     @media (max-width: 600px) { main { margin-top: -4em } }
     .col-sm-6 { width: 50%; box-sizing: border-box; float: left }
-    .txt-ul { text-decoration-color: var(--color-seal); }
 
 block content
   .container
@@ -190,13 +189,13 @@ block content
               .col-sm-6.pv2(class=`ff-${family}`)
                 p 
                   | This sentence contains some words 
-                  span.txt-ul(class=`ff-${alternate}`)
+                  span.tdu(class=`ff-${alternate}`)
                     | which have been emphasized
                   |  inline with #{family} width characters, in order to compare the 
-                  span.txt-ul(class=`ff-${alternate}`)
+                  span.tdu(class=`ff-${alternate}`)
                     | different x-heights
                   |  and ensure that they do not appear to be 
-                  span.txt-ul(class=`ff-${alternate}`)
+                  span.tdu(class=`ff-${alternate}`)
                     | visually inconsistent.
 
     #compare

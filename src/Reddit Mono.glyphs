@@ -32,6 +32,10 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
@@ -287,19 +291,59 @@ alignmentZones = (
 "{-420, -16}",
 "{-508, -16}"
 );
-ascender = 1966;
+ascender = 2068;
 capHeight = 1474;
 customParameters = (
 {
 name = underlineThickness;
-value = 56;
+value = 120;
 },
 {
 name = underlinePosition;
-value = -328;
+value = -300;
+},
+{
+name = strikeoutSize;
+value = 120;
+},
+{
+name = strikeoutPosition;
+value = 520;
+},
+{
+name = hheaAscender;
+value = 2068;
+},
+{
+name = hheaDescender;
+value = -592;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 2068;
+},
+{
+name = typoDescender;
+value = -592;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2600;
+},
+{
+name = winDescent;
+value = 644;
 }
 );
-descender = -492;
+descender = -592;
 guideLines = (
 {
 locked = 1;
@@ -350,19 +394,59 @@ alignmentZones = (
 "{-420, -16}",
 "{-508, -16}"
 );
-ascender = 1966;
+ascender = 2068;
 capHeight = 1474;
 customParameters = (
 {
 name = underlineThickness;
-value = 100;
+value = 120;
 },
 {
 name = underlinePosition;
-value = -344;
+value = -300;
+},
+{
+name = strikeoutSize;
+value = 120;
+},
+{
+name = strikeoutPosition;
+value = 520;
+},
+{
+name = hheaAscender;
+value = 2068;
+},
+{
+name = hheaDescender;
+value = -592;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 2068;
+},
+{
+name = typoDescender;
+value = -592;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2600;
+},
+{
+name = winDescent;
+value = 644;
 }
 );
-descender = -492;
+descender = -592;
 guideLines = (
 {
 locked = 1;
@@ -402,19 +486,59 @@ alignmentZones = (
 "{-420, -16}",
 "{-508, -16}"
 );
-ascender = 1966;
+ascender = 2068;
 capHeight = 1474;
 customParameters = (
 {
 name = underlineThickness;
-value = 164;
+value = 120;
 },
 {
 name = underlinePosition;
-value = -369;
+value = -300;
+},
+{
+name = strikeoutSize;
+value = 120;
+},
+{
+name = strikeoutPosition;
+value = 520;
+},
+{
+name = hheaAscender;
+value = 2068;
+},
+{
+name = hheaDescender;
+value = -592;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 2068;
+},
+{
+name = typoDescender;
+value = -592;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2600;
+},
+{
+name = winDescent;
+value = 644;
 }
 );
-descender = -492;
+descender = -592;
 guideLines = (
 {
 locked = 1;

@@ -23,6 +23,11 @@ value = (
 );
 },
 {
+name = fsType;
+value = (
+);
+},
+{
 name = license;
 value = "SIL Open Font License v1.1";
 },

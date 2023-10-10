@@ -23,6 +23,11 @@ value = (
 );
 },
 {
+name = fsType;
+value = (
+);
+},
+{
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },

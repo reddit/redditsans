@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2021-22, Reddit, Inc. (https://www.reddit.com). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+copyright = "Copyright (c) 2020-2023, Reddit, Inc. (https://www.reddit.com)";
 customParameters = (
 {
 name = "Family Alignment Zones";
@@ -33,7 +33,7 @@ value = "http://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "SIL Open Font License v1.1";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = Axes;

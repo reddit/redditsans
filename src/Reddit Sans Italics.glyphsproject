@@ -228,6 +228,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/A</string>
@@ -453,6 +459,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -682,6 +694,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/A</string>
@@ -907,6 +925,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1142,6 +1166,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/A</string>
@@ -1306,6 +1336,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1476,6 +1512,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/B</string>
@@ -1638,6 +1680,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1805,6 +1853,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1976,6 +2030,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2235,6 +2295,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/C</string>
@@ -2488,6 +2554,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2745,6 +2817,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/C</string>
@@ -2998,6 +3076,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3261,6 +3345,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/C</string>
@@ -3447,6 +3537,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3639,6 +3735,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/D</string>
@@ -3823,6 +3925,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4012,6 +4120,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4205,6 +4319,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4475,6 +4595,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/E</string>
@@ -4739,6 +4865,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5007,6 +5139,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/E</string>
@@ -5271,6 +5409,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5545,6 +5689,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/E</string>
@@ -5770,6 +5920,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6001,6 +6157,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/F</string>
@@ -6224,6 +6386,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6452,6 +6620,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6687,6 +6861,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Export Folder</string>
 					<key>value</key>
 					<string>subsets/F</string>
@@ -6728,6 +6908,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -6765,6 +6951,12 @@
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
 				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
 			</array>
 			<key>isItalic</key>
 			<true/>
@@ -6799,6 +6991,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 			</array>
 			<key>isItalic</key>
@@ -6836,6 +7034,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 			</array>
 			<key>isBold</key>
@@ -6877,6 +7081,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 			</array>
 			<key>isItalic</key>

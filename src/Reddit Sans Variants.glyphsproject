@@ -43,6 +43,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Rename Glyphs</string>
 					<key>value</key>
 					<array>
@@ -448,6 +454,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -857,6 +869,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Rename Glyphs</string>
 					<key>value</key>
 					<array>
@@ -1262,6 +1280,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1674,6 +1698,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2085,6 +2115,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Remove Glyphs</string>
 					<key>value</key>
 					<array>
@@ -2365,6 +2401,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -2649,6 +2691,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Remove Glyphs</string>
 					<key>value</key>
 					<array>
@@ -2929,6 +2977,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3216,6 +3270,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -3502,6 +3562,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Rename Glyphs</string>
 					<key>value</key>
 					<array>
@@ -3835,6 +3901,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4172,6 +4244,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Rename Glyphs</string>
 					<key>value</key>
 					<array>
@@ -4505,6 +4583,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -4845,6 +4929,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5184,6 +5274,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Rename Glyphs</string>
 					<key>value</key>
 					<array>
@@ -5504,6 +5600,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -5828,6 +5930,12 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Rename Glyphs</string>
 					<key>value</key>
 					<array>
@@ -6148,6 +6256,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -6475,6 +6589,12 @@
 					<string>TTFAutohint options</string>
 					<key>value</key>
 					<string>--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Filter</string>
+					<key>value</key>
+					<string>UnnestComponents</string>
 				</dict>
 				<dict>
 					<key>name</key>

@@ -55815,6 +55815,12 @@ width = 540;
 {
 layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
 width = 444;
+},
+{
+associatedMasterId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
+layerId = "DA942E7E-A6C5-46FA-977E-60DE00E352A1";
+name = "{120}";
+width = 472;
 }
 );
 widthMetricsKey = space;

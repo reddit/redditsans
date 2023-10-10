@@ -90467,62 +90467,6 @@ width = 420;
 unicode = 02DB;
 },
 {
-export = 0;
-glyphname = caron.alt;
-lastChange = "2021-05-03 01:08:30 +0000";
-layers = (
-{
-anchors = (
-{
-name = _topright;
-position = "{-6, 1106}";
-}
-);
-components = (
-{
-name = caroncomb;
-transform = "{1, 0, 0, 1, -2, 0}";
-}
-);
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-width = 160;
-},
-{
-anchors = (
-{
-name = _topright;
-position = "{-84, 1126}";
-}
-);
-components = (
-{
-name = caroncomb;
-transform = "{1, 0, 0, 1, -42, 0}";
-}
-);
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-width = 818;
-},
-{
-anchors = (
-{
-name = _topright;
-position = "{-50, 1114}";
-}
-);
-components = (
-{
-alignment = -1;
-name = caroncomb;
-transform = "{1, 0, 0, 1, -18, 0}";
-}
-);
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-width = 384;
-}
-);
-},
-{
 glyphname = apostrophemod;
 lastChange = "2021-05-03 01:08:30 +0000";
 layers = (
@@ -94044,63 +93988,10 @@ gridLength = 16;
 gridSubDivision = 8;
 instances = (
 {
-exports = 0;
 customParameters = (
 {
 name = "Grid Spacing";
 value = 1;
-},
-{
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
-name = "TTFAutohint options";
-value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
-}
-);
-interpolationWeight = 32;
-instanceInterpolations = {
-"AB099EFE-E788-4EFC-8633-CF147CB782A6" = 1;
-};
-name = Thin;
-weightClass = Thin;
-widthClass = Condensed;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = "Grid Spacing";
-value = 1;
-},
-{
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
-name = "TTFAutohint options";
-value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
-}
-);
-interpolationWeight = 48;
-instanceInterpolations = {
-"AB099EFE-E788-4EFC-8633-CF147CB782A6" = 0.71429;
-"FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6" = 0.28571;
-};
-name = ExtraLight;
-weightClass = ExtraLight;
-widthClass = Condensed;
-},
-{
-customParameters = (
-{
-name = "Grid Spacing";
-value = 1;
-},
-{
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
 },
 {
 name = "TTFAutohint options";
@@ -94123,10 +94014,6 @@ name = "Grid Spacing";
 value = 1;
 },
 {
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
 name = "TTFAutohint options";
 value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
 }
@@ -94143,10 +94030,6 @@ customParameters = (
 {
 name = "Grid Spacing";
 value = 1;
-},
-{
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
 },
 {
 name = "TTFAutohint options";
@@ -94169,10 +94052,6 @@ name = "Grid Spacing";
 value = 1;
 },
 {
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
 name = "TTFAutohint options";
 value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
 }
@@ -94193,10 +94072,6 @@ name = "Grid Spacing";
 value = 1;
 },
 {
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
 name = "TTFAutohint options";
 value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
 }
@@ -94209,31 +94084,6 @@ instanceInterpolations = {
 isBold = 1;
 name = ExtraBold;
 weightClass = ExtraBold;
-widthClass = Condensed;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = "Grid Spacing";
-value = 1;
-},
-{
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
-name = "TTFAutohint options";
-value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
-}
-);
-interpolationWeight = 180;
-instanceInterpolations = {
-"2D8F7115-C311-411E-929D-56333CF7FFB2" = 1;
-};
-isBold = 1;
-name = Black;
-weightClass = Black;
 widthClass = Condensed;
 }
 );

@@ -100236,61 +100236,6 @@ width = 477;
 unicode = 02DB;
 },
 {
-export = 0;
-glyphname = caron.alt;
-lastChange = "2021-01-27 02:07:14 +0000";
-layers = (
-{
-anchors = (
-{
-name = _topright;
-position = "{85, 1106}";
-}
-);
-components = (
-{
-name = caroncomb;
-}
-);
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-width = 139;
-},
-{
-anchors = (
-{
-name = _topright;
-position = "{6, 1126}";
-}
-);
-components = (
-{
-name = caroncomb;
-transform = "{1, 0, 0, 1, -41, 0}";
-}
-);
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-width = 799;
-},
-{
-anchors = (
-{
-name = _topright;
-position = "{51, 1114}";
-}
-);
-components = (
-{
-alignment = -1;
-name = caroncomb;
-transform = "{1, 0, 0, 1, -16, 0}";
-}
-);
-layerId = "8CC1EFAB-F3CB-44D1-8974-978FC52DD9AB";
-width = 383;
-}
-);
-},
-{
 glyphname = apostrophemod;
 lastChange = "2021-01-27 02:07:14 +0000";
 layers = (
@@ -104385,10 +104330,6 @@ name = "Grid Spacing";
 value = 1;
 },
 {
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
 name = "TTFAutohint options";
 value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
 }
@@ -104410,10 +104351,6 @@ name = "Grid Spacing";
 value = 1;
 },
 {
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
 name = "TTFAutohint options";
 value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
 }
@@ -104430,10 +104367,6 @@ customParameters = (
 {
 name = "Grid Spacing";
 value = 1;
-},
-{
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
 },
 {
 name = "TTFAutohint options";
@@ -104457,10 +104390,6 @@ name = "Grid Spacing";
 value = 1;
 },
 {
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
-},
-{
 name = "TTFAutohint options";
 value = "--hinting-range-min=12 --hinting-range-max=32 --hinting-limit=32 --x-height-snapping-exceptions=12-14 --no-info --stem-width-mode=qqq";
 }
@@ -104480,10 +104409,6 @@ customParameters = (
 {
 name = "Grid Spacing";
 value = 1;
-},
-{
-name = Filter;
-value = "RMXHarmonizer;supersmooth all";
 },
 {
 name = "TTFAutohint options";

@@ -16,6 +16,13 @@ The fonts include more than 1,000 glyphs. This character set includes support fo
 
 ChangeLog
 
+11 Oct 2023 (Stephen Hutchings) Reddit Sans 1.012
+- Standardise vertical metrics
+- Set fsType value to 0
+- Synchronise non-breaking space advance width
+- Unnest components during export
+- Expanded licence string
+
 23 May 2023 (Stephen Hutchings) Reddit Sans 1.011
 - Remove reserved font name declaration in copyright
 - De-kinking of glyph paths

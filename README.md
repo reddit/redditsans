@@ -1,6 +1,8 @@
 # Reddit Sans
 
-![Reddit Sans](./preview.png)
+![Reddit Sans](./documentation/preview.png)
+![Reddit Sans Condensed](./documentation/preview-condensed.png)
+![Reddit Mono](./documentation/preview-mono.png)
 
 ## Fonts
 
@@ -21,5 +23,5 @@ The `specimen` directory contains source files for the
 
 Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com) This Font Software is
 licensed under the SIL Open Font License, Version 1.1. See
-[LICENSE.md](./LICENSE.md) and the [OFL-FAQ](./documents/OFL-FAQ.txt) for more
+[OFL.txt](./OFL.txt) and the [OFL-FAQ](./documentation/OFL-FAQ.txt) for more
 information.

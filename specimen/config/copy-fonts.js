@@ -1,5 +1,4 @@
 import flavors from "../src/assets/js/data/variants.js"
-import subsets from "../src/assets/js/data/ranges.js"
 import weights from "../src/assets/js/data/weights.js"
 
 const weight = `*(${weights.map((n) => n.label).join("|")}|Italic)`
@@ -8,23 +7,28 @@ const families = ["Reddit Sans", "Reddit Sans Condensed", "Reddit Mono"]
 const fontConfig = []
 
 families.forEach((family, i) => {
-  const src = `../fonts/${family}/`
-  const out = "dist/fonts/" + family.toLocaleLowerCase().replace(/\s/g, "-")
-  const familyName = family.replace(/\s/g, "")
+  const src = `../fonts`
+  const out = "dist/fonts/" + family.replace(/ /g, "-").toLocaleLowerCase()
+  const familyName = family.replace(/ /g, "")
 
   // Full desktop fonts
   fontConfig.push({
     src,
     dist: `${out}/desktop/`,
-    include: `${familyName}-${weight}.ttf`,
+    include: `**/${familyName}-${weight}.ttf`,
+    flatten: true,
   })
 
   // Full webfonts
   fontConfig.push({
     src,
     dist: `${out}/web/full/`,
-    include: `${familyName}-${weight}.woff*`,
+    include: `**/${familyName}-${weight}.woff*`,
+    flatten: true,
   })
+
+  // Subsets and variants are not yet migrated to be built by scripts
+  return
 
   // Web subsets
   fontConfig.push({

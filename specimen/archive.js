@@ -30,7 +30,7 @@ import("./src/_/data/font.js").then(({ default: { version } }) => {
     "Reddit Sans Condensed/web"
   )
 
-  archive.directory("../documents", false)
+  archive.directory("../documentation/", false)
   archive.file("../LICENSE.md", false)
   archive.file("../FONTLOG.txt", false)
 

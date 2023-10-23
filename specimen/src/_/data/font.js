@@ -29,7 +29,7 @@ const features = [
 ]
 
 async function getData() {
-  const data = await load("../src/Reddit Sans.glyphs")
+  const data = await load("../sources/RedditSans.glyphs")
 
   const version = [
     data.versionMajor,

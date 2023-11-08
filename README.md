@@ -19,7 +19,7 @@ The `specimen` directory contains source files for the
 
 ## Licence
 
-Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com) This Font Software is
+Copyright © 2020-23, Reddit, Inc. (https://github.com/reddit/redditsans) This Font Software is
 licensed under the SIL Open Font License, Version 1.1. See
 [LICENSE.md](./LICENSE.md) and the [OFL-FAQ](./documents/OFL-FAQ.txt) for more
 information.

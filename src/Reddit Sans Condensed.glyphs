@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2020-2023, Reddit, Inc. (https://www.reddit.com)";
+copyright = "Copyright (c) 2020-2023, Reddit, Inc. (https://github.com/reddit/redditsans)";
 customParameters = (
 {
 name = "Family Alignment Zones";

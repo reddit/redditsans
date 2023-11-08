@@ -1,17 +1,17 @@
 Reddit Sans
-Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com)
+Copyright © 2020-23, Reddit, Inc. (https://github.com/reddit/redditsans)
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL
 
 Reddit Sans Condensed
-Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com)
+Copyright © 2020-23, Reddit, Inc. (https://github.com/reddit/redditsans)
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL
 
 Reddit Mono
-Copyright © 2020-23, Reddit, Inc. (https://www.reddit.com)
+Copyright © 2020-23, Reddit, Inc. (https://github.com/reddit/redditsans)
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL

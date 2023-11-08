@@ -101237,7 +101237,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2020-2023, Reddit, Inc. (https://www.reddit.com)";
+value = "Copyright (c) 2020-2023, Reddit, Inc. (https://github.com/reddit/redditsans)";
 }
 );
 },

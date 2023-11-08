@@ -16,6 +16,9 @@ The fonts include more than 1,000 glyphs. This character set includes support fo
 
 ChangeLog
 
+9 Nov 2023 (Stephen Hutchings) Reddit Sans 1.013
+- Update copyright to use GitHub repository URL
+
 11 Oct 2023 (Stephen Hutchings) Reddit Sans 1.012
 - Standardise vertical metrics
 - Set fsType value to 0

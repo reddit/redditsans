@@ -1,0 +1,6 @@
+sources:
+  - RedditSansCondensed.glyphs
+familyName: Reddit Sans Condensed
+outputDir: ../fonts/sans-condensed
+axisOrder: 
+  - wght

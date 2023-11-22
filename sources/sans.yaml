@@ -1,9 +1,8 @@
 sources:
   - RedditSans.glyphs
   - RedditSansItalics.glyphs
-  - RedditSansCondensed.glyphs
-  - RedditMono.glyphs
-
 familyName: Reddit Sans
-
-buildVariable: false
+outputDir: ../fonts/sans
+axisOrder:
+  - wght
+  - ital

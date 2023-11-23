@@ -1,0 +1,7 @@
+sources:
+  - RedditMono.glyphs
+familyName: Reddit Mono
+outputDir: ../fonts/mono
+axisOrder:
+  - wght
+

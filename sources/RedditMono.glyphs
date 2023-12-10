@@ -24354,7 +24354,7 @@ color = 10;
 glyphname = aeacute;
 kernLeft = LAT_ASS02_LC;
 kernRight = LAT_E_LC;
-lastChange = "2023-11-23 10:09:39 +0000";
+lastChange = "2023-12-10 05:59:08 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -24390,6 +24390,25 @@ ref = ae;
 },
 {
 pos = (98,0);
+ref = acutecomb;
+}
+);
+width = 1152;
+},
+{
+associatedMasterId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
+attr = {
+coordinates = (
+120
+);
+};
+layerId = "2A75310F-6303-4C1C-91CB-35F389034AAE";
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (104,2);
 ref = acutecomb;
 }
 );

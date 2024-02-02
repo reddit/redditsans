@@ -49,17 +49,17 @@ Resources folder.
 Reddit Sans
 Copyright © 2020-23, Reddit, Inc. (https://github.com/reddit/redditsans).
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL
+This license is available with a FAQ at: https://openfontlicense.org/
 
 Reddit Sans Condensed
 Copyright © 2020-23, Reddit, Inc. (https://github.com/reddit/redditsans).
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL
+This license is available with a FAQ at: https://openfontlicense.org/
 
 Reddit Mono 
 Copyright © 2020-23, Reddit, Inc. (https://github.com/reddit/redditsans). 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL
+This license is available with a FAQ at: https://openfontlicense.org/
 
 -------------
 

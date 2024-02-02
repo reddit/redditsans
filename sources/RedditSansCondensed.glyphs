@@ -513,7 +513,6 @@ sub bullet by bullet.case;
 sub slash by slash.case;
 sub backslash by backslash.case;
 sub hyphen by hyphen.case;
-sub softhyphen by softhyphen.case;
 sub endash by endash.case;
 sub emdash by emdash.case;
 sub parenleft by parenleft.case;
@@ -63324,85 +63323,6 @@ width = 646;
 );
 metricLeft = hyphen;
 metricRight = hyphen;
-},
-{
-color = 10;
-glyphname = softhyphen;
-kernLeft = PCT_DASH;
-kernRight = PCT_DASH;
-lastChange = "2023-11-23 10:09:18 +0000";
-layers = (
-{
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-shapes = (
-{
-alignment = 1;
-ref = hyphen;
-}
-);
-width = 616;
-},
-{
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-shapes = (
-{
-alignment = 1;
-ref = hyphen;
-}
-);
-width = 746;
-},
-{
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-shapes = (
-{
-alignment = 1;
-ref = hyphen;
-}
-);
-width = 646;
-}
-);
-unicode = 173;
-},
-{
-color = 10;
-glyphname = softhyphen.case;
-kernLeft = PCT_DASHCASE;
-kernRight = PCT_DASHCASE;
-lastChange = "2023-11-23 10:09:18 +0000";
-layers = (
-{
-layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
-shapes = (
-{
-alignment = 1;
-ref = hyphen.case;
-}
-);
-width = 616;
-},
-{
-layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
-shapes = (
-{
-alignment = 1;
-ref = hyphen.case;
-}
-);
-width = 746;
-},
-{
-layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
-shapes = (
-{
-alignment = 1;
-ref = hyphen.case;
-}
-);
-width = 646;
-}
-);
 },
 {
 color = 6;

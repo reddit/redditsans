@@ -50174,7 +50174,7 @@ color = 10;
 glyphname = ydotbelow;
 kernLeft = LAT_Y_LC;
 kernRight = LAT_YDOTBELOW_LC;
-lastChange = "2023-11-23 10:09:39 +0000";
+lastChange = "2024-02-03 00:25:13 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -50184,7 +50184,7 @@ ref = y;
 },
 {
 alignment = -1;
-pos = (574,-86);
+pos = (324,-88);
 ref = dotbelowcomb;
 }
 );
@@ -50198,7 +50198,7 @@ ref = y;
 },
 {
 alignment = -1;
-pos = (708,66);
+pos = (400,88);
 ref = dotbelowcomb;
 }
 );
@@ -50212,7 +50212,7 @@ ref = y;
 },
 {
 alignment = -1;
-pos = (622,-20);
+pos = (360,-40);
 ref = dotbelowcomb;
 }
 );
@@ -90651,7 +90651,7 @@ unicode = 795;
 {
 color = 10;
 glyphname = dotbelowcomb;
-lastChange = "2023-11-23 10:09:39 +0000";
+lastChange = "2024-02-03 00:17:12 +0000";
 layers = (
 {
 anchors = (
@@ -90663,7 +90663,7 @@ pos = (576,0);
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
 shapes = (
 {
-pos = (0,-1562);
+pos = (0,-1564);
 ref = dotaccentcomb;
 }
 );
@@ -90696,7 +90696,7 @@ layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
 shapes = (
 {
 alignment = -1;
-pos = (0,-1622);
+pos = (0,-1624);
 ref = dotaccentcomb;
 }
 );

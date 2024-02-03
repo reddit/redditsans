@@ -48874,7 +48874,7 @@ color = 10;
 glyphname = tcaron.ss01;
 kernLeft = LAT_T_LC;
 kernRight = LAT_TSS01_LC;
-lastChange = "2024-02-03 00:41:55 +0000";
+lastChange = "2024-02-03 01:29:06 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -48909,7 +48909,7 @@ shapes = (
 ref = t.ss01;
 },
 {
-pos = (506,74);
+pos = (514,74);
 ref = caroncomb.alt;
 }
 );
@@ -55424,9 +55424,31 @@ color = 3;
 glyphname = fl;
 kernLeft = LAT_F_LC;
 kernRight = LAT_L_LC;
-lastChange = "2023-11-23 10:10:50 +0000";
+lastChange = "2024-02-03 01:28:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (984,0);
+},
+{
+name = center;
+pos = (912,738);
+},
+{
+name = dot;
+pos = (1184,738);
+},
+{
+name = top;
+pos = (912,1540);
+},
+{
+name = topright;
+pos = (942,1540);
+}
+);
 background = {
 shapes = (
 {
@@ -55472,9 +55494,9 @@ nodes = (
 (942,112,o),
 (942,174,cs),
 (942,1474,l),
-(884,1474,l),
-(884,176,ls),
-(884,48,o),
+(882,1474,l),
+(882,176,ls),
+(882,48,o),
 (918,-8,o),
 (1016,-8,cs)
 );
@@ -55486,6 +55508,28 @@ ref = f;
 width = 1154;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (1290,0);
+},
+{
+name = center;
+pos = (1232,786);
+},
+{
+name = dot;
+pos = (1752,754);
+},
+{
+name = top;
+pos = (1232,1540);
+},
+{
+name = topright;
+pos = (1412,1540);
+}
+);
 background = {
 shapes = (
 {
@@ -55527,9 +55571,9 @@ nodes = (
 (1410,320,o),
 (1410,356,cs),
 (1410,1474,l),
-(1052,1474,l),
-(1052,294,ls),
-(1052,132,o),
+(1054,1474,l),
+(1054,294,ls),
+(1054,132,o),
 (1156,-16,o),
 (1356,-16,cs)
 );
@@ -55541,6 +55585,28 @@ ref = f;
 width = 1552;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (1082,0);
+},
+{
+name = center;
+pos = (1024,774);
+},
+{
+name = dot;
+pos = (1384,746);
+},
+{
+name = top;
+pos = (1020,1540);
+},
+{
+name = topright;
+pos = (1102,1540);
+}
+);
 layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";
 shapes = (
 {
@@ -62279,7 +62345,7 @@ color = 6;
 glyphname = five.dnom;
 kernLeft = NUM_FIVE_DNOM;
 kernRight = NUM_FIVE_DNOM;
-lastChange = "2023-11-23 10:10:50 +0000";
+lastChange = "2023-11-22 11:34:34 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -69604,7 +69670,7 @@ export = 0;
 glyphname = exclamdouble;
 kernLeft = PCT_EXCLAM;
 kernRight = PCT_EXCLAM;
-lastChange = "2023-11-23 10:10:50 +0000";
+lastChange = "2023-11-22 11:34:34 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -70082,7 +70148,7 @@ export = 0;
 glyphname = questionexclamation;
 kernLeft = PCT_QUESTION;
 kernRight = PCT_EXCLAM;
-lastChange = "2023-11-23 10:10:50 +0000";
+lastChange = "2023-11-22 11:34:34 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";

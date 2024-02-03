@@ -30749,7 +30749,7 @@ color = 10;
 glyphname = eogonek;
 kernLeft = LAT_O_LC;
 kernRight = LAT_J_LC;
-lastChange = "2023-12-10 06:06:35 +0000";
+lastChange = "2024-02-03 05:04:28 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -30821,12 +30821,10 @@ coordinates = (
 layerId = "7C861838-14DF-4E6F-927A-D8ED76073625";
 shapes = (
 {
-alignment = -1;
 ref = e;
 },
 {
-alignment = -1;
-pos = (561,73);
+pos = (554,72);
 ref = ogonekcomb;
 }
 );
@@ -125558,5 +125556,5 @@ org.unifiedfontobject.normalizer.modTimes = "version: 0a1
 1440534638.0 metainfo.plist";
 };
 versionMajor = 1;
-versionMinor = 14;
+versionMinor = 13;
 }

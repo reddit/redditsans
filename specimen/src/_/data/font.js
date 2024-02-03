@@ -59,6 +59,11 @@ async function getData() {
           .map((e) => arr.find((g) => g.name === e.split(".")[0]) || {})
       }
 
+      glyph.string = (glyph.codes || [glyph.code])
+        .filter((code) => code > 0)
+        .map((code) => String.fromCodePoint(code))
+        .join("")
+
       return glyph
     })
     .filter((e) => e.code || e.codes)

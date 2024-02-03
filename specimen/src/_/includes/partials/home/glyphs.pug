@@ -19,7 +19,7 @@ section#coverage.flx.flx-col.flx-jc.bg-beluga
 
     ul#glyphs
       each glyph in font.glyphs
-        if glyph.codes || !String.fromCharCode("0x" + glyph.code).match(/^\s*$/)
+        if glyph.codes || !glyph.string.match(/^\s*$/)
           li.glyph(
             class=(glyph.type ? `glyph-otf ff-${glyph.type}` : null)
             title=`${glyph.name}${glyph.code ? ` (U+${glyph.code})` : ""}`
@@ -29,8 +29,4 @@ section#coverage.flx.flx-col.flx-jc.bg-beluga
             if glyph.name.match(/comb\b/)
               | ◌
 
-            if glyph.codes
-              each g in glyph.codes
-                != `&#x${g.code};`
-            else
-              != `&#x${glyph.code};`
+            = glyph.string

@@ -31256,7 +31256,7 @@ color = 10;
 glyphname = eogonek;
 kernLeft = LAT_O_LC;
 kernRight = LAT_J_LC;
-lastChange = "2023-12-10 06:02:20 +0000";
+lastChange = "2024-02-03 04:37:31 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -31307,16 +31307,14 @@ coordinates = (
 layerId = "9D9B63D4-9FE7-4B08-A8F1-CB5EA3F3AFBF";
 shapes = (
 {
-alignment = -1;
 ref = e;
 },
 {
-alignment = -1;
-pos = (624,88);
+pos = (640,102);
 ref = ogonekcomb;
 }
 );
-width = 1128;
+width = 1120;
 },
 {
 associatedMasterId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -31328,16 +31326,14 @@ coordinates = (
 layerId = "585B2589-6D9C-4BBF-A948-B2A745EC38E2";
 shapes = (
 {
-alignment = -1;
 ref = e;
 },
 {
-alignment = -1;
-pos = (586,80);
+pos = (590,82);
 ref = ogonekcomb;
 }
 );
-width = 1128;
+width = 1124;
 }
 );
 unicode = 281;

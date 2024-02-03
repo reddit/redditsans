@@ -3504,7 +3504,7 @@ color = 6;
 glyphname = C;
 kernLeft = LAT_O_UC;
 kernRight = LAT_C_UC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:45:13 +0000";
 layers = (
 {
 anchors = (
@@ -3575,7 +3575,7 @@ width = 1168;
 anchors = (
 {
 name = base;
-pos = (712,0);
+pos = (692,0);
 },
 {
 name = bottom;
@@ -3583,7 +3583,7 @@ pos = (706,0);
 },
 {
 name = cedilla;
-pos = (730,0);
+pos = (710,0);
 },
 {
 name = top;
@@ -3808,7 +3808,7 @@ color = 10;
 glyphname = Ccedilla;
 kernLeft = LAT_O_UC;
 kernRight = LAT_C_UC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:45:13 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -3817,7 +3817,7 @@ shapes = (
 ref = C;
 },
 {
-pos = (518,0);
+pos = (508,0);
 ref = cedillacomb.case;
 }
 );
@@ -3830,7 +3830,7 @@ shapes = (
 ref = C;
 },
 {
-pos = (456,0);
+pos = (458,0);
 ref = cedillacomb.case;
 }
 );
@@ -3843,7 +3843,7 @@ shapes = (
 ref = C;
 },
 {
-pos = (510,0);
+pos = (512,0);
 ref = cedillacomb.case;
 }
 );
@@ -3857,7 +3857,7 @@ color = 10;
 glyphname = Ccedillaacute;
 kernLeft = LAT_O_UC;
 kernRight = LAT_C_UC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:45:13 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -3866,7 +3866,7 @@ shapes = (
 ref = C;
 },
 {
-pos = (518,0);
+pos = (508,0);
 ref = cedillacomb.case;
 },
 {
@@ -3883,7 +3883,7 @@ shapes = (
 ref = C;
 },
 {
-pos = (456,0);
+pos = (458,0);
 ref = cedillacomb.case;
 },
 {
@@ -3900,7 +3900,7 @@ shapes = (
 ref = C;
 },
 {
-pos = (510,0);
+pos = (512,0);
 ref = cedillacomb.case;
 },
 {
@@ -4985,7 +4985,7 @@ color = 10;
 glyphname = Ecedillabreve;
 kernLeft = LAT_H_UC;
 kernRight = LAT_E_UC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:33:37 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -4994,7 +4994,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (328,0);
+pos = (318,0);
 ref = cedillacomb.case;
 },
 {
@@ -5011,7 +5011,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (244,0);
+pos = (266,0);
 ref = cedillacomb.case;
 },
 {
@@ -5028,7 +5028,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (302,0);
+pos = (304,0);
 ref = cedillacomb.case;
 },
 {
@@ -14575,7 +14575,7 @@ color = 10;
 glyphname = Scedilla;
 kernLeft = LAT_S_UC;
 kernRight = LAT_S_UC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:33:37 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -14584,7 +14584,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (268,0);
+pos = (258,0);
 ref = cedillacomb.case;
 }
 );
@@ -14597,7 +14597,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (292,0);
+pos = (314,0);
 ref = cedillacomb.case;
 }
 );
@@ -14610,7 +14610,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (298,0);
+pos = (300,0);
 ref = cedillacomb.case;
 }
 );
@@ -15303,7 +15303,7 @@ color = 10;
 glyphname = Tcedilla;
 kernLeft = LAT_T_UC;
 kernRight = LAT_T_UC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:31:58 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -15312,7 +15312,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (270,0);
+pos = (260,0);
 ref = cedillacomb.case;
 }
 );
@@ -15325,7 +15325,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (222,0);
+pos = (244,0);
 ref = cedillacomb.case;
 }
 );
@@ -15338,7 +15338,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (270,0);
+pos = (272,0);
 ref = cedillacomb.case;
 }
 );
@@ -23937,7 +23937,7 @@ color = 6;
 glyphname = c;
 kernLeft = LAT_O_LC;
 kernRight = LAT_C_LC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:33:07 +0000";
 layers = (
 {
 anchors = (
@@ -24013,7 +24013,7 @@ pos = (554,0);
 },
 {
 name = cedilla;
-pos = (564,0);
+pos = (544,0);
 },
 {
 name = top;
@@ -24075,7 +24075,7 @@ pos = (526,0);
 },
 {
 name = cedilla;
-pos = (540,0);
+pos = (526,0);
 },
 {
 name = top;
@@ -24258,7 +24258,7 @@ color = 10;
 glyphname = ccedilla;
 kernLeft = LAT_O_LC;
 kernRight = LAT_C_LC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:33:07 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -24267,7 +24267,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (326,0);
+pos = (316,0);
 ref = cedillacomb;
 }
 );
@@ -24280,7 +24280,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (290,0);
+pos = (292,0);
 ref = cedillacomb;
 }
 );
@@ -24293,7 +24293,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (328,0);
+pos = (316,0);
 ref = cedillacomb;
 }
 );
@@ -24307,7 +24307,7 @@ color = 10;
 glyphname = ccedillaacute;
 kernLeft = LAT_O_LC;
 kernRight = LAT_C_LC;
-lastChange = "2023-12-10 06:02:56 +0000";
+lastChange = "2024-02-03 00:33:07 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -24316,7 +24316,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (326,0);
+pos = (316,0);
 ref = cedillacomb;
 },
 {
@@ -24333,7 +24333,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (290,0);
+pos = (292,0);
 ref = cedillacomb;
 },
 {
@@ -24350,7 +24350,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (328,0);
+pos = (316,0);
 ref = cedillacomb;
 },
 {
@@ -25937,7 +25937,7 @@ color = 10;
 glyphname = ecedillabreve;
 kernLeft = LAT_O_LC_BAR;
 kernRight = LAT_O_LC_BAR;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:32:18 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -25946,7 +25946,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (306,0);
+pos = (296,0);
 ref = cedillacomb;
 },
 {
@@ -25963,7 +25963,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (288,0);
+pos = (310,0);
 ref = cedillacomb;
 },
 {
@@ -25980,7 +25980,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (304,0);
+pos = (306,0);
 ref = cedillacomb;
 },
 {
@@ -39803,17 +39803,17 @@ color = 6;
 glyphname = s;
 kernLeft = LAT_S_LC;
 kernRight = LAT_S_LC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:33:29 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (380,0);
+pos = (394,0);
 },
 {
 name = cedilla;
-pos = (388,0);
+pos = (402,0);
 },
 {
 name = top;
@@ -39982,11 +39982,11 @@ width = 892;
 anchors = (
 {
 name = bottom;
-pos = (396,0);
+pos = (408,0);
 },
 {
 name = cedilla;
-pos = (406,0);
+pos = (418,0);
 },
 {
 name = top;
@@ -40798,7 +40798,7 @@ color = 10;
 glyphname = scedilla;
 kernLeft = LAT_S_LC;
 kernRight = LAT_S_LC;
-lastChange = "2023-12-10 06:02:56 +0000";
+lastChange = "2024-02-03 00:33:29 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -40807,7 +40807,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (194,0);
+pos = (198,0);
 ref = cedillacomb;
 }
 );
@@ -40820,7 +40820,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (184,0);
+pos = (206,0);
 ref = cedillacomb;
 }
 );
@@ -40833,7 +40833,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (194,0);
+pos = (208,0);
 ref = cedillacomb;
 }
 );
@@ -40938,7 +40938,7 @@ color = 10;
 glyphname = scommaaccent;
 kernLeft = LAT_S_LC;
 kernRight = LAT_S_LC;
-lastChange = "2023-12-10 06:02:56 +0000";
+lastChange = "2024-02-03 00:45:17 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -40947,7 +40947,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (206,0);
+pos = (220,0);
 ref = commaaccentcomb;
 }
 );
@@ -40973,7 +40973,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (212,0);
+pos = (224,0);
 ref = commaaccentcomb;
 }
 );
@@ -41078,7 +41078,7 @@ color = 10;
 glyphname = sdotbelow;
 kernLeft = LAT_S_LC;
 kernRight = LAT_S_LC;
-lastChange = "2024-02-03 00:20:22 +0000";
+lastChange = "2024-02-03 00:33:37 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -41087,7 +41087,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (226,0);
+pos = (240,0);
 ref = dotbelowcomb;
 }
 );
@@ -41148,7 +41148,7 @@ color = 10;
 glyphname = sdotbelowdotaccent;
 kernLeft = LAT_S_LC;
 kernRight = LAT_S_LC;
-lastChange = "2024-02-03 00:20:22 +0000";
+lastChange = "2024-02-03 00:33:37 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -41157,7 +41157,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (226,0);
+pos = (240,0);
 ref = dotbelowcomb;
 },
 {
@@ -41642,7 +41642,7 @@ color = 6;
 glyphname = t.ss01;
 kernLeft = LAT_T_LC;
 kernRight = LAT_TSS01_LC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:32:33 +0000";
 layers = (
 {
 anchors = (
@@ -41652,7 +41652,7 @@ pos = (310,0);
 },
 {
 name = cedilla;
-pos = (298,0);
+pos = (310,0);
 },
 {
 name = center;
@@ -41694,11 +41694,11 @@ width = 620;
 anchors = (
 {
 name = bottom;
-pos = (378,0);
+pos = (376,0);
 },
 {
 name = cedilla;
-pos = (408,0);
+pos = (376,0);
 },
 {
 name = center;
@@ -41744,11 +41744,11 @@ pos = (336,0);
 },
 {
 name = cedilla;
-pos = (340,0);
+pos = (336,0);
 },
 {
 name = center;
-pos = (334,532);
+pos = (336,532);
 },
 {
 name = top;
@@ -41857,7 +41857,7 @@ unicode = 359;
 {
 color = 10;
 glyphname = tbar.ss01;
-lastChange = "2023-12-10 06:02:56 +0000";
+lastChange = "2024-02-03 00:32:37 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -41892,7 +41892,7 @@ shapes = (
 ref = t.ss01;
 },
 {
-pos = (6,-68);
+pos = (8,-68);
 ref = strokeshortcomb;
 }
 );
@@ -42028,7 +42028,7 @@ color = 10;
 glyphname = tcedilla;
 kernLeft = LAT_T_LC;
 kernRight = LAT_T_LC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:32:18 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -42037,7 +42037,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (238,0);
+pos = (228,0);
 ref = cedillacomb;
 }
 );
@@ -42050,7 +42050,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (292,0);
+pos = (314,0);
 ref = cedillacomb;
 }
 );
@@ -42063,7 +42063,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (256,0);
+pos = (258,0);
 ref = cedillacomb;
 }
 );
@@ -42077,7 +42077,7 @@ color = 10;
 glyphname = tcedilla.ss01;
 kernLeft = LAT_T_LC;
 kernRight = LAT_TSS01_LC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:32:32 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -42086,7 +42086,7 @@ shapes = (
 ref = t.ss01;
 },
 {
-pos = (104,0);
+pos = (106,0);
 ref = cedillacomb;
 }
 );
@@ -42099,7 +42099,7 @@ shapes = (
 ref = t.ss01;
 },
 {
-pos = (134,0);
+pos = (124,0);
 ref = cedillacomb;
 }
 );
@@ -42112,7 +42112,7 @@ shapes = (
 ref = t.ss01;
 },
 {
-pos = (128,0);
+pos = (126,0);
 ref = cedillacomb;
 }
 );
@@ -42174,7 +42174,7 @@ color = 10;
 glyphname = tcommaaccent.ss01;
 kernLeft = LAT_T_LC;
 kernRight = LAT_TSS01_LC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:32:37 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -42196,7 +42196,7 @@ shapes = (
 ref = t.ss01;
 },
 {
-pos = (150,0);
+pos = (148,0);
 ref = commaaccentcomb;
 }
 );
@@ -42368,7 +42368,7 @@ color = 10;
 glyphname = tdotbelow.ss01;
 kernLeft = LAT_T_LC;
 kernRight = LAT_TSS01_LC;
-lastChange = "2024-02-03 00:20:22 +0000";
+lastChange = "2024-02-03 00:32:37 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -42390,7 +42390,7 @@ shapes = (
 ref = t.ss01;
 },
 {
-pos = (100,0);
+pos = (98,0);
 ref = dotbelowcomb;
 }
 );
@@ -42467,7 +42467,7 @@ color = 10;
 glyphname = tlinebelow.ss01;
 kernLeft = LAT_T_LC;
 kernRight = LAT_TSS01_LC;
-lastChange = "2023-11-23 10:09:18 +0000";
+lastChange = "2024-02-03 00:32:37 +0000";
 layers = (
 {
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -42490,7 +42490,7 @@ shapes = (
 ref = t.ss01;
 },
 {
-pos = (-56,0);
+pos = (-58,0);
 ref = macronbelowcomb;
 scale = (0.942,1);
 }
@@ -89138,13 +89138,13 @@ unicode = 806;
 {
 color = 6;
 glyphname = cedillacomb;
-lastChange = "2023-11-22 11:34:34 +0000";
+lastChange = "2024-02-03 00:31:58 +0000";
 layers = (
 {
 anchors = (
 {
 name = _cedilla;
-pos = (194,0);
+pos = (204,0);
 }
 );
 layerId = "AB099EFE-E788-4EFC-8633-CF147CB782A6";
@@ -89159,7 +89159,7 @@ nodes = (
 (268,-136,o),
 (176,-118,c),
 (190,-160,l),
-(232,0,l),
+(234,0,l),
 (178,0,l),
 (132,-168,l),
 (212,-168,o),
@@ -89178,7 +89178,7 @@ width = 400;
 anchors = (
 {
 name = _cedilla;
-pos = (274,0);
+pos = (252,0);
 }
 );
 layerId = "2D8F7115-C311-411E-929D-56333CF7FFB2";
@@ -89212,7 +89212,7 @@ width = 524;
 anchors = (
 {
 name = _cedilla;
-pos = (212,0);
+pos = (210,0);
 }
 );
 layerId = "FD1CEFBD-BAB1-4C2A-A598-30E93F9A29F6";

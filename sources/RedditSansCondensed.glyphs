@@ -24852,12 +24852,11 @@ alignment = -1;
 ref = d;
 },
 {
-alignment = -1;
-pos = (1086,0);
+pos = (934,0);
 ref = caroncomb.alt;
 }
 );
-width = 1130;
+width = 1156;
 }
 );
 metricLeft = d;

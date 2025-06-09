@@ -9,20 +9,20 @@
 Reddit Sans, Reddit Mono and Reddit Condensed font files can be found in the
 `fonts` directory. Both TrueType and WOFF/WOFF2 files are available.
 
+[Download the fonts here.](https://redditsans.s-ings.com/Reddit%20Sans%201.014.zip)
+
 ### Building
 
 This repository follows the [Google Fonts project
 template](https://github.com/googlefonts/googlefonts-project-template).
 
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+Fonts are built automatically by GitHub Actions.
 
 If you want to build fonts manually on your own computer:
 
 - `make build` will produce font files.
 - `make test` will run FontBakery's quality assurance tests.
 - `make proof` will generate HTML proof files.
-
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://reddit.github.io/redditsans/.
 
 ## Source Files
 
